@@ -9,7 +9,6 @@ LostTreasure_Account =
                 ["miniMap"] = 
                 {
                     ["enabled"] = true,
-                    ["deletionDelay"] = 4,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -21,34 +20,35 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
+                    ["deletionDelay"] = 4,
                     ["size"] = 400,
-                },
-                ["notifications"] = 
-                {
                 },
                 ["version"] = 1,
                 ["pinTypes"] = 
                 {
                     [2] = 
                     {
-                        ["showOnCompass"] = true,
-                        ["pinLevel"] = 45,
-                        ["size"] = 32,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["deletionDelay"] = 10,
-                        ["markOption"] = 2,
                         ["showOnMap"] = true,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["size"] = 32,
+                        ["deletionDelay"] = 10,
+                        ["pinLevel"] = 45,
+                        ["showOnCompass"] = true,
+                        ["markOption"] = 2,
                     },
                     [1] = 
                     {
-                        ["showOnCompass"] = true,
-                        ["pinLevel"] = 45,
-                        ["size"] = 32,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["deletionDelay"] = 10,
-                        ["markOption"] = 2,
                         ["showOnMap"] = true,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["size"] = 32,
+                        ["deletionDelay"] = 10,
+                        ["pinLevel"] = 45,
+                        ["showOnCompass"] = true,
+                        ["markOption"] = 2,
                     },
+                },
+                ["notifications"] = 
+                {
                 },
             },
         },

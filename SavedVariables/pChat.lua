@@ -6,24 +6,61 @@ PCHAT_OPTS =
         {
             ["$AccountWide"] = 
             {
-                ["restoreOnQuit"] = true,
-                ["switchFor"] = 
+                ["restoreSystemOnly"] = false,
+                ["showGuildNumbers"] = false,
+                ["nicknames"] = "",
+                ["useIgnoreRemovedChatHandler"] = true,
+                ["useGroupTypeChangedChatHandler"] = true,
+                ["addHistoryRestoredPrefix"] = false,
+                ["wantToProtect"] = false,
+                ["enableChatTabChannel"] = true,
+                ["diffChatColorsLightenValue"] = 30,
+                ["urlHandling"] = true,
+                ["lookingForProtect"] = false,
+                ["officertag"] = 
                 {
                 },
+                ["augmentHistoryBuffer"] = true,
+                ["enableWhisperTab"] = false,
+                ["restoreSystem"] = true,
+                ["formatguild"] = 
+                {
+                    [617784] = 2,
+                    [617516] = 4,
+                    [619824] = 4,
+                    [15995] = 4,
+                },
+                ["timeBeforeRestore"] = 8,
+                ["restoreOnLogOut"] = true,
+                ["restoreWhisps"] = true,
+                ["diffforESOcolors"] = 39,
+                ["disableBrackets"] = true,
+                ["carriageReturn"] = false,
+                ["addChannelAndTargetToHistory"] = true,
+                ["diffChatColorsDarkenValue"] = 50,
+                ["chatSyncConfig"] = true,
+                ["floodProtect"] = false,
+                ["lastWasQuit"] = true,
+                ["lineNumber"] = 387,
+                ["groupNames"] = 4,
+                ["enablepartyswitchPortToDungeon"] = false,
+                ["useGroupMemberLeftChatHandler"] = true,
                 ["chatConfSync"] = 
                 {
-                    ["lastChar"] = 
+                    ["8798292067301326"] = 
                     {
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
+                        ["relPoint"] = 4,
                         ["point"] = 4,
-                        ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
                                 ["isLocked"] = true,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -53,14 +90,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1598396752,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -91,13 +127,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -128,13 +164,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -165,13 +201,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -202,14 +238,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -239,15 +276,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1588548714,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -277,1061 +314,188 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1598396274,
                             },
                         },
-                        ["colors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 1,
-                                ["red"] = 1,
-                            },
-                            [2] = 
-                            {
-                                ["green"] = 0.2627451122,
-                                ["blue"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
-                            },
-                            [3] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.9725490212,
-                                ["red"] = 0.1764705926,
-                            },
-                            [4] = 
-                            {
-                                ["green"] = 0.7254902124,
-                                ["blue"] = 0.8431372643,
-                                ["red"] = 0.3686274588,
-                            },
-                            [6] = 
-                            {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
-                                ["red"] = 0.7725490332,
-                            },
-                            [7] = 
-                            {
-                                ["green"] = 0.4784313738,
-                                ["blue"] = 0.1019607857,
-                                ["red"] = 0.9921568632,
-                            },
-                            [8] = 
-                            {
-                                ["green"] = 0.6117647290,
-                                ["blue"] = 0.8705882430,
-                                ["red"] = 0.6313725710,
-                            },
-                            [9] = 
-                            {
-                                ["green"] = 0.9333333373,
-                                ["blue"] = 0,
-                                ["red"] = 0.9333333373,
-                            },
-                            [10] = 
-                            {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
-                                ["red"] = 0.3333333433,
-                            },
-                            [11] = 
-                            {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
-                                ["red"] = 0.3333333433,
-                            },
-                            [12] = 
-                            {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
-                                ["red"] = 0.3333333433,
-                            },
-                            [13] = 
-                            {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
-                                ["red"] = 0.3333333433,
-                            },
-                            [14] = 
-                            {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
-                                ["red"] = 0.3333333433,
-                            },
-                            [15] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
-                                ["red"] = 0.5921568871,
-                            },
-                            [16] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
-                                ["red"] = 0.5921568871,
-                            },
-                            [17] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
-                                ["red"] = 0.5921568871,
-                            },
-                            [18] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
-                                ["red"] = 0.5921568871,
-                            },
-                            [19] = 
-                            {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
-                                ["red"] = 0.5921568871,
-                            },
-                            [20] = 
-                            {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
-                                ["red"] = 0.7725490332,
-                            },
-                            [21] = 
-                            {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
-                                ["red"] = 0.7725490332,
-                            },
-                            [22] = 
-                            {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
-                                ["red"] = 0.7725490332,
-                            },
-                            [23] = 
-                            {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
-                                ["red"] = 0.7725490332,
-                            },
-                            [44] = 
-                            {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
-                                ["red"] = 0.5294117928,
-                            },
-                            [41] = 
-                            {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
-                                ["red"] = 0.5294117928,
-                            },
-                            [42] = 
-                            {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
-                                ["red"] = 0.5294117928,
-                            },
-                            [43] = 
-                            {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
-                                ["red"] = 0.5294117928,
-                            },
-                        },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
-                    },
-                    ["8798292076443470"] = 
-                    {
-                        ["charName"] = "Neria Rothalen",
                         ["fontSize"] = 14,
-                        ["height"] = 404.5000000000,
-                        ["point"] = 4,
+                        ["charName"] = "Jimeneka Ararthin",
+                        ["width"] = 714,
+                        ["y"] = 0,
                         ["x"] = -923,
-                        ["tabs"] = 
-                        {
-                            [1] = 
-                            {
-                                ["name"] = "System",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = true,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1598396752,
-                            },
-                            [2] = 
-                            {
-                                ["name"] = "Chat",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = true,
-                                    [2] = true,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = true,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = true,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [3] = 
-                            {
-                                ["name"] = "Whisper",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = true,
-                                    [4] = true,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [4] = 
-                            {
-                                ["name"] = "Group",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = true,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [5] = 
-                            {
-                                ["name"] = "Guild",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = true,
-                                    [13] = true,
-                                    [14] = true,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [6] = 
-                            {
-                                ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = true,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1588548714,
-                            },
-                            [7] = 
-                            {
-                                ["name"] = "NPC",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = true,
-                                    [41] = true,
-                                    [42] = true,
-                                    [43] = true,
-                                },
-                                ["notBefore"] = 1598396274,
-                            },
-                        },
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
-                    },
-                    ["8798292078118710"] = 
-                    {
-                        ["charName"] = "Lord Tarod of Aragon",
-                        ["fontSize"] = 14,
-                        ["height"] = 404.5000000000,
-                        ["point"] = 4,
-                        ["x"] = -923,
-                        ["tabs"] = 
-                        {
-                            [1] = 
-                            {
-                                ["name"] = "System",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = true,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1598396752,
-                            },
-                            [2] = 
-                            {
-                                ["name"] = "Chat",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = true,
-                                    [2] = true,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = true,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = true,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [3] = 
-                            {
-                                ["name"] = "Whisper",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = true,
-                                    [4] = true,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [4] = 
-                            {
-                                ["name"] = "Group",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = true,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [5] = 
-                            {
-                                ["name"] = "Guild",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = true,
-                                    [13] = true,
-                                    [14] = true,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [6] = 
-                            {
-                                ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = true,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1588548714,
-                            },
-                            [7] = 
-                            {
-                                ["name"] = "NPC",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = true,
-                                    [41] = true,
-                                    [42] = true,
-                                    [43] = true,
-                                },
-                                ["notBefore"] = 1598396274,
-                            },
-                        },
-                        ["colors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["blue"] = 1,
-                                ["green"] = 1,
-                                ["red"] = 1,
-                            },
-                            [2] = 
-                            {
-                                ["blue"] = 0.2627451122,
-                                ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
-                            },
-                            [3] = 
-                            {
-                                ["blue"] = 0.9725490212,
-                                ["green"] = 1,
-                                ["red"] = 0.1764705926,
-                            },
-                            [4] = 
-                            {
-                                ["blue"] = 0.8431372643,
-                                ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
-                            },
-                            [6] = 
-                            {
-                                ["blue"] = 0.6196078658,
-                                ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
-                            },
-                            [7] = 
-                            {
-                                ["blue"] = 0.1019607857,
-                                ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
-                            },
-                            [8] = 
-                            {
-                                ["blue"] = 0.8705882430,
-                                ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
-                            },
-                            [9] = 
-                            {
-                                ["blue"] = 0,
-                                ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
-                            },
-                            [10] = 
-                            {
-                                ["blue"] = 0.3333333433,
-                                ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
-                            },
-                            [11] = 
-                            {
-                                ["blue"] = 0.3333333433,
-                                ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
-                            },
-                            [12] = 
-                            {
-                                ["blue"] = 0.3333333433,
-                                ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
-                            },
-                            [13] = 
-                            {
-                                ["blue"] = 0.3333333433,
-                                ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
-                            },
-                            [14] = 
-                            {
-                                ["blue"] = 0.3333333433,
-                                ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
-                            },
-                            [15] = 
-                            {
-                                ["blue"] = 0.7450980544,
-                                ["green"] = 1,
-                                ["red"] = 0.5921568871,
-                            },
-                            [16] = 
-                            {
-                                ["blue"] = 0.7450980544,
-                                ["green"] = 1,
-                                ["red"] = 0.5921568871,
-                            },
-                            [17] = 
-                            {
-                                ["blue"] = 0.7450980544,
-                                ["green"] = 1,
-                                ["red"] = 0.5921568871,
-                            },
-                            [18] = 
-                            {
-                                ["blue"] = 0.7450980544,
-                                ["green"] = 1,
-                                ["red"] = 0.5921568871,
-                            },
-                            [19] = 
-                            {
-                                ["blue"] = 0.7450980544,
-                                ["green"] = 1,
-                                ["red"] = 0.5921568871,
-                            },
-                            [20] = 
-                            {
-                                ["blue"] = 0.6196078658,
-                                ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
-                            },
-                            [21] = 
-                            {
-                                ["blue"] = 0.6196078658,
-                                ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
-                            },
-                            [22] = 
-                            {
-                                ["blue"] = 0.6196078658,
-                                ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
-                            },
-                            [23] = 
-                            {
-                                ["blue"] = 0.6196078658,
-                                ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
-                            },
-                            [44] = 
-                            {
-                                ["blue"] = 0.4901960790,
-                                ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
-                            },
-                            [41] = 
-                            {
-                                ["blue"] = 0.4901960790,
-                                ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
-                            },
-                            [42] = 
-                            {
-                                ["blue"] = 0.4901960790,
-                                ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
-                            },
-                            [43] = 
-                            {
-                                ["blue"] = 0.4901960790,
-                                ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
-                            },
-                        },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
                     },
                     ["8798292067300970"] = 
                     {
-                        ["charName"] = "Tarod Ararthin",
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
-                        ["point"] = 4,
+                        ["relPoint"] = 4,
                         ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
                                 ["isLocked"] = true,
-                                ["isCombatLog"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1361,12 +525,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1598396752,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = true,
@@ -1396,14 +562,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1433,14 +599,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1470,14 +636,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1507,17 +673,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
                                 ["isLocked"] = false,
-                                ["isCombatLog"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1547,15 +711,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1588548714,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
                                 ["isLocked"] = false,
-                                ["isCombatLog"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1585,185 +749,186 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["notBefore"] = 1598396274,
+                                ["areTimestampsEnabled"] = false,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["width"] = 714,
+                        ["y"] = 0,
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
+                        ["point"] = 4,
                     },
                     ["8798292077852888"] = 
                     {
-                        ["charName"] = "Tarodio Ararthinus",
-                        ["fontSize"] = 14,
                         ["height"] = 327,
+                        ["relPoint"] = 4,
                         ["point"] = 4,
-                        ["x"] = -856,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
                                 ["name"] = "Chat",
-                                ["isLocked"] = true,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = true,
@@ -1793,14 +958,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = true,
                             },
                             [2] = 
                             {
                                 ["name"] = "Whisper",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1830,14 +995,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Group",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1867,14 +1032,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Guild",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1904,14 +1069,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Akelarre",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1941,17 +1106,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -1981,12 +1144,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1588548714,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [7] = 
                             {
                                 ["name"] = "NPC",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2016,14 +1181,14 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [8] = 
                             {
                                 ["name"] = "System",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2053,186 +1218,188 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Tarodio Ararthinus",
+                        ["width"] = 848,
+                        ["y"] = 0,
+                        ["x"] = -856,
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 848,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
                     },
-                    ["8798292067209854"] = 
+                    ["lastChar"] = 
                     {
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
-                        ["point"] = 4,
+                        ["relPoint"] = 4,
                         ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
                                 ["isLocked"] = true,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2262,14 +1429,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1598396752,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -2300,13 +1466,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -2337,13 +1503,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -2374,13 +1540,13 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
                                 ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
@@ -2411,14 +1577,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isLocked"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2448,15 +1615,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1588548714,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2486,191 +1653,187 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["isCombatLog"] = false,
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["notBefore"] = 1598396274,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["width"] = 714,
+                        ["y"] = 0,
                         ["colors"] = 
                         {
                             [1] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 1,
                                 ["red"] = 1,
+                                ["blue"] = 1,
+                                ["green"] = 1,
                             },
                             [2] = 
                             {
-                                ["green"] = 0.2627451122,
-                                ["blue"] = 0.2627451122,
                                 ["red"] = 0.7764706016,
+                                ["blue"] = 0.2627451122,
+                                ["green"] = 0.2627451122,
                             },
                             [3] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.9725490212,
                                 ["red"] = 0.1764705926,
+                                ["blue"] = 0.9725490212,
+                                ["green"] = 1,
                             },
                             [4] = 
                             {
-                                ["green"] = 0.7254902124,
-                                ["blue"] = 0.8431372643,
                                 ["red"] = 0.3686274588,
+                                ["blue"] = 0.8431372643,
+                                ["green"] = 0.7254902124,
                             },
                             [6] = 
                             {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
                                 ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
                             },
                             [7] = 
                             {
-                                ["green"] = 0.4784313738,
-                                ["blue"] = 0.1019607857,
                                 ["red"] = 0.9921568632,
+                                ["blue"] = 0.1019607857,
+                                ["green"] = 0.4784313738,
                             },
                             [8] = 
                             {
-                                ["green"] = 0.6117647290,
-                                ["blue"] = 0.8705882430,
                                 ["red"] = 0.6313725710,
+                                ["blue"] = 0.8705882430,
+                                ["green"] = 0.6117647290,
                             },
                             [9] = 
                             {
-                                ["green"] = 0.9333333373,
-                                ["blue"] = 0,
                                 ["red"] = 0.9333333373,
+                                ["blue"] = 0,
+                                ["green"] = 0.9333333373,
                             },
                             [10] = 
                             {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
                                 ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
                             },
                             [11] = 
                             {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
                                 ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
                             },
                             [12] = 
                             {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
                                 ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
                             },
                             [13] = 
                             {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
                                 ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
                             },
                             [14] = 
                             {
-                                ["green"] = 0.7803921700,
-                                ["blue"] = 0.3333333433,
                                 ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
                             },
                             [15] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
                                 ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
                             },
                             [16] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
                                 ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
                             },
                             [17] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
                                 ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
                             },
                             [18] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
                                 ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
                             },
                             [19] = 
                             {
-                                ["green"] = 1,
-                                ["blue"] = 0.7450980544,
                                 ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
                             },
                             [20] = 
                             {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
                                 ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
                             },
                             [21] = 
                             {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
                                 ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
                             },
                             [22] = 
                             {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
                                 ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
                             },
                             [23] = 
                             {
-                                ["green"] = 0.7607843280,
-                                ["blue"] = 0.6196078658,
                                 ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
                             },
                             [44] = 
                             {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
                                 ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
                             },
                             [41] = 
                             {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
                                 ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
                             },
                             [42] = 
                             {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
                                 ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
                             },
                             [43] = 
                             {
-                                ["green"] = 0.6078431606,
-                                ["blue"] = 0.4901960790,
                                 ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
                             },
                         },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
+                        ["point"] = 4,
                     },
                     ["8798292067859494"] = 
                     {
-                        ["charName"] = "Faulcon Delacy",
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
+                        ["relPoint"] = 4,
                         ["point"] = 4,
-                        ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2700,12 +1863,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1598396752,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = true,
@@ -2735,14 +1900,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2772,14 +1937,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2809,14 +1974,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
-                                ["isLocked"] = false,
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2846,17 +2011,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
+                                ["isLocked"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2886,15 +2049,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1588548714,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -2924,188 +2087,623 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["notBefore"] = 1598396274,
+                                ["areTimestampsEnabled"] = false,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Faulcon Delacy",
+                        ["width"] = 714,
+                        ["y"] = 0,
+                        ["x"] = -923,
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
+                    },
+                    ["8798292067209854"] = 
+                    {
+                        ["height"] = 404.5000000000,
                         ["relPoint"] = 4,
+                        ["point"] = 4,
+                        ["tabs"] = 
+                        {
+                            [1] = 
+                            {
+                                ["notBefore"] = 1598396752,
+                                ["name"] = "System",
+                                ["isLocked"] = true,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = true,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [2] = 
+                            {
+                                ["name"] = "Chat",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = true,
+                                    [2] = true,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = true,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = true,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [3] = 
+                            {
+                                ["name"] = "Whisper",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = true,
+                                    [4] = true,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [4] = 
+                            {
+                                ["name"] = "Group",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = true,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [5] = 
+                            {
+                                ["name"] = "Guild",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = true,
+                                    [13] = true,
+                                    [14] = true,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [6] = 
+                            {
+                                ["notBefore"] = 1588548714,
+                                ["name"] = "Hojablanca",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = true,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [7] = 
+                            {
+                                ["notBefore"] = 1598396274,
+                                ["name"] = "NPC",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = true,
+                                    [41] = true,
+                                    [42] = true,
+                                    [43] = true,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                        },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Tarodion Ararthin",
+                        ["width"] = 714,
                         ["y"] = 0,
+                        ["x"] = -923,
+                        ["colors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["red"] = 1,
+                                ["blue"] = 1,
+                                ["green"] = 1,
+                            },
+                            [2] = 
+                            {
+                                ["red"] = 0.7764706016,
+                                ["blue"] = 0.2627451122,
+                                ["green"] = 0.2627451122,
+                            },
+                            [3] = 
+                            {
+                                ["red"] = 0.1764705926,
+                                ["blue"] = 0.9725490212,
+                                ["green"] = 1,
+                            },
+                            [4] = 
+                            {
+                                ["red"] = 0.3686274588,
+                                ["blue"] = 0.8431372643,
+                                ["green"] = 0.7254902124,
+                            },
+                            [6] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [7] = 
+                            {
+                                ["red"] = 0.9921568632,
+                                ["blue"] = 0.1019607857,
+                                ["green"] = 0.4784313738,
+                            },
+                            [8] = 
+                            {
+                                ["red"] = 0.6313725710,
+                                ["blue"] = 0.8705882430,
+                                ["green"] = 0.6117647290,
+                            },
+                            [9] = 
+                            {
+                                ["red"] = 0.9333333373,
+                                ["blue"] = 0,
+                                ["green"] = 0.9333333373,
+                            },
+                            [10] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [11] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [12] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [13] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [14] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [15] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [16] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [17] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [18] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [19] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [20] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [21] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [22] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [23] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [44] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [41] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [42] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [43] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                        },
                     },
                     ["8798292067184426"] = 
                     {
-                        ["charName"] = "Jimenuki Ararthin",
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
+                        ["relPoint"] = 4,
                         ["point"] = 4,
-                        ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3135,12 +2733,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1598396752,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = true,
@@ -3170,14 +2770,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3207,14 +2807,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3244,14 +2844,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3281,17 +2881,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3321,15 +2919,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1588548714,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -3359,623 +2957,623 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["notBefore"] = 1598396274,
+                                ["areTimestampsEnabled"] = false,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Jimenuki Ararthin",
+                        ["width"] = 714,
+                        ["y"] = 0,
+                        ["x"] = -923,
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
                     },
                     ["8798292077956402"] = 
                     {
+                        ["height"] = 404.5000000000,
+                        ["relPoint"] = 4,
+                        ["point"] = 4,
+                        ["tabs"] = 
+                        {
+                            [1] = 
+                            {
+                                ["notBefore"] = 1598396752,
+                                ["name"] = "System",
+                                ["isLocked"] = true,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = true,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [2] = 
+                            {
+                                ["name"] = "Chat",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = true,
+                                    [2] = true,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = true,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = true,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [3] = 
+                            {
+                                ["name"] = "Whisper",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = true,
+                                    [4] = true,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [4] = 
+                            {
+                                ["name"] = "Group",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = true,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [5] = 
+                            {
+                                ["name"] = "Guild",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = true,
+                                    [13] = true,
+                                    [14] = true,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [6] = 
+                            {
+                                ["notBefore"] = 1588548714,
+                                ["name"] = "Hojablanca",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = true,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [7] = 
+                            {
+                                ["notBefore"] = 1598396274,
+                                ["name"] = "NPC",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = true,
+                                    [41] = true,
+                                    [42] = true,
+                                    [43] = true,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                        },
+                        ["fontSize"] = 14,
                         ["charName"] = "Sneaks-Behind",
-                        ["fontSize"] = 14,
-                        ["height"] = 404.5000000000,
-                        ["point"] = 4,
+                        ["width"] = 714,
+                        ["y"] = 0,
                         ["x"] = -923,
-                        ["tabs"] = 
-                        {
-                            [1] = 
-                            {
-                                ["name"] = "System",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = true,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1598396752,
-                            },
-                            [2] = 
-                            {
-                                ["name"] = "Chat",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = true,
-                                    [2] = true,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = true,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = true,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [3] = 
-                            {
-                                ["name"] = "Whisper",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = true,
-                                    [4] = true,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [4] = 
-                            {
-                                ["name"] = "Group",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = true,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [5] = 
-                            {
-                                ["name"] = "Guild",
-                                ["isLocked"] = false,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = true,
-                                    [11] = true,
-                                    [12] = true,
-                                    [13] = true,
-                                    [14] = true,
-                                    [15] = true,
-                                    [16] = true,
-                                    [17] = true,
-                                    [18] = true,
-                                    [19] = true,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["isInteractable"] = true,
-                                ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
-                            },
-                            [6] = 
-                            {
-                                ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = false,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = true,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = true,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = false,
-                                    [41] = false,
-                                    [42] = false,
-                                    [43] = false,
-                                },
-                                ["notBefore"] = 1588548714,
-                            },
-                            [7] = 
-                            {
-                                ["name"] = "NPC",
-                                ["isCombatLog"] = false,
-                                ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
-                                ["isInteractable"] = true,
-                                ["enabledCategories"] = 
-                                {
-                                    [1] = false,
-                                    [2] = false,
-                                    [3] = false,
-                                    [4] = false,
-                                    [6] = false,
-                                    [7] = false,
-                                    [8] = true,
-                                    [9] = false,
-                                    [10] = false,
-                                    [11] = false,
-                                    [12] = false,
-                                    [13] = false,
-                                    [14] = false,
-                                    [15] = false,
-                                    [16] = false,
-                                    [17] = false,
-                                    [18] = false,
-                                    [19] = false,
-                                    [20] = false,
-                                    [21] = false,
-                                    [22] = false,
-                                    [23] = false,
-                                    [44] = true,
-                                    [41] = true,
-                                    [42] = true,
-                                    [43] = true,
-                                },
-                                ["notBefore"] = 1598396274,
-                            },
-                        },
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
-                        ["relPoint"] = 4,
-                        ["y"] = 0,
                     },
-                    ["8798292067301326"] = 
+                    ["8798292076443470"] = 
                     {
-                        ["charName"] = "Jimeneka Ararthin",
-                        ["fontSize"] = 14,
                         ["height"] = 404.5000000000,
+                        ["relPoint"] = 4,
                         ["point"] = 4,
-                        ["x"] = -923,
                         ["tabs"] = 
                         {
                             [1] = 
                             {
+                                ["notBefore"] = 1598396752,
                                 ["name"] = "System",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = true,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4005,12 +3603,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1598396752,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [2] = 
                             {
                                 ["name"] = "Chat",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = true,
@@ -4040,14 +3640,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [3] = 
                             {
                                 ["name"] = "Whisper",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4077,14 +3677,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [4] = 
                             {
                                 ["name"] = "Group",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4114,14 +3714,14 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [5] = 
                             {
                                 ["name"] = "Guild",
                                 ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4151,17 +3751,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["isInteractable"] = true,
                                 ["areTimestampsEnabled"] = false,
-                                ["isCombatLog"] = false,
                             },
                             [6] = 
                             {
+                                ["notBefore"] = 1588548714,
                                 ["name"] = "Hojablanca",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4191,15 +3789,15 @@ PCHAT_OPTS =
                                     [42] = false,
                                     [43] = false,
                                 },
-                                ["notBefore"] = 1588548714,
+                                ["areTimestampsEnabled"] = false,
                             },
                             [7] = 
                             {
+                                ["notBefore"] = 1598396274,
                                 ["name"] = "NPC",
-                                ["isCombatLog"] = false,
                                 ["isLocked"] = false,
-                                ["areTimestampsEnabled"] = false,
                                 ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
                                 ["enabledCategories"] = 
                                 {
                                     [1] = false,
@@ -4229,223 +3827,4957 @@ PCHAT_OPTS =
                                     [42] = true,
                                     [43] = true,
                                 },
-                                ["notBefore"] = 1598396274,
+                                ["areTimestampsEnabled"] = false,
                             },
                         },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Neria Rothalen",
+                        ["width"] = 714,
+                        ["y"] = 0,
+                        ["x"] = -923,
                         ["colors"] = 
                         {
                             [1] = 
                             {
+                                ["red"] = 1,
                                 ["blue"] = 1,
                                 ["green"] = 1,
-                                ["red"] = 1,
                             },
                             [2] = 
                             {
+                                ["red"] = 0.7764706016,
                                 ["blue"] = 0.2627451122,
                                 ["green"] = 0.2627451122,
-                                ["red"] = 0.7764706016,
                             },
                             [3] = 
                             {
+                                ["red"] = 0.1764705926,
                                 ["blue"] = 0.9725490212,
                                 ["green"] = 1,
-                                ["red"] = 0.1764705926,
                             },
                             [4] = 
                             {
+                                ["red"] = 0.3686274588,
                                 ["blue"] = 0.8431372643,
                                 ["green"] = 0.7254902124,
-                                ["red"] = 0.3686274588,
                             },
                             [6] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [7] = 
                             {
+                                ["red"] = 0.9921568632,
                                 ["blue"] = 0.1019607857,
                                 ["green"] = 0.4784313738,
-                                ["red"] = 0.9921568632,
                             },
                             [8] = 
                             {
+                                ["red"] = 0.6313725710,
                                 ["blue"] = 0.8705882430,
                                 ["green"] = 0.6117647290,
-                                ["red"] = 0.6313725710,
                             },
                             [9] = 
                             {
+                                ["red"] = 0.9333333373,
                                 ["blue"] = 0,
                                 ["green"] = 0.9333333373,
-                                ["red"] = 0.9333333373,
                             },
                             [10] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [11] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [12] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [13] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [14] = 
                             {
+                                ["red"] = 0.3333333433,
                                 ["blue"] = 0.3333333433,
                                 ["green"] = 0.7803921700,
-                                ["red"] = 0.3333333433,
                             },
                             [15] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [16] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [17] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [18] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [19] = 
                             {
+                                ["red"] = 0.5921568871,
                                 ["blue"] = 0.7450980544,
                                 ["green"] = 1,
-                                ["red"] = 0.5921568871,
                             },
                             [20] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [21] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [22] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [23] = 
                             {
+                                ["red"] = 0.7725490332,
                                 ["blue"] = 0.6196078658,
                                 ["green"] = 0.7607843280,
-                                ["red"] = 0.7725490332,
                             },
                             [44] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [41] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [42] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                             [43] = 
                             {
+                                ["red"] = 0.5294117928,
                                 ["blue"] = 0.4901960790,
                                 ["green"] = 0.6078431606,
-                                ["red"] = 0.5294117928,
                             },
                         },
-                        ["width"] = 714,
+                    },
+                    ["8798292078118710"] = 
+                    {
+                        ["height"] = 404.5000000000,
                         ["relPoint"] = 4,
+                        ["point"] = 4,
+                        ["tabs"] = 
+                        {
+                            [1] = 
+                            {
+                                ["notBefore"] = 1598396752,
+                                ["name"] = "System",
+                                ["isLocked"] = true,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = true,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [2] = 
+                            {
+                                ["name"] = "Chat",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = true,
+                                    [2] = true,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = true,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = true,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [3] = 
+                            {
+                                ["name"] = "Whisper",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = true,
+                                    [4] = true,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [4] = 
+                            {
+                                ["name"] = "Group",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = true,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [5] = 
+                            {
+                                ["name"] = "Guild",
+                                ["areTimestampsEnabled"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = true,
+                                    [11] = true,
+                                    [12] = true,
+                                    [13] = true,
+                                    [14] = true,
+                                    [15] = true,
+                                    [16] = true,
+                                    [17] = true,
+                                    [18] = true,
+                                    [19] = true,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["isLocked"] = false,
+                            },
+                            [6] = 
+                            {
+                                ["notBefore"] = 1588548714,
+                                ["name"] = "Hojablanca",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = false,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = true,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = true,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = false,
+                                    [41] = false,
+                                    [42] = false,
+                                    [43] = false,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                            [7] = 
+                            {
+                                ["notBefore"] = 1598396274,
+                                ["name"] = "NPC",
+                                ["isLocked"] = false,
+                                ["isInteractable"] = true,
+                                ["isCombatLog"] = false,
+                                ["enabledCategories"] = 
+                                {
+                                    [1] = false,
+                                    [2] = false,
+                                    [3] = false,
+                                    [4] = false,
+                                    [6] = false,
+                                    [7] = false,
+                                    [8] = true,
+                                    [9] = false,
+                                    [10] = false,
+                                    [11] = false,
+                                    [12] = false,
+                                    [13] = false,
+                                    [14] = false,
+                                    [15] = false,
+                                    [16] = false,
+                                    [17] = false,
+                                    [18] = false,
+                                    [19] = false,
+                                    [20] = false,
+                                    [21] = false,
+                                    [22] = false,
+                                    [23] = false,
+                                    [44] = true,
+                                    [41] = true,
+                                    [42] = true,
+                                    [43] = true,
+                                },
+                                ["areTimestampsEnabled"] = false,
+                            },
+                        },
+                        ["fontSize"] = 14,
+                        ["charName"] = "Lord Tarod of Aragon",
+                        ["width"] = 714,
                         ["y"] = 0,
+                        ["x"] = -923,
+                        ["colors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["red"] = 1,
+                                ["blue"] = 1,
+                                ["green"] = 1,
+                            },
+                            [2] = 
+                            {
+                                ["red"] = 0.7764706016,
+                                ["blue"] = 0.2627451122,
+                                ["green"] = 0.2627451122,
+                            },
+                            [3] = 
+                            {
+                                ["red"] = 0.1764705926,
+                                ["blue"] = 0.9725490212,
+                                ["green"] = 1,
+                            },
+                            [4] = 
+                            {
+                                ["red"] = 0.3686274588,
+                                ["blue"] = 0.8431372643,
+                                ["green"] = 0.7254902124,
+                            },
+                            [6] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [7] = 
+                            {
+                                ["red"] = 0.9921568632,
+                                ["blue"] = 0.1019607857,
+                                ["green"] = 0.4784313738,
+                            },
+                            [8] = 
+                            {
+                                ["red"] = 0.6313725710,
+                                ["blue"] = 0.8705882430,
+                                ["green"] = 0.6117647290,
+                            },
+                            [9] = 
+                            {
+                                ["red"] = 0.9333333373,
+                                ["blue"] = 0,
+                                ["green"] = 0.9333333373,
+                            },
+                            [10] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [11] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [12] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [13] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [14] = 
+                            {
+                                ["red"] = 0.3333333433,
+                                ["blue"] = 0.3333333433,
+                                ["green"] = 0.7803921700,
+                            },
+                            [15] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [16] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [17] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [18] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [19] = 
+                            {
+                                ["red"] = 0.5921568871,
+                                ["blue"] = 0.7450980544,
+                                ["green"] = 1,
+                            },
+                            [20] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [21] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [22] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [23] = 
+                            {
+                                ["red"] = 0.7725490332,
+                                ["blue"] = 0.6196078658,
+                                ["green"] = 0.7607843280,
+                            },
+                            [44] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [41] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [42] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                            [43] = 
+                            {
+                                ["red"] = 0.5294117928,
+                                ["blue"] = 0.4901960790,
+                                ["green"] = 0.6078431606,
+                            },
+                        },
                     },
                 },
-                ["chatSyncConfig"] = true,
-                ["nicknames"] = "",
-                ["restoreTextEntryHistoryAtLogOutQuit"] = false,
-                ["showGuildNumbers"] = false,
                 ["notifyIM"] = true,
-                ["restoreSystemOnly"] = false,
-                ["automatedMessages"] = 
+                ["version"] = 0.9000000000,
+                ["fonts"] = "Cascadia",
+                ["floodGracePeriod"] = 30,
+                ["lastWasReloadUI"] = false,
+                ["LineStrings"] = 
                 {
                     [1] = 
                     {
-                        ["message"] = "/g Hi! I'm Tarod and I will be your tank today!",
-                        ["name"] = "!!tt",
-                        ["sortIndex"] = 2,
+                        ["rawTimestamp"] = 1598883063,
+                        ["rawMessage"] = "LFM Vhysradue WB, can share",
+                        ["rawText"] = "LFM Vhysradue WB, can share",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:11] Vasiliy-imperial: LFM Vhysradue WB, can share",
+                        ["rawValue"] = "|cb1ae8a[16:11] |r|cb1ae8a|H0:character:Vasiliy-imperial^Mx|hVasiliy-imperial|h: |r|cd3d0acLFM Vhysradue WB, can share|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:233:31|h[16:11]|h |r|cb1ae8a|H0:character:Vasiliy-imperial^Mx|hVasiliy-imperial|h: |r|cd3d0ac|H1:p:233:31|hLFM Vhysradue WB, can share|h|r",
+                        ["rawFrom"] = "Vasiliy-imperial^Mx",
                     },
                     [2] = 
                     {
-                        ["message"] = "/g2 Hola a todos!",
-                        ["name"] = "!!ghh",
-                        ["sortIndex"] = 1,
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12] Akelarre",
+                        ["rawText"] = "[16:12] |cFFFFFFAkelarre|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12] Akelarre",
+                        ["rawValue"] = "[16:12] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:234:11|h[16:12] |h|cFFFFFF|H1:p:234:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
                     },
                     [3] = 
                     {
-                        ["message"] = "/g3 Hola!",
-                        ["name"] = "!!gsh",
-                        ["sortIndex"] = 3,
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  You are the only one online :(",
+                        ["rawText"] = "[16:12]  |cC3F0C2You are the only one online :(|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  You are the only one online :(",
+                        ["rawValue"] = "[16:12]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:235:11|h[16:12]  |h|cC3F0C2|H1:p:235:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
                     },
-                },
-                ["useESOcolors"] = true,
-                ["lastWasLogOut"] = false,
-                ["restoreOnReloadUI"] = true,
-                ["usePlayerStatusChangedChatHandler"] = true,
-                ["wantToProtect"] = false,
-                ["addChannelAndTargetToHistory"] = true,
-                ["restoreSystem"] = true,
-                ["enablepartyswitchPortToDungeon"] = false,
-                ["diffforESOcolors"] = 39,
-                ["history"] = 
-                {
-                    ["currentTab"] = 1,
-                    ["textEntry"] = 
+                    [4] = 
                     {
-                        ["entries"] = 
-                        {
-                        },
-                        ["numEntries"] = 0,
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12] Hojablanca",
+                        ["rawText"] = "[16:12] |cFFFFFFHojablanca|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12] Hojablanca",
+                        ["rawValue"] = "[16:12] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:236:11|h[16:12] |h|cFFFFFF|H1:p:236:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  There are 4 members online:",
+                        ["rawText"] = "[16:12]  |cC3F0C2There are 4 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  There are 4 members online:",
+                        ["rawValue"] = "[16:12]  |cC3F0C2There are 4 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:237:11|h[16:12]  |h|cC3F0C2|H1:p:237:11|hThere are 4 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [6] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["rawDisplayed"] = "|H1:p:238:11|h[16:12]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:238:11|h/|h|c6EABCA|H1:p:238:11|hGreen-fall|h|r |cC3F0C2|H1:p:238:11|hNightblade 50 810cp in Cyrodiil|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [7] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Hydrel/The Beasty Beast Dragonknight 50 666cp in Coldharbour Surreal Estate",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r/|c6EABCAThe Beasty Beast|r |cC3F0C2Dragonknight 50 666cp in Coldharbour Surreal Estate|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Hydrel/The Beasty Beast Dragonknight 50 666cp in Coldharbour Surreal Estate",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r/|c6EABCAThe Beasty Beast|r |cC3F0C2Dragonknight 50 666cp in Coldharbour Surreal Estate|r",
+                        ["rawDisplayed"] = "|H1:p:239:11|h[16:12]  |h|cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r|H1:p:239:11|h/|h|c6EABCA|H1:p:239:11|hThe Beasty Beast|h|r |cC3F0C2|H1:p:239:11|hDragonknight 50 666cp in Coldharbour Surreal Estate|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [8] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:240:11|h[16:12]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:240:11|h/|h|c6EABCA|H1:p:240:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:240:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [9] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["rawDisplayed"] = "|H1:p:241:11|h[16:12]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:241:11|h/|h|c6EABCA|H1:p:241:11|hlehvam|h|r |cC3F0C2|H1:p:241:11|hNightblade 25 in Coldharbour|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [10] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12] Señores del apocalipsis",
+                        ["rawText"] = "[16:12] |cFFFFFFSeñores del apocalipsis|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12] Señores del apocalipsis",
+                        ["rawValue"] = "[16:12] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:242:11|h[16:12] |h|cFFFFFF|H1:p:242:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [11] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  There are 8 members online:",
+                        ["rawText"] = "[16:12]  |cC3F0C2There are 8 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  There are 8 members online:",
+                        ["rawValue"] = "[16:12]  |cC3F0C2There are 8 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:243:11|h[16:12]  |h|cC3F0C2|H1:p:243:11|hThere are 8 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [12] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["rawDisplayed"] = "|H1:p:244:11|h[16:12]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:244:11|h/|h|c6EABCA|H1:p:244:11|hOlfanr the Unminded|h|r |cC3F0C2|H1:p:244:11|hDragonknight 50 470cp in Volenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [13] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:245:11|h[16:12]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:245:11|h/|h|c6EABCA|H1:p:245:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:245:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [14] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["rawDisplayed"] = "|H1:p:246:11|h[16:12]  |h|cB27BFF|H1:character:@Danny56|h@Danny56|h|r|H1:p:246:11|h/|h|c6EABCA|H1:p:246:11|hIcy Lara|h|r |cC3F0C2|H1:p:246:11|hWarden 50 810cp in Sunspire|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [15] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Bicentenario/  0 in",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Bicentenario/  0 in",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:247:11|h[16:12]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:247:11|h/ |h|cC3F0C2|H1:p:247:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [16] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:248:11|h[16:12]  |h|cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r|H1:p:248:11|h/|h|c6EABCA|H1:p:248:11|hponzoñosa|h|r |cC3F0C2|H1:p:248:11|hNightblade 50 735cp in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [17] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["rawDisplayed"] = "|H1:p:249:11|h[16:12]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:249:11|h/|h|c6EABCA|H1:p:249:11|hGalara Athaliatar|h|r |cC3F0C2|H1:p:249:11|hSorcerer 50 476cp in Ruins of Mazzatun|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [18] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["rawDisplayed"] = "|H1:p:250:11|h[16:12]  |h|cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r|H1:p:250:11|h/|h|c6EABCA|H1:p:250:11|hBelgefor|h|r |cC3F0C2|H1:p:250:11|hNecromancer 50 437cp in Imperial City Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [19] = 
+                    {
+                        ["rawTimestamp"] = 1598883127,
+                        ["rawMessage"] = "[16:12]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawText"] = "[16:12]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:12] [16:12]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawValue"] = "[16:12]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["rawDisplayed"] = "|H1:p:251:11|h[16:12]  |h|cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r|H1:p:251:11|h/|h|c6EABCA|H1:p:251:11|hCeroazucar|h|r |cC3F0C2|H1:p:251:11|hWarden 50 446cp in Northern Elsweyr|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [20] = 
+                    {
+                        ["rawTimestamp"] = 1598883156,
+                        ["rawMessage"] = "WE FUCKIGN DID IT",
+                        ["rawText"] = "WE FUCKIGN DID IT",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:12] Damo Oxley: WE FUCKIGN DID IT",
+                        ["rawValue"] = "|cb1ae8a[16:12] |r|cb1ae8a|H0:character:Damo Oxley^Mx|hDamo Oxley|h: |r|cd3d0acWE FUCKIGN DID IT|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:252:31|h[16:12]|h |r|cb1ae8a|H0:character:Damo Oxley^Mx|hDamo Oxley|h: |r|cd3d0ac|H1:p:252:31|hWE FUCKIGN DID IT|h|r",
+                        ["rawFrom"] = "Damo Oxley^Mx",
+                    },
+                    [21] = 
+                    {
+                        ["rawTimestamp"] = 1598883161,
+                        ["rawMessage"] = "yay!",
+                        ["rawText"] = "yay!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:12] Kivrin Engle: yay!",
+                        ["rawValue"] = "|cb1ae8a[16:12] |r|cb1ae8a|H0:character:Kivrin Engle^Fx|hKivrin Engle|h: |r|cd3d0acyay!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:253:31|h[16:12]|h |r|cb1ae8a|H0:character:Kivrin Engle^Fx|hKivrin Engle|h: |r|cd3d0ac|H1:p:253:31|hyay!|h|r",
+                        ["rawFrom"] = "Kivrin Engle^Fx",
+                    },
+                    [22] = 
+                    {
+                        ["rawTimestamp"] = 1598883165,
+                        ["rawMessage"] = ":))",
+                        ["rawText"] = ":))",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:12] Azein-Ko: :))",
+                        ["rawValue"] = "|cb1ae8a[16:12] |r|cb1ae8a|H0:character:Azein-Ko^Fx|hAzein-Ko|h: |r|cd3d0ac:))|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:254:31|h[16:12]|h |r|cb1ae8a|H0:character:Azein-Ko^Fx|hAzein-Ko|h: |r|cd3d0ac|H1:p:254:31|h:))|h|r",
+                        ["rawFrom"] = "Azein-Ko^Fx",
+                    },
+                    [23] = 
+                    {
+                        ["rawTimestamp"] = 1598883176,
+                        ["rawMessage"] = "christ",
+                        ["rawText"] = "christ",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:12] Damo Oxley: christ",
+                        ["rawValue"] = "|cb1ae8a[16:12] |r|cb1ae8a|H0:character:Damo Oxley^Mx|hDamo Oxley|h: |r|cd3d0acchrist|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:255:31|h[16:12]|h |r|cb1ae8a|H0:character:Damo Oxley^Mx|hDamo Oxley|h: |r|cd3d0ac|H1:p:255:31|hchrist|h|r",
+                        ["rawFrom"] = "Damo Oxley^Mx",
+                    },
+                    [24] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13] Akelarre",
+                        ["rawText"] = "[16:13] |cFFFFFFAkelarre|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13] Akelarre",
+                        ["rawValue"] = "[16:13] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:256:11|h[16:13] |h|cFFFFFF|H1:p:256:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [25] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  You are the only one online :(",
+                        ["rawText"] = "[16:13]  |cC3F0C2You are the only one online :(|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  You are the only one online :(",
+                        ["rawValue"] = "[16:13]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:257:11|h[16:13]  |h|cC3F0C2|H1:p:257:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [26] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13] Hojablanca",
+                        ["rawText"] = "[16:13] |cFFFFFFHojablanca|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13] Hojablanca",
+                        ["rawValue"] = "[16:13] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:258:11|h[16:13] |h|cFFFFFF|H1:p:258:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [27] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  There are 3 members online:",
+                        ["rawText"] = "[16:13]  |cC3F0C2There are 3 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  There are 3 members online:",
+                        ["rawValue"] = "[16:13]  |cC3F0C2There are 3 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:259:11|h[16:13]  |h|cC3F0C2|H1:p:259:11|hThere are 3 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [28] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["rawDisplayed"] = "|H1:p:260:11|h[16:13]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:260:11|h/|h|c6EABCA|H1:p:260:11|hGreen-fall|h|r |cC3F0C2|H1:p:260:11|hNightblade 50 810cp in Cyrodiil|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [29] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:261:11|h[16:13]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:261:11|h/|h|c6EABCA|H1:p:261:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:261:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [30] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["rawDisplayed"] = "|H1:p:262:11|h[16:13]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:262:11|h/|h|c6EABCA|H1:p:262:11|hlehvam|h|r |cC3F0C2|H1:p:262:11|hNightblade 25 in Coldharbour|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [31] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13] Señores del apocalipsis",
+                        ["rawText"] = "[16:13] |cFFFFFFSeñores del apocalipsis|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13] Señores del apocalipsis",
+                        ["rawValue"] = "[16:13] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:263:11|h[16:13] |h|cFFFFFF|H1:p:263:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [32] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  There are 9 members online:",
+                        ["rawText"] = "[16:13]  |cC3F0C2There are 9 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  There are 9 members online:",
+                        ["rawValue"] = "[16:13]  |cC3F0C2There are 9 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:264:11|h[16:13]  |h|cC3F0C2|H1:p:264:11|hThere are 9 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [33] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["rawDisplayed"] = "|H1:p:265:11|h[16:13]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:265:11|h/|h|c6EABCA|H1:p:265:11|hOlfanr the Unminded|h|r |cC3F0C2|H1:p:265:11|hDragonknight 50 470cp in Volenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [34] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:266:11|h[16:13]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:266:11|h/|h|c6EABCA|H1:p:266:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:266:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [35] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["rawDisplayed"] = "|H1:p:267:11|h[16:13]  |h|cB27BFF|H1:character:@Danny56|h@Danny56|h|r|H1:p:267:11|h/|h|c6EABCA|H1:p:267:11|hIcy Lara|h|r |cC3F0C2|H1:p:267:11|hWarden 50 810cp in Sunspire|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [36] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Bicentenario/  0 in",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Bicentenario/  0 in",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:268:11|h[16:13]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:268:11|h/ |h|cC3F0C2|H1:p:268:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [37] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:269:11|h[16:13]  |h|cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r|H1:p:269:11|h/|h|c6EABCA|H1:p:269:11|hponzoñosa|h|r |cC3F0C2|H1:p:269:11|hNightblade 50 735cp in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [38] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["rawDisplayed"] = "|H1:p:270:11|h[16:13]  |h|cB27BFF|H1:character:@rderuben|h@rderuben|h|r|H1:p:270:11|h/|h|c6EABCA|H1:p:270:11|hÂstarôth|h|r |cC3F0C2|H1:p:270:11|hSorcerer 50 810cp in Hall of the Lunar Champion|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [39] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["rawDisplayed"] = "|H1:p:271:11|h[16:13]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:271:11|h/|h|c6EABCA|H1:p:271:11|hGalara Athaliatar|h|r |cC3F0C2|H1:p:271:11|hSorcerer 50 476cp in Ruins of Mazzatun|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [40] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["rawDisplayed"] = "|H1:p:272:11|h[16:13]  |h|cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r|H1:p:272:11|h/|h|c6EABCA|H1:p:272:11|hBelgefor|h|r |cC3F0C2|H1:p:272:11|hNecromancer 50 437cp in Imperial City Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [41] = 
+                    {
+                        ["rawTimestamp"] = 1598883225,
+                        ["rawMessage"] = "[16:13]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawText"] = "[16:13]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:13] [16:13]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawValue"] = "[16:13]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["rawDisplayed"] = "|H1:p:273:11|h[16:13]  |h|cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r|H1:p:273:11|h/|h|c6EABCA|H1:p:273:11|hCeroazucar|h|r |cC3F0C2|H1:p:273:11|hWarden 50 446cp in Northern Elsweyr|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [42] = 
+                    {
+                        ["rawTimestamp"] = 1598883229,
+                        ["rawMessage"] = "wait at b korgen.. we need more",
+                        ["rawText"] = "wait at b korgen.. we need more",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:13] Nerevarine Vampire: wait at b korgen.. we need more",
+                        ["rawValue"] = "|cb1ae8a[16:13] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acwait at b korgen.. we need more|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:274:31|h[16:13]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:274:31|hwait at b korgen.. we need more|h|r",
+                        ["rawFrom"] = "Nerevarine Vampire^Mx",
+                    },
+                    [43] = 
+                    {
+                        ["rawTimestamp"] = 1598883261,
+                        ["rawMessage"] = "invite me over, I don't have wayshrines unlocked on this alt",
+                        ["rawText"] = "invite me over, I don't have wayshrines unlocked on this alt",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:14] Kiraya Quick-Claw: invite me over, I don't have wayshrines unlocked on this alt",
+                        ["rawValue"] = "|cb1ae8a[16:14] |r|cb1ae8a|H0:character:Kiraya Quick-Claw^Fx|hKiraya Quick-Claw|h: |r|cd3d0acinvite me over, I don't have wayshrines unlocked on this alt|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:275:31|h[16:14]|h |r|cb1ae8a|H0:character:Kiraya Quick-Claw^Fx|hKiraya Quick-Claw|h: |r|cd3d0ac|H1:p:275:31|hinvite me over, I don't have wayshrines unlocked on this alt|h|r",
+                        ["rawFrom"] = "Kiraya Quick-Claw^Fx",
+                    },
+                    [44] = 
+                    {
+                        ["rawTimestamp"] = 1598883268,
+                        ["rawMessage"] = "the ping to my ISP is 9 which makes me think it's not me but idk",
+                        ["rawText"] = "the ping to my ISP is 9 which makes me think it's not me but idk",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:14] Samuals: the ping to my ISP is 9 which makes me think it's not me but idk",
+                        ["rawValue"] = "|cb1ae8a[16:14] |r|cb1ae8a|H0:character:Samuals^Mx|hSamuals|h: |r|cd3d0acthe ping to my ISP is 9 which makes me think it's not me but idk|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:276:31|h[16:14]|h |r|cb1ae8a|H0:character:Samuals^Mx|hSamuals|h: |r|cd3d0ac|H1:p:276:31|hthe ping to my ISP is 9 which makes me think it's not me but idk|h|r",
+                        ["rawFrom"] = "Samuals^Mx",
+                    },
+                    [45] = 
+                    {
+                        ["rawTimestamp"] = 1598883276,
+                        ["rawMessage"] = "I can help, if you can share",
+                        ["rawText"] = "I can help, if you can share",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:14] Lael Amafrey: I can help, if you can share",
+                        ["rawValue"] = "|cb1ae8a[16:14] |r|cb1ae8a|H0:character:Lael Amafrey^Fx|hLael Amafrey|h: |r|cd3d0acI can help, if you can share|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:277:31|h[16:14]|h |r|cb1ae8a|H0:character:Lael Amafrey^Fx|hLael Amafrey|h: |r|cd3d0ac|H1:p:277:31|hI can help, if you can share|h|r",
+                        ["rawFrom"] = "Lael Amafrey^Fx",
+                    },
+                    [46] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15] Akelarre",
+                        ["rawText"] = "[16:15] |cFFFFFFAkelarre|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15] Akelarre",
+                        ["rawValue"] = "[16:15] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:278:11|h[16:15] |h|cFFFFFF|H1:p:278:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [47] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  You are the only one online :(",
+                        ["rawText"] = "[16:15]  |cC3F0C2You are the only one online :(|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  You are the only one online :(",
+                        ["rawValue"] = "[16:15]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:279:11|h[16:15]  |h|cC3F0C2|H1:p:279:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [48] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15] Hojablanca",
+                        ["rawText"] = "[16:15] |cFFFFFFHojablanca|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15] Hojablanca",
+                        ["rawValue"] = "[16:15] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:280:11|h[16:15] |h|cFFFFFF|H1:p:280:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [49] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  There are 3 members online:",
+                        ["rawText"] = "[16:15]  |cC3F0C2There are 3 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  There are 3 members online:",
+                        ["rawValue"] = "[16:15]  |cC3F0C2There are 3 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:281:11|h[16:15]  |h|cC3F0C2|H1:p:281:11|hThere are 3 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [50] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Grukka/Green-fall Nightblade 50 810cp in Serpent Hollow Cave",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Serpent Hollow Cave|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Grukka/Green-fall Nightblade 50 810cp in Serpent Hollow Cave",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Serpent Hollow Cave|r",
+                        ["rawDisplayed"] = "|H1:p:282:11|h[16:15]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:282:11|h/|h|c6EABCA|H1:p:282:11|hGreen-fall|h|r |cC3F0C2|H1:p:282:11|hNightblade 50 810cp in Serpent Hollow Cave|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [51] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:283:11|h[16:15]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:283:11|h/|h|c6EABCA|H1:p:283:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:283:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [52] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["rawDisplayed"] = "|H1:p:284:11|h[16:15]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:284:11|h/|h|c6EABCA|H1:p:284:11|hlehvam|h|r |cC3F0C2|H1:p:284:11|hNightblade 25 in Coldharbour|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [53] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15] Señores del apocalipsis",
+                        ["rawText"] = "[16:15] |cFFFFFFSeñores del apocalipsis|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15] Señores del apocalipsis",
+                        ["rawValue"] = "[16:15] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:285:11|h[16:15] |h|cFFFFFF|H1:p:285:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [54] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  There are 11 members online:",
+                        ["rawText"] = "[16:15]  |cC3F0C2There are 11 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  There are 11 members online:",
+                        ["rawValue"] = "[16:15]  |cC3F0C2There are 11 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:286:11|h[16:15]  |h|cC3F0C2|H1:p:286:11|hThere are 11 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [55] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @FistroPecador/Felnovha Dreadmantle Dragonknight 50 695cp in Vvardenfell",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r/|c6EABCAFelnovha Dreadmantle|r |cC3F0C2Dragonknight 50 695cp in Vvardenfell|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @FistroPecador/Felnovha Dreadmantle Dragonknight 50 695cp in Vvardenfell",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r/|c6EABCAFelnovha Dreadmantle|r |cC3F0C2Dragonknight 50 695cp in Vvardenfell|r",
+                        ["rawDisplayed"] = "|H1:p:287:11|h[16:15]  |h|cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r|H1:p:287:11|h/|h|c6EABCA|H1:p:287:11|hFelnovha Dreadmantle|h|r |cC3F0C2|H1:p:287:11|hDragonknight 50 695cp in Vvardenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [56] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["rawDisplayed"] = "|H1:p:288:11|h[16:15]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:288:11|h/|h|c6EABCA|H1:p:288:11|hOlfanr the Unminded|h|r |cC3F0C2|H1:p:288:11|hDragonknight 50 470cp in Volenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [57] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:289:11|h[16:15]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:289:11|h/|h|c6EABCA|H1:p:289:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:289:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [58] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["rawDisplayed"] = "|H1:p:290:11|h[16:15]  |h|cB27BFF|H1:character:@Danny56|h@Danny56|h|r|H1:p:290:11|h/|h|c6EABCA|H1:p:290:11|hIcy Lara|h|r |cC3F0C2|H1:p:290:11|hWarden 50 810cp in Sunspire|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [59] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @LuxiasCaelum13/Valbrandr Nox Necromancer 50 810cp in Deshaan",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r/|c6EABCAValbrandr Nox|r |cC3F0C2Necromancer 50 810cp in Deshaan|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @LuxiasCaelum13/Valbrandr Nox Necromancer 50 810cp in Deshaan",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r/|c6EABCAValbrandr Nox|r |cC3F0C2Necromancer 50 810cp in Deshaan|r",
+                        ["rawDisplayed"] = "|H1:p:291:11|h[16:15]  |h|cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r|H1:p:291:11|h/|h|c6EABCA|H1:p:291:11|hValbrandr Nox|h|r |cC3F0C2|H1:p:291:11|hNecromancer 50 810cp in Deshaan|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [60] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Bicentenario/  0 in",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Bicentenario/  0 in",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:292:11|h[16:15]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:292:11|h/ |h|cC3F0C2|H1:p:292:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [61] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:293:11|h[16:15]  |h|cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r|H1:p:293:11|h/|h|c6EABCA|H1:p:293:11|hponzoñosa|h|r |cC3F0C2|H1:p:293:11|hNightblade 50 735cp in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [62] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["rawDisplayed"] = "|H1:p:294:11|h[16:15]  |h|cB27BFF|H1:character:@rderuben|h@rderuben|h|r|H1:p:294:11|h/|h|c6EABCA|H1:p:294:11|hÂstarôth|h|r |cC3F0C2|H1:p:294:11|hSorcerer 50 810cp in Hall of the Lunar Champion|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [63] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["rawDisplayed"] = "|H1:p:295:11|h[16:15]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:295:11|h/|h|c6EABCA|H1:p:295:11|hGalara Athaliatar|h|r |cC3F0C2|H1:p:295:11|hSorcerer 50 476cp in Ruins of Mazzatun|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [64] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["rawDisplayed"] = "|H1:p:296:11|h[16:15]  |h|cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r|H1:p:296:11|h/|h|c6EABCA|H1:p:296:11|hBelgefor|h|r |cC3F0C2|H1:p:296:11|hNecromancer 50 437cp in Imperial City Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [65] = 
+                    {
+                        ["rawTimestamp"] = 1598883330,
+                        ["rawMessage"] = "[16:15]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawText"] = "[16:15]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:15] [16:15]  @Gurthim/Ceroazucar Warden 50 446cp in Northern Elsweyr",
+                        ["rawValue"] = "[16:15]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCACeroazucar|r |cC3F0C2Warden 50 446cp in Northern Elsweyr|r",
+                        ["rawDisplayed"] = "|H1:p:297:11|h[16:15]  |h|cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r|H1:p:297:11|h/|h|c6EABCA|H1:p:297:11|hCeroazucar|h|r |cC3F0C2|H1:p:297:11|hWarden 50 446cp in Northern Elsweyr|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [66] = 
+                    {
+                        ["rawTimestamp"] = 1598883370,
+                        ["rawMessage"] = "Vente a Volenfel, que estoy de \"esforzáo\", yo sólo, recogiendo equipo.",
+                        ["rawText"] = "Vente a Volenfel, que estoy de \"esforzáo\", yo sólo, recogiendo equipo.",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:16] [SdA] @TitvsMagnvs/Olfanr the Unminded: Vente a Volenfel, que estoy de \"esforzáo\", yo sólo, recogiendo equipo.",
+                        ["rawValue"] = "|c41b341[16:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563Vente a Volenfel, que estoy de \"esforzáo\", yo sólo, recogiendo equipo.|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:298:14|h[16:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563|H1:p:298:14|hVente a Volenfel, que estoy de \"esforzáo\", yo sólo, recogiendo equipo.|h|r",
+                        ["rawFrom"] = "@TitvsMagnvs",
+                    },
+                    [67] = 
+                    {
+                        ["rawTimestamp"] = 1598883377,
+                        ["rawMessage"] = "jajajaja",
+                        ["rawText"] = "jajajaja",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:16] [SdA] @Gurthim/Ceroazucar: jajajaja",
+                        ["rawValue"] = "|c41b341[16:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563jajajaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:299:14|h[16:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563|H1:p:299:14|hjajajaja|h|r",
+                        ["rawFrom"] = "@Gurthim",
+                    },
+                    [68] = 
+                    {
+                        ["rawTimestamp"] = 1598883380,
+                        ["rawMessage"] = "en normal?",
+                        ["rawText"] = "en normal?",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:16] [SdA] @Gurthim/Ceroazucar: en normal?",
+                        ["rawValue"] = "|c41b341[16:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563en normal?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:300:14|h[16:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563|H1:p:300:14|hen normal?|h|r",
+                        ["rawFrom"] = "@Gurthim",
+                    },
+                    [69] = 
+                    {
+                        ["rawTimestamp"] = 1598883403,
+                        ["rawMessage"] = "He entrado en veterano, pero parece que no les ha gustado nada",
+                        ["rawText"] = "He entrado en veterano, pero parece que no les ha gustado nada",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:16] [SdA] @TitvsMagnvs/Olfanr the Unminded: He entrado en veterano, pero parece que no les ha gustado nada",
+                        ["rawValue"] = "|c41b341[16:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563He entrado en veterano, pero parece que no les ha gustado nada|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:301:14|h[16:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563|H1:p:301:14|hHe entrado en veterano, pero parece que no les ha gustado nada|h|r",
+                        ["rawFrom"] = "@TitvsMagnvs",
+                    },
+                    [70] = 
+                    {
+                        ["rawTimestamp"] = 1598883415,
+                        ["rawMessage"] = "pera que cambio al tanque y la hacemos en normal",
+                        ["rawText"] = "pera que cambio al tanque y la hacemos en normal",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:16] [SdA] @Gurthim/Ceroazucar: pera que cambio al tanque y la hacemos en normal",
+                        ["rawValue"] = "|c41b341[16:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563pera que cambio al tanque y la hacemos en normal|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:302:14|h[16:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Gurthim|h@Gurthim/Ceroazucar|h: |r|c63d563|H1:p:302:14|hpera que cambio al tanque y la hacemos en normal|h|r",
+                        ["rawFrom"] = "@Gurthim",
+                    },
+                    [71] = 
+                    {
+                        ["rawTimestamp"] = 1598883422,
+                        ["rawMessage"] = "así que en normal.",
+                        ["rawText"] = "así que en normal.",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:17] [SdA] @TitvsMagnvs/Olfanr the Unminded: así que en normal.",
+                        ["rawValue"] = "|c41b341[16:17] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563así que en normal.|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:303:14|h[16:17]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563|H1:p:303:14|hasí que en normal.|h|r",
+                        ["rawFrom"] = "@TitvsMagnvs",
+                    },
+                    [72] = 
+                    {
+                        ["rawTimestamp"] = 1598883438,
+                        ["rawMessage"] = "No, si estoy con el tanque, los mato a lametones.",
+                        ["rawText"] = "No, si estoy con el tanque, los mato a lametones.",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[16:17] [SdA] @TitvsMagnvs/Olfanr the Unminded: No, si estoy con el tanque, los mato a lametones.",
+                        ["rawValue"] = "|c41b341[16:17] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563No, si estoy con el tanque, los mato a lametones.|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:304:14|h[16:17]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@TitvsMagnvs|h@TitvsMagnvs/Olfanr the Unminded|h: |r|c63d563|H1:p:304:14|hNo, si estoy con el tanque, los mato a lametones.|h|r",
+                        ["rawFrom"] = "@TitvsMagnvs",
+                    },
+                    [73] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18] Akelarre",
+                        ["rawText"] = "[16:18] |cFFFFFFAkelarre|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18] Akelarre",
+                        ["rawValue"] = "[16:18] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:305:11|h[16:18] |h|cFFFFFF|H1:p:305:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [74] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  You are the only one online :(",
+                        ["rawText"] = "[16:18]  |cC3F0C2You are the only one online :(|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  You are the only one online :(",
+                        ["rawValue"] = "[16:18]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:306:11|h[16:18]  |h|cC3F0C2|H1:p:306:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [75] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18] Hojablanca",
+                        ["rawText"] = "[16:18] |cFFFFFFHojablanca|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18] Hojablanca",
+                        ["rawValue"] = "[16:18] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:307:11|h[16:18] |h|cFFFFFF|H1:p:307:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [76] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  There are 3 members online:",
+                        ["rawText"] = "[16:18]  |cC3F0C2There are 3 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  There are 3 members online:",
+                        ["rawValue"] = "[16:18]  |cC3F0C2There are 3 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:308:11|h[16:18]  |h|cC3F0C2|H1:p:308:11|hThere are 3 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [77] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Grukka/Green-fall Nightblade 50 810cp in Serpent Hollow Cave",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Serpent Hollow Cave|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Grukka/Green-fall Nightblade 50 810cp in Serpent Hollow Cave",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Serpent Hollow Cave|r",
+                        ["rawDisplayed"] = "|H1:p:309:11|h[16:18]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:309:11|h/|h|c6EABCA|H1:p:309:11|hGreen-fall|h|r |cC3F0C2|H1:p:309:11|hNightblade 50 810cp in Serpent Hollow Cave|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [78] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:310:11|h[16:18]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:310:11|h/|h|c6EABCA|H1:p:310:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:310:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [79] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Milan69/lehvam Nightblade 25 in Coldharbour",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 25 in Coldharbour|r",
+                        ["rawDisplayed"] = "|H1:p:311:11|h[16:18]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:311:11|h/|h|c6EABCA|H1:p:311:11|hlehvam|h|r |cC3F0C2|H1:p:311:11|hNightblade 25 in Coldharbour|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [80] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18] Señores del apocalipsis",
+                        ["rawText"] = "[16:18] |cFFFFFFSeñores del apocalipsis|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18] Señores del apocalipsis",
+                        ["rawValue"] = "[16:18] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:312:11|h[16:18] |h|cFFFFFF|H1:p:312:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [81] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  There are 10 members online:",
+                        ["rawText"] = "[16:18]  |cC3F0C2There are 10 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  There are 10 members online:",
+                        ["rawValue"] = "[16:18]  |cC3F0C2There are 10 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:313:11|h[16:18]  |h|cC3F0C2|H1:p:313:11|hThere are 10 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [82] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @TitvsMagnvs/Olfanr the Unminded Dragonknight 50 470cp in Volenfell",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCAOlfanr the Unminded|r |cC3F0C2Dragonknight 50 470cp in Volenfell|r",
+                        ["rawDisplayed"] = "|H1:p:314:11|h[16:18]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:314:11|h/|h|c6EABCA|H1:p:314:11|hOlfanr the Unminded|h|r |cC3F0C2|H1:p:314:11|hDragonknight 50 470cp in Volenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [83] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @ARenCer/Ilvana Shadowguide Nightblade 50 484cp in Fang Lair",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAIlvana Shadowguide|r |cC3F0C2Nightblade 50 484cp in Fang Lair|r",
+                        ["rawDisplayed"] = "|H1:p:315:11|h[16:18]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:315:11|h/|h|c6EABCA|H1:p:315:11|hIlvana Shadowguide|h|r |cC3F0C2|H1:p:315:11|hNightblade 50 484cp in Fang Lair|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [84] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Danny56/Icy Lara Warden 50 810cp in Sunspire",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCAIcy Lara|r |cC3F0C2Warden 50 810cp in Sunspire|r",
+                        ["rawDisplayed"] = "|H1:p:316:11|h[16:18]  |h|cB27BFF|H1:character:@Danny56|h@Danny56|h|r|H1:p:316:11|h/|h|c6EABCA|H1:p:316:11|hIcy Lara|h|r |cC3F0C2|H1:p:316:11|hWarden 50 810cp in Sunspire|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [85] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @LuxiasCaelum13/Valbrandr Nox Necromancer 50 810cp in Deshaan",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r/|c6EABCAValbrandr Nox|r |cC3F0C2Necromancer 50 810cp in Deshaan|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @LuxiasCaelum13/Valbrandr Nox Necromancer 50 810cp in Deshaan",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r/|c6EABCAValbrandr Nox|r |cC3F0C2Necromancer 50 810cp in Deshaan|r",
+                        ["rawDisplayed"] = "|H1:p:317:11|h[16:18]  |h|cB27BFF|H1:character:@LuxiasCaelum13|h@LuxiasCaelum13|h|r|H1:p:317:11|h/|h|c6EABCA|H1:p:317:11|hValbrandr Nox|h|r |cC3F0C2|H1:p:317:11|hNecromancer 50 810cp in Deshaan|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [86] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Bicentenario/  0 in",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Bicentenario/  0 in",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:318:11|h[16:18]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:318:11|h/ |h|cC3F0C2|H1:p:318:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [87] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @DelmonicoBSD/ponzoñosa Nightblade 50 735cp in Grahtwood",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r/|c6EABCAponzoñosa|r |cC3F0C2Nightblade 50 735cp in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:319:11|h[16:18]  |h|cB27BFF|H1:character:@DelmonicoBSD|h@DelmonicoBSD|h|r|H1:p:319:11|h/|h|c6EABCA|H1:p:319:11|hponzoñosa|h|r |cC3F0C2|H1:p:319:11|hNightblade 50 735cp in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [88] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @rderuben/Âstarôth Sorcerer 50 810cp in Hall of the Lunar Champion",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Hall of the Lunar Champion|r",
+                        ["rawDisplayed"] = "|H1:p:320:11|h[16:18]  |h|cB27BFF|H1:character:@rderuben|h@rderuben|h|r|H1:p:320:11|h/|h|c6EABCA|H1:p:320:11|hÂstarôth|h|r |cC3F0C2|H1:p:320:11|hSorcerer 50 810cp in Hall of the Lunar Champion|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [89] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @akaamanho/Galara Athaliatar Sorcerer 50 476cp in Ruins of Mazzatun",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGalara Athaliatar|r |cC3F0C2Sorcerer 50 476cp in Ruins of Mazzatun|r",
+                        ["rawDisplayed"] = "|H1:p:321:11|h[16:18]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:321:11|h/|h|c6EABCA|H1:p:321:11|hGalara Athaliatar|h|r |cC3F0C2|H1:p:321:11|hSorcerer 50 476cp in Ruins of Mazzatun|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [90] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Kaerhaind/Belgefor Necromancer 50 437cp in Imperial City Prison",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r/|c6EABCABelgefor|r |cC3F0C2Necromancer 50 437cp in Imperial City Prison|r",
+                        ["rawDisplayed"] = "|H1:p:322:11|h[16:18]  |h|cB27BFF|H1:character:@Kaerhaind|h@Kaerhaind|h|r|H1:p:322:11|h/|h|c6EABCA|H1:p:322:11|hBelgefor|h|r |cC3F0C2|H1:p:322:11|hNecromancer 50 437cp in Imperial City Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [91] = 
+                    {
+                        ["rawTimestamp"] = 1598883504,
+                        ["rawMessage"] = "[16:18]  @Gurthim/No-Frost Warden 50 445cp in Northern Elsweyr",
+                        ["rawText"] = "[16:18]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCANo-Frost|r |cC3F0C2Warden 50 445cp in Northern Elsweyr|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[16:18] [16:18]  @Gurthim/No-Frost Warden 50 445cp in Northern Elsweyr",
+                        ["rawValue"] = "[16:18]  |cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r/|c6EABCANo-Frost|r |cC3F0C2Warden 50 445cp in Northern Elsweyr|r",
+                        ["rawDisplayed"] = "|H1:p:323:11|h[16:18]  |h|cB27BFF|H1:character:@Gurthim|h@Gurthim|h|r|H1:p:323:11|h/|h|c6EABCA|H1:p:323:11|hNo-Frost|h|r |cC3F0C2|H1:p:323:11|hWarden 50 445cp in Northern Elsweyr|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [92] = 
+                    {
+                        ["rawTimestamp"] = 1598883658,
+                        ["rawMessage"] = "|H1:guild:503396|hLes Héritiers de Padomay|h  recrutent ! Si vous êtes à la recherche d'une guilde d'entraide dans une ambiance conviviale, vous êtes au bon endroit ! Nous réunissons toutes sortes de joueurs, débutants ou avérés, branchés vétéran ou tout simplement passionnés de lore. Intéressé ? N'hésitez pas à nous mp. (Discord obligatoire)",
+                        ["rawText"] = "|H1:guild:503396|hLes Héritiers de Padomay|h  recrutent ! Si vous êtes à la recherche d'une guilde d'entraide dans une ambiance conviviale, vous êtes au bon endroit ! Nous réunissons toutes sortes de joueurs, débutants ou avérés, branchés vétéran ou tout simplement passionnés de lore. Intéressé ? N'hésitez pas à nous mp. (Discord obligatoire)",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:20] Shin Ilath-Pal: |H1:guild:503396|hLes Héritiers de Padomay|h  recrutent ! Si vous êtes à la recherche d'une guilde d'entraide dans une ambiance conviviale, vous êtes au bon endroit ! Nous réunissons toutes sortes de joueurs, débutants ou avérés, branchés vétéran ou tout simplement passionnés de lore. Intéressé ? N'hésitez pas à nous mp. (Discord obligatoire)",
+                        ["rawValue"] = "|cb1ae8a[16:20] |r|cb1ae8a|H0:character:Shin Ilath-Pal^Mx|hShin Ilath-Pal|h: |r|cd3d0ac|H1:guild:503396|hLes Héritiers de Padomay|h  recrutent ! Si vous êtes à la recherche d'une guilde d'entraide dans une ambiance conviviale, vous êtes au bon endroit ! Nous réunissons toutes sortes de joueurs, débutants ou avérés, branchés vétéran ou tout simplement passionnés de lore. Intéressé ? N'hésitez pas à nous mp. (Discord obligatoire)|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:324:31|h[16:20]|h |r|cb1ae8a|H0:character:Shin Ilath-Pal^Mx|hShin Ilath-Pal|h: |r|cd3d0ac|H1:guild:503396|hLes Héritiers de Padomay|h|H1:p:324:31|h  recrutent ! Si vous êtes à la recherche d'une guilde d'entraide dans une ambiance conviviale, vou|h|H1:p:324:31|hs êtes au bon endroit ! Nous réunissons toutes sortes de joueurs, débutants ou avérés, branchés|h|H1:p:324:31|h vétéran ou tout simplement passionnés de lore. Intéressé ? N'hésitez pas à nous mp. (Discord |h|H1:p:324:31|hobligatoire)|h|r",
+                        ["rawFrom"] = "Shin Ilath-Pal^Mx",
+                    },
+                    [93] = 
+                    {
+                        ["rawTimestamp"] = 1598883688,
+                        ["rawMessage"] = "Die |H1:guild:590212|hNirns entspannte Weise|h  sucht Mitglieder über 30 Jahre. Dir ist ein freundliches, entspanntes  und respektvolles Miteinander wichtig? Du bist beim spielen gerne mit Anderen im Discord? Dann bewirb Dich mit  Infos über Dich und deine Erwartungen über den Link oder flüstere mich an. Wir freuen uns auf Dich :-)",
+                        ["rawText"] = "Die |H1:guild:590212|hNirns entspannte Weise|h  sucht Mitglieder über 30 Jahre. Dir ist ein freundliches, entspanntes  und respektvolles Miteinander wichtig? Du bist beim spielen gerne mit Anderen im Discord? Dann bewirb Dich mit  Infos über Dich und deine Erwartungen über den Link oder flüstere mich an. Wir freuen uns auf Dich :-)",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:21] Dilaara: Die |H1:guild:590212|hNirns entspannte Weise|h  sucht Mitglieder über 30 Jahre. Dir ist ein freundliches, entspanntes  und respektvolles Miteinander wichtig? Du bist beim spielen gerne mit Anderen im Discord? Dann bewirb Dich mit  Infos über Dich und deine Erwartungen über den Link oder flüstere mich an. Wir freuen uns auf Dich :-)",
+                        ["rawValue"] = "|cb1ae8a[16:21] |r|cb1ae8a|H0:character:Dilaara^Fx|hDilaara|h: |r|cd3d0acDie |H1:guild:590212|hNirns entspannte Weise|h  sucht Mitglieder über 30 Jahre. Dir ist ein freundliches, entspanntes  und respektvolles Miteinander wichtig? Du bist beim spielen gerne mit Anderen im Discord? Dann bewirb Dich mit  Infos über Dich und deine Erwartungen über den Link oder flüstere mich an. Wir freuen uns auf Dich :-)|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:325:31|h[16:21]|h |r|cb1ae8a|H0:character:Dilaara^Fx|hDilaara|h: |r|cd3d0ac|H1:p:325:31|hDie |h|H1:guild:590212|hNirns entspannte Weise|h|H1:p:325:31|h  sucht Mitglieder über 30 Jahre. Dir ist ein freundliches, entspanntes  und respektvolles Miteinand|h|H1:p:325:31|her wichtig? Du bist beim spielen gerne mit Anderen im Discord? Dann bewirb Dich mit  Infos über Dich|h|H1:p:325:31|h und deine Erwartungen über den Link oder flüstere mich an. Wir freuen uns auf Dich :-)|h|r",
+                        ["rawFrom"] = "Dilaara^Fx",
+                    },
+                    [94] = 
+                    {
+                        ["rawTimestamp"] = 1598883748,
+                        ["rawMessage"] = "anyone up for any geyser?",
+                        ["rawText"] = "anyone up for any geyser?",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[16:22] Nerevarine Vampire: anyone up for any geyser?",
+                        ["rawValue"] = "|cb1ae8a[16:22] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acanyone up for any geyser?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:326:31|h[16:22]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:326:31|hanyone up for any geyser?|h|r",
+                        ["rawFrom"] = "Nerevarine Vampire^Mx",
+                    },
+                    [95] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52] Akelarre",
+                        ["rawText"] = "[20:52] |cFFFFFFAkelarre|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52] Akelarre",
+                        ["rawValue"] = "[20:52] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:236:11|h[20:52] |h|cFFFFFF|H1:p:236:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [96] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  You are the only one online :(",
+                        ["rawText"] = "[20:52]  |cC3F0C2You are the only one online :(|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  You are the only one online :(",
+                        ["rawValue"] = "[20:52]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:237:11|h[20:52]  |h|cC3F0C2|H1:p:237:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [97] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52] Hojablanca",
+                        ["rawText"] = "[20:52] |cFFFFFFHojablanca|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52] Hojablanca",
+                        ["rawValue"] = "[20:52] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:238:11|h[20:52] |h|cFFFFFF|H1:p:238:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [98] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  There are 5 members online:",
+                        ["rawText"] = "[20:52]  |cC3F0C2There are 5 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  There are 5 members online:",
+                        ["rawValue"] = "[20:52]  |cC3F0C2There are 5 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:239:11|h[20:52]  |h|cC3F0C2|H1:p:239:11|hThere are 5 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [99] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Milan69/lehvam Nightblade 27 in Cyrodiil",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 27 in Cyrodiil|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Milan69/lehvam Nightblade 27 in Cyrodiil",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 27 in Cyrodiil|r",
+                        ["rawDisplayed"] = "|H1:p:240:11|h[20:52]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:240:11|h/|h|c6EABCA|H1:p:240:11|hlehvam|h|r |cC3F0C2|H1:p:240:11|hNightblade 27 in Cyrodiil|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [100] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @kigrooo/El Coletas Necromancer 27 in Grahtwood",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r/|c6EABCAEl Coletas|r |cC3F0C2Necromancer 27 in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @kigrooo/El Coletas Necromancer 27 in Grahtwood",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r/|c6EABCAEl Coletas|r |cC3F0C2Necromancer 27 in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:241:11|h[20:52]  |h|cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r|H1:p:241:11|h/|h|c6EABCA|H1:p:241:11|hEl Coletas|h|r |cC3F0C2|H1:p:241:11|hNecromancer 27 in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [101] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Grukka/Green-fall Nightblade 50 810cp in Cyrodiil",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAGreen-fall|r |cC3F0C2Nightblade 50 810cp in Cyrodiil|r",
+                        ["rawDisplayed"] = "|H1:p:242:11|h[20:52]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:242:11|h/|h|c6EABCA|H1:p:242:11|hGreen-fall|h|r |cC3F0C2|H1:p:242:11|hNightblade 50 810cp in Cyrodiil|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [102] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Hydrel/Snow White Princess Templar 50 666cp in Grand Psijic Villa",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r/|c6EABCASnow White Princess|r |cC3F0C2Templar 50 666cp in Grand Psijic Villa|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Hydrel/Snow White Princess Templar 50 666cp in Grand Psijic Villa",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r/|c6EABCASnow White Princess|r |cC3F0C2Templar 50 666cp in Grand Psijic Villa|r",
+                        ["rawDisplayed"] = "|H1:p:243:11|h[20:52]  |h|cB27BFF|H1:character:@Hydrel|h@Hydrel|h|r|H1:p:243:11|h/|h|c6EABCA|H1:p:243:11|hSnow White Princess|h|r |cC3F0C2|H1:p:243:11|hTemplar 50 666cp in Grand Psijic Villa|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [103] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @andu123/Salmanak Templar 39 in Stormhaven",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@andu123|h@andu123|h|r/|c6EABCASalmanak|r |cC3F0C2Templar 39 in Stormhaven|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @andu123/Salmanak Templar 39 in Stormhaven",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@andu123|h@andu123|h|r/|c6EABCASalmanak|r |cC3F0C2Templar 39 in Stormhaven|r",
+                        ["rawDisplayed"] = "|H1:p:244:11|h[20:52]  |h|cB27BFF|H1:character:@andu123|h@andu123|h|r|H1:p:244:11|h/|h|c6EABCA|H1:p:244:11|hSalmanak|h|r |cC3F0C2|H1:p:244:11|hTemplar 39 in Stormhaven|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [104] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52] Señores del apocalipsis",
+                        ["rawText"] = "[20:52] |cFFFFFFSeñores del apocalipsis|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52] Señores del apocalipsis",
+                        ["rawValue"] = "[20:52] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:245:11|h[20:52] |h|cFFFFFF|H1:p:245:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [105] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  There are 11 members online:",
+                        ["rawText"] = "[20:52]  |cC3F0C2There are 11 members online:|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  There are 11 members online:",
+                        ["rawValue"] = "[20:52]  |cC3F0C2There are 11 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:246:11|h[20:52]  |h|cC3F0C2|H1:p:246:11|hThere are 11 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [106] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Agaliarepth/Mätrakha the Frungimancer Necromancer 50 810cp in Unhallowed Grave",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r/|c6EABCAMätrakha the Frungimancer|r |cC3F0C2Necromancer 50 810cp in Unhallowed Grave|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Agaliarepth/Mätrakha the Frungimancer Necromancer 50 810cp in Unhallowed Grave",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r/|c6EABCAMätrakha the Frungimancer|r |cC3F0C2Necromancer 50 810cp in Unhallowed Grave|r",
+                        ["rawDisplayed"] = "|H1:p:247:11|h[20:52]  |h|cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r|H1:p:247:11|h/|h|c6EABCA|H1:p:247:11|hMätrakha the Frungimancer|h|r |cC3F0C2|H1:p:247:11|hNecromancer 50 810cp in Unhallowed Grave|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [107] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Bicentenario/  0 in",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Bicentenario/  0 in",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:248:11|h[20:52]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:248:11|h/ |h|cC3F0C2|H1:p:248:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [108] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @rderuben/Âstarôth Sorcerer 50 810cp in Grahtwood",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Grahtwood|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @rderuben/Âstarôth Sorcerer 50 810cp in Grahtwood",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@rderuben|h@rderuben|h|r/|c6EABCAÂstarôth|r |cC3F0C2Sorcerer 50 810cp in Grahtwood|r",
+                        ["rawDisplayed"] = "|H1:p:249:11|h[20:52]  |h|cB27BFF|H1:character:@rderuben|h@rderuben|h|r|H1:p:249:11|h/|h|c6EABCA|H1:p:249:11|hÂstarôth|h|r |cC3F0C2|H1:p:249:11|hSorcerer 50 810cp in Grahtwood|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [109] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @akaamanho/Guntarld Templar 50 478cp in Deshaan",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGuntarld|r |cC3F0C2Templar 50 478cp in Deshaan|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @akaamanho/Guntarld Templar 50 478cp in Deshaan",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAGuntarld|r |cC3F0C2Templar 50 478cp in Deshaan|r",
+                        ["rawDisplayed"] = "|H1:p:250:11|h[20:52]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:250:11|h/|h|c6EABCA|H1:p:250:11|hGuntarld|h|r |cC3F0C2|H1:p:250:11|hTemplar 50 478cp in Deshaan|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [110] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @ccmm96/leche condensada Necromancer 16 in Stirk",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@ccmm96|h@ccmm96|h|r/|c6EABCAleche condensada|r |cC3F0C2Necromancer 16 in Stirk|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @ccmm96/leche condensada Necromancer 16 in Stirk",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@ccmm96|h@ccmm96|h|r/|c6EABCAleche condensada|r |cC3F0C2Necromancer 16 in Stirk|r",
+                        ["rawDisplayed"] = "|H1:p:251:11|h[20:52]  |h|cB27BFF|H1:character:@ccmm96|h@ccmm96|h|r|H1:p:251:11|h/|h|c6EABCA|H1:p:251:11|hleche condensada|h|r |cC3F0C2|H1:p:251:11|hNecromancer 16 in Stirk|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [111] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Kazoya/Kazoya Warden 50 98cp in Frozen Coast",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Kazoya|h@Kazoya|h|r/|c6EABCAKazoya|r |cC3F0C2Warden 50 98cp in Frozen Coast|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Kazoya/Kazoya Warden 50 98cp in Frozen Coast",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Kazoya|h@Kazoya|h|r/|c6EABCAKazoya|r |cC3F0C2Warden 50 98cp in Frozen Coast|r",
+                        ["rawDisplayed"] = "|H1:p:252:11|h[20:52]  |h|cB27BFF|H1:character:@Kazoya|h@Kazoya|h|r|H1:p:252:11|h/|h|c6EABCA|H1:p:252:11|hKazoya|h|r |cC3F0C2|H1:p:252:11|hWarden 50 98cp in Frozen Coast|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [112] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Injunna/Arondil Lover of the dead Necromancer 50 616cp in Frozen Coast",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 616cp in Frozen Coast|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Injunna/Arondil Lover of the dead Necromancer 50 616cp in Frozen Coast",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 616cp in Frozen Coast|r",
+                        ["rawDisplayed"] = "|H1:p:253:11|h[20:52]  |h|cB27BFF|H1:character:@Injunna|h@Injunna|h|r|H1:p:253:11|h/|h|c6EABCA|H1:p:253:11|hArondil Lover of the dead|h|r |cC3F0C2|H1:p:253:11|hNecromancer 50 616cp in Frozen Coast|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [113] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Porculator/Astaroth Von Carstein Necromancer 50 482cp in Frozen Coast",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Porculator|h@Porculator|h|r/|c6EABCAAstaroth Von Carstein|r |cC3F0C2Necromancer 50 482cp in Frozen Coast|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Porculator/Astaroth Von Carstein Necromancer 50 482cp in Frozen Coast",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Porculator|h@Porculator|h|r/|c6EABCAAstaroth Von Carstein|r |cC3F0C2Necromancer 50 482cp in Frozen Coast|r",
+                        ["rawDisplayed"] = "|H1:p:254:11|h[20:52]  |h|cB27BFF|H1:character:@Porculator|h@Porculator|h|r|H1:p:254:11|h/|h|c6EABCA|H1:p:254:11|hAstaroth Von Carstein|h|r |cC3F0C2|H1:p:254:11|hNecromancer 50 482cp in Frozen Coast|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [114] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @Danny56/-Narendur Templar 50 810cp in Asylum Sanctorium",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCA-Narendur|r |cC3F0C2Templar 50 810cp in Asylum Sanctorium|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @Danny56/-Narendur Templar 50 810cp in Asylum Sanctorium",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@Danny56|h@Danny56|h|r/|c6EABCA-Narendur|r |cC3F0C2Templar 50 810cp in Asylum Sanctorium|r",
+                        ["rawDisplayed"] = "|H1:p:255:11|h[20:52]  |h|cB27BFF|H1:character:@Danny56|h@Danny56|h|r|H1:p:255:11|h/|h|c6EABCA|H1:p:255:11|h-Narendur|h|r |cC3F0C2|H1:p:255:11|hTemplar 50 810cp in Asylum Sanctorium|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [115] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @HexwraithFlame/Justicar Veronique Templar 50 810cp in Unhallowed Grave",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCAJusticar Veronique|r |cC3F0C2Templar 50 810cp in Unhallowed Grave|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @HexwraithFlame/Justicar Veronique Templar 50 810cp in Unhallowed Grave",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCAJusticar Veronique|r |cC3F0C2Templar 50 810cp in Unhallowed Grave|r",
+                        ["rawDisplayed"] = "|H1:p:256:11|h[20:52]  |h|cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r|H1:p:256:11|h/|h|c6EABCA|H1:p:256:11|hJusticar Veronique|h|r |cC3F0C2|H1:p:256:11|hTemplar 50 810cp in Unhallowed Grave|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [116] = 
+                    {
+                        ["rawTimestamp"] = 1598899945,
+                        ["rawMessage"] = "[20:52]  @iTbe/itbe Sorcerer 50 810cp in Blackreach: Greymoor Caverns",
+                        ["rawText"] = "[20:52]  |cB27BFF|H1:character:@iTbe|h@iTbe|h|r/|c6EABCAitbe|r |cC3F0C2Sorcerer 50 810cp in Blackreach: Greymoor Caverns|r",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:52] [20:52]  @iTbe/itbe Sorcerer 50 810cp in Blackreach: Greymoor Caverns",
+                        ["rawValue"] = "[20:52]  |cB27BFF|H1:character:@iTbe|h@iTbe|h|r/|c6EABCAitbe|r |cC3F0C2Sorcerer 50 810cp in Blackreach: Greymoor Caverns|r",
+                        ["rawDisplayed"] = "|H1:p:257:11|h[20:52]  |h|cB27BFF|H1:character:@iTbe|h@iTbe|h|r|H1:p:257:11|h/|h|c6EABCA|H1:p:257:11|hitbe|h|r |cC3F0C2|H1:p:257:11|hSorcerer 50 810cp in Blackreach: Greymoor Caverns|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [117] = 
+                    {
+                        ["rawTimestamp"] = 1598900164,
+                        ["rawMessage"] = "[20:56] Item with set bonus: [Werewolf Hide Jack] (Hide of the Werewolf).",
+                        ["rawText"] = "[20:56] Item with set bonus: |H0:item:86161:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:10000:0|h|h (Hide of the Werewolf).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:56] [20:56] Item with set bonus: [Werewolf Hide Jack] (Hide of the Werewolf).",
+                        ["rawValue"] = "[20:56] Item with set bonus: |H0:item:86161:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:10000:0|h|h (Hide of the Werewolf).",
+                        ["rawDisplayed"] = "|H1:p:258:11|h[20:56] Item with set bonus: |h|H0:item:86161:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:10000:0|h|h|H1:p:258:11|h (Hide of the Werewolf).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [118] = 
+                    {
+                        ["rawTimestamp"] = 1598900199,
+                        ["rawMessage"] = "[20:56] Item with set bonus: [Bloodthorn Restoration Staff] (Bloodthorn's Touch).",
+                        ["rawText"] = "[20:56] Item with set bonus: |H0:item:96535:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:300:0|h|h (Bloodthorn's Touch).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[20:56] [20:56] Item with set bonus: [Bloodthorn Restoration Staff] (Bloodthorn's Touch).",
+                        ["rawValue"] = "[20:56] Item with set bonus: |H0:item:96535:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:300:0|h|h (Bloodthorn's Touch).",
+                        ["rawDisplayed"] = "|H1:p:259:11|h[20:56] Item with set bonus: |h|H0:item:96535:362:50:0:0:0:0:0:0:0:0:0:0:0:0:19:0:0:0:300:0|h|h|H1:p:259:11|h (Bloodthorn's Touch).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [119] = 
+                    {
+                        ["rawTimestamp"] = 1598900850,
+                        ["rawMessage"] = "LF2M RND , I am low level",
+                        ["rawText"] = "LF2M RND , I am low level",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:07] Adornia: LF2M RND , I am low level",
+                        ["rawValue"] = "|cb1ae8a[21:07] |r|cb1ae8a|H0:character:Adornia^Fx|hAdornia|h: |r|cd3d0acLF2M RND , I am low level|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:260:31|h[21:07]|h |r|cb1ae8a|H0:character:Adornia^Fx|hAdornia|h: |r|cd3d0ac|H1:p:260:31|hLF2M RND , I am low level|h|r",
+                        ["rawFrom"] = "Adornia^Fx",
+                    },
+                    [120] = 
+                    {
+                        ["rawTimestamp"] = 1598901341,
+                        ["rawMessage"] = "WTB [Aetherial Dust] 105k",
+                        ["rawText"] = "WTB |H1:item:115026:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 105k",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:15] Astro Nb: WTB [Aetherial Dust] 105k",
+                        ["rawValue"] = "|cb1ae8a[21:15] |r|cb1ae8a|H0:character:Astro Nb^Fx|hAstro Nb|h: |r|cd3d0acWTB |H1:item:115026:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 105k|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:261:31|h[21:15]|h |r|cb1ae8a|H0:character:Astro Nb^Fx|hAstro Nb|h: |r|cd3d0ac|H1:p:261:31|hWTB |h|H1:item:115026:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:261:31|h 105k|h|r",
+                        ["rawFrom"] = "Astro Nb^Fx",
+                    },
+                    [121] = 
+                    {
+                        ["rawTimestamp"] = 1598901409,
+                        ["rawMessage"] = "holi!",
+                        ["rawText"] = "holi!",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[21:16] [SdA] @Valkyrya/Sings-Lovely-Songs: holi!",
+                        ["rawValue"] = "|c41b341[21:16] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563holi!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:262:14|h[21:16]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563|H1:p:262:14|hholi!|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [122] = 
+                    {
+                        ["rawTimestamp"] = 1598901419,
+                        ["rawMessage"] = "buenas!",
+                        ["rawText"] = "buenas!",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:16] [Hojablanca] @Valkyrya/Sings-Lovely-Songs: buenas!",
+                        ["rawValue"] = "|c41b341[21:16] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563buenas!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:263:13|h[21:16]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563|H1:p:263:13|hbuenas!|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [123] = 
+                    {
+                        ["rawTimestamp"] = 1598901437,
+                        ["rawMessage"] = "Huooli!",
+                        ["rawText"] = "Huooli!",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:17] [Hojablanca] @Grukka/Green-fall: Huooli!",
+                        ["rawValue"] = "|c41b341[21:17] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Grukka|h@Grukka/Green-fall|h: |r|c63d563Huooli!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:264:13|h[21:17]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Grukka|h@Grukka/Green-fall|h: |r|c63d563|H1:p:264:13|hHuooli!|h|r",
+                        ["rawFrom"] = "@Grukka",
+                    },
+                    [124] = 
+                    {
+                        ["rawTimestamp"] = 1598901488,
+                        ["rawMessage"] = "hola!",
+                        ["rawText"] = "hola!",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[21:18] [SdA] @HexwraithFlame/Justicar Veronique: hola!",
+                        ["rawValue"] = "|c41b341[21:18] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Justicar Veronique|h: |r|c63d563hola!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:265:14|h[21:18]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Justicar Veronique|h: |r|c63d563|H1:p:265:14|hhola!|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [125] = 
+                    {
+                        ["rawTimestamp"] = 1598901618,
+                        ["rawMessage"] = "Help kill the bear",
+                        ["rawText"] = "Help kill the bear",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:20] Grazy Venom: Help kill the bear",
+                        ["rawValue"] = "|cb1ae8a[21:20] |r|cb1ae8a|H0:character:Grazy Venom^Mx|hGrazy Venom|h: |r|cd3d0acHelp kill the bear|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:266:31|h[21:20]|h |r|cb1ae8a|H0:character:Grazy Venom^Mx|hGrazy Venom|h: |r|cd3d0ac|H1:p:266:31|hHelp kill the bear|h|r",
+                        ["rawFrom"] = "Grazy Venom^Mx",
+                    },
+                    [126] = 
+                    {
+                        ["rawTimestamp"] = 1598901690,
+                        ["rawMessage"] = "los bosses de las mazmorras publicas cuanto tardan en respawniar?",
+                        ["rawText"] = "los bosses de las mazmorras publicas cuanto tardan en respawniar?",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:21] [Hojablanca] @kigrooo/El Coletas: los bosses de las mazmorras publicas cuanto tardan en respawniar?",
+                        ["rawValue"] = "|c41b341[21:21] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@kigrooo|h@kigrooo/El Coletas|h: |r|c63d563los bosses de las mazmorras publicas cuanto tardan en respawniar?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:267:13|h[21:21]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@kigrooo|h@kigrooo/El Coletas|h: |r|c63d563|H1:p:267:13|hlos bosses de las mazmorras publicas cuanto tardan en respawniar?|h|r",
+                        ["rawFrom"] = "@kigrooo",
+                    },
+                    [127] = 
+                    {
+                        ["rawTimestamp"] = 1598901730,
+                        ["rawMessage"] = "si hay moviemiento de gente no mucho",
+                        ["rawText"] = "si hay moviemiento de gente no mucho",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:22] [Hojablanca] @Valkyrya/Sings-Lovely-Songs: si hay moviemiento de gente no mucho",
+                        ["rawValue"] = "|c41b341[21:22] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563si hay moviemiento de gente no mucho|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:268:13|h[21:22]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563|H1:p:268:13|hsi hay moviemiento de gente no mucho|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [128] = 
+                    {
+                        ["rawTimestamp"] = 1598901734,
+                        ["rawMessage"] = "movimiento*",
+                        ["rawText"] = "movimiento*",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:22] [Hojablanca] @Valkyrya/Sings-Lovely-Songs: movimiento*",
+                        ["rawValue"] = "|c41b341[21:22] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563movimiento*|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:269:13|h[21:22]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563|H1:p:269:13|hmovimiento*|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [129] = 
+                    {
+                        ["rawTimestamp"] = 1598901743,
+                        ["rawMessage"] = "si no hay ni perry quizas te toque esperar un poco",
+                        ["rawText"] = "si no hay ni perry quizas te toque esperar un poco",
+                        ["channel"] = 13,
+                        ["rawLine"] = "[21:22] [Hojablanca] @Valkyrya/Sings-Lovely-Songs: si no hay ni perry quizas te toque esperar un poco",
+                        ["rawValue"] = "|c41b341[21:22] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563si no hay ni perry quizas te toque esperar un poco|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:270:13|h[21:22]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Sings-Lovely-Songs|h: |r|c63d563|H1:p:270:13|hsi no hay ni perry quizas te toque esperar un poco|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [130] = 
+                    {
+                        ["rawTimestamp"] = 1598901873,
+                        ["rawMessage"] = "|H1:guild:591044|hBeardmonsters|h ищет новых товарищей в свои ряды, бесплатный крафт, опытные товарищи, розыгрыши и многое другое ждёт Вас!",
+                        ["rawText"] = "|H1:guild:591044|hBeardmonsters|h ищет новых товарищей в свои ряды, бесплатный крафт, опытные товарищи, розыгрыши и многое другое ждёт Вас!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:24] Little Fox Sister: |H1:guild:591044|hBeardmonsters|h ищет новых товарищей в свои ряды, бесплатный крафт, опытные товарищи, розыгрыши и многое другое ждёт Вас!",
+                        ["rawValue"] = "|cb1ae8a[21:24] |r|cb1ae8a|H0:character:Little Fox Sister^Fx|hLittle Fox Sister|h: |r|cd3d0ac|H1:guild:591044|hBeardmonsters|h ищет новых товарищей в свои ряды, бесплатный крафт, опытные товарищи, розыгрыши и многое другое ждёт Вас!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:271:31|h[21:24]|h |r|cb1ae8a|H0:character:Little Fox Sister^Fx|hLittle Fox Sister|h: |r|cd3d0ac|H1:guild:591044|hBeardmonsters|h|H1:p:271:31|h ищет новых товарищей в свои ряды, бесплатный крафт, опы|h|H1:p:271:31|hтные товарищи, розыгрыши и многое другое ждёт Вас!|h|r",
+                        ["rawFrom"] = "Little Fox Sister^Fx",
+                    },
+                    [131] = 
+                    {
+                        ["rawTimestamp"] = 1598901952,
+                        ["rawMessage"] = "Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["rawText"] = "Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:25] Vastsen: Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["rawValue"] = "|cb1ae8a[21:25] |r|cb1ae8a|H0:character:Vastsen^Mx|hVastsen|h: |r|cd3d0acГильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:272:31|h[21:25]|h |r|cb1ae8a|H0:character:Vastsen^Mx|hVastsen|h: |r|cd3d0ac|H1:p:272:31|hГильдия \"И так сойдет\" набирает в свои ряды всех просто д|h|H1:p:272:31|hля ничего. Но с 2 правилами - без мата и без обязательств.|h|H1:p:272:31|h |h|H1:guild:649438|hITS|h|r",
+                        ["rawFrom"] = "Vastsen^Mx",
+                    },
+                    [132] = 
+                    {
+                        ["rawTimestamp"] = 1598901952,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:25] Merkelnator: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:25] |r|cb1ae8a|H0:character:Merkelnator^Mx|hMerkelnator|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:273:31|h[21:25]|h |r|cb1ae8a|H0:character:Merkelnator^Mx|hMerkelnator|h: |r|cd3d0ac|H1:p:273:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Merkelnator^Mx",
+                    },
+                    [133] = 
+                    {
+                        ["rawTimestamp"] = 1598901969,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:26] Pigeombre: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:26] |r|cb1ae8a|H0:character:Pigeombre^Mx|hPigeombre|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:274:31|h[21:26]|h |r|cb1ae8a|H0:character:Pigeombre^Mx|hPigeombre|h: |r|cd3d0ac|H1:p:274:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Pigeombre^Mx",
+                    },
+                    [134] = 
+                    {
+                        ["rawTimestamp"] = 1598901990,
+                        ["rawMessage"] = "Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["rawText"] = "Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:26] Vastsen: Гильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h",
+                        ["rawValue"] = "|cb1ae8a[21:26] |r|cb1ae8a|H0:character:Vastsen^Mx|hVastsen|h: |r|cd3d0acГильдия \"И так сойдет\" набирает в свои ряды всех просто для ничего. Но с 2 правилами - без мата и без обязательств. |H1:guild:649438|hITS|h|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:275:31|h[21:26]|h |r|cb1ae8a|H0:character:Vastsen^Mx|hVastsen|h: |r|cd3d0ac|H1:p:275:31|hГильдия \"И так сойдет\" набирает в свои ряды всех просто д|h|H1:p:275:31|hля ничего. Но с 2 правилами - без мата и без обязательств.|h|H1:p:275:31|h |h|H1:guild:649438|hITS|h|r",
+                        ["rawFrom"] = "Vastsen^Mx",
+                    },
+                    [135] = 
+                    {
+                        ["rawTimestamp"] = 1598902022,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:276:31|h[21:27]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:276:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [136] = 
+                    {
+                        ["rawTimestamp"] = 1598902037,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Gis ri: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Gis ri^Mx|hGis ri|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:277:31|h[21:27]|h |r|cb1ae8a|H0:character:Gis ri^Mx|hGis ri|h: |r|cd3d0ac|H1:p:277:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Gis ri^Mx",
+                    },
+                    [137] = 
+                    {
+                        ["rawTimestamp"] = 1598902040,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Maurkhan: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Maurkhan^Mx|hMaurkhan|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:278:31|h[21:27]|h |r|cb1ae8a|H0:character:Maurkhan^Mx|hMaurkhan|h: |r|cd3d0ac|H1:p:278:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Maurkhan^Mx",
+                    },
+                    [138] = 
+                    {
+                        ["rawTimestamp"] = 1598902043,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:279:31|h[21:27]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:279:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [139] = 
+                    {
+                        ["rawTimestamp"] = 1598902045,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Anaélys: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Anaélys^Fx|hAnaélys|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:280:31|h[21:27]|h |r|cb1ae8a|H0:character:Anaélys^Fx|hAnaélys|h: |r|cd3d0ac|H1:p:280:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Anaélys^Fx",
+                    },
+                    [140] = 
+                    {
+                        ["rawTimestamp"] = 1598902053,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Pigeombre: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Pigeombre^Mx|hPigeombre|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:281:31|h[21:27]|h |r|cb1ae8a|H0:character:Pigeombre^Mx|hPigeombre|h: |r|cd3d0ac|H1:p:281:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Pigeombre^Mx",
+                    },
+                    [141] = 
+                    {
+                        ["rawTimestamp"] = 1598902071,
+                        ["rawMessage"] = "dolömeeen",
+                        ["rawText"] = "dolömeeen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:27] Isildur Aetherlight: dolömeeen",
+                        ["rawValue"] = "|cb1ae8a[21:27] |r|cb1ae8a|H0:character:Isildur Aetherlight^Mx|hIsildur Aetherlight|h: |r|cd3d0acdolömeeen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:282:31|h[21:27]|h |r|cb1ae8a|H0:character:Isildur Aetherlight^Mx|hIsildur Aetherlight|h: |r|cd3d0ac|H1:p:282:31|hdolömeeen|h|r",
+                        ["rawFrom"] = "Isildur Aetherlight^Mx",
+                    },
+                    [142] = 
+                    {
+                        ["rawTimestamp"] = 1598902098,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:28] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:28] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:283:31|h[21:28]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:283:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [143] = 
+                    {
+                        ["rawTimestamp"] = 1598902153,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Lliikyd: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:284:31|h[21:29]|h |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0ac|H1:p:284:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Lliikyd^Mx",
+                    },
+                    [144] = 
+                    {
+                        ["rawTimestamp"] = 1598902154,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Fendrihla: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:285:31|h[21:29]|h |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0ac|H1:p:285:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Fendrihla^Fx",
+                    },
+                    [145] = 
+                    {
+                        ["rawTimestamp"] = 1598902162,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Anaélys: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Anaélys^Fx|hAnaélys|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:286:31|h[21:29]|h |r|cb1ae8a|H0:character:Anaélys^Fx|hAnaélys|h: |r|cd3d0ac|H1:p:286:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Anaélys^Fx",
+                    },
+                    [146] = 
+                    {
+                        ["rawTimestamp"] = 1598902164,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:287:31|h[21:29]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:287:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [147] = 
+                    {
+                        ["rawTimestamp"] = 1598902175,
+                        ["rawMessage"] = "dolmen",
+                        ["rawText"] = "dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Isildur Aetherlight: dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Isildur Aetherlight^Mx|hIsildur Aetherlight|h: |r|cd3d0acdolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:288:31|h[21:29]|h |r|cb1ae8a|H0:character:Isildur Aetherlight^Mx|hIsildur Aetherlight|h: |r|cd3d0ac|H1:p:288:31|hdolmen|h|r",
+                        ["rawFrom"] = "Isildur Aetherlight^Mx",
+                    },
+                    [148] = 
+                    {
+                        ["rawTimestamp"] = 1598902175,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Elweal: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Elweal^Mx|hElweal|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:289:31|h[21:29]|h |r|cb1ae8a|H0:character:Elweal^Mx|hElweal|h: |r|cd3d0ac|H1:p:289:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Elweal^Mx",
+                    },
+                    [149] = 
+                    {
+                        ["rawTimestamp"] = 1598902191,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:29] Lliikyd: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:29] |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:290:31|h[21:29]|h |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0ac|H1:p:290:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Lliikyd^Mx",
+                    },
+                    [150] = 
+                    {
+                        ["rawTimestamp"] = 1598902200,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Fendrihla: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:291:31|h[21:30]|h |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0ac|H1:p:291:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Fendrihla^Fx",
+                    },
+                    [151] = 
+                    {
+                        ["rawTimestamp"] = 1598902206,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Jony Paulo: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:292:31|h[21:30]|h |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0ac|H1:p:292:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Jony Paulo^Mx",
+                    },
+                    [152] = 
+                    {
+                        ["rawTimestamp"] = 1598902224,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:293:31|h[21:30]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:293:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [153] = 
+                    {
+                        ["rawTimestamp"] = 1598902224,
+                        ["rawMessage"] = "d",
+                        ["rawText"] = "d",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Testosteron-Ader: d",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acd|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:294:31|h[21:30]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:294:31|hd|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [154] = 
+                    {
+                        ["rawTimestamp"] = 1598902227,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:295:31|h[21:30]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:295:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [155] = 
+                    {
+                        ["rawTimestamp"] = 1598902230,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:30] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:30] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:296:31|h[21:30]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:296:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [156] = 
+                    {
+                        ["rawTimestamp"] = 1598902266,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:31] Lliikyd: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:31] |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:297:31|h[21:31]|h |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0ac|H1:p:297:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Lliikyd^Mx",
+                    },
+                    [157] = 
+                    {
+                        ["rawTimestamp"] = 1598902272,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:31] Jony Paulo: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:31] |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:298:31|h[21:31]|h |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0ac|H1:p:298:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Jony Paulo^Mx",
+                    },
+                    [158] = 
+                    {
+                        ["rawTimestamp"] = 1598902280,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:31] Fendrihla: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:31] |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:299:31|h[21:31]|h |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0ac|H1:p:299:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Fendrihla^Fx",
+                    },
+                    [159] = 
+                    {
+                        ["rawTimestamp"] = 1598902289,
+                        ["rawMessage"] = "all work and no play makes jack a dol man",
+                        ["rawText"] = "all work and no play makes jack a dol man",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:31] Cosantoir na Crann: all work and no play makes jack a dol man",
+                        ["rawValue"] = "|cb1ae8a[21:31] |r|cb1ae8a|H0:character:Cosantoir na Crann^Mx|hCosantoir na Crann|h: |r|cd3d0acall work and no play makes jack a dol man|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:300:31|h[21:31]|h |r|cb1ae8a|H0:character:Cosantoir na Crann^Mx|hCosantoir na Crann|h: |r|cd3d0ac|H1:p:300:31|hall work and no play makes jack a dol man|h|r",
+                        ["rawFrom"] = "Cosantoir na Crann^Mx",
+                    },
+                    [160] = 
+                    {
+                        ["rawTimestamp"] = 1598902292,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:31] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:31] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:301:31|h[21:31]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:301:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [161] = 
+                    {
+                        ["rawTimestamp"] = 1598902341,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:302:31|h[21:32]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:302:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [162] = 
+                    {
+                        ["rawTimestamp"] = 1598902343,
+                        ["rawMessage"] = "lfg dolmen",
+                        ["rawText"] = "lfg dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Tahrez: lfg dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0aclfg dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:303:31|h[21:32]|h |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0ac|H1:p:303:31|hlfg dolmen|h|r",
+                        ["rawFrom"] = "Tahrez^Mx",
+                    },
+                    [163] = 
+                    {
+                        ["rawTimestamp"] = 1598902347,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] croorcen: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:croorcen^Mx|hcroorcen|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:304:31|h[21:32]|h |r|cb1ae8a|H0:character:croorcen^Mx|hcroorcen|h: |r|cd3d0ac|H1:p:304:31|hdolmen+|h|r",
+                        ["rawFrom"] = "croorcen^Mx",
+                    },
+                    [164] = 
+                    {
+                        ["rawTimestamp"] = 1598902355,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Rydag: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Rydag^Mx|hRydag|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:305:31|h[21:32]|h |r|cb1ae8a|H0:character:Rydag^Mx|hRydag|h: |r|cd3d0ac|H1:p:305:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Rydag^Mx",
+                    },
+                    [165] = 
+                    {
+                        ["rawTimestamp"] = 1598902356,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Jony Paulo: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:306:31|h[21:32]|h |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0ac|H1:p:306:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Jony Paulo^Mx",
+                    },
+                    [166] = 
+                    {
+                        ["rawTimestamp"] = 1598902357,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Lliikyd: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:307:31|h[21:32]|h |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0ac|H1:p:307:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Lliikyd^Mx",
+                    },
+                    [167] = 
+                    {
+                        ["rawTimestamp"] = 1598902358,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Tahrez: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:308:31|h[21:32]|h |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0ac|H1:p:308:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Tahrez^Mx",
+                    },
+                    [168] = 
+                    {
+                        ["rawTimestamp"] = 1598902364,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Fendrihla: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:309:31|h[21:32]|h |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0ac|H1:p:309:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Fendrihla^Fx",
+                    },
+                    [169] = 
+                    {
+                        ["rawTimestamp"] = 1598902366,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] Tahrez: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:310:31|h[21:32]|h |r|cb1ae8a|H0:character:Tahrez^Mx|hTahrez|h: |r|cd3d0ac|H1:p:310:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Tahrez^Mx",
+                    },
+                    [170] = 
+                    {
+                        ["rawTimestamp"] = 1598902371,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:32] croorcen: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:32] |r|cb1ae8a|H0:character:croorcen^Mx|hcroorcen|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:311:31|h[21:32]|h |r|cb1ae8a|H0:character:croorcen^Mx|hcroorcen|h: |r|cd3d0ac|H1:p:311:31|h+dolmen|h|r",
+                        ["rawFrom"] = "croorcen^Mx",
+                    },
+                    [171] = 
+                    {
+                        ["rawTimestamp"] = 1598902386,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:33] Grey silverblood: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:33] |r|cb1ae8a|H0:character:Grey silverblood^Mx|hGrey silverblood|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:312:31|h[21:33]|h |r|cb1ae8a|H0:character:Grey silverblood^Mx|hGrey silverblood|h: |r|cd3d0ac|H1:p:312:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Grey silverblood^Mx",
+                    },
+                    [172] = 
+                    {
+                        ["rawTimestamp"] = 1598902387,
+                        ["rawMessage"] = "[21:33] Dustman has marked [Rubedo Leather Boots] as junk (ORNATE W/A).",
+                        ["rawText"] = "[21:33] Dustman has marked |H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:33] [21:33] Dustman has marked [Rubedo Leather Boots] as junk (ORNATE W/A).",
+                        ["rawValue"] = "[21:33] Dustman has marked |H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
+                        ["rawDisplayed"] = "|H1:p:313:11|h[21:33] Dustman has marked |h|H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h|H1:p:313:11|h as junk (ORNATE W/A).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [173] = 
+                    {
+                        ["rawTimestamp"] = 1598902387,
+                        ["rawMessage"] = "[21:33] Dustman has marked [Carapace] as junk (TRASH).",
+                        ["rawText"] = "[21:33] Dustman has marked |H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h as junk (TRASH).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:33] [21:33] Dustman has marked [Carapace] as junk (TRASH).",
+                        ["rawValue"] = "[21:33] Dustman has marked |H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h as junk (TRASH).",
+                        ["rawDisplayed"] = "|H1:p:314:11|h[21:33] Dustman has marked |h|H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:314:11|h as junk (TRASH).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [174] = 
+                    {
+                        ["rawTimestamp"] = 1598902393,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:33] Soulja Dan: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:33] |r|cb1ae8a|H0:character:Soulja Dan^Mx|hSoulja Dan|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:315:31|h[21:33]|h |r|cb1ae8a|H0:character:Soulja Dan^Mx|hSoulja Dan|h: |r|cd3d0ac|H1:p:315:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Soulja Dan^Mx",
+                    },
+                    [175] = 
+                    {
+                        ["rawTimestamp"] = 1598902396,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:33] Aflyxe: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:33] |r|cb1ae8a|H0:character:Aflyxe^Fx|hAflyxe|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:316:31|h[21:33]|h |r|cb1ae8a|H0:character:Aflyxe^Fx|hAflyxe|h: |r|cd3d0ac|H1:p:316:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Aflyxe^Fx",
+                    },
+                    [176] = 
+                    {
+                        ["rawTimestamp"] = 1598902401,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:33] Elweal: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:33] |r|cb1ae8a|H0:character:Elweal^Mx|hElweal|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:317:31|h[21:33]|h |r|cb1ae8a|H0:character:Elweal^Mx|hElweal|h: |r|cd3d0ac|H1:p:317:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Elweal^Mx",
+                    },
+                    [177] = 
+                    {
+                        ["rawTimestamp"] = 1598902425,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:33] Testosteron-Ader: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:33] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:318:31|h[21:33]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:318:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [178] = 
+                    {
+                        ["rawTimestamp"] = 1598902443,
+                        ["rawMessage"] = "hat jemand lust mich etwas zu lvln? pn me :)",
+                        ["rawText"] = "hat jemand lust mich etwas zu lvln? pn me :)",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:34] Testosteron-Ader: hat jemand lust mich etwas zu lvln? pn me :)",
+                        ["rawValue"] = "|cb1ae8a[21:34] |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0achat jemand lust mich etwas zu lvln? pn me :)|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:319:31|h[21:34]|h |r|cb1ae8a|H0:character:Testosteron-Ader^Mx|hTestosteron-Ader|h: |r|cd3d0ac|H1:p:319:31|hhat jemand lust mich etwas zu lvln? pn me :)|h|r",
+                        ["rawFrom"] = "Testosteron-Ader^Mx",
+                    },
+                    [179] = 
+                    {
+                        ["rawTimestamp"] = 1598902454,
+                        ["rawMessage"] = "Dolmen+",
+                        ["rawText"] = "Dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:34] Lliikyd: Dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:34] |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0acDolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:320:31|h[21:34]|h |r|cb1ae8a|H0:character:Lliikyd^Mx|hLliikyd|h: |r|cd3d0ac|H1:p:320:31|hDolmen+|h|r",
+                        ["rawFrom"] = "Lliikyd^Mx",
+                    },
+                    [180] = 
+                    {
+                        ["rawTimestamp"] = 1598902463,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:34] Fendrihla: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:34] |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:321:31|h[21:34]|h |r|cb1ae8a|H0:character:Fendrihla^Fx|hFendrihla|h: |r|cd3d0ac|H1:p:321:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Fendrihla^Fx",
+                    },
+                    [181] = 
+                    {
+                        ["rawTimestamp"] = 1598902476,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:34] Jony Paulo: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:34] |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:322:31|h[21:34]|h |r|cb1ae8a|H0:character:Jony Paulo^Mx|hJony Paulo|h: |r|cd3d0ac|H1:p:322:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Jony Paulo^Mx",
+                    },
+                    [182] = 
+                    {
+                        ["rawTimestamp"] = 1598902482,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:34] Yabba-nahl: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:34] |r|cb1ae8a|H0:character:Yabba-nahl^Mx|hYabba-nahl|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:323:31|h[21:34]|h |r|cb1ae8a|H0:character:Yabba-nahl^Mx|hYabba-nahl|h: |r|cd3d0ac|H1:p:323:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Yabba-nahl^Mx",
+                    },
+                    [183] = 
+                    {
+                        ["rawTimestamp"] = 1598902534,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:35] Mortobal Warden: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:35] |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:324:31|h[21:35]|h |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac|H1:p:324:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Mortobal Warden^Mx",
+                    },
+                    [184] = 
+                    {
+                        ["rawTimestamp"] = 1598902538,
+                        ["rawMessage"] = "a",
+                        ["rawText"] = "a",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:35] Flatas: a",
+                        ["rawValue"] = "|cb1ae8a[21:35] |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0aca|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:325:31|h[21:35]|h |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0ac|H1:p:325:31|ha|h|r",
+                        ["rawFrom"] = "Flatas^Mx",
+                    },
+                    [185] = 
+                    {
+                        ["rawTimestamp"] = 1598902543,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:35] Flatas: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:35] |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:326:31|h[21:35]|h |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0ac|H1:p:326:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Flatas^Mx",
+                    },
+                    [186] = 
+                    {
+                        ["rawTimestamp"] = 1598902551,
+                        ["rawMessage"] = "dolmen+",
+                        ["rawText"] = "dolmen+",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:35] Mortobal Warden: dolmen+",
+                        ["rawValue"] = "|cb1ae8a[21:35] |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0acdolmen+|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:327:31|h[21:35]|h |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac|H1:p:327:31|hdolmen+|h|r",
+                        ["rawFrom"] = "Mortobal Warden^Mx",
+                    },
+                    [187] = 
+                    {
+                        ["rawTimestamp"] = 1598902560,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:36] Mortobal Warden: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:36] |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:328:31|h[21:36]|h |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac|H1:p:328:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Mortobal Warden^Mx",
+                    },
+                    [188] = 
+                    {
+                        ["rawTimestamp"] = 1598902580,
+                        ["rawMessage"] = "nobody autoinvite  :)",
+                        ["rawText"] = "nobody autoinvite  :)",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:36] Mortobal Warden: nobody autoinvite  :)",
+                        ["rawValue"] = "|cb1ae8a[21:36] |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0acnobody autoinvite  :)|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:329:31|h[21:36]|h |r|cb1ae8a|H0:character:Mortobal Warden^Mx|hMortobal Warden|h: |r|cd3d0ac|H1:p:329:31|hnobody autoinvite  :)|h|r",
+                        ["rawFrom"] = "Mortobal Warden^Mx",
+                    },
+                    [189] = 
+                    {
+                        ["rawTimestamp"] = 1598902580,
+                        ["rawMessage"] = "[21:36] Item with set bonus: [Sword-Singer's Greatsword] (Sword-Singer).",
+                        ["rawText"] = "[21:36] Item with set bonus: |H0:item:99350:362:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:300:0|h|h (Sword-Singer).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:36] [21:36] Item with set bonus: [Sword-Singer's Greatsword] (Sword-Singer).",
+                        ["rawValue"] = "[21:36] Item with set bonus: |H0:item:99350:362:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:300:0|h|h (Sword-Singer).",
+                        ["rawDisplayed"] = "|H1:p:330:11|h[21:36] Item with set bonus: |h|H0:item:99350:362:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:300:0|h|h|H1:p:330:11|h (Sword-Singer).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [190] = 
+                    {
+                        ["rawTimestamp"] = 1598902623,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:37] Shaitank: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:37] |r|cb1ae8a|H0:character:Shaitank^Fx|hShaitank|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:331:31|h[21:37]|h |r|cb1ae8a|H0:character:Shaitank^Fx|hShaitank|h: |r|cd3d0ac|H1:p:331:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Shaitank^Fx",
+                    },
+                    [191] = 
+                    {
+                        ["rawTimestamp"] = 1598902646,
+                        ["rawMessage"] = "[21:37] Item with set bonus: [Sword-Singer's Helmet] (Sword-Singer).",
+                        ["rawText"] = "[21:37] Item with set bonus: |H0:item:99381:363:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h (Sword-Singer).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:37] [21:37] Item with set bonus: [Sword-Singer's Helmet] (Sword-Singer).",
+                        ["rawValue"] = "[21:37] Item with set bonus: |H0:item:99381:363:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h (Sword-Singer).",
+                        ["rawDisplayed"] = "|H1:p:332:11|h[21:37] Item with set bonus: |h|H0:item:99381:363:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h|H1:p:332:11|h (Sword-Singer).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [192] = 
+                    {
+                        ["rawTimestamp"] = 1598902665,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:37] Mr-masti: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:37] |r|cb1ae8a|H0:character:Mr-masti^Mx|hMr-masti|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:333:31|h[21:37]|h |r|cb1ae8a|H0:character:Mr-masti^Mx|hMr-masti|h: |r|cd3d0ac|H1:p:333:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Mr-masti^Mx",
+                    },
+                    [193] = 
+                    {
+                        ["rawTimestamp"] = 1598902700,
+                        ["rawMessage"] = "Actively growing new Trading \"|H1:guild:650356|hUnder an Old Tree|h\" looking for peasants and feudalists, artisans and bandits, merchants and knights!  NO Rules here. You don't need to sell anything, no fee, no requirements! Just be yourself. Cheers. ",
+                        ["rawText"] = "Actively growing new Trading \"|H1:guild:650356|hUnder an Old Tree|h\" looking for peasants and feudalists, artisans and bandits, merchants and knights!  NO Rules here. You don't need to sell anything, no fee, no requirements! Just be yourself. Cheers. ",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:38] Come What May: Actively growing new Trading \"|H1:guild:650356|hUnder an Old Tree|h\" looking for peasants and feudalists, artisans and bandits, merchants and knights!  NO Rules here. You don't need to sell anything, no fee, no requirements! Just be yourself. Cheers. ",
+                        ["rawValue"] = "|cb1ae8a[21:38] |r|cb1ae8a|H0:character:Come What May^Mx|hCome What May|h: |r|cd3d0acActively growing new Trading \"|H1:guild:650356|hUnder an Old Tree|h\" looking for peasants and feudalists, artisans and bandits, merchants and knights!  NO Rules here. You don't need to sell anything, no fee, no requirements! Just be yourself. Cheers. |r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:334:31|h[21:38]|h |r|cb1ae8a|H0:character:Come What May^Mx|hCome What May|h: |r|cd3d0ac|H1:p:334:31|hActively growing new Trading \"|h|H1:guild:650356|hUnder an Old Tree|h|H1:p:334:31|h\" looking for peasants and feudalists, artisans and bandits, merchants and knights!  NO Rules here. Y|h|H1:p:334:31|hou don't need to sell anything, no fee, no requirements! Just be yourself. Cheers. |h|r",
+                        ["rawFrom"] = "Come What May^Mx",
+                    },
+                    [194] = 
+                    {
+                        ["rawTimestamp"] = 1598902734,
+                        ["rawMessage"] = "+Dolmen",
+                        ["rawText"] = "+Dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:38] bloodybottom: +Dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:38] |r|cb1ae8a|H0:character:bloodybottom^Mx|hbloodybottom|h: |r|cd3d0ac+Dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:335:31|h[21:38]|h |r|cb1ae8a|H0:character:bloodybottom^Mx|hbloodybottom|h: |r|cd3d0ac|H1:p:335:31|h+Dolmen|h|r",
+                        ["rawFrom"] = "bloodybottom^Mx",
+                    },
+                    [195] = 
+                    {
+                        ["rawTimestamp"] = 1598902735,
+                        ["rawMessage"] = "+dolmen",
+                        ["rawText"] = "+dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:38] Flatas: +dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:38] |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0ac+dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:336:31|h[21:38]|h |r|cb1ae8a|H0:character:Flatas^Mx|hFlatas|h: |r|cd3d0ac|H1:p:336:31|h+dolmen|h|r",
+                        ["rawFrom"] = "Flatas^Mx",
+                    },
+                    [196] = 
+                    {
+                        ["rawTimestamp"] = 1598902763,
+                        ["rawMessage"] = "+ dolmen",
+                        ["rawText"] = "+ dolmen",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:39] Clem Renn: + dolmen",
+                        ["rawValue"] = "|cb1ae8a[21:39] |r|cb1ae8a|H0:character:Clem Renn^Fx|hClem Renn|h: |r|cd3d0ac+ dolmen|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:337:31|h[21:39]|h |r|cb1ae8a|H0:character:Clem Renn^Fx|hClem Renn|h: |r|cd3d0ac|H1:p:337:31|h+ dolmen|h|r",
+                        ["rawFrom"] = "Clem Renn^Fx",
+                    },
+                    [197] = 
+                    {
+                        ["rawTimestamp"] = 1598902817,
+                        ["rawMessage"] = "I'd like a ww bite please!",
+                        ["rawText"] = "I'd like a ww bite please!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:40] Ebatrine: I'd like a ww bite please!",
+                        ["rawValue"] = "|cb1ae8a[21:40] |r|cb1ae8a|H0:character:Ebatrine^Fx|hEbatrine|h: |r|cd3d0acI'd like a ww bite please!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:338:31|h[21:40]|h |r|cb1ae8a|H0:character:Ebatrine^Fx|hEbatrine|h: |r|cd3d0ac|H1:p:338:31|hI'd like a ww bite please!|h|r",
+                        ["rawFrom"] = "Ebatrine^Fx",
+                    },
+                    [198] = 
+                    {
+                        ["rawTimestamp"] = 1598902850,
+                        ["rawMessage"] = "gimme a moment to switch characters so i can bite you.",
+                        ["rawText"] = "gimme a moment to switch characters so i can bite you.",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:40] Pandemonium Grey: gimme a moment to switch characters so i can bite you.",
+                        ["rawValue"] = "|cb1ae8a[21:40] |r|cb1ae8a|H0:character:Pandemonium Grey^Fx|hPandemonium Grey|h: |r|cd3d0acgimme a moment to switch characters so i can bite you.|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:339:31|h[21:40]|h |r|cb1ae8a|H0:character:Pandemonium Grey^Fx|hPandemonium Grey|h: |r|cd3d0ac|H1:p:339:31|hgimme a moment to switch characters so i can bite you.|h|r",
+                        ["rawFrom"] = "Pandemonium Grey^Fx",
+                    },
+                    [199] = 
+                    {
+                        ["rawTimestamp"] = 1598902863,
+                        ["rawMessage"] = "awesome",
+                        ["rawText"] = "awesome",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:41] Ebatrine: awesome",
+                        ["rawValue"] = "|cb1ae8a[21:41] |r|cb1ae8a|H0:character:Ebatrine^Fx|hEbatrine|h: |r|cd3d0acawesome|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:340:31|h[21:41]|h |r|cb1ae8a|H0:character:Ebatrine^Fx|hEbatrine|h: |r|cd3d0ac|H1:p:340:31|hawesome|h|r",
+                        ["rawFrom"] = "Ebatrine^Fx",
+                    },
+                    [200] = 
+                    {
+                        ["rawTimestamp"] = 1598902943,
+                        ["rawMessage"] = "[21:42] Item with set bonus: [Vampire Lord's Greatsword] (Vampire Lord).",
+                        ["rawText"] = "[21:42] Item with set bonus: |H0:item:100466:359:50:0:0:0:0:0:0:0:0:0:0:0:0:7:0:0:0:250:0|h|h (Vampire Lord).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:42] [21:42] Item with set bonus: [Vampire Lord's Greatsword] (Vampire Lord).",
+                        ["rawValue"] = "[21:42] Item with set bonus: |H0:item:100466:359:50:0:0:0:0:0:0:0:0:0:0:0:0:7:0:0:0:250:0|h|h (Vampire Lord).",
+                        ["rawDisplayed"] = "|H1:p:341:11|h[21:42] Item with set bonus: |h|H0:item:100466:359:50:0:0:0:0:0:0:0:0:0:0:0:0:7:0:0:0:250:0|h|h|H1:p:341:11|h (Vampire Lord).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [201] = 
+                    {
+                        ["rawTimestamp"] = 1598902967,
+                        ["rawMessage"] = "[21:42] Apparel repaired for 6",
+                        ["rawText"] = "[21:42] Apparel repaired for |cFFFFFF6|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:42] [21:42] Apparel repaired for 6",
+                        ["rawValue"] = "[21:42] Apparel repaired for |cFFFFFF6|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawDisplayed"] = "|H1:p:342:11|h[21:42] Apparel repaired for |h|cFFFFFF|H1:p:342:11|h6|h|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawFrom"] = "",
+                    },
+                    [202] = 
+                    {
+                        ["rawTimestamp"] = 1598902968,
+                        ["rawMessage"] = "[21:42] Dustman sold 1x [Rubedo Leather Boots] for 108.",
+                        ["rawText"] = "[21:42] Dustman sold 1x |H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 108|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:42] [21:42] Dustman sold 1x [Rubedo Leather Boots] for 108.",
+                        ["rawValue"] = "[21:42] Dustman sold 1x |H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 108|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:343:11|h[21:42] Dustman sold 1x |h|H0:item:45322:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h|H1:p:343:11|h for 108|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:343:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [203] = 
+                    {
+                        ["rawTimestamp"] = 1598902968,
+                        ["rawMessage"] = "[21:42] Dustman sold 1x [Carapace] for 9.",
+                        ["rawText"] = "[21:42] Dustman sold 1x |H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h for 9|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:42] [21:42] Dustman sold 1x [Carapace] for 9.",
+                        ["rawValue"] = "[21:42] Dustman sold 1x |H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h for 9|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:344:11|h[21:42] Dustman sold 1x |h|H0:item:54382:177:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:344:11|h for 9|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:344:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [204] = 
+                    {
+                        ["rawTimestamp"] = 1598902968,
+                        ["rawMessage"] = "[21:42] Dustman sold 2 items (2 stacks) for 117.",
+                        ["rawText"] = "[21:42] Dustman sold 2 items (2 stacks) for 117|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:42] [21:42] Dustman sold 2 items (2 stacks) for 117.",
+                        ["rawValue"] = "[21:42] Dustman sold 2 items (2 stacks) for 117|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:345:11|h[21:42] Dustman sold 2 items (2 stacks) for 117|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:345:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [205] = 
+                    {
+                        ["rawTimestamp"] = 1598903054,
+                        ["rawMessage"] = "lfm 2 dd for vet blackheart haven",
+                        ["rawText"] = "lfm 2 dd for vet blackheart haven",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:44] Jússy: lfm 2 dd for vet blackheart haven",
+                        ["rawValue"] = "|cb1ae8a[21:44] |r|cb1ae8a|H0:character:Jússy^Mx|hJússy|h: |r|cd3d0aclfm 2 dd for vet blackheart haven|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:346:31|h[21:44]|h |r|cb1ae8a|H0:character:Jússy^Mx|hJússy|h: |r|cd3d0ac|H1:p:346:31|hlfm 2 dd for vet blackheart haven|h|r",
+                        ["rawFrom"] = "Jússy^Mx",
+                    },
+                    [206] = 
+                    {
+                        ["rawTimestamp"] = 1598903106,
+                        ["rawMessage"] = "Selling [Dreugh Wax] 7500g",
+                        ["rawText"] = "Selling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:45] Ella Dawenport: Selling [Dreugh Wax] 7500g",
+                        ["rawValue"] = "|cb1ae8a[21:45] |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0acSelling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:347:31|h[21:45]|h |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0ac|H1:p:347:31|hSelling |h|H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:347:31|h 7500g|h|r",
+                        ["rawFrom"] = "Ella Dawenport^Fx",
+                    },
+                    [207] = 
+                    {
+                        ["rawTimestamp"] = 1598903115,
+                        ["rawMessage"] = "[21:45] Item with set bonus: [Seventh Legion's Shield] (Seventh Legion Brute).",
+                        ["rawText"] = "[21:45] Item with set bonus: |H0:item:100883:362:50:0:0:0:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h (Seventh Legion Brute).",
+                        ["channel"] = 11,
+                        ["rawLine"] = "[21:45] [21:45] Item with set bonus: [Seventh Legion's Shield] (Seventh Legion Brute).",
+                        ["rawValue"] = "[21:45] Item with set bonus: |H0:item:100883:362:50:0:0:0:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h (Seventh Legion Brute).",
+                        ["rawDisplayed"] = "|H1:p:348:11|h[21:45] Item with set bonus: |h|H0:item:100883:362:50:0:0:0:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h|H1:p:348:11|h (Seventh Legion Brute).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [208] = 
+                    {
+                        ["rawTimestamp"] = 1598903345,
+                        ["rawMessage"] = "Selling [Dreugh Wax] 7500g",
+                        ["rawText"] = "Selling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:49] Ella Dawenport: Selling [Dreugh Wax] 7500g",
+                        ["rawValue"] = "|cb1ae8a[21:49] |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0acSelling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:349:31|h[21:49]|h |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0ac|H1:p:349:31|hSelling |h|H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:349:31|h 7500g|h|r",
+                        ["rawFrom"] = "Ella Dawenport^Fx",
+                    },
+                    [209] = 
+                    {
+                        ["rawTimestamp"] = 1598903714,
+                        ["rawMessage"] = "drunk DD LFG 4 kesys",
+                        ["rawText"] = "drunk DD LFG 4 kesys",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:55] Chasing-my-tail: drunk DD LFG 4 kesys",
+                        ["rawValue"] = "|cb1ae8a[21:55] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acdrunk DD LFG 4 kesys|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:350:31|h[21:55]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:350:31|hdrunk DD LFG 4 kesys|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [210] = 
+                    {
+                        ["rawTimestamp"] = 1598903742,
+                        ["rawMessage"] = "drunk DD LFG 4 kesysif you need the equipmznt from the doungeon i will give you ift for free",
+                        ["rawText"] = "drunk DD LFG 4 kesysif you need the equipmznt from the doungeon i will give you ift for free",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:55] Chasing-my-tail: drunk DD LFG 4 kesysif you need the equipmznt from the doungeon i will give you ift for free",
+                        ["rawValue"] = "|cb1ae8a[21:55] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acdrunk DD LFG 4 kesysif you need the equipmznt from the doungeon i will give you ift for free|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:351:31|h[21:55]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:351:31|hdrunk DD LFG 4 kesysif you need the equipmznt from the doungeon i will give you ift for free|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [211] = 
+                    {
+                        ["rawTimestamp"] = 1598903856,
+                        ["rawMessage"] = "Looking for a friendly trading guild with low requirements? Join |H1:guild:530576|hTraders of Lamae|h. We have guildhall and crafthall with transmute and all set cafting stations,  banker, merchant, all munduses, discord and twitch channel with giveaways :) Click link to apply :) ",
+                        ["rawText"] = "Looking for a friendly trading guild with low requirements? Join |H1:guild:530576|hTraders of Lamae|h. We have guildhall and crafthall with transmute and all set cafting stations,  banker, merchant, all munduses, discord and twitch channel with giveaways :) Click link to apply :) ",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[21:57] Soulfallen Mage: Looking for a friendly trading guild with low requirements? Join |H1:guild:530576|hTraders of Lamae|h. We have guildhall and crafthall with transmute and all set cafting stations,  banker, merchant, all munduses, discord and twitch channel with giveaways :) Click link to apply :) ",
+                        ["rawValue"] = "|cb1ae8a[21:57] |r|cb1ae8a|H0:character:Soulfallen Mage^Mx|hSoulfallen Mage|h: |r|cd3d0acLooking for a friendly trading guild with low requirements? Join |H1:guild:530576|hTraders of Lamae|h. We have guildhall and crafthall with transmute and all set cafting stations,  banker, merchant, all munduses, discord and twitch channel with giveaways :) Click link to apply :) |r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:352:31|h[21:57]|h |r|cb1ae8a|H0:character:Soulfallen Mage^Mx|hSoulfallen Mage|h: |r|cd3d0ac|H1:p:352:31|hLooking for a friendly trading guild with low requirements? Join |h|H1:guild:530576|hTraders of Lamae|h|H1:p:352:31|h. We have guildhall and crafthall with transmute and all set cafting stations,  banker, merchant, all|h|H1:p:352:31|h munduses, discord and twitch channel with giveaways :) Click link to apply :) |h|r",
+                        ["rawFrom"] = "Soulfallen Mage^Mx",
+                    },
+                    [212] = 
+                    {
+                        ["rawTimestamp"] = 1598903932,
+                        ["rawMessage"] = "hola Luci! no te vi entrar",
+                        ["rawText"] = "hola Luci! no te vi entrar",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[21:58] [Hojablanca] @Valkyrya/Vanadie: hola Luci! no te vi entrar",
+                        ["rawValue"] = "|c83ebaa[21:58] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcchola Luci! no te vi entrar|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:353:18|h[21:58]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:353:18|hhola Luci! no te vi entrar|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [213] = 
+                    {
+                        ["rawTimestamp"] = 1598903937,
+                        ["rawMessage"] = "y Grukka¿ xD",
+                        ["rawText"] = "y Grukka¿ xD",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[21:58] [Hojablanca] @Valkyrya/Vanadie: y Grukka¿ xD",
+                        ["rawValue"] = "|c83ebaa[21:58] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffccy Grukka¿ xD|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:354:18|h[21:58]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:354:18|hy Grukka¿ xD|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [214] = 
+                    {
+                        ["rawTimestamp"] = 1598904019,
+                        ["rawMessage"] = "Holi! Debe estar cenando",
+                        ["rawText"] = "Holi! Debe estar cenando",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:00] [Hojablanca] @LucyRomeneia/Lucy Abyss: Holi! Debe estar cenando",
+                        ["rawValue"] = "|c83ebaa[22:00] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffccHoli! Debe estar cenando|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:355:18|h[22:00]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffcc|H1:p:355:18|hHoli! Debe estar cenando|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [215] = 
+                    {
+                        ["rawTimestamp"] = 1598904038,
+                        ["rawMessage"] = "oki :D",
+                        ["rawText"] = "oki :D",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:00] [Hojablanca] @Valkyrya/Vanadie: oki :D",
+                        ["rawValue"] = "|c83ebaa[22:00] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffccoki :D|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:356:18|h[22:00]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:356:18|hoki :D|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [216] = 
+                    {
+                        ["rawTimestamp"] = 1598904042,
+                        ["rawMessage"] = "le dije que a las 5 empezabamos ayer y me dijo que mucho mejor",
+                        ["rawText"] = "le dije que a las 5 empezabamos ayer y me dijo que mucho mejor",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:00] [Hojablanca] @LucyRomeneia/Lucy Abyss: le dije que a las 5 empezabamos ayer y me dijo que mucho mejor",
+                        ["rawValue"] = "|c83ebaa[22:00] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffccle dije que a las 5 empezabamos ayer y me dijo que mucho mejor|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:357:18|h[22:00]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffcc|H1:p:357:18|hle dije que a las 5 empezabamos ayer y me dijo que mucho mejor|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [217] = 
+                    {
+                        ["rawTimestamp"] = 1598904053,
+                        ["rawMessage"] = "las 5 son nuestras 22?",
+                        ["rawText"] = "las 5 son nuestras 22?",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:00] [Hojablanca] @Valkyrya/Vanadie: las 5 son nuestras 22?",
+                        ["rawValue"] = "|c83ebaa[22:00] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcclas 5 son nuestras 22?|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:358:18|h[22:00]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:358:18|hlas 5 son nuestras 22?|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [218] = 
+                    {
+                        ["rawTimestamp"] = 1598904059,
+                        ["rawMessage"] = "thx",
+                        ["rawText"] = "thx",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:00] Abra Kadavra: thx",
+                        ["rawValue"] = "|cb1ae8a[22:00] |r|cb1ae8a|H0:character:Abra Kadavra^Mx|hAbra Kadavra|h: |r|cd3d0acthx|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:359:31|h[22:00]|h |r|cb1ae8a|H0:character:Abra Kadavra^Mx|hAbra Kadavra|h: |r|cd3d0ac|H1:p:359:31|hthx|h|r",
+                        ["rawFrom"] = "Abra Kadavra^Mx",
+                    },
+                    [219] = 
+                    {
+                        ["rawTimestamp"] = 1598904063,
+                        ["rawMessage"] = "si, 5 horas de diferencia :D",
+                        ["rawText"] = "si, 5 horas de diferencia :D",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:01] [Hojablanca] @LucyRomeneia/Lucy Abyss: si, 5 horas de diferencia :D",
+                        ["rawValue"] = "|c83ebaa[22:01] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffccsi, 5 horas de diferencia :D|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:360:18|h[22:01]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffcc|H1:p:360:18|hsi, 5 horas de diferencia :D|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [220] = 
+                    {
+                        ["rawTimestamp"] = 1598904070,
+                        ["rawMessage"] = "die",
+                        ["rawText"] = "die",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Chasing-my-tail: die",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acdie|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:361:31|h[22:01]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:361:31|hdie|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [221] = 
+                    {
+                        ["rawTimestamp"] = 1598904073,
+                        ["rawMessage"] = "oki ^^",
+                        ["rawText"] = "oki ^^",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:01] [Hojablanca] @Valkyrya/Vanadie: oki ^^",
+                        ["rawValue"] = "|c83ebaa[22:01] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffccoki ^^|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:362:18|h[22:01]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:362:18|hoki ^^|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [222] = 
+                    {
+                        ["rawTimestamp"] = 1598904076,
+                        ["rawMessage"] = "D:",
+                        ["rawText"] = "D:",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Not-So-Cold: D:",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Not-So-Cold^Mx|hNot-So-Cold|h: |r|cd3d0acD:|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:363:31|h[22:01]|h |r|cb1ae8a|H0:character:Not-So-Cold^Mx|hNot-So-Cold|h: |r|cd3d0ac|H1:p:363:31|hD:|h|r",
+                        ["rawFrom"] = "Not-So-Cold^Mx",
+                    },
+                    [223] = 
+                    {
+                        ["rawTimestamp"] = 1598904078,
+                        ["rawMessage"] = "jonkinfg",
+                        ["rawText"] = "jonkinfg",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Chasing-my-tail: jonkinfg",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acjonkinfg|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:364:31|h[22:01]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:364:31|hjonkinfg|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [224] = 
+                    {
+                        ["rawTimestamp"] = 1598904088,
+                        ["rawMessage"] = "maybe",
+                        ["rawText"] = "maybe",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Chasing-my-tail: maybe",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acmaybe|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:365:31|h[22:01]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:365:31|hmaybe|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [225] = 
+                    {
+                        ["rawTimestamp"] = 1598904091,
+                        ["rawMessage"] = "id",
+                        ["rawText"] = "id",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Chasing-my-tail: id",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acid|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:366:31|h[22:01]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:366:31|hid|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [226] = 
+                    {
+                        ["rawTimestamp"] = 1598904094,
+                        ["rawMessage"] = "idk",
+                        ["rawText"] = "idk",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] Chasing-my-tail: idk",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acidk|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:367:31|h[22:01]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:367:31|hidk|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [227] = 
+                    {
+                        ["rawTimestamp"] = 1598904099,
+                        ["rawMessage"] = "lf 2 good dps for 4 keys",
+                        ["rawText"] = "lf 2 good dps for 4 keys",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:01] 'Vestat: lf 2 good dps for 4 keys",
+                        ["rawValue"] = "|cb1ae8a[22:01] |r|cb1ae8a|H0:character:'Vestat^Mx|h'Vestat|h: |r|cd3d0aclf 2 good dps for 4 keys|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:368:31|h[22:01]|h |r|cb1ae8a|H0:character:'Vestat^Mx|h'Vestat|h: |r|cd3d0ac|H1:p:368:31|hlf 2 good dps for 4 keys|h|r",
+                        ["rawFrom"] = "'Vestat^Mx",
+                    },
+                    [228] = 
+                    {
+                        ["rawTimestamp"] = 1598904212,
+                        ["rawMessage"] = "WAKE ME UP! WAKE ME UP INSIIIIIIIIIIDE!!!!",
+                        ["rawText"] = "WAKE ME UP! WAKE ME UP INSIIIIIIIIIIDE!!!!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:03] xxpercykxx: WAKE ME UP! WAKE ME UP INSIIIIIIIIIIDE!!!!",
+                        ["rawValue"] = "|cb1ae8a[22:03] |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0acWAKE ME UP! WAKE ME UP INSIIIIIIIIIIDE!!!!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:369:31|h[22:03]|h |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0ac|H1:p:369:31|hWAKE ME UP! WAKE ME UP INSIIIIIIIIIIDE!!!!|h|r",
+                        ["rawFrom"] = "xxpercykxx^Mx",
+                    },
+                    [229] = 
+                    {
+                        ["rawTimestamp"] = 1598904220,
+                        ["rawMessage"] = "NO!",
+                        ["rawText"] = "NO!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:03] Eats-Tomatoes: NO!",
+                        ["rawValue"] = "|cb1ae8a[22:03] |r|cb1ae8a|H0:character:Eats-Tomatoes^Mx|hEats-Tomatoes|h: |r|cd3d0acNO!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:370:31|h[22:03]|h |r|cb1ae8a|H0:character:Eats-Tomatoes^Mx|hEats-Tomatoes|h: |r|cd3d0ac|H1:p:370:31|hNO!|h|r",
+                        ["rawFrom"] = "Eats-Tomatoes^Mx",
+                    },
+                    [230] = 
+                    {
+                        ["rawTimestamp"] = 1598904303,
+                        ["rawMessage"] = "shutufuckup ",
+                        ["rawText"] = "shutufuckup ",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:05] Chasing-my-tail: shutufuckup ",
+                        ["rawValue"] = "|cb1ae8a[22:05] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acshutufuckup |r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:371:31|h[22:05]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:371:31|hshutufuckup |h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [231] = 
+                    {
+                        ["rawTimestamp"] = 1598904311,
+                        ["rawMessage"] = "LFM 2 heals and 4 dd nHRC",
+                        ["rawText"] = "LFM 2 heals and 4 dd nHRC",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:05] Trokvold: LFM 2 heals and 4 dd nHRC",
+                        ["rawValue"] = "|cb1ae8a[22:05] |r|cb1ae8a|H0:character:Trokvold^Mx|hTrokvold|h: |r|cd3d0acLFM 2 heals and 4 dd nHRC|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:372:31|h[22:05]|h |r|cb1ae8a|H0:character:Trokvold^Mx|hTrokvold|h: |r|cd3d0ac|H1:p:372:31|hLFM 2 heals and 4 dd nHRC|h|r",
+                        ["rawFrom"] = "Trokvold^Mx",
+                    },
+                    [232] = 
+                    {
+                        ["rawTimestamp"] = 1598904312,
+                        ["rawMessage"] = "that song made one off my bast year",
+                        ["rawText"] = "that song made one off my bast year",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:05] Chasing-my-tail: that song made one off my bast year",
+                        ["rawValue"] = "|cb1ae8a[22:05] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acthat song made one off my bast year|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:373:31|h[22:05]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:373:31|hthat song made one off my bast year|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [233] = 
+                    {
+                        ["rawTimestamp"] = 1598904315,
+                        ["rawMessage"] = "shut up",
+                        ["rawText"] = "shut up",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:05] Chasing-my-tail: shut up",
+                        ["rawValue"] = "|cb1ae8a[22:05] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acshut up|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:374:31|h[22:05]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:374:31|hshut up|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [234] = 
+                    {
+                        ["rawTimestamp"] = 1598904337,
+                        ["rawMessage"] = "SAAAVE MEEE!!!",
+                        ["rawText"] = "SAAAVE MEEE!!!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:05] xxpercykxx: SAAAVE MEEE!!!",
+                        ["rawValue"] = "|cb1ae8a[22:05] |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0acSAAAVE MEEE!!!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:375:31|h[22:05]|h |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0ac|H1:p:375:31|hSAAAVE MEEE!!!|h|r",
+                        ["rawFrom"] = "xxpercykxx^Mx",
+                    },
+                    [235] = 
+                    {
+                        ["rawTimestamp"] = 1598904363,
+                        ["rawMessage"] = "whatsyourepèroblem dude /?",
+                        ["rawText"] = "whatsyourepèroblem dude /?",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:06] Chasing-my-tail: whatsyourepèroblem dude /?",
+                        ["rawValue"] = "|cb1ae8a[22:06] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acwhatsyourepèroblem dude /?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:376:31|h[22:06]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:376:31|hwhatsyourepèroblem dude /?|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [236] = 
+                    {
+                        ["rawTimestamp"] = 1598904385,
+                        ["rawMessage"] = "CALL MY NAME AND SAVE ME",
+                        ["rawText"] = "CALL MY NAME AND SAVE ME",
+                        ["channel"] = 32,
+                        ["rawLine"] = "[22:06] [EN] Lavengenzade-Nappa: CALL MY NAME AND SAVE ME",
+                        ["rawValue"] = "|cb1ae8a[22:06] |r|cb1ae8a[EN] |H0:character:Lavengenzade-Nappa^Mx|hLavengenzade-Nappa|h: |r|cd3d0acCALL MY NAME AND SAVE ME|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:377:32|h[22:06]|h |r|cb1ae8a[EN] |H0:character:Lavengenzade-Nappa^Mx|hLavengenzade-Nappa|h: |r|cd3d0ac|H1:p:377:32|hCALL MY NAME AND SAVE ME|h|r",
+                        ["rawFrom"] = "Lavengenzade-Nappa^Mx",
+                    },
+                    [237] = 
+                    {
+                        ["rawTimestamp"] = 1598904423,
+                        ["rawMessage"] = "FROM THE DAAARK!",
+                        ["rawText"] = "FROM THE DAAARK!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:07] xxpercykxx: FROM THE DAAARK!",
+                        ["rawValue"] = "|cb1ae8a[22:07] |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0acFROM THE DAAARK!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:378:31|h[22:07]|h |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0ac|H1:p:378:31|hFROM THE DAAARK!|h|r",
+                        ["rawFrom"] = "xxpercykxx^Mx",
+                    },
+                    [238] = 
+                    {
+                        ["rawTimestamp"] = 1598904441,
+                        ["rawMessage"] = ":||",
+                        ["rawText"] = ":||",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:07] Senemin: :||",
+                        ["rawValue"] = "|cb1ae8a[22:07] |r|cb1ae8a|H0:character:Senemin^Mx|hSenemin|h: |r|cd3d0ac:|||r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:379:31|h[22:07]|h |r|cb1ae8a|H0:character:Senemin^Mx|hSenemin|h: |r|cd3d0ac|H1:p:379:31|h:|||h|r",
+                        ["rawFrom"] = "Senemin^Mx",
+                    },
+                    [239] = 
+                    {
+                        ["rawTimestamp"] = 1598904446,
+                        ["rawMessage"] = "it's daytime!",
+                        ["rawText"] = "it's daytime!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:07] Ka'lmah: it's daytime!",
+                        ["rawValue"] = "|cb1ae8a[22:07] |r|cb1ae8a|H0:character:Ka'lmah^Mx|hKa'lmah|h: |r|cd3d0acit's daytime!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:380:31|h[22:07]|h |r|cb1ae8a|H0:character:Ka'lmah^Mx|hKa'lmah|h: |r|cd3d0ac|H1:p:380:31|hit's daytime!|h|r",
+                        ["rawFrom"] = "Ka'lmah^Mx",
+                    },
+                    [240] = 
+                    {
+                        ["rawTimestamp"] = 1598904487,
+                        ["rawMessage"] = "IT'SNIGHT !!!!!",
+                        ["rawText"] = "IT'SNIGHT !!!!!",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:08] Chasing-my-tail: IT'SNIGHT !!!!!",
+                        ["rawValue"] = "|cb1ae8a[22:08] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acIT'SNIGHT !!!!!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:381:31|h[22:08]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:381:31|hIT'SNIGHT !!!!!|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [241] = 
+                    {
+                        ["rawTimestamp"] = 1598904504,
+                        ["rawMessage"] = "k pasa gente",
+                        ["rawText"] = "k pasa gente",
+                        ["channel"] = 14,
+                        ["rawLine"] = "[22:08] [SdA] @minotauro12/Elasirll: k pasa gente",
+                        ["rawValue"] = "|c41b341[22:08] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563k pasa gente|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:382:14|h[22:08]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:382:14|hk pasa gente|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [242] = 
+                    {
+                        ["rawTimestamp"] = 1598904522,
+                        ["rawMessage"] = "gotta love ESO chat xD",
+                        ["rawText"] = "gotta love ESO chat xD",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:08] xxpercykxx: gotta love ESO chat xD",
+                        ["rawValue"] = "|cb1ae8a[22:08] |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0acgotta love ESO chat xD|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:383:31|h[22:08]|h |r|cb1ae8a|H0:character:xxpercykxx^Mx|hxxpercykxx|h: |r|cd3d0ac|H1:p:383:31|hgotta love ESO chat xD|h|r",
+                        ["rawFrom"] = "xxpercykxx^Mx",
+                    },
+                    [243] = 
+                    {
+                        ["rawTimestamp"] = 1598904532,
+                        ["rawMessage"] = "Valinor Trading Union is looking for traders! Join |H1:guild:435978|hValinor Traders|h (Vivec, 150k min sales) or |H1:guild:616704|hValinor Overflow|h (Rawl'kha, 100k min sales) NOW! Huge guildhall & many events (social, PvE, PvP). For more info click on links ^^",
+                        ["rawText"] = "Valinor Trading Union is looking for traders! Join |H1:guild:435978|hValinor Traders|h (Vivec, 150k min sales) or |H1:guild:616704|hValinor Overflow|h (Rawl'kha, 100k min sales) NOW! Huge guildhall & many events (social, PvE, PvP). For more info click on links ^^",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:08] Avertar: Valinor Trading Union is looking for traders! Join |H1:guild:435978|hValinor Traders|h (Vivec, 150k min sales) or |H1:guild:616704|hValinor Overflow|h (Rawl'kha, 100k min sales) NOW! Huge guildhall & many events (social, PvE, PvP). For more info click on links ^^",
+                        ["rawValue"] = "|cb1ae8a[22:08] |r|cb1ae8a|H0:character:Avertar^Mx|hAvertar|h: |r|cd3d0acValinor Trading Union is looking for traders! Join |H1:guild:435978|hValinor Traders|h (Vivec, 150k min sales) or |H1:guild:616704|hValinor Overflow|h (Rawl'kha, 100k min sales) NOW! Huge guildhall & many events (social, PvE, PvP). For more info click on links ^^|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:384:31|h[22:08]|h |r|cb1ae8a|H0:character:Avertar^Mx|hAvertar|h: |r|cd3d0ac|H1:p:384:31|hValinor Trading Union is looking for traders! Join |h|H1:guild:435978|hValinor Traders|h|H1:p:384:31|h (Vivec, 150k min sales) or |h|H1:guild:616704|hValinor Overflow|h|H1:p:384:31|h (Rawl'kha, 100k min sales) NOW! Huge guildhall & many events (social, PvE, PvP). For more info click|h|H1:p:384:31|h on links ^^|h|r",
+                        ["rawFrom"] = "Avertar^Mx",
+                    },
+                    [244] = 
+                    {
+                        ["rawTimestamp"] = 1598904534,
+                        ["rawMessage"] = "Sigo siendo un desastre de dps, pero Gru me ha estado enseñando. Con paciencia y amor tal vez avance y ayude en la arena xD",
+                        ["rawText"] = "Sigo siendo un desastre de dps, pero Gru me ha estado enseñando. Con paciencia y amor tal vez avance y ayude en la arena xD",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:08] [Hojablanca] @LucyRomeneia/Lucy Abyss: Sigo siendo un desastre de dps, pero Gru me ha estado enseñando. Con paciencia y amor tal vez avance y ayude en la arena xD",
+                        ["rawValue"] = "|c83ebaa[22:08] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffccSigo siendo un desastre de dps, pero Gru me ha estado enseñando. Con paciencia y amor tal vez avance y ayude en la arena xD|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:385:18|h[22:08]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffcc|H1:p:385:18|hSigo siendo un desastre de dps, pero Gru me ha estado enseñando. Con paciencia y amor tal vez avance|h|H1:p:385:18|h y ayude en la arena xD|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [245] = 
+                    {
+                        ["rawTimestamp"] = 1598904541,
+                        ["rawMessage"] = "we love you too <3",
+                        ["rawText"] = "we love you too <3",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:09] Ka'lmah: we love you too <3",
+                        ["rawValue"] = "|cb1ae8a[22:09] |r|cb1ae8a|H0:character:Ka'lmah^Mx|hKa'lmah|h: |r|cd3d0acwe love you too <3|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:386:31|h[22:09]|h |r|cb1ae8a|H0:character:Ka'lmah^Mx|hKa'lmah|h: |r|cd3d0ac|H1:p:386:31|hwe love you too <3|h|r",
+                        ["rawFrom"] = "Ka'lmah^Mx",
+                    },
+                    [246] = 
+                    {
+                        ["rawTimestamp"] = 1598904555,
+                        ["rawMessage"] = "no creo que seas un desastre pero me alegro que te apetezca mejorar",
+                        ["rawText"] = "no creo que seas un desastre pero me alegro que te apetezca mejorar",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:09] [Hojablanca] @Valkyrya/Vanadie: no creo que seas un desastre pero me alegro que te apetezca mejorar",
+                        ["rawValue"] = "|c83ebaa[22:09] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffccno creo que seas un desastre pero me alegro que te apetezca mejorar|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:387:18|h[22:09]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:387:18|hno creo que seas un desastre pero me alegro que te apetezca mejorar|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [247] = 
+                    {
+                        ["rawTimestamp"] = 1598904567,
+                        ["rawMessage"] = "te he robado el puesto pq no se hacer dps aun D=",
+                        ["rawText"] = "te he robado el puesto pq no se hacer dps aun D=",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:09] [Hojablanca] @Valkyrya/Vanadie: te he robado el puesto pq no se hacer dps aun D=",
+                        ["rawValue"] = "|c83ebaa[22:09] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffccte he robado el puesto pq no se hacer dps aun D=|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:388:18|h[22:09]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|ca5ffcc|H1:p:388:18|hte he robado el puesto pq no se hacer dps aun D=|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [248] = 
+                    {
+                        ["rawTimestamp"] = 1598904571,
+                        ["rawMessage"] = "dd lfg 4 keys",
+                        ["rawText"] = "dd lfg 4 keys",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:09] Zaczek: dd lfg 4 keys",
+                        ["rawValue"] = "|cb1ae8a[22:09] |r|cb1ae8a|H0:character:Zaczek^Mx|hZaczek|h: |r|cd3d0acdd lfg 4 keys|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:389:31|h[22:09]|h |r|cb1ae8a|H0:character:Zaczek^Mx|hZaczek|h: |r|cd3d0ac|H1:p:389:31|hdd lfg 4 keys|h|r",
+                        ["rawFrom"] = "Zaczek^Mx",
+                    },
+                    [249] = 
+                    {
+                        ["rawTimestamp"] = 1598904573,
+                        ["rawMessage"] = "you aìhave ball sman",
+                        ["rawText"] = "you aìhave ball sman",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:09] Chasing-my-tail: you aìhave ball sman",
+                        ["rawValue"] = "|cb1ae8a[22:09] |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0acyou aìhave ball sman|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:390:31|h[22:09]|h |r|cb1ae8a|H0:character:Chasing-my-tail^Mx|hChasing-my-tail|h: |r|cd3d0ac|H1:p:390:31|hyou aìhave ball sman|h|r",
+                        ["rawFrom"] = "Chasing-my-tail^Mx",
+                    },
+                    [250] = 
+                    {
+                        ["rawTimestamp"] = 1598904599,
+                        ["rawMessage"] = "dd lfg dailies",
+                        ["rawText"] = "dd lfg dailies",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:09] Vhoion: dd lfg dailies",
+                        ["rawValue"] = "|cb1ae8a[22:09] |r|cb1ae8a|H0:character:Vhoion^Mx|hVhoion|h: |r|cd3d0acdd lfg dailies|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:391:31|h[22:09]|h |r|cb1ae8a|H0:character:Vhoion^Mx|hVhoion|h: |r|cd3d0ac|H1:p:391:31|hdd lfg dailies|h|r",
+                        ["rawFrom"] = "Vhoion^Mx",
+                    },
+                    [251] = 
+                    {
+                        ["rawTimestamp"] = 1598904689,
+                        ["rawMessage"] = "Selling [Dreugh Wax] 7500g",
+                        ["rawText"] = "Selling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g",
+                        ["channel"] = 31,
+                        ["rawLine"] = "[22:11] Ella Dawenport: Selling [Dreugh Wax] 7500g",
+                        ["rawValue"] = "|cb1ae8a[22:11] |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0acSelling |H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h 7500g|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:392:31|h[22:11]|h |r|cb1ae8a|H0:character:Ella Dawenport^Fx|hElla Dawenport|h: |r|cd3d0ac|H1:p:392:31|hSelling |h|H1:item:54177:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:392:31|h 7500g|h|r",
+                        ["rawFrom"] = "Ella Dawenport^Fx",
+                    },
+                    [252] = 
+                    {
+                        ["rawTimestamp"] = 1598904721,
+                        ["rawMessage"] = "nadie roba nada, eres buen healer asi que está bien que ese sea tu puesto!",
+                        ["rawText"] = "nadie roba nada, eres buen healer asi que está bien que ese sea tu puesto!",
+                        ["channel"] = 18,
+                        ["rawLine"] = "[22:12] [Hojablanca] @LucyRomeneia/Lucy Abyss: nadie roba nada, eres buen healer asi que está bien que ese sea tu puesto!",
+                        ["rawValue"] = "|c83ebaa[22:12] |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffccnadie roba nada, eres buen healer asi que está bien que ese sea tu puesto!|r",
+                        ["rawDisplayed"] = "|c83ebaa|H1:p:393:18|h[22:12]|h |r|c83ebaa|H1:channel:18|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|ca5ffcc|H1:p:393:18|hnadie roba nada, eres buen healer asi que está bien que ese sea tu puesto!|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [253] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08] Akelarre",
+                        ["rawLine"] = "[23:08] [23:08] Akelarre",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08] |cFFFFFFAkelarre|r",
+                        ["rawValue"] = "[23:08] |cFFFFFFAkelarre|r",
+                        ["rawDisplayed"] = "|H1:p:391:11|h[23:08] |h|cFFFFFF|H1:p:391:11|hAkelarre|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [254] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  You are the only one online :(",
+                        ["rawLine"] = "[23:08] [23:08]  You are the only one online :(",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cC3F0C2You are the only one online :(|r",
+                        ["rawValue"] = "[23:08]  |cC3F0C2You are the only one online :(|r",
+                        ["rawDisplayed"] = "|H1:p:392:11|h[23:08]  |h|cC3F0C2|H1:p:392:11|hYou are the only one online :(|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [255] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08] Hojablanca",
+                        ["rawLine"] = "[23:08] [23:08] Hojablanca",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08] |cFFFFFFHojablanca|r",
+                        ["rawValue"] = "[23:08] |cFFFFFFHojablanca|r",
+                        ["rawDisplayed"] = "|H1:p:393:11|h[23:08] |h|cFFFFFF|H1:p:393:11|hHojablanca|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [256] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  There are 7 members online:",
+                        ["rawLine"] = "[23:08] [23:08]  There are 7 members online:",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cC3F0C2There are 7 members online:|r",
+                        ["rawValue"] = "[23:08]  |cC3F0C2There are 7 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:394:11|h[23:08]  |h|cC3F0C2|H1:p:394:11|hThere are 7 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [257] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @LucyRomeneia/Lucy Abyss Sorcerer 50 810cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @LucyRomeneia/Lucy Abyss Sorcerer 50 810cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@LucyRomeneia|h@LucyRomeneia|h|r/|c6EABCALucy Abyss|r |cC3F0C2Sorcerer 50 810cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@LucyRomeneia|h@LucyRomeneia|h|r/|c6EABCALucy Abyss|r |cC3F0C2Sorcerer 50 810cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:395:11|h[23:08]  |h|cB27BFF|H1:character:@LucyRomeneia|h@LucyRomeneia|h|r|H1:p:395:11|h/|h|c6EABCA|H1:p:395:11|hLucy Abyss|h|r |cC3F0C2|H1:p:395:11|hSorcerer 50 810cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [258] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Milan69/lehvam Nightblade 28 in Cyrodiil",
+                        ["rawLine"] = "[23:08] [23:08]  @Milan69/lehvam Nightblade 28 in Cyrodiil",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 28 in Cyrodiil|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Milan69|h@Milan69|h|r/|c6EABCAlehvam|r |cC3F0C2Nightblade 28 in Cyrodiil|r",
+                        ["rawDisplayed"] = "|H1:p:396:11|h[23:08]  |h|cB27BFF|H1:character:@Milan69|h@Milan69|h|r|H1:p:396:11|h/|h|c6EABCA|H1:p:396:11|hlehvam|h|r |cC3F0C2|H1:p:396:11|hNightblade 28 in Cyrodiil|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [259] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @kigrooo/El Coletas Necromancer 27 in Root Sunder Ruins",
+                        ["rawLine"] = "[23:08] [23:08]  @kigrooo/El Coletas Necromancer 27 in Root Sunder Ruins",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r/|c6EABCAEl Coletas|r |cC3F0C2Necromancer 27 in Root Sunder Ruins|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r/|c6EABCAEl Coletas|r |cC3F0C2Necromancer 27 in Root Sunder Ruins|r",
+                        ["rawDisplayed"] = "|H1:p:397:11|h[23:08]  |h|cB27BFF|H1:character:@kigrooo|h@kigrooo|h|r|H1:p:397:11|h/|h|c6EABCA|H1:p:397:11|hEl Coletas|h|r |cC3F0C2|H1:p:397:11|hNecromancer 27 in Root Sunder Ruins|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [260] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Grukka/Vaz Vhumarak Necromancer 50 810cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @Grukka/Vaz Vhumarak Necromancer 50 810cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAVaz Vhumarak|r |cC3F0C2Necromancer 50 810cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Grukka|h@Grukka|h|r/|c6EABCAVaz Vhumarak|r |cC3F0C2Necromancer 50 810cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:398:11|h[23:08]  |h|cB27BFF|H1:character:@Grukka|h@Grukka|h|r|H1:p:398:11|h/|h|c6EABCA|H1:p:398:11|hVaz Vhumarak|h|r |cC3F0C2|H1:p:398:11|hNecromancer 50 810cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [261] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Valkyrya/Vanadie Templar 50 509cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @Valkyrya/Vanadie Templar 50 509cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r/|c6EABCAVanadie|r |cC3F0C2Templar 50 509cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r/|c6EABCAVanadie|r |cC3F0C2Templar 50 509cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:399:11|h[23:08]  |h|cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r|H1:p:399:11|h/|h|c6EABCA|H1:p:399:11|hVanadie|h|r |cC3F0C2|H1:p:399:11|hTemplar 50 509cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [262] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @kptnciam/Delta Carbon Warden 15 in Glenumbra",
+                        ["rawLine"] = "[23:08] [23:08]  @kptnciam/Delta Carbon Warden 15 in Glenumbra",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r/|c6EABCADelta Carbon|r |cC3F0C2Warden 15 in Glenumbra|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r/|c6EABCADelta Carbon|r |cC3F0C2Warden 15 in Glenumbra|r",
+                        ["rawDisplayed"] = "|H1:p:400:11|h[23:08]  |h|cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r|H1:p:400:11|h/|h|c6EABCA|H1:p:400:11|hDelta Carbon|h|r |cC3F0C2|H1:p:400:11|hWarden 15 in Glenumbra|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [263] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @ARenCer/Adiona Gardener Warden 50 488cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @ARenCer/Adiona Gardener Warden 50 488cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAAdiona Gardener|r |cC3F0C2Warden 50 488cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAAdiona Gardener|r |cC3F0C2Warden 50 488cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:401:11|h[23:08]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:401:11|h/|h|c6EABCA|H1:p:401:11|hAdiona Gardener|h|r |cC3F0C2|H1:p:401:11|hWarden 50 488cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [264] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08] Señores del apocalipsis",
+                        ["rawLine"] = "[23:08] [23:08] Señores del apocalipsis",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawValue"] = "[23:08] |cFFFFFFSeñores del apocalipsis|r",
+                        ["rawDisplayed"] = "|H1:p:402:11|h[23:08] |h|cFFFFFF|H1:p:402:11|hSeñores del apocalipsis|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [265] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  There are 9 members online:",
+                        ["rawLine"] = "[23:08] [23:08]  There are 9 members online:",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cC3F0C2There are 9 members online:|r",
+                        ["rawValue"] = "[23:08]  |cC3F0C2There are 9 members online:|r",
+                        ["rawDisplayed"] = "|H1:p:403:11|h[23:08]  |h|cC3F0C2|H1:p:403:11|hThere are 9 members online:|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [266] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Agaliarepth/Brymir Bloodclaw Warden 50 810cp in Vvardenfell",
+                        ["rawLine"] = "[23:08] [23:08]  @Agaliarepth/Brymir Bloodclaw Warden 50 810cp in Vvardenfell",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r/|c6EABCABrymir Bloodclaw|r |cC3F0C2Warden 50 810cp in Vvardenfell|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r/|c6EABCABrymir Bloodclaw|r |cC3F0C2Warden 50 810cp in Vvardenfell|r",
+                        ["rawDisplayed"] = "|H1:p:404:11|h[23:08]  |h|cB27BFF|H1:character:@Agaliarepth|h@Agaliarepth|h|r|H1:p:404:11|h/|h|c6EABCA|H1:p:404:11|hBrymir Bloodclaw|h|r |cC3F0C2|H1:p:404:11|hWarden 50 810cp in Vvardenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [267] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Bicentenario/  0 in",
+                        ["rawLine"] = "[23:08] [23:08]  @Bicentenario/  0 in",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
+                        ["rawDisplayed"] = "|H1:p:405:11|h[23:08]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:405:11|h/ |h|cC3F0C2|H1:p:405:11|h 0 in|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [268] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @minotauro12/Elasirll Warden 46 in White-Gold Tower",
+                        ["rawLine"] = "[23:08] [23:08]  @minotauro12/Elasirll Warden 46 in White-Gold Tower",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@minotauro12|h@minotauro12|h|r/|c6EABCAElasirll|r |cC3F0C2Warden 46 in White-Gold Tower|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@minotauro12|h@minotauro12|h|r/|c6EABCAElasirll|r |cC3F0C2Warden 46 in White-Gold Tower|r",
+                        ["rawDisplayed"] = "|H1:p:406:11|h[23:08]  |h|cB27BFF|H1:character:@minotauro12|h@minotauro12|h|r|H1:p:406:11|h/|h|c6EABCA|H1:p:406:11|hElasirll|h|r |cC3F0C2|H1:p:406:11|hWarden 46 in White-Gold Tower|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [269] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @ARenCer/Adiona Gardener Warden 50 488cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @ARenCer/Adiona Gardener Warden 50 488cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAAdiona Gardener|r |cC3F0C2Warden 50 488cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r/|c6EABCAAdiona Gardener|r |cC3F0C2Warden 50 488cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:407:11|h[23:08]  |h|cB27BFF|H1:character:@ARenCer|h@ARenCer|h|r|H1:p:407:11|h/|h|c6EABCA|H1:p:407:11|hAdiona Gardener|h|r |cC3F0C2|H1:p:407:11|hWarden 50 488cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [270] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @Valkyrya/Vanadie Templar 50 509cp in Blackrose Prison",
+                        ["rawLine"] = "[23:08] [23:08]  @Valkyrya/Vanadie Templar 50 509cp in Blackrose Prison",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r/|c6EABCAVanadie|r |cC3F0C2Templar 50 509cp in Blackrose Prison|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r/|c6EABCAVanadie|r |cC3F0C2Templar 50 509cp in Blackrose Prison|r",
+                        ["rawDisplayed"] = "|H1:p:408:11|h[23:08]  |h|cB27BFF|H1:character:@Valkyrya|h@Valkyrya|h|r|H1:p:408:11|h/|h|c6EABCA|H1:p:408:11|hVanadie|h|r |cC3F0C2|H1:p:408:11|hTemplar 50 509cp in Blackrose Prison|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [271] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @FistroPecador/Nyvu Sorcerer 50 702cp in Maelstrom Arena",
+                        ["rawLine"] = "[23:08] [23:08]  @FistroPecador/Nyvu Sorcerer 50 702cp in Maelstrom Arena",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r/|c6EABCANyvu|r |cC3F0C2Sorcerer 50 702cp in Maelstrom Arena|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r/|c6EABCANyvu|r |cC3F0C2Sorcerer 50 702cp in Maelstrom Arena|r",
+                        ["rawDisplayed"] = "|H1:p:409:11|h[23:08]  |h|cB27BFF|H1:character:@FistroPecador|h@FistroPecador|h|r|H1:p:409:11|h/|h|c6EABCA|H1:p:409:11|hNyvu|h|r |cC3F0C2|H1:p:409:11|hSorcerer 50 702cp in Maelstrom Arena|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [272] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @kptnciam/Delta Carbon Warden 15 in Glenumbra",
+                        ["rawLine"] = "[23:08] [23:08]  @kptnciam/Delta Carbon Warden 15 in Glenumbra",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r/|c6EABCADelta Carbon|r |cC3F0C2Warden 15 in Glenumbra|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r/|c6EABCADelta Carbon|r |cC3F0C2Warden 15 in Glenumbra|r",
+                        ["rawDisplayed"] = "|H1:p:410:11|h[23:08]  |h|cB27BFF|H1:character:@kptnciam|h@kptnciam|h|r|H1:p:410:11|h/|h|c6EABCA|H1:p:410:11|hDelta Carbon|h|r |cC3F0C2|H1:p:410:11|hWarden 15 in Glenumbra|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [273] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @HexwraithFlame/Domina Hex Templar 50 810cp in Vvardenfell",
+                        ["rawLine"] = "[23:08] [23:08]  @HexwraithFlame/Domina Hex Templar 50 810cp in Vvardenfell",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCADomina Hex|r |cC3F0C2Templar 50 810cp in Vvardenfell|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCADomina Hex|r |cC3F0C2Templar 50 810cp in Vvardenfell|r",
+                        ["rawDisplayed"] = "|H1:p:411:11|h[23:08]  |h|cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r|H1:p:411:11|h/|h|c6EABCA|H1:p:411:11|hDomina Hex|h|r |cC3F0C2|H1:p:411:11|hTemplar 50 810cp in Vvardenfell|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [274] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "[23:08]  @MissDarkness0/Missdarknes Templar 50 376cp in Darkshade Caverns II",
+                        ["rawLine"] = "[23:08] [23:08]  @MissDarkness0/Missdarknes Templar 50 376cp in Darkshade Caverns II",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:08]  |cB27BFF|H1:character:@MissDarkness0|h@MissDarkness0|h|r/|c6EABCAMissdarknes|r |cC3F0C2Templar 50 376cp in Darkshade Caverns II|r",
+                        ["rawValue"] = "[23:08]  |cB27BFF|H1:character:@MissDarkness0|h@MissDarkness0|h|r/|c6EABCAMissdarknes|r |cC3F0C2Templar 50 376cp in Darkshade Caverns II|r",
+                        ["rawDisplayed"] = "|H1:p:412:11|h[23:08]  |h|cB27BFF|H1:character:@MissDarkness0|h@MissDarkness0|h|r|H1:p:412:11|h/|h|c6EABCA|H1:p:412:11|hMissdarknes|h|r |cC3F0C2|H1:p:412:11|hTemplar 50 376cp in Darkshade Caverns II|h|r",
+                        ["rawFrom"] = "",
+                    },
+                    [275] = 
+                    {
+                        ["rawTimestamp"] = 1598908121,
+                        ["rawMessage"] = "WTS loot [vCR+1/+2/+3,vAS+2,vDSA,vBRP]&skin runs![][][][][][]. We can also offer dungeon runs [all skins/titles/[][]]Titles such as IR,TTT,GH. Whisper for info!",
+                        ["rawLine"] = "[23:08] It's a Featurë: WTS loot [vCR+1/+2/+3,vAS+2,vDSA,vBRP]&skin runs![][][][][][]. We can also offer dungeon runs [all skins/titles/[][]]Titles such as IR,TTT,GH. Whisper for info!",
+                        ["channel"] = 31,
+                        ["rawText"] = "WTS loot [vCR+1/+2/+3,vAS+2,vDSA,vBRP]&skin runs!|H1:collectible:312|h|h|H1:collectible:1238|h|h|H1:collectible:5109|h|h|H1:collectible:6272|h|h|H1:collectible:4661|h|h|H1:collectible:7234|h|h. We can also offer dungeon runs [all skins/titles/|H1:collectible:4725|h|h|H1:collectible:5218|h|h]Titles such as IR,TTT,GH. Whisper for info!",
+                        ["rawValue"] = "|cb1ae8a[23:08] |r|cb1ae8a|H0:character:It's a Featurë^Mx|hIt's a Featurë|h: |r|cd3d0acWTS loot [vCR+1/+2/+3,vAS+2,vDSA,vBRP]&skin runs!|H1:collectible:312|h|h|H1:collectible:1238|h|h|H1:collectible:5109|h|h|H1:collectible:6272|h|h|H1:collectible:4661|h|h|H1:collectible:7234|h|h. We can also offer dungeon runs [all skins/titles/|H1:collectible:4725|h|h|H1:collectible:5218|h|h]Titles such as IR,TTT,GH. Whisper for info!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:413:31|h[23:08]|h |r|cb1ae8a|H0:character:It's a Featurë^Mx|hIt's a Featurë|h: |r|cd3d0ac|H1:p:413:31|hWTS loot [vCR+1/+2/+3,vAS+2,vDSA,vBRP]&skin runs!|h|H1:collectible:312|h|h|H1:collectible:1238|h|h|H1:collectible:5109|h|h|H1:collectible:6272|h|h|H1:collectible:4661|h|h|H1:collectible:7234|h|h|H1:p:413:31|h. We can also offer dungeon runs [all skins/titles/|h|H1:collectible:4725|h|h|H1:collectible:5218|h|h|H1:p:413:31|h]Titles such as IR,TTT,GH. Whisper for info!|h|r",
+                        ["rawFrom"] = "It's a Featurë^Mx",
+                    },
+                    [276] = 
+                    {
+                        ["rawTimestamp"] = 1598908181,
+                        ["rawMessage"] = "wolas!!",
+                        ["rawLine"] = "[23:09] [Hojablanca] @cbr600f/Tarod Ararthin: wolas!!",
+                        ["channel"] = 13,
+                        ["rawText"] = "wolas!!",
+                        ["rawValue"] = "|c41b341[23:09] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@cbr600f|h@cbr600f/Tarod Ararthin|h: |r|c63d563wolas!!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:414:13|h[23:09]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@cbr600f|h@cbr600f/Tarod Ararthin|h: |r|c63d563|H1:p:414:13|hwolas!!|h|r",
+                        ["rawFrom"] = "@cbr600f",
+                    },
+                    [277] = 
+                    {
+                        ["rawTimestamp"] = 1598908190,
+                        ["rawMessage"] = "nas",
+                        ["rawLine"] = "[23:09] [Hojablanca] @Milan69/lehvam: nas",
+                        ["channel"] = 13,
+                        ["rawText"] = "nas",
+                        ["rawValue"] = "|c41b341[23:09] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Milan69|h@Milan69/lehvam|h: |r|c63d563nas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:415:13|h[23:09]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Milan69|h@Milan69/lehvam|h: |r|c63d563|H1:p:415:13|hnas|h|r",
+                        ["rawFrom"] = "@Milan69",
+                    },
+                    [278] = 
+                    {
+                        ["rawTimestamp"] = 1598908257,
+                        ["rawMessage"] = "DD LFG 6 KEY",
+                        ["rawLine"] = "[23:10] Dlent: DD LFG 6 KEY",
+                        ["channel"] = 31,
+                        ["rawText"] = "DD LFG 6 KEY",
+                        ["rawValue"] = "|cb1ae8a[23:10] |r|cb1ae8a|H0:character:Dlent^Mx|hDlent|h: |r|cd3d0acDD LFG 6 KEY|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:416:31|h[23:10]|h |r|cb1ae8a|H0:character:Dlent^Mx|hDlent|h: |r|cd3d0ac|H1:p:416:31|hDD LFG 6 KEY|h|r",
+                        ["rawFrom"] = "Dlent^Mx",
+                    },
+                    [279] = 
+                    {
+                        ["rawTimestamp"] = 1598908562,
+                        ["rawMessage"] = "[23:16] Dustman has marked [Rubedite Cuirass] as junk (ORNATE W/A).",
+                        ["rawLine"] = "[23:16] [23:16] Dustman has marked [Rubedite Cuirass] as junk (ORNATE W/A).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:16] Dustman has marked |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
+                        ["rawValue"] = "[23:16] Dustman has marked |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
+                        ["rawDisplayed"] = "|H1:p:417:11|h[23:16] Dustman has marked |h|H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h|H1:p:417:11|h as junk (ORNATE W/A).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [280] = 
+                    {
+                        ["rawTimestamp"] = 1598908562,
+                        ["rawMessage"] = "[23:16] Item with set bonus: [Mace of the Vampire's Cloak] (Vampire Cloak).",
+                        ["rawLine"] = "[23:16] [23:16] Item with set bonus: [Mace of the Vampire's Cloak] (Vampire Cloak).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:16] Item with set bonus: |H0:item:98612:362:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:300:0|h|h (Vampire Cloak).",
+                        ["rawValue"] = "[23:16] Item with set bonus: |H0:item:98612:362:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:300:0|h|h (Vampire Cloak).",
+                        ["rawDisplayed"] = "|H1:p:418:11|h[23:16] Item with set bonus: |h|H0:item:98612:362:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:300:0|h|h|H1:p:418:11|h (Vampire Cloak).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [281] = 
+                    {
+                        ["rawTimestamp"] = 1598908720,
+                        ["rawMessage"] = "[23:18] Item with set bonus: [Darkstride Guards] (Darkstride).",
+                        ["rawLine"] = "[23:18] [23:18] Item with set bonus: [Darkstride Guards] (Darkstride).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:18] Item with set bonus: |H0:item:74868:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:10000:0|h|h (Darkstride).",
+                        ["rawValue"] = "[23:18] Item with set bonus: |H0:item:74868:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:10000:0|h|h (Darkstride).",
+                        ["rawDisplayed"] = "|H1:p:419:11|h[23:18] Item with set bonus: |h|H0:item:74868:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:10000:0|h|h|H1:p:419:11|h (Darkstride).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [282] = 
+                    {
+                        ["rawTimestamp"] = 1598908832,
+                        ["rawMessage"] = "Someone to klil Magdaléna ? I need help : o",
+                        ["rawLine"] = "[23:20] Louviannaa: Someone to klil Magdaléna ? I need help : o",
+                        ["channel"] = 31,
+                        ["rawText"] = "Someone to klil Magdaléna ? I need help : o",
+                        ["rawValue"] = "|cb1ae8a[23:20] |r|cb1ae8a|H0:character:Louviannaa^Fx|hLouviannaa|h: |r|cd3d0acSomeone to klil Magdaléna ? I need help : o|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:420:31|h[23:20]|h |r|cb1ae8a|H0:character:Louviannaa^Fx|hLouviannaa|h: |r|cd3d0ac|H1:p:420:31|hSomeone to klil Magdaléna ? I need help : o|h|r",
+                        ["rawFrom"] = "Louviannaa^Fx",
+                    },
+                    [283] = 
+                    {
+                        ["rawTimestamp"] = 1598909409,
+                        ["rawMessage"] = "WTS 21k crowns!300gl/1cr.PM me.Also have discounts!",
+                        ["rawLine"] = "[23:30] Remchanskiu: WTS 21k crowns!300gl/1cr.PM me.Also have discounts!",
+                        ["channel"] = 31,
+                        ["rawText"] = "WTS 21k crowns!300gl/1cr.PM me.Also have discounts!",
+                        ["rawValue"] = "|cb1ae8a[23:30] |r|cb1ae8a|H0:character:Remchanskiu^Mx|hRemchanskiu|h: |r|cd3d0acWTS 21k crowns!300gl/1cr.PM me.Also have discounts!|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:421:31|h[23:30]|h |r|cb1ae8a|H0:character:Remchanskiu^Mx|hRemchanskiu|h: |r|cd3d0ac|H1:p:421:31|hWTS 21k crowns!300gl/1cr.PM me.Also have discounts!|h|r",
+                        ["rawFrom"] = "Remchanskiu^Mx",
+                    },
+                    [284] = 
+                    {
+                        ["rawTimestamp"] = 1598909496,
+                        ["rawMessage"] = "[23:31] Dustman has marked [Ruby Ash Bow] as junk (ORNATE W/A).",
+                        ["rawLine"] = "[23:31] [23:31] Dustman has marked [Ruby Ash Bow] as junk (ORNATE W/A).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Dustman has marked |H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h as junk (ORNATE W/A).",
+                        ["rawValue"] = "[23:31] Dustman has marked |H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h as junk (ORNATE W/A).",
+                        ["rawDisplayed"] = "|H1:p:422:11|h[23:31] Dustman has marked |h|H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h|H1:p:422:11|h as junk (ORNATE W/A).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [285] = 
+                    {
+                        ["rawTimestamp"] = 1598909496,
+                        ["rawMessage"] = "[23:31] Item with set bonus: [Darkstride Sword] (Darkstride).",
+                        ["rawLine"] = "[23:31] [23:31] Item with set bonus: [Darkstride Sword] (Darkstride).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Item with set bonus: |H0:item:74753:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:250:0|h|h (Darkstride).",
+                        ["rawValue"] = "[23:31] Item with set bonus: |H0:item:74753:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:250:0|h|h (Darkstride).",
+                        ["rawDisplayed"] = "|H1:p:423:11|h[23:31] Item with set bonus: |h|H0:item:74753:359:50:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:250:0|h|h|H1:p:423:11|h (Darkstride).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [286] = 
+                    {
+                        ["rawTimestamp"] = 1598909516,
+                        ["rawMessage"] = "[23:31] Apparel repaired for 87",
+                        ["rawLine"] = "[23:31] [23:31] Apparel repaired for 87",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Apparel repaired for |cFFFFFF87|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawValue"] = "[23:31] Apparel repaired for |cFFFFFF87|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawDisplayed"] = "|H1:p:424:11|h[23:31] Apparel repaired for |h|cFFFFFF|H1:p:424:11|h87|h|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawFrom"] = "",
+                    },
+                    [287] = 
+                    {
+                        ["rawTimestamp"] = 1598909517,
+                        ["rawMessage"] = "[23:31] Dustman sold 1x [Rubedite Cuirass] for 216.",
+                        ["rawLine"] = "[23:31] [23:31] Dustman sold 1x [Rubedite Cuirass] for 216.",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Dustman sold 1x |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawValue"] = "[23:31] Dustman sold 1x |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:425:11|h[23:31] Dustman sold 1x |h|H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h|H1:p:425:11|h for 216|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:425:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [288] = 
+                    {
+                        ["rawTimestamp"] = 1598909517,
+                        ["rawMessage"] = "[23:31] Dustman sold 1x [Ruby Ash Bow] for 288.",
+                        ["rawLine"] = "[23:31] [23:31] Dustman sold 1x [Ruby Ash Bow] for 288.",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Dustman sold 1x |H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawValue"] = "[23:31] Dustman sold 1x |H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:426:11|h[23:31] Dustman sold 1x |h|H0:item:45355:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h|H1:p:426:11|h for 288|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:426:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [289] = 
+                    {
+                        ["rawTimestamp"] = 1598909517,
+                        ["rawMessage"] = "[23:31] Dustman sold 2 items (2 stacks) for 504.",
+                        ["rawLine"] = "[23:31] [23:31] Dustman sold 2 items (2 stacks) for 504.",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:31] Dustman sold 2 items (2 stacks) for 504|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawValue"] = "[23:31] Dustman sold 2 items (2 stacks) for 504|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
+                        ["rawDisplayed"] = "|H1:p:427:11|h[23:31] Dustman sold 2 items (2 stacks) for 504|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:427:11|h.|h",
+                        ["rawFrom"] = "",
+                    },
+                    [290] = 
+                    {
+                        ["rawTimestamp"] = 1598909680,
+                        ["rawMessage"] = "poacher's ?",
+                        ["rawLine"] = "[23:34] Scar l'intrepide: poacher's ?",
+                        ["channel"] = 31,
+                        ["rawText"] = "poacher's ?",
+                        ["rawValue"] = "|cb1ae8a[23:34] |r|cb1ae8a|H0:character:Scar l'intrepide^Fx|hScar l'intrepide|h: |r|cd3d0acpoacher's ?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:428:31|h[23:34]|h |r|cb1ae8a|H0:character:Scar l'intrepide^Fx|hScar l'intrepide|h: |r|cd3d0ac|H1:p:428:31|hpoacher's ?|h|r",
+                        ["rawFrom"] = "Scar l'intrepide^Fx",
+                    },
+                    [291] = 
+                    {
+                        ["rawTimestamp"] = 1598909801,
+                        ["rawMessage"] = "[23:36] Item with set bonus: [Shield of the Pariah] (Mark of the Pariah).",
+                        ["rawLine"] = "[23:36] [23:36] Item with set bonus: [Shield of the Pariah] (Mark of the Pariah).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:36] Item with set bonus: |H0:item:79434:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:10000:0|h|h (Mark of the Pariah).",
+                        ["rawValue"] = "[23:36] Item with set bonus: |H0:item:79434:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:10000:0|h|h (Mark of the Pariah).",
+                        ["rawDisplayed"] = "|H1:p:429:11|h[23:36] Item with set bonus: |h|H0:item:79434:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:10000:0|h|h|H1:p:429:11|h (Mark of the Pariah).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [292] = 
+                    {
+                        ["rawTimestamp"] = 1598909843,
+                        ["rawMessage"] = "[23:37] Item with set bonus: [Signet of the Pariah] (Mark of the Pariah).",
+                        ["rawLine"] = "[23:37] [23:37] Item with set bonus: [Signet of the Pariah] (Mark of the Pariah).",
+                        ["channel"] = 11,
+                        ["rawText"] = "[23:37] Item with set bonus: |H0:item:71261:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:0:0|h|h (Mark of the Pariah).",
+                        ["rawValue"] = "[23:37] Item with set bonus: |H0:item:71261:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:0:0|h|h (Mark of the Pariah).",
+                        ["rawDisplayed"] = "|H1:p:430:11|h[23:37] Item with set bonus: |h|H0:item:71261:363:50:0:0:0:0:0:0:0:0:0:0:0:0:13:0:0:0:0:0|h|h|H1:p:430:11|h (Mark of the Pariah).|h",
+                        ["rawFrom"] = "",
+                    },
+                    [293] = 
+                    {
+                        ["rawTimestamp"] = 1598909909,
+                        ["rawMessage"] = "gente un khajita ",
+                        ["rawLine"] = "[23:38] [SdA] @minotauro12/Elasirll: gente un khajita ",
+                        ["channel"] = 14,
+                        ["rawText"] = "gente un khajita ",
+                        ["rawValue"] = "|c41b341[23:38] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563gente un khajita |r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:431:14|h[23:38]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:431:14|hgente un khajita |h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [294] = 
+                    {
+                        ["rawTimestamp"] = 1598909921,
+                        ["rawMessage"] = "es bueno de adc con eso de k es polivalente?",
+                        ["rawLine"] = "[23:38] [SdA] @minotauro12/Elasirll: es bueno de adc con eso de k es polivalente?",
+                        ["channel"] = 14,
+                        ["rawText"] = "es bueno de adc con eso de k es polivalente?",
+                        ["rawValue"] = "|c41b341[23:38] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563es bueno de adc con eso de k es polivalente?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:432:14|h[23:38]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:432:14|hes bueno de adc con eso de k es polivalente?|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [295] = 
+                    {
+                        ["rawTimestamp"] = 1598909933,
+                        ["rawMessage"] = "anyone want to do the wb poacher's ?",
+                        ["rawLine"] = "[23:38] Scar l'intrepide: anyone want to do the wb poacher's ?",
+                        ["channel"] = 31,
+                        ["rawText"] = "anyone want to do the wb poacher's ?",
+                        ["rawValue"] = "|cb1ae8a[23:38] |r|cb1ae8a|H0:character:Scar l'intrepide^Fx|hScar l'intrepide|h: |r|cd3d0acanyone want to do the wb poacher's ?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:433:31|h[23:38]|h |r|cb1ae8a|H0:character:Scar l'intrepide^Fx|hScar l'intrepide|h: |r|cd3d0ac|H1:p:433:31|hanyone want to do the wb poacher's ?|h|r",
+                        ["rawFrom"] = "Scar l'intrepide^Fx",
+                    },
+                    [296] = 
+                    {
+                        ["rawTimestamp"] = 1598909939,
+                        ["rawMessage"] = "tiene mucho critico",
+                        ["rawLine"] = "[23:38] [SdA] @JGudari/Txosus: tiene mucho critico",
+                        ["channel"] = 14,
+                        ["rawText"] = "tiene mucho critico",
+                        ["rawValue"] = "|c41b341[23:38] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563tiene mucho critico|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:434:14|h[23:38]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:434:14|htiene mucho critico|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [297] = 
+                    {
+                        ["rawTimestamp"] = 1598909957,
+                        ["rawMessage"] = "asi que supongo que si",
+                        ["rawLine"] = "[23:39] [SdA] @JGudari/Txosus: asi que supongo que si",
+                        ["channel"] = 14,
+                        ["rawText"] = "asi que supongo que si",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563asi que supongo que si|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:435:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:435:14|hasi que supongo que si|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [298] = 
+                    {
+                        ["rawTimestamp"] = 1598909959,
+                        ["rawMessage"] = "y eso e sbueno para ello=?",
+                        ["rawLine"] = "[23:39] [SdA] @minotauro12/Elasirll: y eso e sbueno para ello=?",
+                        ["channel"] = 14,
+                        ["rawText"] = "y eso e sbueno para ello=?",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563y eso e sbueno para ello=?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:436:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:436:14|hy eso e sbueno para ello=?|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [299] = 
+                    {
+                        ["rawTimestamp"] = 1598909960,
+                        ["rawMessage"] = "ok",
+                        ["rawLine"] = "[23:39] [SdA] @minotauro12/Elasirll: ok",
+                        ["channel"] = 14,
+                        ["rawText"] = "ok",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563ok|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:437:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:437:14|hok|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [300] = 
+                    {
+                        ["rawTimestamp"] = 1598909964,
+                        ["rawMessage"] = "mino, te pillaste el plus?",
+                        ["rawLine"] = "[23:39] [SdA] @HexwraithFlame/Lady Angronia of Nurgelia: mino, te pillaste el plus?",
+                        ["channel"] = 14,
+                        ["rawText"] = "mino, te pillaste el plus?",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563mino, te pillaste el plus?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:438:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563|H1:p:438:14|hmino, te pillaste el plus?|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [301] = 
+                    {
+                        ["rawTimestamp"] = 1598909975,
+                        ["rawMessage"] = "k va aun no",
+                        ["rawLine"] = "[23:39] [SdA] @minotauro12/Elasirll: k va aun no",
+                        ["channel"] = 14,
+                        ["rawText"] = "k va aun no",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563k va aun no|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:439:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:439:14|hk va aun no|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [302] = 
+                    {
+                        ["rawTimestamp"] = 1598909979,
+                        ["rawMessage"] = "jajaja",
+                        ["rawLine"] = "[23:39] [SdA] @HexwraithFlame/Lady Angronia of Nurgelia: jajaja",
+                        ["channel"] = 14,
+                        ["rawText"] = "jajaja",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563jajaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:440:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563|H1:p:440:14|hjajaja|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [303] = 
+                    {
+                        ["rawTimestamp"] = 1598909988,
+                        ["rawMessage"] = "jaja la prox semana si eso ando un poco pelao",
+                        ["rawLine"] = "[23:39] [SdA] @minotauro12/Elasirll: jaja la prox semana si eso ando un poco pelao",
+                        ["channel"] = 14,
+                        ["rawText"] = "jaja la prox semana si eso ando un poco pelao",
+                        ["rawValue"] = "|c41b341[23:39] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563jaja la prox semana si eso ando un poco pelao|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:441:14|h[23:39]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:441:14|hjaja la prox semana si eso ando un poco pelao|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [304] = 
+                    {
+                        ["rawTimestamp"] = 1598910031,
+                        ["rawMessage"] = "pozi",
+                        ["rawLine"] = "[23:40] [SdA] @HexwraithFlame/Lady Angronia of Nurgelia: pozi",
+                        ["channel"] = 14,
+                        ["rawText"] = "pozi",
+                        ["rawValue"] = "|c41b341[23:40] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563pozi|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:442:14|h[23:40]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563|H1:p:442:14|hpozi|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [305] = 
+                    {
+                        ["rawTimestamp"] = 1598910062,
+                        ["rawMessage"] = "joder cuando se desbloquean la rama de habilidades para ir poniendo puntos",
+                        ["rawLine"] = "[23:41] [SdA] @minotauro12/Elasirll: joder cuando se desbloquean la rama de habilidades para ir poniendo puntos",
+                        ["channel"] = 14,
+                        ["rawText"] = "joder cuando se desbloquean la rama de habilidades para ir poniendo puntos",
+                        ["rawValue"] = "|c41b341[23:41] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563joder cuando se desbloquean la rama de habilidades para ir poniendo puntos|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:443:14|h[23:41]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:443:14|hjoder cuando se desbloquean la rama de habilidades para ir poniendo puntos|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [306] = 
+                    {
+                        ["rawTimestamp"] = 1598910068,
+                        ["rawMessage"] = "curo peor no lo sufi",
+                        ["rawLine"] = "[23:41] [SdA] @minotauro12/Elasirll: curo peor no lo sufi",
+                        ["channel"] = 14,
+                        ["rawText"] = "curo peor no lo sufi",
+                        ["rawValue"] = "|c41b341[23:41] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563curo peor no lo sufi|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:444:14|h[23:41]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:444:14|hcuro peor no lo sufi|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [307] = 
+                    {
+                        ["rawTimestamp"] = 1598910077,
+                        ["rawMessage"] = "LFM nSS 8dd 2h 1h",
+                        ["rawLine"] = "[23:41] Anos Voldigöad: LFM nSS 8dd 2h 1h",
+                        ["channel"] = 31,
+                        ["rawText"] = "LFM nSS 8dd 2h 1h",
+                        ["rawValue"] = "|cb1ae8a[23:41] |r|cb1ae8a|H0:character:Anos Voldigöad^Mx|hAnos Voldigöad|h: |r|cd3d0acLFM nSS 8dd 2h 1h|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:445:31|h[23:41]|h |r|cb1ae8a|H0:character:Anos Voldigöad^Mx|hAnos Voldigöad|h: |r|cd3d0ac|H1:p:445:31|hLFM nSS 8dd 2h 1h|h|r",
+                        ["rawFrom"] = "Anos Voldigöad^Mx",
+                    },
+                    [308] = 
+                    {
+                        ["rawTimestamp"] = 1598910118,
+                        ["rawMessage"] = "q clase eres?",
+                        ["rawLine"] = "[23:41] [SdA] @Valkyrya/Vanadie: q clase eres?",
+                        ["channel"] = 14,
+                        ["rawText"] = "q clase eres?",
+                        ["rawValue"] = "|c41b341[23:41] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563q clase eres?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:446:14|h[23:41]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:446:14|hq clase eres?|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [309] = 
+                    {
+                        ["rawTimestamp"] = 1598910124,
+                        ["rawMessage"] = "guardian",
+                        ["rawLine"] = "[23:42] [SdA] @minotauro12/Elasirll: guardian",
+                        ["channel"] = 14,
+                        ["rawText"] = "guardian",
+                        ["rawValue"] = "|c41b341[23:42] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563guardian|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:447:14|h[23:42]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:447:14|hguardian|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [310] = 
+                    {
+                        ["rawTimestamp"] = 1598910132,
+                        ["rawMessage"] = "heal",
+                        ["rawLine"] = "[23:42] [SdA] @minotauro12/Elasirll: heal",
+                        ["channel"] = 14,
+                        ["rawText"] = "heal",
+                        ["rawValue"] = "|c41b341[23:42] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563heal|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:448:14|h[23:42]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:448:14|hheal|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [311] = 
+                    {
+                        ["rawTimestamp"] = 1598910143,
+                        ["rawMessage"] = "me pille un gatete valki XD",
+                        ["rawLine"] = "[23:42] [SdA] @minotauro12/Elasirll: me pille un gatete valki XD",
+                        ["channel"] = 14,
+                        ["rawText"] = "me pille un gatete valki XD",
+                        ["rawValue"] = "|c41b341[23:42] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563me pille un gatete valki XD|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:449:14|h[23:42]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:449:14|hme pille un gatete valki XD|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [312] = 
+                    {
+                        ["rawTimestamp"] = 1598910165,
+                        ["rawMessage"] = "to gordo",
+                        ["rawLine"] = "[23:42] [SdA] @minotauro12/Elasirll: to gordo",
+                        ["channel"] = 14,
+                        ["rawText"] = "to gordo",
+                        ["rawValue"] = "|c41b341[23:42] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563to gordo|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:450:14|h[23:42]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:450:14|hto gordo|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [313] = 
+                    {
+                        ["rawTimestamp"] = 1598910267,
+                        ["rawMessage"] = "tienes desde nivel bajito para curar",
+                        ["rawLine"] = "[23:44] [SdA] @Valkyrya/Vanadie: tienes desde nivel bajito para curar",
+                        ["channel"] = 14,
+                        ["rawText"] = "tienes desde nivel bajito para curar",
+                        ["rawValue"] = "|c41b341[23:44] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563tienes desde nivel bajito para curar|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:451:14|h[23:44]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:451:14|htienes desde nivel bajito para curar|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [314] = 
+                    {
+                        ["rawTimestamp"] = 1598910275,
+                        ["rawMessage"] = "las areas de las flores por ejemplo",
+                        ["rawLine"] = "[23:44] [SdA] @Valkyrya/Vanadie: las areas de las flores por ejemplo",
+                        ["channel"] = 14,
+                        ["rawText"] = "las areas de las flores por ejemplo",
+                        ["rawValue"] = "|c41b341[23:44] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563las areas de las flores por ejemplo|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:452:14|h[23:44]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:452:14|hlas areas de las flores por ejemplo|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [315] = 
+                    {
+                        ["rawTimestamp"] = 1598910282,
+                        ["rawMessage"] = "el lvl no es lo k no cura apenas",
+                        ["rawLine"] = "[23:44] [SdA] @minotauro12/Elasirll: el lvl no es lo k no cura apenas",
+                        ["channel"] = 14,
+                        ["rawText"] = "el lvl no es lo k no cura apenas",
+                        ["rawValue"] = "|c41b341[23:44] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563el lvl no es lo k no cura apenas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:453:14|h[23:44]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:453:14|hel lvl no es lo k no cura apenas|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [316] = 
+                    {
+                        ["rawTimestamp"] = 1598910285,
+                        ["rawMessage"] = "no?",
+                        ["rawLine"] = "[23:44] [SdA] @minotauro12/Elasirll: no?",
+                        ["channel"] = 14,
+                        ["rawText"] = "no?",
+                        ["rawValue"] = "|c41b341[23:44] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563no?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:454:14|h[23:44]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:454:14|hno?|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [317] = 
+                    {
+                        ["rawTimestamp"] = 1598910293,
+                        ["rawMessage"] = "what? xD",
+                        ["rawLine"] = "[23:44] [SdA] @Valkyrya/Vanadie: what? xD",
+                        ["channel"] = 14,
+                        ["rawText"] = "what? xD",
+                        ["rawValue"] = "|c41b341[23:44] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563what? xD|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:455:14|h[23:44]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:455:14|hwhat? xD|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [318] = 
+                    {
+                        ["rawTimestamp"] = 1598910302,
+                        ["rawMessage"] = "que es por el nivel no?",
+                        ["rawLine"] = "[23:45] [SdA] @minotauro12/Elasirll: que es por el nivel no?",
+                        ["channel"] = 14,
+                        ["rawText"] = "que es por el nivel no?",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563que es por el nivel no?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:456:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:456:14|hque es por el nivel no?|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [319] = 
+                    {
+                        ["rawTimestamp"] = 1598910304,
+                        ["rawMessage"] = "jaja",
+                        ["rawLine"] = "[23:45] [SdA] @minotauro12/Elasirll: jaja",
+                        ["channel"] = 14,
+                        ["rawText"] = "jaja",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563jaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:457:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:457:14|hjaja|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [320] = 
+                    {
+                        ["rawTimestamp"] = 1598910305,
+                        ["rawMessage"] = "es el vecino el que escoge al alcalde",
+                        ["rawLine"] = "[23:45] [SdA] @ARenCer/Adiona Gardener: es el vecino el que escoge al alcalde",
+                        ["channel"] = 14,
+                        ["rawText"] = "es el vecino el que escoge al alcalde",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563es el vecino el que escoge al alcalde|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:458:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563|H1:p:458:14|hes el vecino el que escoge al alcalde|h|r",
+                        ["rawFrom"] = "@ARenCer",
+                    },
+                    [321] = 
+                    {
+                        ["rawTimestamp"] = 1598910309,
+                        ["rawMessage"] = "jajajajajajajaja",
+                        ["rawLine"] = "[23:45] [SdA] @Valkyrya/Vanadie: jajajajajajajaja",
+                        ["channel"] = 14,
+                        ["rawText"] = "jajajajajajajaja",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563jajajajajajajaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:459:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:459:14|hjajajajajajajaja|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [322] = 
+                    {
+                        ["rawTimestamp"] = 1598910312,
+                        ["rawMessage"] = "el motivo de curar tan mierdoso",
+                        ["rawLine"] = "[23:45] [SdA] @minotauro12/Elasirll: el motivo de curar tan mierdoso",
+                        ["channel"] = 14,
+                        ["rawText"] = "el motivo de curar tan mierdoso",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563el motivo de curar tan mierdoso|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:460:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:460:14|hel motivo de curar tan mierdoso|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [323] = 
+                    {
+                        ["rawTimestamp"] = 1598910325,
+                        ["rawMessage"] = "jajajjajaa que problema tienes con las curas?",
+                        ["rawLine"] = "[23:45] [SdA] @JGudari/Txosus: jajajjajaa que problema tienes con las curas?",
+                        ["channel"] = 14,
+                        ["rawText"] = "jajajjajaa que problema tienes con las curas?",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563jajajjajaa que problema tienes con las curas?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:461:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:461:14|hjajajjajaa que problema tienes con las curas?|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [324] = 
+                    {
+                        ["rawTimestamp"] = 1598910325,
+                        ["rawMessage"] = "hombre tendrás mas cosas mas adelante",
+                        ["rawLine"] = "[23:45] [SdA] @Valkyrya/Vanadie: hombre tendrás mas cosas mas adelante",
+                        ["channel"] = 14,
+                        ["rawText"] = "hombre tendrás mas cosas mas adelante",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563hombre tendrás mas cosas mas adelante|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:462:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:462:14|hhombre tendrás mas cosas mas adelante|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [325] = 
+                    {
+                        ["rawTimestamp"] = 1598910328,
+                        ["rawMessage"] = "que set tienes?",
+                        ["rawLine"] = "[23:45] [SdA] @Valkyrya/Vanadie: que set tienes?",
+                        ["channel"] = 14,
+                        ["rawText"] = "que set tienes?",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563que set tienes?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:463:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:463:14|hque set tienes?|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [326] = 
+                    {
+                        ["rawTimestamp"] = 1598910346,
+                        ["rawMessage"] = "o vas con training aun",
+                        ["rawLine"] = "[23:45] [SdA] @Valkyrya/Vanadie: o vas con training aun",
+                        ["channel"] = 14,
+                        ["rawText"] = "o vas con training aun",
+                        ["rawValue"] = "|c41b341[23:45] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563o vas con training aun|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:464:14|h[23:45]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:464:14|ho vas con training aun|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [327] = 
+                    {
+                        ["rawTimestamp"] = 1598910409,
+                        ["rawMessage"] = "tengo un pupurri",
+                        ["rawLine"] = "[23:46] [SdA] @minotauro12/Elasirll: tengo un pupurri",
+                        ["channel"] = 14,
+                        ["rawText"] = "tengo un pupurri",
+                        ["rawValue"] = "|c41b341[23:46] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563tengo un pupurri|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:465:14|h[23:46]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:465:14|htengo un pupurri|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [328] = 
+                    {
+                        ["rawTimestamp"] = 1598910429,
+                        ["rawMessage"] = "tranquilo todos hemos aprendido preguntando",
+                        ["rawLine"] = "[23:47] [SdA] @JGudari/Txosus: tranquilo todos hemos aprendido preguntando",
+                        ["channel"] = 14,
+                        ["rawText"] = "tranquilo todos hemos aprendido preguntando",
+                        ["rawValue"] = "|c41b341[23:47] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563tranquilo todos hemos aprendido preguntando|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:466:14|h[23:47]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:466:14|htranquilo todos hemos aprendido preguntando|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [329] = 
+                    {
+                        ["rawTimestamp"] = 1598910438,
+                        ["rawMessage"] = "no te apures",
+                        ["rawLine"] = "[23:47] [SdA] @JGudari/Txosus: no te apures",
+                        ["channel"] = 14,
+                        ["rawText"] = "no te apures",
+                        ["rawValue"] = "|c41b341[23:47] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563no te apures|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:467:14|h[23:47]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:467:14|hno te apures|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [330] = 
+                    {
+                        ["rawTimestamp"] = 1598910625,
+                        ["rawMessage"] = "buscate cosis q te suban magia",
+                        ["rawLine"] = "[23:50] [SdA] @Valkyrya/Vanadie: buscate cosis q te suban magia",
+                        ["channel"] = 14,
+                        ["rawText"] = "buscate cosis q te suban magia",
+                        ["rawValue"] = "|c41b341[23:50] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563buscate cosis q te suban magia|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:468:14|h[23:50]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:468:14|hbuscate cosis q te suban magia|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [331] = 
+                    {
+                        ["rawTimestamp"] = 1598910641,
+                        ["rawMessage"] = "estoy d maz si quieres luego hablamos :D",
+                        ["rawLine"] = "[23:50] [SdA] @Valkyrya/Vanadie: estoy d maz si quieres luego hablamos :D",
+                        ["channel"] = 14,
+                        ["rawText"] = "estoy d maz si quieres luego hablamos :D",
+                        ["rawValue"] = "|c41b341[23:50] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563estoy d maz si quieres luego hablamos :D|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:469:14|h[23:50]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:469:14|hestoy d maz si quieres luego hablamos :D|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [332] = 
+                    {
+                        ["rawTimestamp"] = 1598910678,
+                        ["rawMessage"] = "yo estoi en una k menuda gente me esta tocando",
+                        ["rawLine"] = "[23:51] [SdA] @minotauro12/Elasirll: yo estoi en una k menuda gente me esta tocando",
+                        ["channel"] = 14,
+                        ["rawText"] = "yo estoi en una k menuda gente me esta tocando",
+                        ["rawValue"] = "|c41b341[23:51] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563yo estoi en una k menuda gente me esta tocando|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:470:14|h[23:51]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:470:14|hyo estoi en una k menuda gente me esta tocando|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [333] = 
+                    {
+                        ["rawTimestamp"] = 1598910693,
+                        ["rawMessage"] = "Bueno chicos marcho a dormir, hasta mañana !!",
+                        ["rawLine"] = "[23:51] [SdA] @JGudari/Txosus: Bueno chicos marcho a dormir, hasta mañana !!",
+                        ["channel"] = 14,
+                        ["rawText"] = "Bueno chicos marcho a dormir, hasta mañana !!",
+                        ["rawValue"] = "|c41b341[23:51] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563Bueno chicos marcho a dormir, hasta mañana !!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:471:14|h[23:51]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@JGudari|h@JGudari/Txosus|h: |r|c63d563|H1:p:471:14|hBueno chicos marcho a dormir, hasta mañana !!|h|r",
+                        ["rawFrom"] = "@JGudari",
+                    },
+                    [334] = 
+                    {
+                        ["rawTimestamp"] = 1598910701,
+                        ["rawMessage"] = "estoi en la de torre blanca",
+                        ["rawLine"] = "[23:51] [SdA] @minotauro12/Elasirll: estoi en la de torre blanca",
+                        ["channel"] = 14,
+                        ["rawText"] = "estoi en la de torre blanca",
+                        ["rawValue"] = "|c41b341[23:51] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563estoi en la de torre blanca|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:472:14|h[23:51]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:472:14|hestoi en la de torre blanca|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [335] = 
+                    {
+                        ["rawTimestamp"] = 1598910731,
+                        ["rawMessage"] = "eso es una ruleta rusa, lo de los random",
+                        ["rawLine"] = "[23:52] [SdA] @HexwraithFlame/Lady Angronia of Nurgelia: eso es una ruleta rusa, lo de los random",
+                        ["channel"] = 14,
+                        ["rawText"] = "eso es una ruleta rusa, lo de los random",
+                        ["rawValue"] = "|c41b341[23:52] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563eso es una ruleta rusa, lo de los random|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:473:14|h[23:52]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563|H1:p:473:14|heso es una ruleta rusa, lo de los random|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [336] = 
+                    {
+                        ["rawTimestamp"] = 1598910834,
+                        ["rawMessage"] = "esk no coje agros el tank mueren de una no me jodas",
+                        ["rawLine"] = "[23:53] [SdA] @minotauro12/Elasirll: esk no coje agros el tank mueren de una no me jodas",
+                        ["channel"] = 14,
+                        ["rawText"] = "esk no coje agros el tank mueren de una no me jodas",
+                        ["rawValue"] = "|c41b341[23:53] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563esk no coje agros el tank mueren de una no me jodas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:474:14|h[23:53]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:474:14|hesk no coje agros el tank mueren de una no me jodas|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [337] = 
+                    {
+                        ["rawTimestamp"] = 1598910862,
+                        ["rawMessage"] = "ay, no quiero ser abuelita cebolleta, si yo te contara lo que he visto...",
+                        ["rawLine"] = "[23:54] [SdA] @HexwraithFlame/Lady Angronia of Nurgelia: ay, no quiero ser abuelita cebolleta, si yo te contara lo que he visto...",
+                        ["channel"] = 14,
+                        ["rawText"] = "ay, no quiero ser abuelita cebolleta, si yo te contara lo que he visto...",
+                        ["rawValue"] = "|c41b341[23:54] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563ay, no quiero ser abuelita cebolleta, si yo te contara lo que he visto...|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:475:14|h[23:54]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@HexwraithFlame|h@HexwraithFlame/Lady Angronia of Nurgelia|h: |r|c63d563|H1:p:475:14|hay, no quiero ser abuelita cebolleta, si yo te contara lo que he visto...|h|r",
+                        ["rawFrom"] = "@HexwraithFlame",
+                    },
+                    [338] = 
+                    {
+                        ["rawTimestamp"] = 1598910939,
+                        ["rawMessage"] = "jajaja en el booss k sera el ultimo",
+                        ["rawLine"] = "[23:55] [SdA] @minotauro12/Elasirll: jajaja en el booss k sera el ultimo",
+                        ["channel"] = 14,
+                        ["rawText"] = "jajaja en el booss k sera el ultimo",
+                        ["rawValue"] = "|c41b341[23:55] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563jajaja en el booss k sera el ultimo|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:476:14|h[23:55]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:476:14|hjajaja en el booss k sera el ultimo|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [339] = 
+                    {
+                        ["rawTimestamp"] = 1598910946,
+                        ["rawMessage"] = "evita las areas",
+                        ["rawLine"] = "[23:55] [SdA] @minotauro12/Elasirll: evita las areas",
+                        ["channel"] = 14,
+                        ["rawText"] = "evita las areas",
+                        ["rawValue"] = "|c41b341[23:55] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563evita las areas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:477:14|h[23:55]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:477:14|hevita las areas|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [340] = 
+                    {
+                        ["rawTimestamp"] = 1598910949,
+                        ["rawMessage"] = "es facil jaja",
+                        ["rawLine"] = "[23:55] [SdA] @minotauro12/Elasirll: es facil jaja",
+                        ["channel"] = 14,
+                        ["rawText"] = "es facil jaja",
+                        ["rawValue"] = "|c41b341[23:55] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563es facil jaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:478:14|h[23:55]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:478:14|hes facil jaja|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [341] = 
+                    {
+                        ["rawTimestamp"] = 1598910952,
+                        ["rawMessage"] = "y aguanta",
+                        ["rawLine"] = "[23:55] [SdA] @minotauro12/Elasirll: y aguanta",
+                        ["channel"] = 14,
+                        ["rawText"] = "y aguanta",
+                        ["rawValue"] = "|c41b341[23:55] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563y aguanta|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:479:14|h[23:55]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:479:14|hy aguanta|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [342] = 
+                    {
+                        ["rawTimestamp"] = 1598910957,
+                        ["rawMessage"] = "pero no",
+                        ["rawLine"] = "[23:55] [SdA] @minotauro12/Elasirll: pero no",
+                        ["channel"] = 14,
+                        ["rawText"] = "pero no",
+                        ["rawValue"] = "|c41b341[23:55] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563pero no|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:480:14|h[23:55]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:480:14|hpero no|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [343] = 
+                    {
+                        ["rawTimestamp"] = 1598910963,
+                        ["rawMessage"] = "pònen la cara ",
+                        ["rawLine"] = "[23:56] [SdA] @minotauro12/Elasirll: pònen la cara ",
+                        ["channel"] = 14,
+                        ["rawText"] = "pònen la cara ",
+                        ["rawValue"] = "|c41b341[23:56] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563pònen la cara |r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:481:14|h[23:56]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:481:14|hpònen la cara |h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [344] = 
+                    {
+                        ["rawTimestamp"] = 1598911031,
+                        ["rawMessage"] = "evitar areas no es tan trivial como parece :3",
+                        ["rawLine"] = "[23:57] [SdA] @ARenCer/Adiona Gardener: evitar areas no es tan trivial como parece :3",
+                        ["channel"] = 14,
+                        ["rawText"] = "evitar areas no es tan trivial como parece :3",
+                        ["rawValue"] = "|c41b341[23:57] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563evitar areas no es tan trivial como parece :3|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:482:14|h[23:57]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563|H1:p:482:14|hevitar areas no es tan trivial como parece :3|h|r",
+                        ["rawFrom"] = "@ARenCer",
+                    },
+                    [345] = 
+                    {
+                        ["rawTimestamp"] = 1598911152,
+                        ["rawMessage"] = "ya ",
+                        ["rawLine"] = "[23:59] [SdA] @minotauro12/Elasirll: ya ",
+                        ["channel"] = 14,
+                        ["rawText"] = "ya ",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563ya |r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:483:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:483:14|hya |h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [346] = 
+                    {
+                        ["rawTimestamp"] = 1598911152,
+                        ["rawMessage"] = "ole!",
+                        ["rawLine"] = "[23:59] [SdA] @Valkyrya/Vanadie: ole!",
+                        ["channel"] = 14,
+                        ["rawText"] = "ole!",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563ole!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:484:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:484:14|hole!|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [347] = 
+                    {
+                        ["rawTimestamp"] = 1598911159,
+                        ["rawMessage"] = "pegame alguna pieza de las q tengas",
+                        ["rawLine"] = "[23:59] [SdA] @Valkyrya/Vanadie: pegame alguna pieza de las q tengas",
+                        ["channel"] = 14,
+                        ["rawText"] = "pegame alguna pieza de las q tengas",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563pegame alguna pieza de las q tengas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:485:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:485:14|hpegame alguna pieza de las q tengas|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [348] = 
+                    {
+                        ["rawTimestamp"] = 1598911170,
+                        ["rawMessage"] = "como se hace valki",
+                        ["rawLine"] = "[23:59] [SdA] @minotauro12/Elasirll: como se hace valki",
+                        ["channel"] = 14,
+                        ["rawText"] = "como se hace valki",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563como se hace valki|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:486:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:486:14|hcomo se hace valki|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [349] = 
+                    {
+                        ["rawTimestamp"] = 1598911175,
+                        ["rawMessage"] = "de todas formas, te queda poco para el 50 ya!",
+                        ["rawLine"] = "[23:59] [SdA] @Valkyrya/Vanadie: de todas formas, te queda poco para el 50 ya!",
+                        ["channel"] = 14,
+                        ["rawText"] = "de todas formas, te queda poco para el 50 ya!",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563de todas formas, te queda poco para el 50 ya!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:487:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:487:14|hde todas formas, te queda poco para el 50 ya!|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [350] = 
+                    {
+                        ["rawTimestamp"] = 1598911183,
+                        ["rawMessage"] = "boton derecho y link en chat sobre la pieza",
+                        ["rawLine"] = "[23:59] [SdA] @Valkyrya/Vanadie: boton derecho y link en chat sobre la pieza",
+                        ["channel"] = 14,
+                        ["rawText"] = "boton derecho y link en chat sobre la pieza",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563boton derecho y link en chat sobre la pieza|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:488:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:488:14|hboton derecho y link en chat sobre la pieza|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [351] = 
+                    {
+                        ["rawTimestamp"] = 1598911190,
+                        ["rawMessage"] = "no se en castellano",
+                        ["rawLine"] = "[23:59] [SdA] @Valkyrya/Vanadie: no se en castellano",
+                        ["channel"] = 14,
+                        ["rawText"] = "no se en castellano",
+                        ["rawValue"] = "|c41b341[23:59] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563no se en castellano|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:489:14|h[23:59]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:489:14|hno se en castellano|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [352] = 
+                    {
+                        ["rawTimestamp"] = 1598911209,
+                        ["rawMessage"] = "[Embershield Pauldron]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Embershield Pauldron]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:104975:4:38:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:104975:4:38:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:490:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:104975:4:38:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [353] = 
+                    {
+                        ["rawTimestamp"] = 1598911214,
+                        ["rawMessage"] = "[Ebon Gauntlets of Stamina]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Ebon Gauntlets of Stamina]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:45097:4:46:26588:4:46:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45097:4:46:26588:4:46:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:491:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45097:4:46:26588:4:46:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [354] = 
+                    {
+                        ["rawTimestamp"] = 1598911218,
+                        ["rawMessage"] = "[Selene's Battle Greaves of Durok's Bane]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Selene's Battle Greaves of Durok's Bane]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:34383:11:42:0:0:0:0:0:0:0:0:0:0:0:1:19:0:1:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:34383:11:42:0:0:0:0:0:0:0:0:0:0:0:1:19:0:1:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:492:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:34383:11:42:0:0:0:0:0:0:0:0:0:0:0:1:19:0:1:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [355] = 
+                    {
+                        ["rawTimestamp"] = 1598911222,
+                        ["rawMessage"] = "[Dwarven Helm of Stamina]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Dwarven Helm of Stamina]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:45098:3:44:26588:3:44:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45098:3:44:26588:3:44:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:493:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45098:3:44:26588:3:44:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [356] = 
+                    {
+                        ["rawTimestamp"] = 1598911224,
+                        ["rawMessage"] = "ponte cosas que te den magia",
+                        ["rawLine"] = "[00:00] [SdA] @Valkyrya/Vanadie: ponte cosas que te den magia",
+                        ["channel"] = 14,
+                        ["rawText"] = "ponte cosas que te den magia",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563ponte cosas que te den magia|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:494:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:494:14|hponte cosas que te den magia|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [357] = 
+                    {
+                        ["rawTimestamp"] = 1598911226,
+                        ["rawMessage"] = "[Dwarven Cuirass of Health]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Dwarven Cuirass of Health]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:45095:4:43:26580:4:43:0:0:0:0:0:0:0:0:0:7:0:0:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45095:4:43:26580:4:43:0:0:0:0:0:0:0:0:0:7:0:0:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:495:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45095:4:43:26580:4:43:0:0:0:0:0:0:0:0:0:7:0:0:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [358] = 
+                    {
+                        ["rawTimestamp"] = 1598911232,
+                        ["rawMessage"] = "[Dwarven Girdle of Magicka]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Dwarven Girdle of Magicka]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:45101:3:42:26582:3:42:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45101:3:42:26582:3:42:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:496:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:45101:3:42:26582:3:42:0:0:0:0:0:0:0:0:0:3:0:0:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [359] = 
+                    {
+                        ["rawTimestamp"] = 1598911235,
+                        ["rawMessage"] = "[Embershield Sabatons]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Embershield Sabatons]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:104911:4:45:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:104911:4:45:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:497:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:104911:4:45:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:10000:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [360] = 
+                    {
+                        ["rawTimestamp"] = 1598911239,
+                        ["rawMessage"] = "[Copper Necklace]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Copper Necklace]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:138797:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:138797:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:498:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:138797:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [361] = 
+                    {
+                        ["rawTimestamp"] = 1598911241,
+                        ["rawMessage"] = "la coraza dejatela y asi tienes vida que la necesitas",
+                        ["rawLine"] = "[00:00] [SdA] @Valkyrya/Vanadie: la coraza dejatela y asi tienes vida que la necesitas",
+                        ["channel"] = 14,
+                        ["rawText"] = "la coraza dejatela y asi tienes vida que la necesitas",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563la coraza dejatela y asi tienes vida que la necesitas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:499:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:499:14|hla coraza dejatela y asi tienes vida que la necesitas|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [362] = 
+                    {
+                        ["rawTimestamp"] = 1598911243,
+                        ["rawMessage"] = "[Ember Eye]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Ember Eye]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:5831:4:45:0:0:0:0:0:0:0:0:0:0:0:1:8:0:1:0:0:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:5831:4:45:0:0:0:0:0:0:0:0:0:0:0:1:8:0:1:0:0:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:500:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:5831:4:45:0:0:0:0:0:0:0:0:0:0:0:1:8:0:1:0:0:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [363] = 
+                    {
+                        ["rawTimestamp"] = 1598911249,
+                        ["rawMessage"] = "[Copper Ring]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Copper Ring]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:54511:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:54511:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:501:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:54511:2:46:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [364] = 
+                    {
+                        ["rawTimestamp"] = 1598911254,
+                        ["rawMessage"] = "[Rattlecage Restoration Staff]",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: [Rattlecage Restoration Staff]",
+                        ["channel"] = 14,
+                        ["rawText"] = "|H1:item:111226:4:46:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:22:0|h|h",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:111226:4:46:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:22:0|h|h|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:502:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:item:111226:4:46:0:0:0:0:0:0:0:0:0:0:0:1:20:0:1:0:22:0|h|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [365] = 
+                    {
+                        ["rawTimestamp"] = 1598911259,
+                        ["rawMessage"] = "esto es lo k tengo",
+                        ["rawLine"] = "[00:00] [SdA] @minotauro12/Elasirll: esto es lo k tengo",
+                        ["channel"] = 14,
+                        ["rawText"] = "esto es lo k tengo",
+                        ["rawValue"] = "|c41b341[00:00] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563esto es lo k tengo|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:503:14|h[00:00]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:503:14|hesto es lo k tengo|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [366] = 
+                    {
+                        ["rawTimestamp"] = 1598911291,
+                        ["rawMessage"] = "quedate la armadura, lo demas si te cae equipo de magia vete quitandoltelo, y ponte armadura ligera en lo demás",
+                        ["rawLine"] = "[00:01] [SdA] @Valkyrya/Vanadie: quedate la armadura, lo demas si te cae equipo de magia vete quitandoltelo, y ponte armadura ligera en lo demás",
+                        ["channel"] = 14,
+                        ["rawText"] = "quedate la armadura, lo demas si te cae equipo de magia vete quitandoltelo, y ponte armadura ligera en lo demás",
+                        ["rawValue"] = "|c41b341[00:01] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563quedate la armadura, lo demas si te cae equipo de magia vete quitandoltelo, y ponte armadura ligera en lo demás|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:504:14|h[00:01]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:504:14|hquedate la armadura, lo demas si te cae equipo de magia vete quitandoltelo, y ponte armadura ligera e|h|H1:p:504:14|hn lo demás|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [367] = 
+                    {
+                        ["rawTimestamp"] = 1598911301,
+                        ["rawMessage"] = "okis",
+                        ["rawLine"] = "[00:01] [SdA] @minotauro12/Elasirll: okis",
+                        ["channel"] = 14,
+                        ["rawText"] = "okis",
+                        ["rawValue"] = "|c41b341[00:01] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563okis|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:505:14|h[00:01]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:505:14|hokis|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [368] = 
+                    {
+                        ["rawTimestamp"] = 1598911317,
+                        ["rawMessage"] = "pero siendo de lvl alto no?",
+                        ["rawLine"] = "[00:01] [SdA] @minotauro12/Elasirll: pero siendo de lvl alto no?",
+                        ["channel"] = 14,
+                        ["rawText"] = "pero siendo de lvl alto no?",
+                        ["rawValue"] = "|c41b341[00:01] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563pero siendo de lvl alto no?|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:506:14|h[00:01]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:506:14|hpero siendo de lvl alto no?|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [369] = 
+                    {
+                        ["rawTimestamp"] = 1598911328,
+                        ["rawMessage"] = "o da lo mismo",
+                        ["rawLine"] = "[00:02] [SdA] @minotauro12/Elasirll: o da lo mismo",
+                        ["channel"] = 14,
+                        ["rawText"] = "o da lo mismo",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563o da lo mismo|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:507:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:507:14|ho da lo mismo|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [370] = 
+                    {
+                        ["rawTimestamp"] = 1598911333,
+                        ["rawMessage"] = "cuando puedas vete subiendote las pasivas de armadura ligera",
+                        ["rawLine"] = "[00:02] [SdA] @Valkyrya/Vanadie: cuando puedas vete subiendote las pasivas de armadura ligera",
+                        ["channel"] = 14,
+                        ["rawText"] = "cuando puedas vete subiendote las pasivas de armadura ligera",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563cuando puedas vete subiendote las pasivas de armadura ligera|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:508:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:508:14|hcuando puedas vete subiendote las pasivas de armadura ligera|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [371] = 
+                    {
+                        ["rawTimestamp"] = 1598911341,
+                        ["rawMessage"] = "la q t encuentres sera d tu lvl",
+                        ["rawLine"] = "[00:02] [SdA] @ARenCer/Adiona Gardener: la q t encuentres sera d tu lvl",
+                        ["channel"] = 14,
+                        ["rawText"] = "la q t encuentres sera d tu lvl",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563la q t encuentres sera d tu lvl|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:509:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@ARenCer|h@ARenCer/Adiona Gardener|h: |r|c63d563|H1:p:509:14|hla q t encuentres sera d tu lvl|h|r",
+                        ["rawFrom"] = "@ARenCer",
+                    },
+                    [372] = 
+                    {
+                        ["rawTimestamp"] = 1598911341,
+                        ["rawMessage"] = "pero si te quedan 4 niveles para empezar el campeon xD",
+                        ["rawLine"] = "[00:02] [SdA] @Valkyrya/Vanadie: pero si te quedan 4 niveles para empezar el campeon xD",
+                        ["channel"] = 14,
+                        ["rawText"] = "pero si te quedan 4 niveles para empezar el campeon xD",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563pero si te quedan 4 niveles para empezar el campeon xD|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:510:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:510:14|hpero si te quedan 4 niveles para empezar el campeon xD|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [373] = 
+                    {
+                        ["rawTimestamp"] = 1598911353,
+                        ["rawMessage"] = "estás ya rozando el exito ajaja",
+                        ["rawLine"] = "[00:02] [SdA] @Valkyrya/Vanadie: estás ya rozando el exito ajaja",
+                        ["channel"] = 14,
+                        ["rawText"] = "estás ya rozando el exito ajaja",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563estás ya rozando el exito ajaja|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:511:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:511:14|hestás ya rozando el exito ajaja|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [374] = 
+                    {
+                        ["rawTimestamp"] = 1598911366,
+                        ["rawMessage"] = "te dejo, ya hablamos, sorry q me esperan",
+                        ["rawLine"] = "[00:02] [SdA] @Valkyrya/Vanadie: te dejo, ya hablamos, sorry q me esperan",
+                        ["channel"] = 14,
+                        ["rawText"] = "te dejo, ya hablamos, sorry q me esperan",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563te dejo, ya hablamos, sorry q me esperan|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:512:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@Valkyrya|h@Valkyrya/Vanadie|h: |r|c63d563|H1:p:512:14|hte dejo, ya hablamos, sorry q me esperan|h|r",
+                        ["rawFrom"] = "@Valkyrya",
+                    },
+                    [375] = 
+                    {
+                        ["rawTimestamp"] = 1598911373,
+                        ["rawMessage"] = "okis valky",
+                        ["rawLine"] = "[00:02] [SdA] @minotauro12/Elasirll: okis valky",
+                        ["channel"] = 14,
+                        ["rawText"] = "okis valky",
+                        ["rawValue"] = "|c41b341[00:02] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563okis valky|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:513:14|h[00:02]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:513:14|hokis valky|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [376] = 
+                    {
+                        ["rawTimestamp"] = 1598911385,
+                        ["rawMessage"] = "yo lo dejo tambien ",
+                        ["rawLine"] = "[00:03] [SdA] @minotauro12/Elasirll: yo lo dejo tambien ",
+                        ["channel"] = 14,
+                        ["rawText"] = "yo lo dejo tambien ",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563yo lo dejo tambien |r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:514:14|h[00:03]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:514:14|hyo lo dejo tambien |h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [377] = 
+                    {
+                        ["rawTimestamp"] = 1598911389,
+                        ["rawMessage"] = "paso ya ",
+                        ["rawLine"] = "[00:03] [SdA] @minotauro12/Elasirll: paso ya ",
+                        ["channel"] = 14,
+                        ["rawText"] = "paso ya ",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563paso ya |r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:515:14|h[00:03]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:515:14|hpaso ya |h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [378] = 
+                    {
+                        ["rawTimestamp"] = 1598911396,
+                        ["rawMessage"] = "un abrazo a tod@s",
+                        ["rawLine"] = "[00:03] [SdA] @minotauro12/Elasirll: un abrazo a tod@s",
+                        ["channel"] = 14,
+                        ["rawText"] = "un abrazo a tod@s",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563un abrazo a tod@s|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:516:14|h[00:03]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@minotauro12|h@minotauro12/Elasirll|h: |r|c63d563|H1:p:516:14|hun abrazo a tod@s|h|r",
+                        ["rawFrom"] = "@minotauro12",
+                    },
+                    [379] = 
+                    {
+                        ["rawTimestamp"] = 1598911397,
+                        ["rawMessage"] = "holas",
+                        ["rawLine"] = "[00:03] [SdA] @altolag/Hakashiri: holas",
+                        ["channel"] = 14,
+                        ["rawText"] = "holas",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@altolag|h@altolag/Hakashiri|h: |r|c63d563holas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:517:14|h[00:03]|h |r|c41b341|H1:channel:14|h[SdA]|h |H0:display:@altolag|h@altolag/Hakashiri|h: |r|c63d563|H1:p:517:14|hholas|h|r",
+                        ["rawFrom"] = "@altolag",
+                    },
+                    [380] = 
+                    {
+                        ["rawTimestamp"] = 1598911402,
+                        ["rawMessage"] = "buenas",
+                        ["rawLine"] = "[00:03] [Hojablanca] @altolag/Hakashiri: buenas",
+                        ["channel"] = 13,
+                        ["rawText"] = "buenas",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@altolag|h@altolag/Hakashiri|h: |r|c63d563buenas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:518:13|h[00:03]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@altolag|h@altolag/Hakashiri|h: |r|c63d563|H1:p:518:13|hbuenas|h|r",
+                        ["rawFrom"] = "@altolag",
+                    },
+                    [381] = 
+                    {
+                        ["rawTimestamp"] = 1598911428,
+                        ["rawMessage"] = "Buenas",
+                        ["rawLine"] = "[00:03] [Hojablanca] @doubleXcross/Babastis V: Buenas",
+                        ["channel"] = 13,
+                        ["rawText"] = "Buenas",
+                        ["rawValue"] = "|c41b341[00:03] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@doubleXcross|h@doubleXcross/Babastis V|h: |r|c63d563Buenas|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:519:13|h[00:03]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@doubleXcross|h@doubleXcross/Babastis V|h: |r|c63d563|H1:p:519:13|hBuenas|h|r",
+                        ["rawFrom"] = "@doubleXcross",
+                    },
+                    [382] = 
+                    {
+                        ["rawTimestamp"] = 1598911454,
+                        ["rawMessage"] = "Buenas!",
+                        ["rawLine"] = "[00:04] [Hojablanca] @LucyRomeneia/Lucy Abyss: Buenas!",
+                        ["channel"] = 13,
+                        ["rawText"] = "Buenas!",
+                        ["rawValue"] = "|c41b341[00:04] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|c63d563Buenas!|r",
+                        ["rawDisplayed"] = "|c41b341|H1:p:520:13|h[00:04]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@LucyRomeneia|h@LucyRomeneia/Lucy Abyss|h: |r|c63d563|H1:p:520:13|hBuenas!|h|r",
+                        ["rawFrom"] = "@LucyRomeneia",
+                    },
+                    [383] = 
+                    {
+                        ["rawTimestamp"] = 1598911497,
+                        ["rawMessage"] = "Народ, где берутся мотивы серебрянного рассвета?",
+                        ["rawLine"] = "[00:04] [RU] Inglof: Народ, где берутся мотивы серебрянного рассвета?",
+                        ["channel"] = 36,
+                        ["rawText"] = "Народ, где берутся мотивы серебрянного рассвета?",
+                        ["rawValue"] = "|cb1ae8a[00:04] |r|cb1ae8a[RU] |H0:character:Inglof^Mx|hInglof|h: |r|cd3d0acНарод, где берутся мотивы серебрянного рассвета?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:521:36|h[00:04]|h |r|cb1ae8a[RU] |H0:character:Inglof^Mx|hInglof|h: |r|cd3d0ac|H1:p:521:36|hНарод, где берутся мотивы серебрянного рассвета?|h|r",
+                        ["rawFrom"] = "Inglof^Mx",
+                    },
+                    [384] = 
+                    {
+                        ["rawTimestamp"] = 1598911544,
+                        ["rawMessage"] = "Народ, где берутся мотивы серебрянного рассвета?",
+                        ["rawLine"] = "[00:05] Inglof: Народ, где берутся мотивы серебрянного рассвета?",
+                        ["channel"] = 31,
+                        ["rawText"] = "Народ, где берутся мотивы серебрянного рассвета?",
+                        ["rawValue"] = "|cb1ae8a[00:05] |r|cb1ae8a|H0:character:Inglof^Mx|hInglof|h: |r|cd3d0acНарод, где берутся мотивы серебрянного рассвета?|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:522:31|h[00:05]|h |r|cb1ae8a|H0:character:Inglof^Mx|hInglof|h: |r|cd3d0ac|H1:p:522:31|hНарод, где берутся мотивы серебрянного рассвета?|h|r",
+                        ["rawFrom"] = "Inglof^Mx",
+                    },
+                    [385] = 
+                    {
+                        ["rawTimestamp"] = 1598911606,
+                        ["rawMessage"] = "в данжене",
+                        ["rawLine"] = "[00:06] Damon Teneran: в данжене",
+                        ["channel"] = 31,
+                        ["rawText"] = "в данжене",
+                        ["rawValue"] = "|cb1ae8a[00:06] |r|cb1ae8a|H0:character:Damon Teneran^Mx|hDamon Teneran|h: |r|cd3d0acв данжене|r",
+                        ["rawDisplayed"] = "|cb1ae8a|H1:p:523:31|h[00:06]|h |r|cb1ae8a|H0:character:Damon Teneran^Mx|hDamon Teneran|h: |r|cd3d0ac|H1:p:523:31|hв данжене|h|r",
+                        ["rawFrom"] = "Damon Teneran^Mx",
+                    },
+                    [386] = 
+                    {
+                        ["rawTimestamp"] = 1598911655,
+                        ["rawMessage"] = "[00:07] Apparel repaired for 6",
+                        ["rawLine"] = "[00:07] [00:07] Apparel repaired for 6",
+                        ["channel"] = 11,
+                        ["rawText"] = "[00:07] Apparel repaired for |cFFFFFF6|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawValue"] = "[00:07] Apparel repaired for |cFFFFFF6|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawDisplayed"] = "|H1:p:524:11|h[00:07] Apparel repaired for |h|cFFFFFF|H1:p:524:11|h6|h|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
+                        ["rawFrom"] = "",
                     },
                 },
-                ["soundforincwhisps"] = "New_Notification",
+                ["delzonetags"] = true,
+                ["timestampFormat"] = "HH:m",
+                ["timestampcolorislcol"] = true,
+                ["useSystemMessageChatHandler"] = true,
+                ["alwaysShowChat"] = true,
+                ["restoreOnQuit"] = true,
+                ["showTagInEntry"] = true,
+                ["chatMaximizedAfterMenus"] = true,
+                ["officerSwitchFor"] = 
+                {
+                },
+                ["lastWasAFK"] = false,
+                ["groupLeader"] = true,
+                ["oneColour"] = false,
+                ["colours"] = 
+                {
+                    [64] = "|cCEB36F",
+                    [1] = "|cFFFFFF",
+                    [2] = "|cE974D8",
+                    [3] = "|cFFB5F4",
+                    [4] = "|cB27BFF",
+                    [5] = "|cB27BFF",
+                    [6] = "|c6EABCA",
+                    [7] = "|cA1DAF7",
+                    [8] = "|c7E57B5",
+                    [9] = "|c7E57B5",
+                    [12] = "|cA5A5A5",
+                    [13] = "|cA5A5A5",
+                    [14] = "|c879B7D",
+                    [15] = "|c879B7D",
+                    [16] = "|c879B7D",
+                    [17] = "|c879B7D",
+                    [18] = "|c879B7D",
+                    [19] = "|c879B7D",
+                    [20] = "|c879B7D",
+                    [21] = "|c879B7D",
+                    [24] = "|c94E193",
+                    [25] = "|cC3F0C2",
+                    [26] = "|c94E193",
+                    [27] = "|cC3F0C2",
+                    [28] = "|c94E193",
+                    [29] = "|cC3F0C2",
+                    [30] = "|c94E193",
+                    [31] = "|cC3F0C2",
+                    [32] = "|c94E193",
+                    [33] = "|cC3F0C2",
+                    [34] = "|cC3F0C2",
+                    [35] = "|cC3F0C2",
+                    [36] = "|cC3F0C2",
+                    [37] = "|cC3F0C2",
+                    [38] = "|cC3F0C2",
+                    [39] = "|cC3F0C2",
+                    [40] = "|cC3F0C2",
+                    [41] = "|cC3F0C2",
+                    [42] = "|cC3F0C2",
+                    [43] = "|cC3F0C2",
+                    [63] = "|cB0A074",
+                    [65] = "|cB0A074",
+                    [73] = "|cB0A074",
+                    [0] = "|cFFFFFF",
+                    [68] = "|cCEB36F",
+                    ["groupleader"] = "|cC35582",
+                    [66] = "|cCEB36F",
+                    [70] = "|cCEB36F",
+                    [67] = "|cB0A074",
+                    ["groupleader1"] = "|c76BCC3",
+                    [72] = "|cCEB36F",
+                    [69] = "|cB0A074",
+                    ["timestamp"] = "|c8F8F8F",
+                    [71] = "|cB0A074",
+                    [62] = "|cCEB36F",
+                    ["tabwarning"] = "|c76BCC3",
+                },
+                ["restoreOnReloadUI"] = true,
+                ["useIgnoreAddedChatHandler"] = true,
                 ["enablepartyswitch"] = true,
-                ["augmentHistoryBuffer"] = true,
+                ["spamGracePeriod"] = 5,
+                ["lastWasLogOut"] = false,
+                ["restoreTextEntryHistoryAtLogOutQuit"] = false,
+                ["allZonesSameColour"] = true,
+                ["usePlayerStatusChangedChatHandler"] = true,
+                ["defaultTab"] = 2,
+                ["restoreOnAFK"] = true,
+                ["defaultchannel"] = 0,
+                ["soundforincwhisps"] = "New_Notification",
+                ["allNPCSameColour"] = true,
+                ["notifyIMIndex"] = 173,
+                ["enablecopy"] = true,
+                ["chatMinimizedInMenus"] = false,
+                ["showTimestamp"] = true,
+                ["switchFor"] = 
+                {
+                },
                 ["chatTabChannel"] = 
                 {
                     [8] = 
@@ -4477,1169 +8809,50 @@ PCHAT_OPTS =
                         ["channel"] = 13,
                     },
                 },
-                ["colours"] = 
-                {
-                    [64] = "|cCEB36F",
-                    [1] = "|cFFFFFF",
-                    [2] = "|cE974D8",
-                    [3] = "|cFFB5F4",
-                    [4] = "|cB27BFF",
-                    [5] = "|cB27BFF",
-                    [6] = "|c6EABCA",
-                    [7] = "|cA1DAF7",
-                    [8] = "|c7E57B5",
-                    [9] = "|c7E57B5",
-                    ["timestamp"] = "|c8F8F8F",
-                    [12] = "|cA5A5A5",
-                    [13] = "|cA5A5A5",
-                    [14] = "|c879B7D",
-                    [15] = "|c879B7D",
-                    [16] = "|c879B7D",
-                    [17] = "|c879B7D",
-                    [18] = "|c879B7D",
-                    [19] = "|c879B7D",
-                    [20] = "|c879B7D",
-                    [21] = "|c879B7D",
-                    [24] = "|c94E193",
-                    [25] = "|cC3F0C2",
-                    [26] = "|c94E193",
-                    [27] = "|cC3F0C2",
-                    [28] = "|c94E193",
-                    [29] = "|cC3F0C2",
-                    [30] = "|c94E193",
-                    [31] = "|cC3F0C2",
-                    [32] = "|c94E193",
-                    [33] = "|cC3F0C2",
-                    [34] = "|cC3F0C2",
-                    [35] = "|cC3F0C2",
-                    [36] = "|cC3F0C2",
-                    [37] = "|cC3F0C2",
-                    [38] = "|cC3F0C2",
-                    [39] = "|cC3F0C2",
-                    [40] = "|cC3F0C2",
-                    [41] = "|cC3F0C2",
-                    [42] = "|cC3F0C2",
-                    [43] = "|cC3F0C2",
-                    ["groupleader"] = "|cC35582",
-                    ["groupleader1"] = "|c76BCC3",
-                    [73] = "|cB0A074",
-                    ["tabwarning"] = "|c76BCC3",
-                    [66] = "|cCEB36F",
-                    [70] = "|cCEB36F",
-                    [67] = "|cB0A074",
-                    [0] = "|cFFFFFF",
-                    [65] = "|cB0A074",
-                    [72] = "|cCEB36F",
-                    [69] = "|cB0A074",
-                    [71] = "|cB0A074",
-                    [68] = "|cCEB36F",
-                    [62] = "|cCEB36F",
-                    [63] = "|cB0A074",
-                },
+                ["doNotNotifyOnRestoredWhisperFromHistory"] = true,
                 ["guildTags"] = 
                 {
                     [617516] = "SdA",
                 },
-                ["addHistoryRestoredPrefix"] = false,
-                ["groupNames"] = 4,
-                ["allNPCSameColour"] = true,
-                ["useGroupTypeChangedChatHandler"] = true,
-                ["floodGracePeriod"] = 30,
-                ["restoreWhisps"] = true,
-                ["LineStrings"] = 
+                ["defaultTabName"] = "Chat",
+                ["allGuildsSameColour"] = false,
+                ["windowDarkness"] = 0,
+                ["chatMinimizedAtLaunch"] = false,
+                ["useESOcolors"] = true,
+                ["automatedMessages"] = 
                 {
                     [1] = 
                     {
-                        ["rawMessage"] = "[11:36] Akelarre",
-                        ["rawText"] = "[11:36] |cFFFFFFAkelarre|r",
-                        ["rawDisplayed"] = "|H1:p:1:11|h[11:36] |h|cFFFFFF|H1:p:1:11|hAkelarre|h|r",
-                        ["rawLine"] = "[11:36] [11:36] Akelarre",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36] |cFFFFFFAkelarre|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
+                        ["message"] = "/g Hi! I'm Tarod and I will be your tank today!",
+                        ["sortIndex"] = 2,
+                        ["name"] = "!!tt",
                     },
                     [2] = 
                     {
-                        ["rawMessage"] = "[11:36]  There are 2 members online:",
-                        ["rawText"] = "[11:36]  |cC3F0C2There are 2 members online:|r",
-                        ["rawDisplayed"] = "|H1:p:2:11|h[11:36]  |h|cC3F0C2|H1:p:2:11|hThere are 2 members online:|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  There are 2 members online:",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cC3F0C2There are 2 members online:|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
+                        ["message"] = "/g2 Hola a todos!",
+                        ["sortIndex"] = 1,
+                        ["name"] = "!!ghh",
                     },
                     [3] = 
                     {
-                        ["rawMessage"] = "[11:36]  @Igerne/Igerne Bi Sorcerer 50 448cp in Crow's Wood",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@Igerne|h@Igerne|h|r/|c6EABCAIgerne Bi|r |cC3F0C2Sorcerer 50 448cp in Crow's Wood|r",
-                        ["rawDisplayed"] = "|H1:p:3:11|h[11:36]  |h|cB27BFF|H1:character:@Igerne|h@Igerne|h|r|H1:p:3:11|h/|h|c6EABCA|H1:p:3:11|hIgerne Bi|h|r |cC3F0C2|H1:p:3:11|hSorcerer 50 448cp in Crow's Wood|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @Igerne/Igerne Bi Sorcerer 50 448cp in Crow's Wood",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@Igerne|h@Igerne|h|r/|c6EABCAIgerne Bi|r |cC3F0C2Sorcerer 50 448cp in Crow's Wood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
+                        ["message"] = "/g3 Hola!",
+                        ["sortIndex"] = 3,
+                        ["name"] = "!!gsh",
                     },
-                    [4] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @Marevaar/Marevaar Nightblade 50 495cp in Crow's Wood",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r/|c6EABCAMarevaar|r |cC3F0C2Nightblade 50 495cp in Crow's Wood|r",
-                        ["rawDisplayed"] = "|H1:p:4:11|h[11:36]  |h|cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r|H1:p:4:11|h/|h|c6EABCA|H1:p:4:11|hMarevaar|h|r |cC3F0C2|H1:p:4:11|hNightblade 50 495cp in Crow's Wood|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @Marevaar/Marevaar Nightblade 50 495cp in Crow's Wood",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r/|c6EABCAMarevaar|r |cC3F0C2Nightblade 50 495cp in Crow's Wood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [5] = 
-                    {
-                        ["rawMessage"] = "[11:36] Hojablanca",
-                        ["rawText"] = "[11:36] |cFFFFFFHojablanca|r",
-                        ["rawDisplayed"] = "|H1:p:5:11|h[11:36] |h|cFFFFFF|H1:p:5:11|hHojablanca|h|r",
-                        ["rawLine"] = "[11:36] [11:36] Hojablanca",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36] |cFFFFFFHojablanca|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [6] = 
-                    {
-                        ["rawMessage"] = "[11:36]  There is only another member online:",
-                        ["rawText"] = "[11:36]  |cC3F0C2There is only another member online:|r",
-                        ["rawDisplayed"] = "|H1:p:6:11|h[11:36]  |h|cC3F0C2|H1:p:6:11|hThere is only another member online:|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  There is only another member online:",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cC3F0C2There is only another member online:|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [7] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @andu123/Salmanak Templar 37 in Glenumbra",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@andu123|h@andu123|h|r/|c6EABCASalmanak|r |cC3F0C2Templar 37 in Glenumbra|r",
-                        ["rawDisplayed"] = "|H1:p:7:11|h[11:36]  |h|cB27BFF|H1:character:@andu123|h@andu123|h|r|H1:p:7:11|h/|h|c6EABCA|H1:p:7:11|hSalmanak|h|r |cC3F0C2|H1:p:7:11|hTemplar 37 in Glenumbra|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @andu123/Salmanak Templar 37 in Glenumbra",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@andu123|h@andu123|h|r/|c6EABCASalmanak|r |cC3F0C2Templar 37 in Glenumbra|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [8] = 
-                    {
-                        ["rawMessage"] = "[11:36] Señores del apocalipsis",
-                        ["rawText"] = "[11:36] |cFFFFFFSeñores del apocalipsis|r",
-                        ["rawDisplayed"] = "|H1:p:8:11|h[11:36] |h|cFFFFFF|H1:p:8:11|hSeñores del apocalipsis|h|r",
-                        ["rawLine"] = "[11:36] [11:36] Señores del apocalipsis",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36] |cFFFFFFSeñores del apocalipsis|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [9] = 
-                    {
-                        ["rawMessage"] = "[11:36]  There are 7 members online:",
-                        ["rawText"] = "[11:36]  |cC3F0C2There are 7 members online:|r",
-                        ["rawDisplayed"] = "|H1:p:9:11|h[11:36]  |h|cC3F0C2|H1:p:9:11|hThere are 7 members online:|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  There are 7 members online:",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cC3F0C2There are 7 members online:|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [10] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @Injunna/Arondil Lover of the dead Necromancer 50 615cp in Summerset",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 615cp in Summerset|r",
-                        ["rawDisplayed"] = "|H1:p:10:11|h[11:36]  |h|cB27BFF|H1:character:@Injunna|h@Injunna|h|r|H1:p:10:11|h/|h|c6EABCA|H1:p:10:11|hArondil Lover of the dead|h|r |cC3F0C2|H1:p:10:11|hNecromancer 50 615cp in Summerset|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @Injunna/Arondil Lover of the dead Necromancer 50 615cp in Summerset",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 615cp in Summerset|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [11] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @TitvsMagnvs/Titvsmagnificvs Sorcerer 50 469cp in Northern Elsweyr",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCATitvsmagnificvs|r |cC3F0C2Sorcerer 50 469cp in Northern Elsweyr|r",
-                        ["rawDisplayed"] = "|H1:p:11:11|h[11:36]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:11:11|h/|h|c6EABCA|H1:p:11:11|hTitvsmagnificvs|h|r |cC3F0C2|H1:p:11:11|hSorcerer 50 469cp in Northern Elsweyr|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @TitvsMagnvs/Titvsmagnificvs Sorcerer 50 469cp in Northern Elsweyr",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCATitvsmagnificvs|r |cC3F0C2Sorcerer 50 469cp in Northern Elsweyr|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [12] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @HexwraithFlame/Lady Angronia of Nurgelia Dragonknight 50 810cp in Vvardenfell",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCALady Angronia of Nurgelia|r |cC3F0C2Dragonknight 50 810cp in Vvardenfell|r",
-                        ["rawDisplayed"] = "|H1:p:12:11|h[11:36]  |h|cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r|H1:p:12:11|h/|h|c6EABCA|H1:p:12:11|hLady Angronia of Nurgelia|h|r |cC3F0C2|H1:p:12:11|hDragonknight 50 810cp in Vvardenfell|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @HexwraithFlame/Lady Angronia of Nurgelia Dragonknight 50 810cp in Vvardenfell",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCALady Angronia of Nurgelia|r |cC3F0C2Dragonknight 50 810cp in Vvardenfell|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [13] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @werber90/silvestrex Templar 19 in Grahtwood",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@werber90|h@werber90|h|r/|c6EABCAsilvestrex|r |cC3F0C2Templar 19 in Grahtwood|r",
-                        ["rawDisplayed"] = "|H1:p:13:11|h[11:36]  |h|cB27BFF|H1:character:@werber90|h@werber90|h|r|H1:p:13:11|h/|h|c6EABCA|H1:p:13:11|hsilvestrex|h|r |cC3F0C2|H1:p:13:11|hTemplar 19 in Grahtwood|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @werber90/silvestrex Templar 19 in Grahtwood",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@werber90|h@werber90|h|r/|c6EABCAsilvestrex|r |cC3F0C2Templar 19 in Grahtwood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [14] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @akaamanho/Ashaba Felix Nightblade 15 in Summerset",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAAshaba Felix|r |cC3F0C2Nightblade 15 in Summerset|r",
-                        ["rawDisplayed"] = "|H1:p:14:11|h[11:36]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:14:11|h/|h|c6EABCA|H1:p:14:11|hAshaba Felix|h|r |cC3F0C2|H1:p:14:11|hNightblade 15 in Summerset|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @akaamanho/Ashaba Felix Nightblade 15 in Summerset",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAAshaba Felix|r |cC3F0C2Nightblade 15 in Summerset|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [15] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @Velocipedo_Su/Yomisma Nightblade 50 447cp in Northern Elsweyr",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r/|c6EABCAYomisma|r |cC3F0C2Nightblade 50 447cp in Northern Elsweyr|r",
-                        ["rawDisplayed"] = "|H1:p:15:11|h[11:36]  |h|cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r|H1:p:15:11|h/|h|c6EABCA|H1:p:15:11|hYomisma|h|r |cC3F0C2|H1:p:15:11|hNightblade 50 447cp in Northern Elsweyr|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @Velocipedo_Su/Yomisma Nightblade 50 447cp in Northern Elsweyr",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r/|c6EABCAYomisma|r |cC3F0C2Nightblade 50 447cp in Northern Elsweyr|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [16] = 
-                    {
-                        ["rawMessage"] = "[11:36]  @Bicentenario/  0 in",
-                        ["rawText"] = "[11:36]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
-                        ["rawDisplayed"] = "|H1:p:16:11|h[11:36]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:16:11|h/ |h|cC3F0C2|H1:p:16:11|h 0 in|h|r",
-                        ["rawLine"] = "[11:36] [11:36]  @Bicentenario/  0 in",
-                        ["rawTimestamp"] = 1598866574,
-                        ["rawValue"] = "[11:36]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [17] = 
-                    {
-                        ["rawMessage"] = "[11:36] Telvar gain: 3'000",
-                        ["rawText"] = "[11:36] |cAA22AATelvar gain:|r 3'000|t18:18:/esoui/art/currency/telvar_mipmap.dds|t",
-                        ["rawDisplayed"] = "|H1:p:17:11|h[11:36] |h|cAA22AA|H1:p:17:11|hTelvar gain:|h|r|H1:p:17:11|h 3'000|h|t18:18:/esoui/art/currency/telvar_mipmap.dds|t",
-                        ["rawLine"] = "[11:36] [11:36] Telvar gain: 3'000",
-                        ["rawTimestamp"] = 1598866586,
-                        ["rawValue"] = "[11:36] |cAA22AATelvar gain:|r 3'000|t18:18:/esoui/art/currency/telvar_mipmap.dds|t",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [18] = 
-                    {
-                        ["rawMessage"] = "sil var woad geyser up if anyone's around to help maybe :D",
-                        ["rawText"] = "sil var woad geyser up if anyone's around to help maybe :D",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:18:31|h[11:37]|h |r|cb1ae8a|H0:character:Nyxias^Fx|hNyxias|h: |r|cd3d0ac|H1:p:18:31|hsil var woad geyser up if anyone's around to help maybe :D|h|r",
-                        ["rawLine"] = "[11:37] Nyxias: sil var woad geyser up if anyone's around to help maybe :D",
-                        ["rawTimestamp"] = 1598866651,
-                        ["rawValue"] = "|cb1ae8a[11:37] |r|cb1ae8a|H0:character:Nyxias^Fx|hNyxias|h: |r|cd3d0acsil var woad geyser up if anyone's around to help maybe :D|r",
-                        ["rawFrom"] = "Nyxias^Fx",
-                        ["channel"] = 31,
-                    },
-                    [19] = 
-                    {
-                        ["rawMessage"] = "ANy WB quest to share ? ",
-                        ["rawText"] = "ANy WB quest to share ? ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:19:31|h[11:43]|h |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac|H1:p:19:31|hANy WB quest to share ? |h|r",
-                        ["rawLine"] = "[11:43] Karault Le Peintre: ANy WB quest to share ? ",
-                        ["rawTimestamp"] = 1598866999,
-                        ["rawValue"] = "|cb1ae8a[11:43] |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0acANy WB quest to share ? |r",
-                        ["rawFrom"] = "Karault Le Peintre^Mx",
-                        ["channel"] = 31,
-                    },
-                    [20] = 
-                    {
-                        ["rawMessage"] = "[11:53] [Sealed Woodworking Writ] was received (7 v)",
-                        ["rawText"] = "[11:53] |H0:item:119681:5:1:0:0:0:72:192:4:410:7:29:0:0:0:0:0:0:0:0:66000|h|h was received (7 v)",
-                        ["rawDisplayed"] = "|H1:p:20:11|h[11:53] |h|H0:item:119681:5:1:0:0:0:72:192:4:410:7:29:0:0:0:0:0:0:0:0:66000|h|h|H1:p:20:11|h was received (7 v)|h",
-                        ["rawLine"] = "[11:53] [11:53] [Sealed Woodworking Writ] was received (7 v)",
-                        ["rawTimestamp"] = 1598867633,
-                        ["rawValue"] = "[11:53] |H0:item:119681:5:1:0:0:0:72:192:4:410:7:29:0:0:0:0:0:0:0:0:66000|h|h was received (7 v)",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [21] = 
-                    {
-                        ["rawMessage"] = "[11:53] Dustman has marked [Ruby Ash Lightning Staff] as junk (ORNATE W/A).",
-                        ["rawText"] = "[11:53] Dustman has marked |H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h as junk (ORNATE W/A).",
-                        ["rawDisplayed"] = "|H1:p:21:11|h[11:53] Dustman has marked |h|H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h|H1:p:21:11|h as junk (ORNATE W/A).|h",
-                        ["rawLine"] = "[11:53] [11:53] Dustman has marked [Ruby Ash Lightning Staff] as junk (ORNATE W/A).",
-                        ["rawTimestamp"] = 1598867633,
-                        ["rawValue"] = "[11:53] Dustman has marked |H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h as junk (ORNATE W/A).",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [22] = 
-                    {
-                        ["rawMessage"] = "[11:54] Dustman has marked [Ancestor Silk Breeches] as junk (ORNATE W/A).",
-                        ["rawText"] = "[11:54] Dustman has marked |H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
-                        ["rawDisplayed"] = "|H1:p:22:11|h[11:54] Dustman has marked |h|H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h|H1:p:22:11|h as junk (ORNATE W/A).|h",
-                        ["rawLine"] = "[11:54] [11:54] Dustman has marked [Ancestor Silk Breeches] as junk (ORNATE W/A).",
-                        ["rawTimestamp"] = 1598867646,
-                        ["rawValue"] = "[11:54] Dustman has marked |H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h as junk (ORNATE W/A).",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [23] = 
-                    {
-                        ["rawMessage"] = "Keelsplitter up",
-                        ["rawText"] = "Keelsplitter up",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:23:31|h[11:55]|h |r|cb1ae8a|H0:character:Martianus Furiosus^Mx|hMartianus Furiosus|h: |r|cd3d0ac|H1:p:23:31|hKeelsplitter up|h|r",
-                        ["rawLine"] = "[11:55] Martianus Furiosus: Keelsplitter up",
-                        ["rawTimestamp"] = 1598867726,
-                        ["rawValue"] = "|cb1ae8a[11:55] |r|cb1ae8a|H0:character:Martianus Furiosus^Mx|hMartianus Furiosus|h: |r|cd3d0acKeelsplitter up|r",
-                        ["rawFrom"] = "Martianus Furiosus^Mx",
-                        ["channel"] = 31,
-                    },
-                    [24] = 
-                    {
-                        ["rawMessage"] = "[11:55] Apparel repaired for 215",
-                        ["rawText"] = "[11:55] Apparel repaired for |cFFFFFF215|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawDisplayed"] = "|H1:p:24:11|h[11:55] Apparel repaired for |h|cFFFFFF|H1:p:24:11|h215|h|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawLine"] = "[11:55] [11:55] Apparel repaired for 215",
-                        ["rawTimestamp"] = 1598867727,
-                        ["rawValue"] = "[11:55] Apparel repaired for |cFFFFFF215|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [25] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Rubedite Sword] for 175.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:25:11|h[11:55] Dustman sold 1x |h|H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h|H1:p:25:11|h for 175|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:25:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Rubedite Sword] for 175.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [26] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Rubedite Sword] for 180.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45335:365:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:26:11|h[11:55] Dustman sold 1x |h|H0:item:45335:365:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h|H1:p:26:11|h for 180|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:26:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Rubedite Sword] for 180.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45335:365:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [27] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Ruby Ash Bow] for 281.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45355:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 281|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:27:11|h[11:55] Dustman sold 1x |h|H0:item:45355:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h|H1:p:27:11|h for 281|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:27:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Ruby Ash Bow] for 281.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45355:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 281|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [28] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Rubedite Greatsword] for 281.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45338:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 281|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:28:11|h[11:55] Dustman sold 1x |h|H0:item:45338:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h|H1:p:28:11|h for 281|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:28:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Rubedite Greatsword] for 281.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45338:308:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:0:0|h|h for 281|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [29] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Ancestor Silk Breeches] for 210.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 210|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:29:11|h[11:55] Dustman sold 1x |h|H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h|H1:p:29:11|h for 210|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:29:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Ancestor Silk Breeches] for 210.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45316:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 210|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [30] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Rubedite Sword] for 175.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:30:11|h[11:55] Dustman sold 1x |h|H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h|H1:p:30:11|h for 175|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:30:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Rubedite Sword] for 175.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45335:308:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [31] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Ruby Ash Lightning Staff] for 288.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:31:11|h[11:55] Dustman sold 1x |h|H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h|H1:p:31:11|h for 288|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:31:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Ruby Ash Lightning Staff] for 288.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45366:365:50:0:0:0:0:0:0:0:0:0:0:0:0:5:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [32] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 1x [Ancestor Silk Epaulets] for 180.",
-                        ["rawText"] = "[11:55] Dustman sold 1x |H0:item:45318:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:32:11|h[11:55] Dustman sold 1x |h|H0:item:45318:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h|H1:p:32:11|h for 180|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:32:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 1x [Ancestor Silk Epaulets] for 180.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 1x |H0:item:45318:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [33] = 
-                    {
-                        ["rawMessage"] = "[11:55] Dustman sold 8 items (8 stacks) for 1770.",
-                        ["rawText"] = "[11:55] Dustman sold 8 items (8 stacks) for 1770|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawDisplayed"] = "|H1:p:33:11|h[11:55] Dustman sold 8 items (8 stacks) for 1770|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:33:11|h.|h",
-                        ["rawLine"] = "[11:55] [11:55] Dustman sold 8 items (8 stacks) for 1770.",
-                        ["rawTimestamp"] = 1598867729,
-                        ["rawValue"] = "[11:55] Dustman sold 8 items (8 stacks) for 1770|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [34] = 
-                    {
-                        ["rawMessage"] = "invite and share?",
-                        ["rawText"] = "invite and share?",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:34:31|h[11:55]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:34:31|hinvite and share?|h|r",
-                        ["rawLine"] = "[11:55] Nerevarine Vampire: invite and share?",
-                        ["rawTimestamp"] = 1598867743,
-                        ["rawValue"] = "|cb1ae8a[11:55] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acinvite and share?|r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [35] = 
-                    {
-                        ["rawMessage"] = "+ keel ? ",
-                        ["rawText"] = "+ keel ? ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:35:31|h[11:59]|h |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac|H1:p:35:31|h+ keel ? |h|r",
-                        ["rawLine"] = "[11:59] Karault Le Peintre: + keel ? ",
-                        ["rawTimestamp"] = 1598867971,
-                        ["rawValue"] = "|cb1ae8a[11:59] |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac+ keel ? |r",
-                        ["rawFrom"] = "Karault Le Peintre^Mx",
-                        ["channel"] = 31,
-                    },
-                    [36] = 
-                    {
-                        ["rawMessage"] = "Rellenthil geyser up ",
-                        ["rawText"] = "Rellenthil geyser up ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:36:31|h[12:01]|h |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac|H1:p:36:31|hRellenthil geyser up |h|r",
-                        ["rawLine"] = "[12:01] Karault Le Peintre: Rellenthil geyser up ",
-                        ["rawTimestamp"] = 1598868115,
-                        ["rawValue"] = "|cb1ae8a[12:01] |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0acRellenthil geyser up |r",
-                        ["rawFrom"] = "Karault Le Peintre^Mx",
-                        ["channel"] = 31,
-                    },
-                    [37] = 
-                    {
-                        ["rawText"] = "[12:05] |cFFFFFFAkelarre|r",
-                        ["rawMessage"] = "[12:05] Akelarre",
-                        ["rawDisplayed"] = "|H1:p:37:11|h[12:05] |h|cFFFFFF|H1:p:37:11|hAkelarre|h|r",
-                        ["rawLine"] = "[12:05] [12:05] Akelarre",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05] |cFFFFFFAkelarre|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [38] = 
-                    {
-                        ["rawText"] = "[12:05]  |cC3F0C2There are 2 members online:|r",
-                        ["rawMessage"] = "[12:05]  There are 2 members online:",
-                        ["rawDisplayed"] = "|H1:p:38:11|h[12:05]  |h|cC3F0C2|H1:p:38:11|hThere are 2 members online:|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  There are 2 members online:",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cC3F0C2There are 2 members online:|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [39] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@Igerne|h@Igerne|h|r/|c6EABCAIgerne Bi|r |cC3F0C2Sorcerer 50 448cp in Crow's Wood|r",
-                        ["rawMessage"] = "[12:05]  @Igerne/Igerne Bi Sorcerer 50 448cp in Crow's Wood",
-                        ["rawDisplayed"] = "|H1:p:39:11|h[12:05]  |h|cB27BFF|H1:character:@Igerne|h@Igerne|h|r|H1:p:39:11|h/|h|c6EABCA|H1:p:39:11|hIgerne Bi|h|r |cC3F0C2|H1:p:39:11|hSorcerer 50 448cp in Crow's Wood|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @Igerne/Igerne Bi Sorcerer 50 448cp in Crow's Wood",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@Igerne|h@Igerne|h|r/|c6EABCAIgerne Bi|r |cC3F0C2Sorcerer 50 448cp in Crow's Wood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [40] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r/|c6EABCAMarevaar|r |cC3F0C2Nightblade 50 495cp in Crow's Wood|r",
-                        ["rawMessage"] = "[12:05]  @Marevaar/Marevaar Nightblade 50 495cp in Crow's Wood",
-                        ["rawDisplayed"] = "|H1:p:40:11|h[12:05]  |h|cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r|H1:p:40:11|h/|h|c6EABCA|H1:p:40:11|hMarevaar|h|r |cC3F0C2|H1:p:40:11|hNightblade 50 495cp in Crow's Wood|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @Marevaar/Marevaar Nightblade 50 495cp in Crow's Wood",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@Marevaar|h@Marevaar|h|r/|c6EABCAMarevaar|r |cC3F0C2Nightblade 50 495cp in Crow's Wood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [41] = 
-                    {
-                        ["rawText"] = "[12:05] |cFFFFFFHojablanca|r",
-                        ["rawMessage"] = "[12:05] Hojablanca",
-                        ["rawDisplayed"] = "|H1:p:41:11|h[12:05] |h|cFFFFFF|H1:p:41:11|hHojablanca|h|r",
-                        ["rawLine"] = "[12:05] [12:05] Hojablanca",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05] |cFFFFFFHojablanca|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [42] = 
-                    {
-                        ["rawText"] = "[12:05]  |cC3F0C2You are the only one online :(|r",
-                        ["rawMessage"] = "[12:05]  You are the only one online :(",
-                        ["rawDisplayed"] = "|H1:p:42:11|h[12:05]  |h|cC3F0C2|H1:p:42:11|hYou are the only one online :(|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  You are the only one online :(",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cC3F0C2You are the only one online :(|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [43] = 
-                    {
-                        ["rawText"] = "[12:05] |cFFFFFFSeñores del apocalipsis|r",
-                        ["rawMessage"] = "[12:05] Señores del apocalipsis",
-                        ["rawDisplayed"] = "|H1:p:43:11|h[12:05] |h|cFFFFFF|H1:p:43:11|hSeñores del apocalipsis|h|r",
-                        ["rawLine"] = "[12:05] [12:05] Señores del apocalipsis",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05] |cFFFFFFSeñores del apocalipsis|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [44] = 
-                    {
-                        ["rawText"] = "[12:05]  |cC3F0C2There are 7 members online:|r",
-                        ["rawMessage"] = "[12:05]  There are 7 members online:",
-                        ["rawDisplayed"] = "|H1:p:44:11|h[12:05]  |h|cC3F0C2|H1:p:44:11|hThere are 7 members online:|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  There are 7 members online:",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cC3F0C2There are 7 members online:|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [45] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 615cp in Alinor Crest Townhouse|r",
-                        ["rawMessage"] = "[12:05]  @Injunna/Arondil Lover of the dead Necromancer 50 615cp in Alinor Crest Townhouse",
-                        ["rawDisplayed"] = "|H1:p:45:11|h[12:05]  |h|cB27BFF|H1:character:@Injunna|h@Injunna|h|r|H1:p:45:11|h/|h|c6EABCA|H1:p:45:11|hArondil Lover of the dead|h|r |cC3F0C2|H1:p:45:11|hNecromancer 50 615cp in Alinor Crest Townhouse|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @Injunna/Arondil Lover of the dead Necromancer 50 615cp in Alinor Crest Townhouse",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@Injunna|h@Injunna|h|r/|c6EABCAArondil Lover of the dead|r |cC3F0C2Necromancer 50 615cp in Alinor Crest Townhouse|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [46] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCATitvsmagnificvs|r |cC3F0C2Sorcerer 50 469cp in Tempest Island|r",
-                        ["rawMessage"] = "[12:05]  @TitvsMagnvs/Titvsmagnificvs Sorcerer 50 469cp in Tempest Island",
-                        ["rawDisplayed"] = "|H1:p:46:11|h[12:05]  |h|cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r|H1:p:46:11|h/|h|c6EABCA|H1:p:46:11|hTitvsmagnificvs|h|r |cC3F0C2|H1:p:46:11|hSorcerer 50 469cp in Tempest Island|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @TitvsMagnvs/Titvsmagnificvs Sorcerer 50 469cp in Tempest Island",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@TitvsMagnvs|h@TitvsMagnvs|h|r/|c6EABCATitvsmagnificvs|r |cC3F0C2Sorcerer 50 469cp in Tempest Island|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [47] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCALady Angronia of Nurgelia|r |cC3F0C2Dragonknight 50 810cp in Tempest Island|r",
-                        ["rawMessage"] = "[12:05]  @HexwraithFlame/Lady Angronia of Nurgelia Dragonknight 50 810cp in Tempest Island",
-                        ["rawDisplayed"] = "|H1:p:47:11|h[12:05]  |h|cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r|H1:p:47:11|h/|h|c6EABCA|H1:p:47:11|hLady Angronia of Nurgelia|h|r |cC3F0C2|H1:p:47:11|hDragonknight 50 810cp in Tempest Island|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @HexwraithFlame/Lady Angronia of Nurgelia Dragonknight 50 810cp in Tempest Island",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@HexwraithFlame|h@HexwraithFlame|h|r/|c6EABCALady Angronia of Nurgelia|r |cC3F0C2Dragonknight 50 810cp in Tempest Island|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [48] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@werber90|h@werber90|h|r/|c6EABCAsilvestrex|r |cC3F0C2Templar 19 in Grahtwood|r",
-                        ["rawMessage"] = "[12:05]  @werber90/silvestrex Templar 19 in Grahtwood",
-                        ["rawDisplayed"] = "|H1:p:48:11|h[12:05]  |h|cB27BFF|H1:character:@werber90|h@werber90|h|r|H1:p:48:11|h/|h|c6EABCA|H1:p:48:11|hsilvestrex|h|r |cC3F0C2|H1:p:48:11|hTemplar 19 in Grahtwood|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @werber90/silvestrex Templar 19 in Grahtwood",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@werber90|h@werber90|h|r/|c6EABCAsilvestrex|r |cC3F0C2Templar 19 in Grahtwood|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [49] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAThyrill Marcus|r |cC3F0C2Nightblade 50 475cp in Vvardenfell|r",
-                        ["rawMessage"] = "[12:05]  @akaamanho/Thyrill Marcus Nightblade 50 475cp in Vvardenfell",
-                        ["rawDisplayed"] = "|H1:p:49:11|h[12:05]  |h|cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r|H1:p:49:11|h/|h|c6EABCA|H1:p:49:11|hThyrill Marcus|h|r |cC3F0C2|H1:p:49:11|hNightblade 50 475cp in Vvardenfell|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @akaamanho/Thyrill Marcus Nightblade 50 475cp in Vvardenfell",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@akaamanho|h@akaamanho|h|r/|c6EABCAThyrill Marcus|r |cC3F0C2Nightblade 50 475cp in Vvardenfell|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [50] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r/|c6EABCAYomisma|r |cC3F0C2Nightblade 50 447cp in Tempest Island|r",
-                        ["rawMessage"] = "[12:05]  @Velocipedo_Su/Yomisma Nightblade 50 447cp in Tempest Island",
-                        ["rawDisplayed"] = "|H1:p:50:11|h[12:05]  |h|cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r|H1:p:50:11|h/|h|c6EABCA|H1:p:50:11|hYomisma|h|r |cC3F0C2|H1:p:50:11|hNightblade 50 447cp in Tempest Island|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @Velocipedo_Su/Yomisma Nightblade 50 447cp in Tempest Island",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@Velocipedo_Su|h@Velocipedo_Su|h|r/|c6EABCAYomisma|r |cC3F0C2Nightblade 50 447cp in Tempest Island|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [51] = 
-                    {
-                        ["rawText"] = "[12:05]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
-                        ["rawMessage"] = "[12:05]  @Bicentenario/  0 in",
-                        ["rawDisplayed"] = "|H1:p:51:11|h[12:05]  |h|cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r|H1:p:51:11|h/ |h|cC3F0C2|H1:p:51:11|h 0 in|h|r",
-                        ["rawLine"] = "[12:05] [12:05]  @Bicentenario/  0 in",
-                        ["rawTimestamp"] = 1598868318,
-                        ["rawValue"] = "[12:05]  |cB27BFF|H1:character:@Bicentenario|h@Bicentenario|h|r/|c6EABCA|r |cC3F0C2 0 in|r",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [52] = 
-                    {
-                        ["rawText"] = "gryphons i share",
-                        ["rawMessage"] = "gryphons i share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:52:31|h[12:05]|h |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0ac|H1:p:52:31|hgryphons i share|h|r",
-                        ["rawLine"] = "[12:05] Dragonaida: gryphons i share",
-                        ["rawTimestamp"] = 1598868336,
-                        ["rawValue"] = "|cb1ae8a[12:05] |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0acgryphons i share|r",
-                        ["rawFrom"] = "Dragonaida^Mx",
-                        ["channel"] = 31,
-                    },
-                    [53] = 
-                    {
-                        ["rawText"] = "inivte and share",
-                        ["rawMessage"] = "inivte and share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:53:31|h[12:05]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:53:31|hinivte and share|h|r",
-                        ["rawLine"] = "[12:05] Nerevarine Vampire: inivte and share",
-                        ["rawTimestamp"] = 1598868346,
-                        ["rawValue"] = "|cb1ae8a[12:05] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acinivte and share|r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [54] = 
-                    {
-                        ["rawText"] = "gryphons i share",
-                        ["rawMessage"] = "gryphons i share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:54:31|h[12:06]|h |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0ac|H1:p:54:31|hgryphons i share|h|r",
-                        ["rawLine"] = "[12:06] Dragonaida: gryphons i share",
-                        ["rawTimestamp"] = 1598868402,
-                        ["rawValue"] = "|cb1ae8a[12:06] |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0acgryphons i share|r",
-                        ["rawFrom"] = "Dragonaida^Mx",
-                        ["channel"] = 31,
-                    },
-                    [55] = 
-                    {
-                        ["rawText"] = "gryphons i share",
-                        ["rawMessage"] = "gryphons i share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:55:31|h[12:07]|h |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0ac|H1:p:55:31|hgryphons i share|h|r",
-                        ["rawLine"] = "[12:07] Dragonaida: gryphons i share",
-                        ["rawTimestamp"] = 1598868449,
-                        ["rawValue"] = "|cb1ae8a[12:07] |r|cb1ae8a|H0:character:Dragonaida^Mx|hDragonaida|h: |r|cd3d0acgryphons i share|r",
-                        ["rawFrom"] = "Dragonaida^Mx",
-                        ["channel"] = 31,
-                    },
-                    [56] = 
-                    {
-                        ["rawText"] = "looking for a guild that s fun and likes to laugh. cant stand tryhards.",
-                        ["rawMessage"] = "looking for a guild that s fun and likes to laugh. cant stand tryhards.",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:56:31|h[12:09]|h |r|cb1ae8a|H0:character:Jamie Lirisian^Mx|hJamie Lirisian|h: |r|cd3d0ac|H1:p:56:31|hlooking for a guild that s fun and likes to laugh. cant stand tryhards.|h|r",
-                        ["rawLine"] = "[12:09] Jamie Lirisian: looking for a guild that s fun and likes to laugh. cant stand tryhards.",
-                        ["rawTimestamp"] = 1598868556,
-                        ["rawValue"] = "|cb1ae8a[12:09] |r|cb1ae8a|H0:character:Jamie Lirisian^Mx|hJamie Lirisian|h: |r|cd3d0aclooking for a guild that s fun and likes to laugh. cant stand tryhards.|r",
-                        ["rawFrom"] = "Jamie Lirisian^Mx",
-                        ["channel"] = 31,
-                    },
-                    [57] = 
-                    {
-                        ["rawText"] = "|H1:guild:487424|hStendarr's Merchantry|h",
-                        ["rawMessage"] = "|H1:guild:487424|hStendarr's Merchantry|h",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:57:31|h[12:10]|h |r|cb1ae8a|H0:character:Nyxias^Fx|hNyxias|h: |r|cd3d0ac|H1:guild:487424|hStendarr's Merchantry|h|r",
-                        ["rawLine"] = "[12:10] Nyxias: |H1:guild:487424|hStendarr's Merchantry|h",
-                        ["rawTimestamp"] = 1598868600,
-                        ["rawValue"] = "|cb1ae8a[12:10] |r|cb1ae8a|H0:character:Nyxias^Fx|hNyxias|h: |r|cd3d0ac|H1:guild:487424|hStendarr's Merchantry|h|r",
-                        ["rawFrom"] = "Nyxias^Fx",
-                        ["channel"] = 31,
-                    },
-                    [58] = 
-                    {
-                        ["rawText"] = "sent you an invite, jamie",
-                        ["rawMessage"] = "sent you an invite, jamie",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:58:31|h[12:10]|h |r|cb1ae8a|H0:character:Olde Milk-drinker^Fx|hOlde Milk-drinker|h: |r|cd3d0ac|H1:p:58:31|hsent you an invite, jamie|h|r",
-                        ["rawLine"] = "[12:10] Olde Milk-drinker: sent you an invite, jamie",
-                        ["rawTimestamp"] = 1598868606,
-                        ["rawValue"] = "|cb1ae8a[12:10] |r|cb1ae8a|H0:character:Olde Milk-drinker^Fx|hOlde Milk-drinker|h: |r|cd3d0acsent you an invite, jamie|r",
-                        ["rawFrom"] = "Olde Milk-drinker^Fx",
-                        ["channel"] = 31,
-                    },
-                    [59] = 
-                    {
-                        ["rawText"] = "WTB 1000 Crown!!!",
-                        ["rawMessage"] = "WTB 1000 Crown!!!",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:59:31|h[12:10]|h |r|cb1ae8a|H0:character:Volbk^Mx|hVolbk|h: |r|cd3d0ac|H1:p:59:31|hWTB 1000 Crown!!!|h|r",
-                        ["rawLine"] = "[12:10] Volbk: WTB 1000 Crown!!!",
-                        ["rawTimestamp"] = 1598868658,
-                        ["rawValue"] = "|cb1ae8a[12:10] |r|cb1ae8a|H0:character:Volbk^Mx|hVolbk|h: |r|cd3d0acWTB 1000 Crown!!!|r",
-                        ["rawFrom"] = "Volbk^Mx",
-                        ["channel"] = 31,
-                    },
-                    [60] = 
-                    {
-                        ["rawText"] = "what do you offer",
-                        ["rawMessage"] = "what do you offer",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:60:31|h[12:11]|h |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0ac|H1:p:60:31|hwhat do you offer|h|r",
-                        ["rawLine"] = "[12:11] Aenarielle: what do you offer",
-                        ["rawTimestamp"] = 1598868682,
-                        ["rawValue"] = "|cb1ae8a[12:11] |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0acwhat do you offer|r",
-                        ["rawFrom"] = "Aenarielle^Fx",
-                        ["channel"] = 31,
-                    },
-                    [61] = 
-                    {
-                        ["rawText"] = "WTB 1000 Crown!!!",
-                        ["rawMessage"] = "WTB 1000 Crown!!!",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:61:31|h[12:14]|h |r|cb1ae8a|H0:character:Volbk^Mx|hVolbk|h: |r|cd3d0ac|H1:p:61:31|hWTB 1000 Crown!!!|h|r",
-                        ["rawLine"] = "[12:14] Volbk: WTB 1000 Crown!!!",
-                        ["rawTimestamp"] = 1598868860,
-                        ["rawValue"] = "|cb1ae8a[12:14] |r|cb1ae8a|H0:character:Volbk^Mx|hVolbk|h: |r|cd3d0acWTB 1000 Crown!!!|r",
-                        ["rawFrom"] = "Volbk^Mx",
-                        ["channel"] = 31,
-                    },
-                    [62] = 
-                    {
-                        ["rawText"] = "lol",
-                        ["rawMessage"] = "lol",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:62:31|h[12:14]|h |r|cb1ae8a|H0:character:Auronjin^Mx|hAuronjin|h: |r|cd3d0ac|H1:p:62:31|hlol|h|r",
-                        ["rawLine"] = "[12:14] Auronjin: lol",
-                        ["rawTimestamp"] = 1598868874,
-                        ["rawValue"] = "|cb1ae8a[12:14] |r|cb1ae8a|H0:character:Auronjin^Mx|hAuronjin|h: |r|cd3d0aclol|r",
-                        ["rawFrom"] = "Auronjin^Mx",
-                        ["channel"] = 31,
-                    },
-                    [63] = 
-                    {
-                        ["rawText"] = "he is cheap",
-                        ["rawMessage"] = "he is cheap",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:63:31|h[12:14]|h |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0ac|H1:p:63:31|hhe is cheap|h|r",
-                        ["rawLine"] = "[12:14] Aenarielle: he is cheap",
-                        ["rawTimestamp"] = 1598868886,
-                        ["rawValue"] = "|cb1ae8a[12:14] |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0ache is cheap|r",
-                        ["rawFrom"] = "Aenarielle^Fx",
-                        ["channel"] = 31,
-                    },
-                    [64] = 
-                    {
-                        ["rawText"] = "lfm 2 gryphons",
-                        ["rawMessage"] = "lfm 2 gryphons",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:64:31|h[12:15]|h |r|cb1ae8a|H0:character:High Elementalist^Mx|hHigh Elementalist|h: |r|cd3d0ac|H1:p:64:31|hlfm 2 gryphons|h|r",
-                        ["rawLine"] = "[12:15] High Elementalist: lfm 2 gryphons",
-                        ["rawTimestamp"] = 1598868913,
-                        ["rawValue"] = "|cb1ae8a[12:15] |r|cb1ae8a|H0:character:High Elementalist^Mx|hHigh Elementalist|h: |r|cd3d0aclfm 2 gryphons|r",
-                        ["rawFrom"] = "High Elementalist^Mx",
-                        ["channel"] = 31,
-                    },
-                    [65] = 
-                    {
-                        ["rawText"] = "People who want to buy crowns usually are.",
-                        ["rawMessage"] = "People who want to buy crowns usually are.",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:65:31|h[12:15]|h |r|cb1ae8a|H0:character:Auronjin^Mx|hAuronjin|h: |r|cd3d0ac|H1:p:65:31|hPeople who want to buy crowns usually are.|h|r",
-                        ["rawLine"] = "[12:15] Auronjin: People who want to buy crowns usually are.",
-                        ["rawTimestamp"] = 1598868923,
-                        ["rawValue"] = "|cb1ae8a[12:15] |r|cb1ae8a|H0:character:Auronjin^Mx|hAuronjin|h: |r|cd3d0acPeople who want to buy crowns usually are.|r",
-                        ["rawFrom"] = "Auronjin^Mx",
-                        ["channel"] = 31,
-                    },
-                    [66] = 
-                    {
-                        ["rawText"] = "can share queen of reef",
-                        ["rawMessage"] = "can share queen of reef",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:66:31|h[12:15]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:66:31|hcan share queen of reef|h|r",
-                        ["rawLine"] = "[12:15] Nerevarine Vampire: can share queen of reef",
-                        ["rawTimestamp"] = 1598868935,
-                        ["rawValue"] = "|cb1ae8a[12:15] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0accan share queen of reef|r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [67] = 
-                    {
-                        ["rawText"] = "[12:15] 1 |H0:item:135154:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 15)",
-                        ["rawMessage"] = "[12:15] 1 [Chromium Grains] was received (You have 15)",
-                        ["rawDisplayed"] = "|H1:p:67:11|h[12:15] 1 |h|H0:item:135154:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:67:11|h was received (You have 15)|h",
-                        ["rawLine"] = "[12:15] [12:15] 1 [Chromium Grains] was received (You have 15)",
-                        ["rawTimestamp"] = 1598868940,
-                        ["rawValue"] = "[12:15] 1 |H0:item:135154:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 15)",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [68] = 
-                    {
-                        ["rawText"] = "[12:15] 1 |H0:item:54173:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 48)",
-                        ["rawMessage"] = "[12:15] 1 [Tempering Alloy] was received (You have 48)",
-                        ["rawDisplayed"] = "|H1:p:68:11|h[12:15] 1 |h|H0:item:54173:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:68:11|h was received (You have 48)|h",
-                        ["rawLine"] = "[12:15] [12:15] 1 [Tempering Alloy] was received (You have 48)",
-                        ["rawTimestamp"] = 1598868945,
-                        ["rawValue"] = "[12:15] 1 |H0:item:54173:34:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 48)",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [69] = 
-                    {
-                        ["rawText"] = "[12:15] 1 |H0:item:45854:24:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 90)",
-                        ["rawMessage"] = "[12:15] 1 [Kuta] was received (You have 90)",
-                        ["rawDisplayed"] = "|H1:p:69:11|h[12:15] 1 |h|H0:item:45854:24:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|H1:p:69:11|h was received (You have 90)|h",
-                        ["rawLine"] = "[12:15] [12:15] 1 [Kuta] was received (You have 90)",
-                        ["rawTimestamp"] = 1598868949,
-                        ["rawValue"] = "[12:15] 1 |H0:item:45854:24:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h was received (You have 90)",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [70] = 
-                    {
-                        ["rawText"] = "where is she",
-                        ["rawMessage"] = "where is she",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:70:31|h[12:15]|h |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0ac|H1:p:70:31|hwhere is she|h|r",
-                        ["rawLine"] = "[12:15] Aenarielle: where is she",
-                        ["rawTimestamp"] = 1598868957,
-                        ["rawValue"] = "|cb1ae8a[12:15] |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0acwhere is she|r",
-                        ["rawFrom"] = "Aenarielle^Fx",
-                        ["channel"] = 31,
-                    },
-                    [71] = 
-                    {
-                        ["rawText"] = "[12:16] Apparel repaired for |cFFFFFF44|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawMessage"] = "[12:16] Apparel repaired for 44",
-                        ["rawDisplayed"] = "|H1:p:71:11|h[12:16] Apparel repaired for |h|cFFFFFF|H1:p:71:11|h44|h|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawLine"] = "[12:16] [12:16] Apparel repaired for 44",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Apparel repaired for |cFFFFFF44|r|t16:16:/esoui/art/currency/gold_mipmap.dds|t",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [72] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Rubedite Cuirass] for 216.",
-                        ["rawDisplayed"] = "|H1:p:72:11|h[12:16] Dustman sold 1x |h|H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h|H1:p:72:11|h for 216|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:72:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Rubedite Cuirass] for 216.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45305:365:50:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [73] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45308:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Rubedite Helm] for 175.",
-                        ["rawDisplayed"] = "|H1:p:73:11|h[12:16] Dustman sold 1x |h|H0:item:45308:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h|H1:p:73:11|h for 175|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:73:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Rubedite Helm] for 175.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45308:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [74] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45334:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Rubedite Mace] for 180.",
-                        ["rawDisplayed"] = "|H1:p:74:11|h[12:16] Dustman sold 1x |h|H0:item:45334:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h|H1:p:74:11|h for 180|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:74:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Rubedite Mace] for 180.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45334:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:0:0|h|h for 180|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [75] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:40286:1:1:0:0:0:0:0:0:0:0:0:0:0:1:0:0:1:0:0:0|h|h.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Seadrake Disguise].",
-                        ["rawDisplayed"] = "|H1:p:75:11|h[12:16] Dustman sold 1x |h|H0:item:40286:1:1:0:0:0:0:0:0:0:0:0:0:0:1:0:0:1:0:0:0|h|h|H1:p:75:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Seadrake Disguise].",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:40286:1:1:0:0:0:0:0:0:0:0:0:0:0:1:0:0:1:0:0:0|h|h.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [76] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45365:365:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Ruby Ash Ice Staff] for 288.",
-                        ["rawDisplayed"] = "|H1:p:76:11|h[12:16] Dustman sold 1x |h|H0:item:45365:365:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0|h|h|H1:p:76:11|h for 288|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:76:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Ruby Ash Ice Staff] for 288.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45365:365:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0|h|h for 288|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [77] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45325:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Rubedo Leather Guards] for 216.",
-                        ["rawDisplayed"] = "|H1:p:77:11|h[12:16] Dustman sold 1x |h|H0:item:45325:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h|H1:p:77:11|h for 216|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:77:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Rubedo Leather Guards] for 216.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45325:365:50:0:0:0:0:0:0:0:0:0:0:0:0:9:0:0:0:10000:0|h|h for 216|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [78] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45328:308:50:0:0:0:0:0:0:0:0:0:0:0:0:4:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Ruby Ash Shield] for 175.",
-                        ["rawDisplayed"] = "|H1:p:78:11|h[12:16] Dustman sold 1x |h|H0:item:45328:308:50:0:0:0:0:0:0:0:0:0:0:0:0:4:0:0:0:10000:0|h|h|H1:p:78:11|h for 175|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:78:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Ruby Ash Shield] for 175.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45328:308:50:0:0:0:0:0:0:0:0:0:0:0:0:4:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [79] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 1x |H0:item:45310:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 1x [Rubedite Pauldron] for 175.",
-                        ["rawDisplayed"] = "|H1:p:79:11|h[12:16] Dustman sold 1x |h|H0:item:45310:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h|H1:p:79:11|h for 175|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:79:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 1x [Rubedite Pauldron] for 175.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 1x |H0:item:45310:308:50:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:10000:0|h|h for 175|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [80] = 
-                    {
-                        ["rawText"] = "[12:16] Dustman sold 8 items (8 stacks) for 1425|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawMessage"] = "[12:16] Dustman sold 8 items (8 stacks) for 1425.",
-                        ["rawDisplayed"] = "|H1:p:80:11|h[12:16] Dustman sold 8 items (8 stacks) for 1425|h|t16:16:EsoUI/Art/currency/currency_gold.dds|t|H1:p:80:11|h.|h",
-                        ["rawLine"] = "[12:16] [12:16] Dustman sold 8 items (8 stacks) for 1425.",
-                        ["rawTimestamp"] = 1598868976,
-                        ["rawValue"] = "[12:16] Dustman sold 8 items (8 stacks) for 1425|t16:16:EsoUI/Art/currency/currency_gold.dds|t.",
-                        ["rawFrom"] = "",
-                        ["channel"] = 11,
-                    },
-                    [81] = 
-                    {
-                        ["rawText"] = "N of lilandril",
-                        ["rawMessage"] = "N of lilandril",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:81:31|h[12:16]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:81:31|hN of lilandril|h|r",
-                        ["rawLine"] = "[12:16] Nerevarine Vampire: N of lilandril",
-                        ["rawTimestamp"] = 1598869009,
-                        ["rawValue"] = "|cb1ae8a[12:16] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acN of lilandril|r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [82] = 
-                    {
-                        ["rawText"] = "anyone up for queen of reef?",
-                        ["rawMessage"] = "anyone up for queen of reef?",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:82:31|h[12:18]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:82:31|hanyone up for queen of reef?|h|r",
-                        ["rawLine"] = "[12:18] Nerevarine Vampire: anyone up for queen of reef?",
-                        ["rawTimestamp"] = 1598869087,
-                        ["rawValue"] = "|cb1ae8a[12:18] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acanyone up for queen of reef?|r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [83] = 
-                    {
-                        ["rawText"] = "sharing queen of reef ",
-                        ["rawMessage"] = "sharing queen of reef ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:83:31|h[12:20]|h |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0ac|H1:p:83:31|hsharing queen of reef |h|r",
-                        ["rawLine"] = "[12:20] Nerevarine Vampire: sharing queen of reef ",
-                        ["rawTimestamp"] = 1598869222,
-                        ["rawValue"] = "|cb1ae8a[12:20] |r|cb1ae8a|H0:character:Nerevarine Vampire^Mx|hNerevarine Vampire|h: |r|cd3d0acsharing queen of reef |r",
-                        ["rawFrom"] = "Nerevarine Vampire^Mx",
-                        ["channel"] = 31,
-                    },
-                    [84] = 
-                    {
-                        ["rawText"] = "if you port me tehre",
-                        ["rawMessage"] = "if you port me tehre",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:84:31|h[12:20]|h |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0ac|H1:p:84:31|hif you port me tehre|h|r",
-                        ["rawLine"] = "[12:20] Aenarielle: if you port me tehre",
-                        ["rawTimestamp"] = 1598869223,
-                        ["rawValue"] = "|cb1ae8a[12:20] |r|cb1ae8a|H0:character:Aenarielle^Fx|hAenarielle|h: |r|cd3d0acif you port me tehre|r",
-                        ["rawFrom"] = "Aenarielle^Fx",
-                        ["channel"] = 31,
-                    },
-                    [85] = 
-                    {
-                        ["rawText"] = "+Queen, can share",
-                        ["rawMessage"] = "+Queen, can share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:85:31|h[12:22]|h |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac|H1:p:85:31|h+Queen, can share|h|r",
-                        ["rawLine"] = "[12:22] Karault Le Peintre: +Queen, can share",
-                        ["rawTimestamp"] = 1598869365,
-                        ["rawValue"] = "|cb1ae8a[12:22] |r|cb1ae8a|H0:character:Karault Le Peintre^Mx|hKarault Le Peintre|h: |r|cd3d0ac+Queen, can share|r",
-                        ["rawFrom"] = "Karault Le Peintre^Mx",
-                        ["channel"] = 31,
-                    },
-                    [86] = 
-                    {
-                        ["rawText"] = "WTS 180k|H1:item:156578:5:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                        ["rawMessage"] = "WTS 180k[Crafting Motif 77: Stags of Z'en Chests]",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:86:31|h[12:23]|h |r|cb1ae8a|H0:character:No Trouble^Fx|hNo Trouble|h: |r|cd3d0ac|H1:p:86:31|hWTS 180k|h|H1:item:156578:5:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
-                        ["rawLine"] = "[12:23] No Trouble: WTS 180k[Crafting Motif 77: Stags of Z'en Chests]",
-                        ["rawTimestamp"] = 1598869382,
-                        ["rawValue"] = "|cb1ae8a[12:23] |r|cb1ae8a|H0:character:No Trouble^Fx|hNo Trouble|h: |r|cd3d0acWTS 180k|H1:item:156578:5:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h|r",
-                        ["rawFrom"] = "No Trouble^Fx",
-                        ["channel"] = 31,
-                    },
-                    [87] = 
-                    {
-                        ["rawText"] = "Авантюристы Нирна приглашаем вас вступить в ряды доблестных бойцов  |H1:guild:540582|hKnights of Marukhati|h , чтобы вместе  противостоять всем  ветеранским  испытаниям. 300 чп, Дискорд обязателен!!  ",
-                        ["rawMessage"] = "Авантюристы Нирна приглашаем вас вступить в ряды доблестных бойцов  |H1:guild:540582|hKnights of Marukhati|h , чтобы вместе  противостоять всем  ветеранским  испытаниям. 300 чп, Дискорд обязателен!!  ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:87:31|h[12:36]|h |r|cb1ae8a|H0:character:Vaisoul^Fx|hVaisoul|h: |r|cd3d0ac|H1:p:87:31|hАвантюристы Нирна приглашаем вас вступить в ряды добле|h|H1:p:87:31|hстных бойцов  |h|H1:guild:540582|hKnights of Marukhati|h|H1:p:87:31|h , чтобы вместе  противостоять всем  ветеранским  испыта|h|H1:p:87:31|hниям. 300 чп, Дискорд обязателен!!  |h|r",
-                        ["rawLine"] = "[12:36] Vaisoul: Авантюристы Нирна приглашаем вас вступить в ряды доблестных бойцов  |H1:guild:540582|hKnights of Marukhati|h , чтобы вместе  противостоять всем  ветеранским  испытаниям. 300 чп, Дискорд обязателен!!  ",
-                        ["rawTimestamp"] = 1598870185,
-                        ["rawValue"] = "|cb1ae8a[12:36] |r|cb1ae8a|H0:character:Vaisoul^Fx|hVaisoul|h: |r|cd3d0acАвантюристы Нирна приглашаем вас вступить в ряды доблестных бойцов  |H1:guild:540582|hKnights of Marukhati|h , чтобы вместе  противостоять всем  ветеранским  испытаниям. 300 чп, Дискорд обязателен!!  |r",
-                        ["rawFrom"] = "Vaisoul^Fx",
-                        ["channel"] = 31,
-                    },
-                    [88] = 
-                    {
-                        ["rawText"] = "any geysers",
-                        ["rawMessage"] = "any geysers",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:88:31|h[12:38]|h |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0ac|H1:p:88:31|hany geysers|h|r",
-                        ["rawLine"] = "[12:38] Gydja Scheherazade: any geysers",
-                        ["rawTimestamp"] = 1598870292,
-                        ["rawValue"] = "|cb1ae8a[12:38] |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0acany geysers|r",
-                        ["rawFrom"] = "Gydja Scheherazade^Fx",
-                        ["channel"] = 31,
-                    },
-                    [89] = 
-                    {
-                        ["rawText"] = "MM price (6 sales, 192 days): 3,382.86 for |H1:item:119694:5:1:0:0:0:26:194:4:437:25:45:0:0:0:0:0:0:0:0:270000|h|h ",
-                        ["rawMessage"] = "MM price (6 sales, 192 days): 3,382.86 for [Sealed Clothier Writ] ",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:89:31|h[12:39]|h |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0ac|H1:p:89:31|hMM price (6 sales, 192 days): 3,382.86 for |h|H1:item:119694:5:1:0:0:0:26:194:4:437:25:45:0:0:0:0:0:0:0:0:270000|h|h |r",
-                        ["rawLine"] = "[12:39] Gydja Scheherazade: MM price (6 sales, 192 days): 3,382.86 for [Sealed Clothier Writ] ",
-                        ["rawTimestamp"] = 1598870347,
-                        ["rawValue"] = "|cb1ae8a[12:39] |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0acMM price (6 sales, 192 days): 3,382.86 for |H1:item:119694:5:1:0:0:0:26:194:4:437:25:45:0:0:0:0:0:0:0:0:270000|h|h |r",
-                        ["rawFrom"] = "Gydja Scheherazade^Fx",
-                        ["channel"] = 31,
-                    },
-                    [90] = 
-                    {
-                        ["rawText"] = "graveld can share",
-                        ["rawMessage"] = "graveld can share",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:90:31|h[12:45]|h |r|cb1ae8a|H0:character:Gigametan^Mx|hGigametan|h: |r|cd3d0ac|H1:p:90:31|hgraveld can share|h|r",
-                        ["rawLine"] = "[12:45] Gigametan: graveld can share",
-                        ["rawTimestamp"] = 1598870722,
-                        ["rawValue"] = "|cb1ae8a[12:45] |r|cb1ae8a|H0:character:Gigametan^Mx|hGigametan|h: |r|cd3d0acgraveld can share|r",
-                        ["rawFrom"] = "Gigametan^Mx",
-                        ["channel"] = 31,
-                    },
-                    [91] = 
-                    {
-                        ["rawText"] = "any geysers",
-                        ["rawMessage"] = "any geysers",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:91:31|h[12:48]|h |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0ac|H1:p:91:31|hany geysers|h|r",
-                        ["rawLine"] = "[12:48] Gydja Scheherazade: any geysers",
-                        ["rawTimestamp"] = 1598870921,
-                        ["rawValue"] = "|cb1ae8a[12:48] |r|cb1ae8a|H0:character:Gydja Scheherazade^Fx|hGydja Scheherazade|h: |r|cd3d0acany geysers|r",
-                        ["rawFrom"] = "Gydja Scheherazade^Fx",
-                        ["channel"] = 31,
-                    },
-                    [92] = 
-                    {
-                        ["rawText"] = "Graveld up",
-                        ["rawMessage"] = "Graveld up",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:92:31|h[12:52]|h |r|cb1ae8a|H0:character:Aventhis^Mx|hAventhis|h: |r|cd3d0ac|H1:p:92:31|hGraveld up|h|r",
-                        ["rawLine"] = "[12:52] Aventhis: Graveld up",
-                        ["rawTimestamp"] = 1598871166,
-                        ["rawValue"] = "|cb1ae8a[12:52] |r|cb1ae8a|H0:character:Aventhis^Mx|hAventhis|h: |r|cd3d0acGraveld up|r",
-                        ["rawFrom"] = "Aventhis^Mx",
-                        ["channel"] = 31,
-                    },
-                    [93] = 
-                    {
-                        ["rawText"] = "buenas gente",
-                        ["rawMessage"] = "buenas gente",
-                        ["rawDisplayed"] = "|c41b341|H1:p:93:13|h[12:54]|h |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Milan69|h@Milan69/lehvam|h: |r|c63d563|H1:p:93:13|hbuenas gente|h|r",
-                        ["rawLine"] = "[12:54] [Hojablanca] @Milan69/lehvam: buenas gente",
-                        ["rawTimestamp"] = 1598871277,
-                        ["rawValue"] = "|c41b341[12:54] |r|c41b341|H1:channel:13|h[Hojablanca]|h |H0:display:@Milan69|h@Milan69/lehvam|h: |r|c63d563buenas gente|r",
-                        ["rawFrom"] = "@Milan69",
-                        ["channel"] = 13,
-                    },
-                    [94] = 
-                    {
-                        ["rawText"] = "Graveld up need help;D",
-                        ["rawMessage"] = "Graveld up need help;D",
-                        ["rawDisplayed"] = "|cb1ae8a|H1:p:94:31|h[12:55]|h |r|cb1ae8a|H0:character:Aventhis^Mx|hAventhis|h: |r|cd3d0ac|H1:p:94:31|hGraveld up need help;D|h|r",
-                        ["rawLine"] = "[12:55] Aventhis: Graveld up need help;D",
-                        ["rawTimestamp"] = 1598871333,
-                        ["rawValue"] = "|cb1ae8a[12:55] |r|cb1ae8a|H0:character:Aventhis^Mx|hAventhis|h: |r|cd3d0acGraveld up need help;D|r",
-                        ["rawFrom"] = "Aventhis^Mx",
-                        ["channel"] = 31,
-                    },
-                },
-                ["spamGracePeriod"] = 5,
-                ["showTagInEntry"] = true,
-                ["useIgnoreRemovedChatHandler"] = true,
-                ["defaultTabName"] = "Chat",
-                ["diffChatColorsLightenValue"] = 30,
-                ["showTimestamp"] = true,
-                ["chatMinimizedInMenus"] = false,
-                ["enableWhisperTab"] = false,
-                ["timestampcolorislcol"] = true,
-                ["carriageReturn"] = false,
-                ["formatguild"] = 
-                {
-                    [617784] = 2,
-                    [617516] = 4,
-                    [619824] = 4,
-                    [15995] = 4,
-                },
-                ["lastWasQuit"] = false,
-                ["fonts"] = "Cascadia",
-                ["chatMinimizedAtLaunch"] = false,
-                ["timeBeforeRestore"] = 8,
-                ["diffChatColorsDarkenValue"] = 50,
-                ["enableChatTabChannel"] = true,
-                ["notifyIMIndex"] = 173,
-                ["delzonetags"] = true,
-                ["groupLeader"] = true,
-                ["defaultchannel"] = 0,
-                ["lineNumber"] = 95,
-                ["officerSwitchFor"] = 
-                {
-                },
-                ["officertag"] = 
-                {
                 },
                 ["geoChannelsFormat"] = 2,
-                ["doNotNotifyOnRestoredWhisperFromHistory"] = true,
-                ["alwaysShowChat"] = true,
-                ["enablecopy"] = true,
-                ["useGroupMemberLeftChatHandler"] = true,
-                ["lastWasReloadUI"] = false,
-                ["restoreOnLogOut"] = true,
-                ["urlHandling"] = true,
-                ["allZonesSameColour"] = true,
-                ["floodProtect"] = false,
-                ["timestampFormat"] = "HH:m",
-                ["oneColour"] = false,
-                ["restoreOnAFK"] = true,
-                ["lookingForProtect"] = false,
-                ["useIgnoreAddedChatHandler"] = true,
-                ["chatMaximizedAfterMenus"] = true,
-                ["disableBrackets"] = true,
-                ["lastWasAFK"] = true,
-                ["windowDarkness"] = 0,
-                ["defaultTab"] = 2,
-                ["useSystemMessageChatHandler"] = true,
-                ["version"] = 0.9000000000,
-                ["allGuildsSameColour"] = false,
+                ["history"] = 
+                {
+                    ["currentTab"] = 1,
+                    ["textEntry"] = 
+                    {
+                        ["entries"] = 
+                        {
+                            [1] = "/guild2 wolas!!",
+                        },
+                        ["numEntries"] = 1,
+                    },
+                },
             },
         },
     },
