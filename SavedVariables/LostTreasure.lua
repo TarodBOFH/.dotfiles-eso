@@ -6,8 +6,37 @@ LostTreasure_Account =
         {
             ["$AccountWide"] = 
             {
+                ["pinTypes"] = 
+                {
+                    [2] = 
+                    {
+                        ["showOnMap"] = true,
+                        ["deletionDelay"] = 10,
+                        ["pinLevel"] = 45,
+                        ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["showOnCompass"] = true,
+                        ["size"] = 32,
+                    },
+                    [1] = 
+                    {
+                        ["showOnMap"] = true,
+                        ["deletionDelay"] = 10,
+                        ["pinLevel"] = 45,
+                        ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["showOnCompass"] = true,
+                        ["size"] = 32,
+                    },
+                },
+                ["notifications"] = 
+                {
+                },
+                ["version"] = 1,
                 ["miniMap"] = 
                 {
+                    ["size"] = 400,
+                    ["deletionDelay"] = 4,
                     ["enabled"] = true,
                     ["anchor"] = 
                     {
@@ -20,35 +49,6 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
-                    ["deletionDelay"] = 4,
-                    ["size"] = 400,
-                },
-                ["version"] = 1,
-                ["pinTypes"] = 
-                {
-                    [2] = 
-                    {
-                        ["showOnMap"] = true,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["size"] = 32,
-                        ["deletionDelay"] = 10,
-                        ["pinLevel"] = 45,
-                        ["showOnCompass"] = true,
-                        ["markOption"] = 2,
-                    },
-                    [1] = 
-                    {
-                        ["showOnMap"] = true,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["size"] = 32,
-                        ["deletionDelay"] = 10,
-                        ["pinLevel"] = 45,
-                        ["showOnCompass"] = true,
-                        ["markOption"] = 2,
-                    },
-                },
-                ["notifications"] = 
-                {
                 },
             },
         },
