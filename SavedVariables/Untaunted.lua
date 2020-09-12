@@ -6,6 +6,7 @@ Untaunted_Save =
         {
             ["$AccountWide"] = 
             {
+                ["bardirection"] = true,
                 ["trackedabilities"] = 
                 {
                     [1] = 
@@ -99,7 +100,9 @@ Untaunted_Save =
                         [1] = 132831,
                     },
                 },
-                ["bardirection"] = true,
+                ["showmarker"] = false,
+                ["maxbars"] = 15,
+                ["accountwide"] = true,
                 ["window"] = 
                 {
                     ["width"] = 300.0000046875,
@@ -107,17 +110,14 @@ Untaunted_Save =
                     ["y"] = -25.0000003906,
                     ["x"] = 2189.0625342041,
                 },
-                ["growthdirection"] = true,
-                ["markersize"] = 26,
-                ["accountwide"] = true,
                 ["customabilities"] = 
                 {
                 },
-                ["showmarker"] = false,
-                ["trackonlyplayer"] = true,
-                ["lastversion"] = "1.0.0",
-                ["maxbars"] = 15,
                 ["version"] = 7,
+                ["lastversion"] = "1.0.0",
+                ["growthdirection"] = true,
+                ["markersize"] = 26,
+                ["trackonlyplayer"] = true,
             },
         },
     },

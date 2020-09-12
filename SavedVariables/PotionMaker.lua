@@ -4,113 +4,113 @@ PotionMaker_Data =
     {
         ["@cbr600f"] = 
         {
-            ["8798292078118710"] = 
-            {
-                ["training"] = false,
-                ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
-                ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Lord Tarod of Aragon",
-                ["version"] = 1,
-            },
             ["8798292067184426"] = 
             {
-                ["training"] = false,
-                ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
-                ["lastUsedTab"] = "PotionMaker",
                 ["$LastCharacterName"] = "Jimenuki Ararthin",
-                ["version"] = 1,
-            },
-            ["8798292067301326"] = 
-            {
                 ["training"] = false,
-                ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
                 ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
                 ["version"] = 1,
-            },
-            ["8798292067300970"] = 
-            {
-                ["training"] = false,
-                ["useUnknown"] = true,
                 ["fakeThirdSlot"] = false,
                 ["useMissing"] = false,
-                ["lastUsedTab"] = "PoisonMaker",
-                ["$LastCharacterName"] = "Tarod Ararthin",
-                ["version"] = 1,
-            },
-            ["8798292077956402"] = 
-            {
-                ["training"] = false,
                 ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
-                ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Sneaks-Behind",
-                ["version"] = 1,
-            },
-            ["8798292067209854"] = 
-            {
-                ["training"] = false,
-                ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
-                ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Tarodion Ararthin",
-                ["version"] = 1,
             },
             ["8798292067859494"] = 
             {
+                ["$LastCharacterName"] = "Faulcon Delacy",
                 ["training"] = false,
-                ["useUnknown"] = true,
+                ["lastUsedTab"] = "PotionMaker",
+                ["version"] = 1,
                 ["fakeThirdSlot"] = false,
                 ["useMissing"] = false,
+                ["useUnknown"] = true,
+            },
+            ["8798292076443470"] = 
+            {
+                ["$LastCharacterName"] = "Neria Rothalen",
+                ["training"] = false,
                 ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Faulcon Delacy",
                 ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+            },
+            ["8798292077956402"] = 
+            {
+                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["training"] = false,
+                ["lastUsedTab"] = "PotionMaker",
+                ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
             },
             ["$AccountWide"] = 
             {
-                ["showMainMenuItem"] = true,
                 ["showInFavorites"] = "REAGENTS",
-                ["autoSwitchTab"] = true,
-                ["reagentStackOrder"] = false,
-                ["suppressNewTraitDialog"] = false,
+                ["filterFavoriteBySolvents"] = true,
                 ["XPMode"] = true,
                 ["favorites"] = 
                 {
                 },
-                ["useItemSaver"] = true,
-                ["filterFavoriteBySolvents"] = true,
+                ["suppressNewTraitDialog"] = false,
+                ["showAsDefault"] = true,
+                ["autoSwitchTab"] = true,
+                ["showMainMenuItem"] = true,
                 ["version"] = 1,
                 ["filterFavoriteByReagents"] = false,
-                ["showAsDefault"] = true,
                 ["filterFavoriteByTraits"] = true,
+                ["useItemSaver"] = true,
+                ["reagentStackOrder"] = false,
+            },
+            ["8798292078118710"] = 
+            {
+                ["$LastCharacterName"] = "Lord Tarod of Aragon",
+                ["training"] = false,
+                ["lastUsedTab"] = "PotionMaker",
+                ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+            },
+            ["8798292067209854"] = 
+            {
+                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["training"] = false,
+                ["lastUsedTab"] = "PotionMaker",
+                ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
+            },
+            ["8798292067300970"] = 
+            {
+                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["training"] = false,
+                ["lastUsedTab"] = "PoisonMaker",
+                ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
             },
             ["8798292077852888"] = 
             {
-                ["training"] = false,
-                ["useUnknown"] = true,
-                ["fakeThirdSlot"] = false,
-                ["useMissing"] = false,
-                ["lastUsedTab"] = "PotionMaker",
                 ["$LastCharacterName"] = "Tarodio Ararthinus",
-                ["version"] = 1,
-            },
-            ["8798292076443470"] = 
-            {
                 ["training"] = false,
-                ["useUnknown"] = true,
+                ["lastUsedTab"] = "PotionMaker",
+                ["version"] = 1,
                 ["fakeThirdSlot"] = false,
                 ["useMissing"] = false,
+                ["useUnknown"] = true,
+            },
+            ["8798292067301326"] = 
+            {
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["training"] = false,
                 ["lastUsedTab"] = "PotionMaker",
-                ["$LastCharacterName"] = "Neria Rothalen",
                 ["version"] = 1,
+                ["fakeThirdSlot"] = false,
+                ["useMissing"] = false,
+                ["useUnknown"] = true,
             },
         },
     },
