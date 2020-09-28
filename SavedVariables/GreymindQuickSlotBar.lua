@@ -1,7831 +1,8200 @@
 GreymindQuickSlotBarSettings =
 {
+    ["Default"] = 
+    {
+        ["@cbr600f"] = 
+        {
+            ["8798292076443470"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Neria Rothalen",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["itemLink"] = "|H0:item:27036:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_003.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of health",
+                            },
+                            [2] = 
+                            {
+                                ["itemLink"] = "|H0:item:27037:2:19:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_002.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "dram of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["itemLink"] = "|H0:item:27038:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_002.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "effusion of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 4,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 109,
+                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                        ["itemId"] = "27037",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of Magicka",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 17,
+                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                        ["itemId"] = "27038",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of stamina",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 106,
+                        ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                        ["itemId"] = "44715",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "elixir of Invisibility",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 7619,
+                        ["itemLink"] = "|H0:collectible:7619|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["itemId"] = "7619",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Jubilee Cake 2020",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292078118710"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Lord Tarod of Aragon",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 23,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 27,
+                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                        ["itemId"] = "27037",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of Magicka",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 19,
+                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                        ["itemId"] = "27038",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of stamina",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 106,
+                        ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                        ["itemId"] = "44715",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "elixir of Invisibility",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 7619,
+                        ["itemLink"] = "|H0:collectible:7619|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["itemId"] = "7619",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Jubilee Cake 2020",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292081773772"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = false,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Tarolog Agharghim",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 18,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = false,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 30,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 30,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 18,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = false,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 30,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = false,
+                        ["CurrentSlotIndex"] = 0,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 318,
+                            ["Y"] = 1280,
+                            ["X"] = 1248,
+                            ["Height"] = 52,
+                        },
+                        ["Visibility"] = "Never",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 36,
+                    },
+                    ["P2"] = 
+                    {
+                    },
+                    ["P4"] = 
+                    {
+                    },
+                    ["P5"] = 
+                    {
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 37,
+                        ["itemLink"] = "|H0:item:27036:2:7:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_001.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 7,
+                        ["itemType"] = "item",
+                        ["itemName"] = "tincture of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 8006,
+                        ["itemLink"] = "|H0:collectible:8006|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
+                        ["itemId"] = "8006",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Antiquarian's Eye",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 318,
+                    ["Y"] = 1364,
+                    ["X"] = 1796,
+                    ["Height"] = 52,
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["ChatMax"] = false,
+                ["GetInterfaceForCharacter"] = nil, -- invalid value type [function] used
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Never",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 36,
+            },
+            ["8798292067859494"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Faulcon Delacy",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["CurrentSlotIndex"] = 16,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                            [1] = 
+                            {
+                                ["itemLink"] = "|H0:item:27036:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_002.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "effusion of health",
+                            },
+                            [2] = 
+                            {
+                                ["itemLink"] = "|H0:item:27037:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["itemLink"] = "|H0:item:37820:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_spirits_002.dds",
+                                ["itemId"] = "37820",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Guarana Tonic",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 7619,
+                        ["itemLink"] = "|H0:collectible:7619|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["itemId"] = "7619",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Jubilee Cake 2020",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["NextAuto"] = false,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 4,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 109,
+                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                        ["itemId"] = "27037",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of Magicka",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 17,
+                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                        ["itemId"] = "27038",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of stamina",
+                    },
+                    [4] = 
+                    {
+                        ["texture"] = "",
+                        ["itemLevel"] = 1,
+                        ["itemLink"] = "",
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 7619,
+                        ["itemLink"] = "|H0:collectible:7619|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["itemId"] = "7619",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Jubilee Cake 2020",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["ChatMax"] = false,
+                ["ShowBackground"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292077956402"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = false,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["ChatMute"] = false,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                },
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P3",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 25,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 30,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["ShowBackground"] = true,
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 424,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 69,
+                },
+                ["ChatMax"] = false,
+                ["ButtonFontSize"] = 20,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 48,
+            },
+            ["8798292067300970"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = false,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 65,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 103,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 15,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 8006,
+                                ["itemLink"] = "|H0:collectible:8006|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
+                                ["itemId"] = "8006",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Antiquarian's Eye",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["CurrentSlotIndex"] = 15,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 28,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 12,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 41,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 23,
+                                ["itemLink"] = "|H0:item:74728:307:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_010_type_003.dds",
+                                ["itemId"] = "74728",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Roguish Stealth Draught",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 8006,
+                                ["itemLink"] = "|H0:collectible:8006|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
+                                ["itemId"] = "8006",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Antiquarian's Eye",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 37,
+                                ["itemLink"] = "|H0:item:68235:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_skillet_004.dds",
+                                ["itemId"] = "68235",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Lilmoth Garlic Hagfish",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 193,
+                                ["itemLink"] = "|H0:item:68236:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_cooking_grilled_apples.dds",
+                                ["itemId"] = "68236",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Firsthold Fruit and Cheese Plate",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 77,
+                                ["itemLink"] = "|H0:item:68239:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_soup_002.dds",
+                                ["itemId"] = "68239",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Hearty Garlic Corn Chowder",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 80,
+                                ["itemLink"] = "|H0:item:68257:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_stoneware_bottle_001.dds",
+                                ["itemId"] = "68257",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Markarth Mead",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 58,
+                                ["itemLink"] = "|H0:item:68260:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_tea_005.dds",
+                                ["itemId"] = "68260",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Muthsera's Remorse",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 32,
+                                ["itemLink"] = "|H0:item:68263:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_leather_vitriol.dds",
+                                ["itemId"] = "68263",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Hagraven's Tonic",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 28,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 12,
+                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                        ["itemId"] = "27037",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of Magicka",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 41,
+                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                        ["itemId"] = "27038",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of stamina",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 8006,
+                        ["itemLink"] = "|H0:collectible:8006|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
+                        ["itemId"] = "8006",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Antiquarian's Eye",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292067184426"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Jimenuki Ararthin",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                            [1] = 
+                            {
+                                ["itemLink"] = "|H0:item:27036:2:29:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_003.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "potion of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 12,
+                                ["itemLink"] = "|H0:item:27037:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 34,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["itemLink"] = "|H0:item:94441:124:1:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crowncrate_experiencescroll_003.dds",
+                                ["itemId"] = "94441",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Grand Gold Coast Experience Scroll",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 6,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 1,
+                        ["itemName"] = "",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 43,
+                        ["itemLink"] = "|H0:item:74728:307:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_010_type_003.dds",
+                        ["itemId"] = "74728",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Roguish Stealth Draught",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292067301326"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P2",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["CurrentSlotIndex"] = 12,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["itemLink"] = "|H0:item:27036:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_002.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "effusion of health",
+                            },
+                            [2] = 
+                            {
+                                ["itemLink"] = "|H0:item:27037:2:29:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "potion of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "item",
+                                ["itemName"] = "draught of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
+                        ["itemName"] = "",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+            ["8798292067209854"] = 
+            {
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["SwapBackgroundColors"] = false,
+                ["LockThisPreset"] = true,
+                ["NextPrevWrap"] = false,
+                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["ShowBackground"] = false,
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P1",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
+                {
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 20,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 35,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 25,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 30,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = true,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 424,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 69,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 48,
+                    },
+                    ["P1"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P2"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = false,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 77,
+                                ["itemLink"] = "|H0:item:94211:338:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/quest_food_004.dds",
+                                ["itemId"] = "94211",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Crusty Bread",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:68244:310:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_soup_005.dds",
+                                ["itemId"] = "68244",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Solitude Salmon-Millet Soup",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 12,
+                                ["itemLink"] = "|H0:item:68253:311:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/crafting_dessert_002.dds",
+                                ["itemId"] = "68253",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Longfin Pasty with Melon Sauce",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P4"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                    ["P5"] = 
+                    {
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
+                    },
+                },
+                ["LockUI"] = true,
+                ["SlotItemTable"] = 
+                {
+                    [8] = 
+                    {
+                        ["slotId"] = 300,
+                        ["itemLink"] = "|H0:collectible:300|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                        ["itemId"] = "300",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Pirharri the Smuggler",
+                    },
+                    [1] = 
+                    {
+                        ["slotId"] = 21,
+                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                        ["itemId"] = "27036",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of health",
+                    },
+                    [2] = 
+                    {
+                        ["slotId"] = 24,
+                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                        ["itemId"] = "27037",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of Magicka",
+                    },
+                    [3] = 
+                    {
+                        ["slotId"] = 16,
+                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                        ["itemId"] = "27038",
+                        ["itemLevel"] = 50,
+                        ["itemType"] = "item",
+                        ["itemName"] = "Essence of stamina",
+                    },
+                    [4] = 
+                    {
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 1,
+                        ["itemName"] = "",
+                    },
+                    [5] = 
+                    {
+                        ["slotId"] = 7619,
+                        ["itemLink"] = "|H0:collectible:7619|h|h",
+                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["itemId"] = "7619",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Jubilee Cake 2020",
+                    },
+                    [6] = 
+                    {
+                        ["slotId"] = 267,
+                        ["itemLink"] = "|H0:collectible:267|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["itemId"] = "267",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Tythis Andromo, the Banker",
+                    },
+                    [7] = 
+                    {
+                        ["slotId"] = 301,
+                        ["itemLink"] = "|H0:collectible:301|h|h",
+                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["itemId"] = "301",
+                        ["itemLevel"] = 0,
+                        ["itemType"] = "collectible",
+                        ["itemName"] = "Nuzhimeh the Merchant",
+                    },
+                },
+                ["CurrentSlotIndex"] = 15,
+                ["NextAuto"] = false,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
+                ["ChatMax"] = false,
+                ["DelayPresetSwapWhileInCombat"] = false,
+                ["default"] = 
+                {
+                    ["SoundSlotted"] = "ABILITY_SLOTTED",
+                    ["SwapBackgroundColors"] = false,
+                    ["LockThisPreset"] = false,
+                    ["NextPrevWrap"] = false,
+                    ["DelayPresetSwapWhileInCombat"] = false,
+                    ["ChatMute"] = false,
+                    ["ButtonFontSize"] = 18,
+                    ["ButtonsDisplayed"] = 8,
+                    ["PresetName"] = "P1",
+                    ["GameActionButtonHide"] = false,
+                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                    ["SlotItem"] = 
+                    {
+                        ["ShowQuantityLabels"] = true,
+                        ["HideSlotBackground"] = false,
+                        ["KeyBindAlignH"] = "Left",
+                        ["ShowKeyBindings"] = false,
+                        ["QuantityAlert"] = 5,
+                        ["KeyBindAlignV"] = "Top",
+                        ["OverlayButtonOpacity"] = 30,
+                        ["LinkToChatOnClick"] = true,
+                        ["NotSelectedButtonOpacity"] = 30,
+                        ["QuantityLabelPositionHorizontal"] = "Right",
+                        ["QuantityWarning"] = 10,
+                        ["VisualCue"] = "Off",
+                        ["QuantityLabelPositionVertical"] = "Bottom",
+                        ["ShowNumbers"] = false,
+                    },
+                    ["Presets"] = 
+                    {
+                        ["P3"] = 
+                        {
+                        },
+                        ["P1"] = 
+                        {
+                        },
+                        ["P2"] = 
+                        {
+                        },
+                        ["P4"] = 
+                        {
+                        },
+                        ["P5"] = 
+                        {
+                        },
+                    },
+                    ["LockUI"] = false,
+                    ["CurrentSlotIndex"] = 0,
+                    ["NextAuto"] = false,
+                    ["ShowBackground"] = false,
+                    ["ChatMax"] = false,
+                    ["SlotItemTable"] = 
+                    {
+                        [8] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [1] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [2] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [3] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [4] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [5] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [6] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                        [7] = 
+                        {
+                            ["slotId"] = 0,
+                            ["itemId"] = 0,
+                            ["itemLink"] = 0,
+                            ["itemName"] = "",
+                        },
+                    },
+                    ["MainWindow"] = 
+                    {
+                        ["Width"] = 320,
+                        ["Y"] = 0,
+                        ["X"] = 0,
+                        ["Height"] = 50,
+                    },
+                    ["Visibility"] = "Never",
+                    ["ButtonColumns"] = 8,
+                    ["ButtonSize"] = 36,
+                },
+                ["Visibility"] = "Always",
+                ["ButtonColumns"] = 8,
+                ["ButtonSize"] = 49,
+            },
+        },
+    },
     ["AccountWide"] = 
     {
         ["@cbr600f"] = 
         {
             ["$AccountWide"] = 
             {
-                ["NextAuto"] = false,
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P3",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
+                ["SoundSlotted"] = "ABILITY_SLOTTED",
                 ["SwapBackgroundColors"] = false,
                 ["LockThisPreset"] = false,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
                 ["NextPrevWrap"] = false,
                 ["DelayPresetSwapWhileInCombat"] = false,
-                ["ShowBackground"] = true,
-                ["SlotItemTable"] = 
+                ["ChatMute"] = false,
+                ["ButtonFontSize"] = 20,
+                ["version"] = 1,
+                ["ButtonsDisplayed"] = 8,
+                ["PresetName"] = "P3",
+                ["GameActionButtonHide"] = false,
+                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                ["SlotItem"] = 
                 {
-                    [8] = 
+                    ["ShowQuantityLabels"] = true,
+                    ["HideSlotBackground"] = true,
+                    ["KeyBindAlignH"] = "Left",
+                    ["ShowKeyBindings"] = false,
+                    ["QuantityAlert"] = 5,
+                    ["KeyBindAlignV"] = "Top",
+                    ["OverlayButtonOpacity"] = 25,
+                    ["LinkToChatOnClick"] = true,
+                    ["NotSelectedButtonOpacity"] = 30,
+                    ["QuantityLabelPositionHorizontal"] = "Right",
+                    ["QuantityWarning"] = 10,
+                    ["VisualCue"] = "Off",
+                    ["QuantityLabelPositionVertical"] = "Bottom",
+                    ["ShowNumbers"] = false,
+                },
+                ["Presets"] = 
+                {
+                    ["P3"] = 
                     {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
                     },
-                    [1] = 
+                    ["P1"] = 
                     {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["slotId"] = 300,
+                                ["itemLink"] = "|H0:collectible:300|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
+                                ["itemId"] = "300",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Pirharri the Smuggler",
+                            },
+                            [1] = 
+                            {
+                                ["slotId"] = 4,
+                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
+                                ["itemId"] = "27036",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of health",
+                            },
+                            [2] = 
+                            {
+                                ["slotId"] = 109,
+                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
+                                ["itemId"] = "27037",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of Magicka",
+                            },
+                            [3] = 
+                            {
+                                ["slotId"] = 17,
+                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
+                                ["itemId"] = "27038",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "Essence of stamina",
+                            },
+                            [4] = 
+                            {
+                                ["slotId"] = 106,
+                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
+                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
+                                ["itemId"] = "44715",
+                                ["itemLevel"] = 50,
+                                ["itemType"] = "item",
+                                ["itemName"] = "elixir of Invisibility",
+                            },
+                            [5] = 
+                            {
+                                ["slotId"] = 7619,
+                                ["itemLink"] = "|H0:collectible:7619|h|h",
+                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                                ["itemId"] = "7619",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Jubilee Cake 2020",
+                            },
+                            [6] = 
+                            {
+                                ["slotId"] = 267,
+                                ["itemLink"] = "|H0:collectible:267|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                                ["itemId"] = "267",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Tythis Andromo, the Banker",
+                            },
+                            [7] = 
+                            {
+                                ["slotId"] = 301,
+                                ["itemLink"] = "|H0:collectible:301|h|h",
+                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                                ["itemId"] = "301",
+                                ["itemLevel"] = 0,
+                                ["itemType"] = "collectible",
+                                ["itemName"] = "Nuzhimeh the Merchant",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
                     },
-                    [2] = 
+                    ["P2"] = 
                     {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
                     },
-                    [3] = 
+                    ["P4"] = 
                     {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
                     },
-                    [4] = 
+                    ["P5"] = 
                     {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [5] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [6] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [7] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
+                        ["SoundSlotted"] = "ABILITY_SLOTTED",
+                        ["SwapBackgroundColors"] = false,
+                        ["LockThisPreset"] = true,
+                        ["NextPrevWrap"] = false,
+                        ["DelayPresetSwapWhileInCombat"] = false,
+                        ["ChatMute"] = false,
+                        ["ButtonFontSize"] = 20,
+                        ["ButtonsDisplayed"] = 8,
+                        ["GameActionButtonHide"] = false,
+                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
+                        ["SlotItem"] = 
+                        {
+                            ["ShowQuantityLabels"] = true,
+                            ["HideSlotBackground"] = true,
+                            ["KeyBindAlignH"] = "Left",
+                            ["ShowKeyBindings"] = false,
+                            ["QuantityAlert"] = 5,
+                            ["KeyBindAlignV"] = "Top",
+                            ["OverlayButtonOpacity"] = 20,
+                            ["LinkToChatOnClick"] = true,
+                            ["NotSelectedButtonOpacity"] = 35,
+                            ["QuantityLabelPositionHorizontal"] = "Right",
+                            ["QuantityWarning"] = 10,
+                            ["VisualCue"] = "Off",
+                            ["QuantityLabelPositionVertical"] = "Bottom",
+                            ["ShowNumbers"] = false,
+                        },
+                        ["LockUI"] = true,
+                        ["NextAuto"] = false,
+                        ["ShowBackground"] = false,
+                        ["ChatMax"] = false,
+                        ["SlotItemTable"] = 
+                        {
+                            [8] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                            [7] = 
+                            {
+                                ["texture"] = "",
+                                ["itemLevel"] = 0,
+                                ["itemLink"] = "",
+                                ["itemName"] = "",
+                            },
+                        },
+                        ["MainWindow"] = 
+                        {
+                            ["Width"] = 433,
+                            ["Y"] = 1358,
+                            ["X"] = 1670,
+                            ["Height"] = 71,
+                        },
+                        ["Visibility"] = "Always",
+                        ["ButtonColumns"] = 8,
+                        ["ButtonSize"] = 49,
                     },
                 },
+                ["LockUI"] = true,
                 ["CurrentSlotIndex"] = 0,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 30,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 25,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["Visibility"] = "Always",
-                ["ButtonSize"] = 48,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["ChatMax"] = false,
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-        },
-    },
-    ["Default"] = 
-    {
-        ["@cbr600f"] = 
-        {
-            ["8798292067184426"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
                 ["NextAuto"] = false,
-                ["ShowBackground"] = false,
-                ["Visibility"] = "Always",
                 ["SlotItemTable"] = 
                 {
                     [8] = 
                     {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 6,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
                         ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 1,
-                        ["itemId"] = 0,
                         ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [3] = 
-                    {
-                        ["slotId"] = 0,
                         ["texture"] = "",
-                        ["itemLevel"] = 0,
                         ["itemId"] = 0,
-                        ["itemLink"] = "",
+                        ["itemLevel"] = 0,
                         ["itemName"] = "",
-                    },
-                    [4] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["ButtonSize"] = 49,
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["ChatMax"] = false,
-                ["$LastCharacterName"] = "Jimenuki Ararthin",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:2:29:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "potion of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 12,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
-                                ["itemLevel"] = 34,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/crowncrate_experiencescroll_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "94441",
-                                ["itemLink"] = "|H0:item:94441:124:1:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Grand Gold Coast Experience Scroll",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["LockUI"] = true,
-            },
-            ["8798292067859494"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["NextAuto"] = false,
-                ["ShowBackground"] = false,
-                ["Visibility"] = "Always",
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
                     },
                     [1] = 
                     {
                         ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
                         ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
                         ["itemName"] = "",
                     },
                     [2] = 
                     {
                         ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
                         ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
                         ["itemName"] = "",
                     },
                     [3] = 
                     {
                         ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
                         ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
                         ["itemName"] = "",
                     },
                     [4] = 
                     {
                         ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
                         ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
+                        ["itemLevel"] = 0,
                         ["itemName"] = "",
                     },
                     [5] = 
                     {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
                         ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
+                        ["itemName"] = "",
                     },
                     [6] = 
                     {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
                         ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
+                        ["itemName"] = "",
                     },
                     [7] = 
                     {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
+                        ["slotId"] = 0,
+                        ["itemLink"] = "",
+                        ["texture"] = "",
+                        ["itemId"] = 0,
                         ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
+                        ["itemName"] = "",
                     },
                 },
-                ["CurrentSlotIndex"] = 15,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["ButtonSize"] = 49,
                 ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_002.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "effusion of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/crafting_spirits_002.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "37820",
-                                ["itemLink"] = "|H0:item:37820:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Guarana Tonic",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                        },
-                        ["CurrentSlotIndex"] = 16,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["Visibility"] = "Always",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["ButtonSize"] = 48,
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Faulcon Delacy",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292076443470"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["NextAuto"] = false,
-                ["ShowBackground"] = false,
-                ["Visibility"] = "Always",
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 4,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 109,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27037",
-                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of Magicka",
-                    },
-                    [3] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 17,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27038",
-                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of stamina",
-                    },
-                    [4] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 106,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "44715",
-                        ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                        ["itemName"] = "elixir of Invisibility",
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["ButtonSize"] = 49,
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_002.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:2:19:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "dram of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_002.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "effusion of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Neria Rothalen",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292077956402"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P3",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = false,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 424,
-                    ["Height"] = 69,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["NextAuto"] = false,
                 ["ShowBackground"] = true,
+                ["MainWindow"] = 
+                {
+                    ["Width"] = 433,
+                    ["Y"] = 1358,
+                    ["X"] = 1670,
+                    ["Height"] = 71,
+                },
                 ["Visibility"] = "Always",
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [1] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [2] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [3] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [4] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [5] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [6] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [7] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 30,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 25,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
+                ["ButtonColumns"] = 8,
                 ["ButtonSize"] = 48,
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Sneaks-Behind",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["NextAuto"] = false,
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["ShowBackground"] = false,
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 4,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 109,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27037",
-                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of Magicka",
-                    },
-                    [3] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 17,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27038",
-                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of stamina",
-                    },
-                    [4] = 
-                    {
-                        ["itemLink"] = "",
-                        ["texture"] = "",
-                        ["itemName"] = "",
-                        ["itemLevel"] = 1,
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["ButtonSize"] = 49,
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["Visibility"] = "Always",
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["ChatMax"] = false,
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292078118710"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["NextAuto"] = false,
-                ["ShowBackground"] = false,
-                ["Visibility"] = "Always",
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 23,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 27,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27037",
-                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of Magicka",
-                    },
-                    [3] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 19,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27038",
-                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of stamina",
-                    },
-                    [4] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 106,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "44715",
-                        ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                        ["itemName"] = "elixir of Invisibility",
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["ButtonSize"] = 49,
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Lord Tarod of Aragon",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292067209854"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["NextAuto"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["Visibility"] = "Always",
-                ["ShowBackground"] = false,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 21,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 24,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27037",
-                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of Magicka",
-                    },
-                    [3] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 16,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27038",
-                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of stamina",
-                    },
-                    [4] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 1,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 7619,
-                        ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "7619",
-                        ["itemLink"] = "|H0:collectible:7619|h|h",
-                        ["itemName"] = "Jubilee Cake 2020",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["ButtonSize"] = 49,
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["ButtonColumns"] = 8,
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 77,
-                                ["texture"] = "/esoui/art/icons/quest_food_004.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "94211",
-                                ["itemLink"] = "|H0:item:94211:338:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Crusty Bread",
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/crafting_soup_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68244",
-                                ["itemLink"] = "|H0:item:68244:310:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Solitude Salmon-Millet Soup",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 12,
-                                ["texture"] = "/esoui/art/icons/crafting_dessert_002.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68253",
-                                ["itemLink"] = "|H0:item:68253:311:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Longfin Pasty with Melon Sauce",
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Tarodion Ararthin",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292067300970"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P1",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["GetInterfaceForCharacter"] = nil, -- invalid value type [function] used
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = false,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["NextAuto"] = false,
-                ["ShowBackground"] = false,
-                ["Visibility"] = "Always",
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 300,
-                        ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "300",
-                        ["itemLink"] = "|H0:collectible:300|h|h",
-                        ["itemName"] = "Pirharri the Smuggler",
-                    },
-                    [1] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 28,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27036",
-                        ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of health",
-                    },
-                    [2] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 12,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27037",
-                        ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of Magicka",
-                    },
-                    [3] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 41,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "27038",
-                        ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                        ["itemName"] = "Essence of stamina",
-                    },
-                    [4] = 
-                    {
-                        ["itemType"] = "item",
-                        ["slotId"] = 23,
-                        ["texture"] = "/esoui/art/icons/consumable_potion_010_type_003.dds",
-                        ["itemLevel"] = 50,
-                        ["itemId"] = "74728",
-                        ["itemLink"] = "|H0:item:74728:307:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                        ["itemName"] = "Roguish Stealth Draught",
-                    },
-                    [5] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 8006,
-                        ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "8006",
-                        ["itemLink"] = "|H0:collectible:8006|h|h",
-                        ["itemName"] = "Antiquarian's Eye",
-                    },
-                    [6] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 267,
-                        ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "267",
-                        ["itemLink"] = "|H0:collectible:267|h|h",
-                        ["itemName"] = "Tythis Andromo, the Banker",
-                    },
-                    [7] = 
-                    {
-                        ["itemType"] = "collectible",
-                        ["slotId"] = 301,
-                        ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = "301",
-                        ["itemLink"] = "|H0:collectible:301|h|h",
-                        ["itemName"] = "Nuzhimeh the Merchant",
-                    },
-                },
-                ["CurrentSlotIndex"] = 10,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["ButtonSize"] = 49,
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 37,
-                                ["texture"] = "/esoui/art/icons/crafting_skillet_004.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68235",
-                                ["itemLink"] = "|H0:item:68235:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Lilmoth Garlic Hagfish",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 193,
-                                ["texture"] = "/esoui/art/icons/crafting_cooking_grilled_apples.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68236",
-                                ["itemLink"] = "|H0:item:68236:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Firsthold Fruit and Cheese Plate",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 77,
-                                ["texture"] = "/esoui/art/icons/crafting_soup_002.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68239",
-                                ["itemLink"] = "|H0:item:68239:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Hearty Garlic Corn Chowder",
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 80,
-                                ["texture"] = "/esoui/art/icons/crafting_stoneware_bottle_001.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68257",
-                                ["itemLink"] = "|H0:item:68257:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Markarth Mead",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 58,
-                                ["texture"] = "/esoui/art/icons/crafting_tea_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68260",
-                                ["itemLink"] = "|H0:item:68260:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Muthsera's Remorse",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 32,
-                                ["texture"] = "/esoui/art/icons/crafting_leather_vitriol.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "68263",
-                                ["itemLink"] = "|H0:item:68263:309:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Hagraven's Tonic",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 65,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 103,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 15,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 8006,
-                                ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "8006",
-                                ["itemLink"] = "|H0:collectible:8006|h|h",
-                                ["itemName"] = "Antiquarian's Eye",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 48,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 28,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 12,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 41,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 23,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_010_type_003.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "74728",
-                                ["itemLink"] = "|H0:item:74728:307:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                ["itemName"] = "Roguish Stealth Draught",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 8006,
-                                ["texture"] = "/esoui/art/icons/momento_antiquarianeye_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "8006",
-                                ["itemLink"] = "|H0:collectible:8006|h|h",
-                                ["itemName"] = "Antiquarian's Eye",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["CurrentSlotIndex"] = 15,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["Visibility"] = "Always",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["ButtonSize"] = 49,
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["$LastCharacterName"] = "Tarod Ararthin",
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
-            },
-            ["8798292067301326"] = 
-            {
-                ["default"] = 
-                {
-                    ["NextAuto"] = false,
-                    ["ButtonColumns"] = 8,
-                    ["PresetName"] = "P1",
-                    ["ButtonsDisplayed"] = 8,
-                    ["GameActionButtonHide"] = false,
-                    ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                    ["ButtonFontSize"] = 18,
-                    ["SwapBackgroundColors"] = false,
-                    ["LockThisPreset"] = false,
-                    ["MainWindow"] = 
-                    {
-                        ["Y"] = 0,
-                        ["X"] = 0,
-                        ["Width"] = 320,
-                        ["Height"] = 50,
-                    },
-                    ["NextPrevWrap"] = false,
-                    ["DelayPresetSwapWhileInCombat"] = false,
-                    ["ShowBackground"] = false,
-                    ["SlotItemTable"] = 
-                    {
-                        [8] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [1] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [2] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [3] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [4] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [5] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [6] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                        [7] = 
-                        {
-                            ["itemLink"] = 0,
-                            ["itemId"] = 0,
-                            ["slotId"] = 0,
-                            ["itemName"] = "",
-                        },
-                    },
-                    ["CurrentSlotIndex"] = 0,
-                    ["SoundSlotted"] = "ABILITY_SLOTTED",
-                    ["ButtonSize"] = 36,
-                    ["SlotItem"] = 
-                    {
-                        ["QuantityLabelPositionVertical"] = "Bottom",
-                        ["ShowQuantityLabels"] = true,
-                        ["ShowNumbers"] = false,
-                        ["NotSelectedButtonOpacity"] = 30,
-                        ["QuantityWarning"] = 10,
-                        ["OverlayButtonOpacity"] = 30,
-                        ["LinkToChatOnClick"] = true,
-                        ["QuantityAlert"] = 5,
-                        ["QuantityLabelPositionHorizontal"] = "Right",
-                        ["VisualCue"] = "Off",
-                        ["HideSlotBackground"] = false,
-                        ["KeyBindAlignV"] = "Top",
-                        ["ShowKeyBindings"] = false,
-                        ["KeyBindAlignH"] = "Left",
-                    },
-                    ["Visibility"] = "Never",
-                    ["Presets"] = 
-                    {
-                        ["P2"] = 
-                        {
-                        },
-                        ["P5"] = 
-                        {
-                        },
-                        ["P3"] = 
-                        {
-                        },
-                        ["P1"] = 
-                        {
-                        },
-                        ["P4"] = 
-                        {
-                        },
-                    },
-                    ["ChatMax"] = false,
-                    ["ChatMute"] = false,
-                    ["LockUI"] = false,
-                },
-                ["ButtonColumns"] = 8,
-                ["PresetName"] = "P2",
-                ["ButtonsDisplayed"] = 8,
-                ["GameActionButtonHide"] = false,
-                ["version"] = 1,
-                ["ButtonFontSize"] = 20,
-                ["SwapBackgroundColors"] = false,
-                ["LockThisPreset"] = true,
-                ["MainWindow"] = 
-                {
-                    ["Y"] = 1358,
-                    ["X"] = 1670,
-                    ["Width"] = 433,
-                    ["Height"] = 71,
-                },
-                ["NextPrevWrap"] = false,
-                ["DelayPresetSwapWhileInCombat"] = false,
-                ["ButtonSize"] = 49,
-                ["ShowBackground"] = false,
-                ["NextAuto"] = false,
-                ["SlotItemTable"] = 
-                {
-                    [8] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [1] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [2] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [3] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [4] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [5] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [6] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                    [7] = 
-                    {
-                        ["slotId"] = 0,
-                        ["texture"] = "",
-                        ["itemLevel"] = 0,
-                        ["itemId"] = 0,
-                        ["itemLink"] = "",
-                        ["itemName"] = "",
-                    },
-                },
-                ["CurrentSlotIndex"] = 15,
-                ["SlotItem"] = 
-                {
-                    ["QuantityLabelPositionVertical"] = "Bottom",
-                    ["ShowQuantityLabels"] = true,
-                    ["ShowNumbers"] = false,
-                    ["NotSelectedButtonOpacity"] = 35,
-                    ["QuantityWarning"] = 10,
-                    ["OverlayButtonOpacity"] = 20,
-                    ["LinkToChatOnClick"] = true,
-                    ["QuantityAlert"] = 5,
-                    ["QuantityLabelPositionHorizontal"] = "Right",
-                    ["VisualCue"] = "Off",
-                    ["HideSlotBackground"] = true,
-                    ["KeyBindAlignV"] = "Top",
-                    ["ShowKeyBindings"] = false,
-                    ["KeyBindAlignH"] = "Left",
-                },
-                ["SoundSlotted"] = "ABILITY_SLOTTED",
-                ["Visibility"] = "Always",
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
-                ["ChatMax"] = false,
-                ["Presets"] = 
-                {
-                    ["P2"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P5"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P3"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = false,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 424,
-                            ["Height"] = 69,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = true,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_002.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:2:24:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "effusion of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:2:29:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "potion of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_003.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:2:34:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "draught of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["CurrentSlotIndex"] = 12,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["Visibility"] = "Always",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 30,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 25,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["ButtonSize"] = 48,
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P1"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 300,
-                                ["texture"] = "/esoui/art/icons/assistant_fence_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "300",
-                                ["itemLink"] = "|H0:collectible:300|h|h",
-                                ["itemName"] = "Pirharri the Smuggler",
-                            },
-                            [1] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 4,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_001_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27036",
-                                ["itemLink"] = "|H0:item:27036:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of health",
-                            },
-                            [2] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 109,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_002_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27037",
-                                ["itemLink"] = "|H0:item:27037:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of Magicka",
-                            },
-                            [3] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 17,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_003_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "27038",
-                                ["itemLink"] = "|H0:item:27038:307:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:0|h|h",
-                                ["itemName"] = "Essence of stamina",
-                            },
-                            [4] = 
-                            {
-                                ["itemType"] = "item",
-                                ["slotId"] = 106,
-                                ["texture"] = "/esoui/art/icons/consumable_potion_011_type_005.dds",
-                                ["itemLevel"] = 50,
-                                ["itemId"] = "44715",
-                                ["itemLink"] = "|H0:item:44715:125:50:0:0:0:0:0:0:0:0:0:0:0:0:36:0:0:0:0:1441792|h|h",
-                                ["itemName"] = "elixir of Invisibility",
-                            },
-                            [5] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 7619,
-                                ["texture"] = "/esoui/art/icons/momento_jubileecake2020_02.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "7619",
-                                ["itemLink"] = "|H0:collectible:7619|h|h",
-                                ["itemName"] = "Jubilee Cake 2020",
-                            },
-                            [6] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 267,
-                                ["texture"] = "/esoui/art/icons/assistant_banker_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "267",
-                                ["itemLink"] = "|H0:collectible:267|h|h",
-                                ["itemName"] = "Tythis Andromo, the Banker",
-                            },
-                            [7] = 
-                            {
-                                ["itemType"] = "collectible",
-                                ["slotId"] = 301,
-                                ["texture"] = "/esoui/art/icons/assistant_vendor_01.dds",
-                                ["itemLevel"] = 0,
-                                ["itemId"] = "301",
-                                ["itemLink"] = "|H0:collectible:301|h|h",
-                                ["itemName"] = "Nuzhimeh the Merchant",
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                    ["P4"] = 
-                    {
-                        ["NextAuto"] = false,
-                        ["ButtonColumns"] = 8,
-                        ["ButtonsDisplayed"] = 8,
-                        ["GameActionButtonHide"] = false,
-                        ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                        ["ButtonFontSize"] = 20,
-                        ["SwapBackgroundColors"] = false,
-                        ["LockThisPreset"] = true,
-                        ["MainWindow"] = 
-                        {
-                            ["Y"] = 1358,
-                            ["X"] = 1670,
-                            ["Width"] = 433,
-                            ["Height"] = 71,
-                        },
-                        ["NextPrevWrap"] = false,
-                        ["DelayPresetSwapWhileInCombat"] = false,
-                        ["ShowBackground"] = false,
-                        ["SlotItemTable"] = 
-                        {
-                            [8] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [2] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [3] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [4] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [6] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                            [7] = 
-                            {
-                                ["itemLink"] = "",
-                                ["texture"] = "",
-                                ["itemName"] = "",
-                                ["itemLevel"] = 0,
-                            },
-                        },
-                        ["ButtonSize"] = 49,
-                        ["SoundSlotted"] = "ABILITY_SLOTTED",
-                        ["SlotItem"] = 
-                        {
-                            ["QuantityLabelPositionVertical"] = "Bottom",
-                            ["ShowQuantityLabels"] = true,
-                            ["ShowNumbers"] = false,
-                            ["NotSelectedButtonOpacity"] = 35,
-                            ["QuantityWarning"] = 10,
-                            ["OverlayButtonOpacity"] = 20,
-                            ["LinkToChatOnClick"] = true,
-                            ["QuantityAlert"] = 5,
-                            ["QuantityLabelPositionHorizontal"] = "Right",
-                            ["VisualCue"] = "Off",
-                            ["HideSlotBackground"] = true,
-                            ["KeyBindAlignV"] = "Top",
-                            ["ShowKeyBindings"] = false,
-                            ["KeyBindAlignH"] = "Left",
-                        },
-                        ["Visibility"] = "Always",
-                        ["ChatMute"] = false,
-                        ["ChatMax"] = false,
-                        ["LockUI"] = true,
-                    },
-                },
-                ["ChatMute"] = false,
-                ["SoundAlert"] = "QUICKSLOT_USE_EMPTY",
-                ["LockUI"] = true,
             },
         },
     },

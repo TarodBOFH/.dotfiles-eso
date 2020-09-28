@@ -4,215 +4,236 @@ SkyS_SavedVariables =
     {
         ["@cbr600f"] = 
         {
-            ["8798292067184426"] = 
+            ["8798292077852888"] = 
             {
-                ["$LastCharacterName"] = "Jimenuki Ararthin",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
                 ["immersiveMode"] = 1,
                 ["pinTexture"] = 
                 {
-                    ["size"] = 38,
                     ["level"] = 40,
                     ["type"] = 1,
+                    ["size"] = 38,
                 },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
-                },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292067859494"] = 
-            {
-                ["$LastCharacterName"] = "Faulcon Delacy",
+                ["version"] = 4,
                 ["skillPanelDisplay"] = 2,
                 ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
-                ["immersiveMode"] = 1,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 38,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
-                },
-                ["mainworldSkyshards"] = "ffffff",
             },
             ["8798292076443470"] = 
             {
+                ["mainworldSkyshards"] = "ffffff",
                 ["$LastCharacterName"] = "Neria Rothalen",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
                 ["immersiveMode"] = 1,
                 ["pinTexture"] = 
                 {
-                    ["size"] = 38,
                     ["level"] = 40,
                     ["type"] = 1,
+                    ["size"] = 38,
                 },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
-                },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292077956402"] = 
-            {
-                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["version"] = 4,
                 ["skillPanelDisplay"] = 2,
                 ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
-                ["immersiveMode"] = 1,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 38,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
-                },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292077842818"] = 
-            {
-                ["$LastCharacterName"] = "Luvas Catrol",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
-                ["immersiveMode"] = 1,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 38,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
-                },
-                ["mainworldSkyshards"] = "ffffff",
             },
             ["8798292078118710"] = 
             {
+                ["mainworldSkyshards"] = "ffffff",
                 ["$LastCharacterName"] = "Lord Tarod of Aragon",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
-                ["immersiveMode"] = 1,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 38,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
                 ["filters"] = 
                 {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
                     ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
                 },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292067209854"] = 
-            {
-                ["$LastCharacterName"] = "Tarodion Ararthin",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
                 ["immersiveMode"] = 1,
                 ["pinTexture"] = 
                 {
-                    ["size"] = 38,
                     ["level"] = 40,
                     ["type"] = 1,
+                    ["size"] = 38,
                 },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292081773772"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Tarolog Agharghim",
                 ["filters"] = 
                 {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
                     ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
                 },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292067300970"] = 
-            {
-                ["$LastCharacterName"] = "Tarod Ararthin",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
                 ["immersiveMode"] = 1,
                 ["pinTexture"] = 
                 {
-                    ["size"] = 38,
                     ["level"] = 40,
                     ["type"] = 1,
+                    ["size"] = 38,
                 },
-                ["filters"] = 
-                {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = true,
-                },
-                ["mainworldSkyshards"] = "ffffff",
-            },
-            ["8798292077852888"] = 
-            {
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
+                ["version"] = 4,
                 ["skillPanelDisplay"] = 2,
                 ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
-                ["immersiveMode"] = 1,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 38,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+            },
+            ["8798292067859494"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Faulcon Delacy",
                 ["filters"] = 
                 {
-                    ["SkySMapPin_unknown"] = true,
-                    ["SkySCompassPin_unknown"] = true,
                     ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
                 },
-                ["mainworldSkyshards"] = "ffffff",
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
             },
             ["8798292067301326"] = 
             {
+                ["mainworldSkyshards"] = "ffffff",
                 ["$LastCharacterName"] = "Jimeneka Ararthin",
-                ["skillPanelDisplay"] = 2,
-                ["compassMaxDistance"] = 0.0500000000,
-                ["version"] = 4,
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
                 ["immersiveMode"] = 1,
                 ["pinTexture"] = 
                 {
-                    ["size"] = 38,
                     ["level"] = 40,
                     ["type"] = 1,
+                    ["size"] = 38,
                 },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292077956402"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Sneaks-Behind",
                 ["filters"] = 
                 {
+                    ["SkySMapPin_collected"] = false,
                     ["SkySMapPin_unknown"] = true,
                     ["SkySCompassPin_unknown"] = true,
-                    ["SkySMapPin_collected"] = false,
                 },
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292067300970"] = 
+            {
                 ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = true,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292067184426"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Jimenuki Ararthin",
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292077842818"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Luvas Catrol",
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
+            },
+            ["8798292067209854"] = 
+            {
+                ["mainworldSkyshards"] = "ffffff",
+                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["filters"] = 
+                {
+                    ["SkySMapPin_collected"] = false,
+                    ["SkySMapPin_unknown"] = true,
+                    ["SkySCompassPin_unknown"] = true,
+                },
+                ["immersiveMode"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 38,
+                },
+                ["version"] = 4,
+                ["skillPanelDisplay"] = 2,
+                ["compassMaxDistance"] = 0.0500000000,
             },
         },
     },
