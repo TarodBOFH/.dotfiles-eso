@@ -21,3 +21,7 @@ $RECYCLE.BIN/
 # Others
 ~$*
 *~
+
+#Mac Files	
+MachineSettings.txt
+PipelineCache.esopc
