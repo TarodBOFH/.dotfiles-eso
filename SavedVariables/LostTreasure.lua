@@ -6,11 +6,9 @@ LostTreasure_Account =
         {
             ["$AccountWide"] = 
             {
-                ["notifications"] = 
-                {
-                },
                 ["miniMap"] = 
                 {
+                    ["size"] = 400,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -22,34 +20,36 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
-                    ["size"] = 400,
-                    ["deletionDelay"] = 4,
                     ["enabled"] = true,
+                    ["deletionDelay"] = 4,
+                },
+                ["version"] = 1,
+                ["notifications"] = 
+                {
                 },
                 ["pinTypes"] = 
                 {
                     [2] = 
                     {
                         ["showOnMap"] = true,
-                        ["deletionDelay"] = 10,
+                        ["size"] = 32,
                         ["pinLevel"] = 45,
                         ["showOnCompass"] = true,
-                        ["size"] = 32,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["deletionDelay"] = 10,
                         ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                     },
                     [1] = 
                     {
                         ["showOnMap"] = true,
-                        ["deletionDelay"] = 10,
+                        ["size"] = 32,
                         ["pinLevel"] = 45,
                         ["showOnCompass"] = true,
-                        ["size"] = 32,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["deletionDelay"] = 10,
                         ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                     },
                 },
-                ["version"] = 1,
             },
         },
     },

@@ -6,16 +6,16 @@ CraftingWritAssistantVars =
         {
             ["$AccountWide"] = 
             {
-                ["ShowCraftingWritWindowAtStation"] = true,
-                ["ShowCraftingWritWindowAtGuildBank"] = false,
-                ["version"] = 1,
                 ["OffsetY"] = 8,
-                ["SaveWindowLocation"] = true,
-                ["ShowCraftingWritWindowAtBank"] = false,
-                ["LeaveCraftingWritWindowOpenOnExit"] = false,
+                ["ShowCraftingWritWindowAtGuildBank"] = false,
                 ["OffsetX"] = 407,
+                ["ShowCraftingWritWindowAtStation"] = true,
+                ["version"] = 1,
+                ["LeaveCraftingWritWindowOpenOnExit"] = false,
                 ["ShowIngredientsAtProvisioning"] = true,
                 ["ShowCraftingWritWindowAtGuildStore"] = false,
+                ["ShowCraftingWritWindowAtBank"] = false,
+                ["SaveWindowLocation"] = true,
             },
         },
     },

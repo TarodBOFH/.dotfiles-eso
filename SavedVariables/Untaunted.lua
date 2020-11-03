@@ -99,25 +99,25 @@ Untaunted_Save =
                         [1] = 132831,
                     },
                 },
+                ["markersize"] = 26,
+                ["window"] = 
+                {
+                    ["height"] = 25.0000003906,
+                    ["width"] = 300.0000046875,
+                    ["x"] = 2189.0625342041,
+                    ["y"] = -25.0000003906,
+                },
                 ["showmarker"] = false,
                 ["accountwide"] = true,
-                ["version"] = 7,
-                ["bardirection"] = true,
-                ["maxbars"] = 15,
+                ["trackonlyplayer"] = true,
                 ["customabilities"] = 
                 {
                 },
-                ["markersize"] = 26,
                 ["lastversion"] = "1.0.0",
-                ["trackonlyplayer"] = true,
-                ["window"] = 
-                {
-                    ["x"] = 2189.0625342041,
-                    ["y"] = -25.0000003906,
-                    ["height"] = 25.0000003906,
-                    ["width"] = 300.0000046875,
-                },
+                ["maxbars"] = 15,
+                ["bardirection"] = true,
                 ["growthdirection"] = true,
+                ["version"] = 7,
             },
         },
     },
