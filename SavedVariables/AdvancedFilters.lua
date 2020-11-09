@@ -8,26 +8,26 @@ AdvancedFilters_Settings =
             {
                 ["Settings"] = 
                 {
-                    ["rememberFilterDropdownsLastSelection"] = false,
-                    ["subfilterBarDropdownLastSelectedEntries"] = 
-                    {
-                    },
                     ["hideSubFilterLabel"] = false,
+                    ["version"] = 1.5110000000,
+                    ["rememberFilterDropdownsLastSelection"] = false,
                     ["showDropdownLastSelectedEntries"] = true,
                     ["grayOutSubFiltersWithNoItems"] = true,
-                    ["version"] = 1.5110000000,
-                    ["showDropdownSelectedReminderAnimation"] = true,
-                    ["debugSpam"] = false,
-                    ["hideItemCount"] = true,
+                    ["showIconsInFilterDropdowns"] = true,
+                    ["doDebugOutput"] = false,
                     ["itemCountLabelColor"] = 
                     {
-                        ["r"] = 1,
                         ["a"] = 1,
                         ["b"] = 1,
                         ["g"] = 1,
+                        ["r"] = 1,
                     },
-                    ["doDebugOutput"] = false,
-                    ["showIconsInFilterDropdowns"] = true,
+                    ["showDropdownSelectedReminderAnimation"] = true,
+                    ["hideItemCount"] = true,
+                    ["debugSpam"] = false,
+                    ["subfilterBarDropdownLastSelectedEntries"] = 
+                    {
+                    },
                 },
             },
         },

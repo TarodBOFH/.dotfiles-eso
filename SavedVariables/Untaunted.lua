@@ -6,8 +6,23 @@ Untaunted_Save =
         {
             ["$AccountWide"] = 
             {
+                ["lastversion"] = "1.0.3",
+                ["maxbars"] = 15,
+                ["customabilities"] = 
+                {
+                },
+                ["bardirection"] = true,
+                ["version"] = 7,
+                ["trackonlyplayer"] = true,
+                ["markersize"] = 26,
+                ["accountwide"] = true,
                 ["trackedabilities"] = 
                 {
+                    [16] = 
+                    {
+                        [2] = false,
+                        [1] = 126597,
+                    },
                     [1] = 
                     {
                         [2] = true,
@@ -16,57 +31,57 @@ Untaunted_Save =
                     [2] = 
                     {
                         [2] = false,
-                        [1] = 62787,
+                        [1] = 17906,
                     },
                     [3] = 
                     {
                         [2] = false,
-                        [1] = 81519,
+                        [1] = 68588,
                     },
                     [4] = 
                     {
                         [2] = false,
-                        [1] = 33541,
+                        [1] = 62787,
                     },
                     [5] = 
                     {
                         [2] = false,
-                        [1] = 39100,
+                        [1] = 80020,
                     },
                     [6] = 
                     {
                         [2] = false,
-                        [1] = 17906,
+                        [1] = 39100,
                     },
                     [7] = 
                     {
                         [2] = false,
-                        [1] = 62988,
+                        [1] = 81519,
                     },
                     [8] = 
                     {
                         [2] = false,
-                        [1] = 134599,
+                        [1] = 122389,
                     },
                     [9] = 
                     {
                         [2] = false,
-                        [1] = 17945,
+                        [1] = 62988,
                     },
                     [10] = 
                     {
                         [2] = false,
-                        [1] = 40224,
+                        [1] = 134599,
                     },
                     [11] = 
                     {
                         [2] = false,
-                        [1] = 64144,
+                        [1] = 17945,
                     },
                     [12] = 
                     {
                         [2] = false,
-                        [1] = 68588,
+                        [1] = 40224,
                     },
                     [13] = 
                     {
@@ -83,41 +98,16 @@ Untaunted_Save =
                         [2] = false,
                         [1] = 127070,
                     },
-                    [16] = 
-                    {
-                        [2] = false,
-                        [1] = 126597,
-                    },
-                    [17] = 
-                    {
-                        [2] = false,
-                        [1] = 122389,
-                    },
-                    [18] = 
-                    {
-                        [2] = false,
-                        [1] = 132831,
-                    },
                 },
-                ["markersize"] = 26,
                 ["window"] = 
                 {
-                    ["height"] = 25.0000003906,
-                    ["width"] = 300.0000046875,
                     ["x"] = 2189.0625342041,
+                    ["width"] = 300.0000046875,
+                    ["height"] = 25.0000003906,
                     ["y"] = -25.0000003906,
                 },
                 ["showmarker"] = false,
-                ["accountwide"] = true,
-                ["trackonlyplayer"] = true,
-                ["customabilities"] = 
-                {
-                },
-                ["lastversion"] = "1.0.0",
-                ["maxbars"] = 15,
-                ["bardirection"] = true,
                 ["growthdirection"] = true,
-                ["version"] = 7,
             },
         },
     },
