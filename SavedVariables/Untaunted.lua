@@ -6,15 +6,23 @@ Untaunted_Save =
         {
             ["$AccountWide"] = 
             {
-                ["lastversion"] = "1.0.3",
-                ["maxbars"] = 15,
+                ["bardirection"] = true,
+                ["markersize"] = 26,
+                ["trackonlyplayer"] = true,
+                ["version"] = 7,
                 ["customabilities"] = 
                 {
                 },
-                ["bardirection"] = true,
-                ["version"] = 7,
-                ["trackonlyplayer"] = true,
-                ["markersize"] = 26,
+                ["lastversion"] = "1.0.3",
+                ["growthdirection"] = true,
+                ["showmarker"] = false,
+                ["window"] = 
+                {
+                    ["x"] = 2189.0625342041,
+                    ["width"] = 300.0000046875,
+                    ["height"] = 25.0000003906,
+                    ["y"] = -25.0000003906,
+                },
                 ["accountwide"] = true,
                 ["trackedabilities"] = 
                 {
@@ -99,15 +107,7 @@ Untaunted_Save =
                         [1] = 127070,
                     },
                 },
-                ["window"] = 
-                {
-                    ["x"] = 2189.0625342041,
-                    ["width"] = 300.0000046875,
-                    ["height"] = 25.0000003906,
-                    ["y"] = -25.0000003906,
-                },
-                ["showmarker"] = false,
-                ["growthdirection"] = true,
+                ["maxbars"] = 15,
             },
         },
     },

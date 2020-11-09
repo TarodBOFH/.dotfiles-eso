@@ -6,57 +6,57 @@ InfoPanel_Settings =
         {
             ["$AccountWide"] = 
             {
-                ["Scale"] = 1,
-                ["ReelAlert"] = false,
-                ["Telvar"] = true,
-                ["RealTime"] = true,
-                ["DungeonInfo"] = true,
-                ["Smithing"] = true,
-                ["Transmutation"] = true,
-                ["TimeFormat"] = 2,
-                [44879] = true,
-                ["LatestMail"] = 0,
-                ["TamrielTime"] = true,
-                ["ExPgain"] = true,
-                [30357] = true,
-                ["AutoRepairStore"] = true,
-                ["Gold"] = true,
-                ["BossTimer"] = false,
-                ["Stable"] = true,
-                ["Timer"] = true,
-                ["BagSpace"] = 2,
-                ["TrialInfo"] = true,
-                ["AP"] = true,
-                ["BankSpace"] = 2,
-                ["TelvarGain"] = true,
-                ["Weapons"] = true,
-                ["EventTickets"] = true,
-                ["UndauntedKeys"] = true,
-                ["Hirelings"] = false,
-                ["Apparel"] = true,
-                ["Fence"] = true,
-                ["Skyshards"] = false,
-                ["Experience"] = true,
-                ["Memory"] = true,
-                ["ZO_CompassFrame"] = 70,
-                ["AutoRepair"] = true,
-                ["DungeonChests"] = true,
-                [33265] = true,
-                ["APgain"] = true,
-                ["ExpPS"] = 3,
-                ["Update"] = 5,
-                ["Vouchers"] = true,
-                ["Settings"] = true,
-                ["Achievement_up"] = true,
-                [33271] = true,
-                ["version"] = 1,
                 ["InfoPanel"] = true,
-                ["FishingAchivement"] = false,
+                ["BossTimer"] = false,
+                ["AutoRepairStore"] = true,
+                ["Timer"] = true,
+                ["BankSpace"] = 2,
                 ["Achievements"] = 3,
-                ["AutoRecharge"] = true,
+                [44879] = true,
+                ["DungeonInfo"] = true,
+                ["FishingAchivement"] = false,
+                ["version"] = 1,
+                [30357] = true,
                 ["AutoRepairKit"] = true,
-                ["Background"] = 10,
+                ["LatestMail"] = 0,
                 ["ChatOutput"] = true,
+                ["BagSpace"] = 2,
+                ["ExPgain"] = true,
+                ["TimeFormat"] = 2,
+                ["Background"] = 10,
+                ["Weapons"] = true,
+                ["Fence"] = true,
+                ["AutoRecharge"] = true,
+                ["Hirelings"] = false,
+                ["Achievement_up"] = true,
+                ["Update"] = 5,
+                ["Settings"] = true,
+                ["Stable"] = true,
+                ["ExpPS"] = 3,
+                ["Memory"] = true,
+                [33265] = true,
+                ["DungeonChests"] = true,
+                ["Smithing"] = true,
+                ["Gold"] = true,
+                ["TelvarGain"] = true,
+                ["Apparel"] = true,
+                ["Telvar"] = true,
+                ["ZO_CompassFrame"] = 70,
+                ["ReelAlert"] = false,
+                ["APgain"] = true,
+                ["Transmutation"] = true,
+                ["RealTime"] = true,
+                ["EventTickets"] = true,
+                ["AutoRepair"] = true,
+                [33271] = true,
+                ["TamrielTime"] = true,
+                ["UndauntedKeys"] = true,
+                ["Skyshards"] = false,
+                ["AP"] = true,
+                ["TrialInfo"] = true,
+                ["Vouchers"] = true,
+                ["Scale"] = 1,
+                ["Experience"] = true,
             },
         },
     },
@@ -67,43 +67,7 @@ InfoPanel_Character =
     {
         ["@cbr600f"] = 
         {
-            ["Jimeneka Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["version"] = 1,
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-            },
-            ["Tarolog Agharghim"] = 
+            ["Tarod Ararthin"] = 
             {
                 ["version"] = 1,
                 ["FishingAchivement"] = false,
@@ -115,13 +79,37 @@ InfoPanel_Character =
                 ["FishingAchivement"] = false,
                 ["Experience"] = false,
             },
+            ["Tarodion Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
             ["Faulcon Delacy"] = 
             {
                 ["version"] = 1,
                 ["FishingAchivement"] = false,
                 ["Experience"] = false,
             },
-            ["Tarod Ararthin"] = 
+            ["Jimenuki Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Tharodriel Ararthin"] = 
             {
                 ["version"] = 1,
                 ["FishingAchivement"] = false,
@@ -133,7 +121,19 @@ InfoPanel_Character =
                 ["FishingAchivement"] = false,
                 ["Experience"] = false,
             },
-            ["Jimenuki Ararthin"] = 
+            ["Cassus Andronicus"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Tarolog Agharghim"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Tarodio Ararthinus"] = 
             {
                 ["version"] = 1,
                 ["FishingAchivement"] = false,

@@ -4,18 +4,18 @@ DungeonTracker =
     {
         ["@cbr600f"] = 
         {
-            ["8798292067209854"] = 
+            ["8798292067300970"] = 
             {
-                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["$LastCharacterName"] = "Tarod Ararthin",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292077956402"] = 
+            ["8798292067209854"] = 
             {
-                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["$LastCharacterName"] = "Tarodion Ararthin",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
@@ -31,24 +31,6 @@ DungeonTracker =
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292082164860"] = 
-            {
-                ["$LastCharacterName"] = "Tharodriel Ararthin",
-                ["CharacterSettings"] = 
-                {
-                    ["trackChar"] = true,
-                    ["version"] = 1.2000000000,
-                },
-            },
-            ["8798292076443470"] = 
-            {
-                ["$LastCharacterName"] = "Neria Rothalen",
-                ["CharacterSettings"] = 
-                {
-                    ["trackChar"] = true,
-                    ["version"] = 1.2000000000,
-                },
-            },
             ["8798292067184426"] = 
             {
                 ["$LastCharacterName"] = "Jimenuki Ararthin",
@@ -58,18 +40,36 @@ DungeonTracker =
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292077852888"] = 
+            ["8798292081773772"] = 
             {
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
+                ["$LastCharacterName"] = "Tarolog Agharghim",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292067300970"] = 
+            ["8798292067859494"] = 
             {
-                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["$LastCharacterName"] = "Faulcon Delacy",
+                ["CharacterSettings"] = 
+                {
+                    ["trackChar"] = true,
+                    ["version"] = 1.2000000000,
+                },
+            },
+            ["8798292067301326"] = 
+            {
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["CharacterSettings"] = 
+                {
+                    ["trackChar"] = true,
+                    ["version"] = 1.2000000000,
+                },
+            },
+            ["8798292082164860"] = 
+            {
+                ["$LastCharacterName"] = "Tharodriel Ararthin",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
@@ -80,19 +80,21 @@ DungeonTracker =
             {
                 ["AccountSettings"] = 
                 {
-                    ["cColorS"] = "00ff05",
-                    ["shownD"] = true,
-                    ["iColorT"] = 
-                    {
-                        [4] = 1,
-                        [1] = 0.4800000000,
-                        [2] = 0.4800000000,
-                        [3] = 0.4800000000,
-                    },
-                    ["showGCComp"] = true,
                     ["kSformat"] = 1,
                     ["showLFGd"] = true,
-                    ["showtT"] = true,
+                    ["shownD"] = true,
+                    ["showhM"] = true,
+                    ["showDBComp"] = true,
+                    ["cColorT"] = 
+                    {
+                        [4] = 1,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 0.0200000000,
+                    },
+                    ["showVComp"] = true,
+                    ["showLFGt"] = true,
+                    ["iColorS"] = "7a7a7a",
                     ["compDB"] = 
                     {
                         [1] = 
@@ -1574,10 +1576,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1593,6 +1591,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -1605,9 +1607,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1624,6 +1623,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -1636,9 +1638,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1656,6 +1655,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [104] = 
@@ -1668,9 +1670,6 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1688,6 +1687,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [105] = 
@@ -1699,9 +1701,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1720,6 +1719,9 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [106] = 
                         {
@@ -1727,9 +1729,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -1748,6 +1747,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -1760,9 +1762,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1780,6 +1779,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [108] = 
                         {
@@ -1787,9 +1789,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -1808,6 +1807,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -1819,9 +1821,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1838,6 +1837,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -1850,10 +1852,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1872,6 +1870,10 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
+                            ["timed"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
                         },
                         [111] = 
                         {
@@ -1881,10 +1883,6 @@ DungeonTracker =
                             },
                             ["ndeath"] = 
                             {
-                            },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
                             },
                             ["incomplete"] = 
                             {
@@ -1904,6 +1902,10 @@ DungeonTracker =
                             {
                                 [1] = "8798292067184426",
                             },
+                            ["timed"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
                         },
                         [112] = 
                         {
@@ -1911,10 +1913,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
-                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -1934,6 +1932,10 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -1948,10 +1950,6 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1967,6 +1965,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -1979,9 +1981,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -1998,6 +1997,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2009,9 +2011,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2030,6 +2029,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [116] = 
                         {
@@ -2037,9 +2039,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -2060,6 +2059,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [117] = 
@@ -2072,10 +2074,6 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2091,6 +2089,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -2103,9 +2105,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2122,6 +2121,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2133,9 +2135,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2152,6 +2151,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2163,9 +2165,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2182,6 +2181,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2193,9 +2195,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2212,6 +2211,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2224,9 +2226,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2245,6 +2244,9 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [123] = 
                         {
@@ -2252,9 +2254,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -2273,6 +2272,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2285,9 +2287,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2305,6 +2304,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [125] = 
                         {
@@ -2312,9 +2314,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -2333,6 +2332,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2344,9 +2346,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2363,6 +2362,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2374,9 +2376,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2393,6 +2392,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2404,9 +2406,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2423,6 +2422,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2435,10 +2437,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2454,6 +2452,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -2467,9 +2469,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2487,6 +2486,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [131] = 
@@ -2498,9 +2500,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2518,6 +2517,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [132] = 
@@ -2529,10 +2531,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2548,6 +2546,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -2561,10 +2563,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2580,6 +2578,10 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
                             {
                                 [1] = "8798292067300970",
                             },
@@ -2593,9 +2595,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2613,6 +2612,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [135] = 
@@ -2624,9 +2626,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2644,6 +2643,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                                 [1] = "8798292067300970",
+                            },
+                            ["timed"] = 
+                            {
                             },
                         },
                         [136] = 
@@ -2655,9 +2657,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2676,6 +2675,9 @@ DungeonTracker =
                             {
                                 [1] = "8798292067300970",
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [137] = 
                         {
@@ -2683,9 +2685,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -2704,6 +2703,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2715,9 +2717,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2734,6 +2733,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2745,9 +2747,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2764,6 +2763,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2775,9 +2777,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2794,6 +2793,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2806,9 +2808,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2826,6 +2825,9 @@ DungeonTracker =
                             ["hmode"] = 
                             {
                             },
+                            ["timed"] = 
+                            {
+                            },
                         },
                         [142] = 
                         {
@@ -2833,9 +2835,6 @@ DungeonTracker =
                             {
                             },
                             ["ndeath"] = 
-                            {
-                            },
-                            ["timed"] = 
                             {
                             },
                             ["incomplete"] = 
@@ -2854,6 +2853,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2865,9 +2867,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2884,6 +2883,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2895,9 +2897,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2914,6 +2913,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2925,9 +2927,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2944,6 +2943,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2955,9 +2957,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -2974,6 +2973,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -2985,9 +2987,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -3004,6 +3003,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -3015,9 +3017,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -3034,6 +3033,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -3045,9 +3047,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -3064,6 +3063,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -3075,9 +3077,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -3094,6 +3093,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -3105,9 +3107,6 @@ DungeonTracker =
                             ["ndeath"] = 
                             {
                             },
-                            ["timed"] = 
-                            {
-                            },
                             ["incomplete"] = 
                             {
                                 [1] = "8798292078118710",
@@ -3124,6 +3123,9 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                             ["hmode"] = 
+                            {
+                            },
+                            ["timed"] = 
                             {
                             },
                         },
@@ -3673,91 +3675,7 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                         },
-                        [301] = 
-                        {
-                            ["complete"] = 
-                            {
-                                [2] = "8798292067300970",
-                                [1] = "8798292078118710",
-                            },
-                            ["incomplete"] = 
-                            {
-                                [1] = "8798292077956402",
-                                [2] = "8798292067859494",
-                                [3] = "8798292067301326",
-                                [4] = "8798292076443470",
-                                [5] = "8798292067184426",
-                                [6] = "8798292067209854",
-                                [7] = "8798292081773772",
-                                [8] = "8798292081990122",
-                                [9] = "8798292082164860",
-                                [10] = "8798292077852888",
-                            },
-                        },
-                        [302] = 
-                        {
-                            ["complete"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
-                            ["incomplete"] = 
-                            {
-                                [1] = "8798292078118710",
-                                [2] = "8798292077956402",
-                                [3] = "8798292067859494",
-                                [4] = "8798292067301326",
-                                [5] = "8798292076443470",
-                                [6] = "8798292067184426",
-                                [7] = "8798292067209854",
-                                [8] = "8798292081773772",
-                                [9] = "8798292081990122",
-                                [10] = "8798292082164860",
-                                [11] = "8798292077852888",
-                            },
-                        },
-                        [303] = 
-                        {
-                            ["complete"] = 
-                            {
-                                [2] = "8798292067300970",
-                                [1] = "8798292078118710",
-                            },
-                            ["incomplete"] = 
-                            {
-                                [1] = "8798292077956402",
-                                [2] = "8798292067859494",
-                                [3] = "8798292067301326",
-                                [4] = "8798292076443470",
-                                [5] = "8798292067184426",
-                                [6] = "8798292067209854",
-                                [7] = "8798292081773772",
-                                [8] = "8798292081990122",
-                                [9] = "8798292082164860",
-                                [10] = "8798292077852888",
-                            },
-                        },
-                        [304] = 
-                        {
-                            ["complete"] = 
-                            {
-                                [1] = "8798292067300970",
-                            },
-                            ["incomplete"] = 
-                            {
-                                [1] = "8798292078118710",
-                                [2] = "8798292077956402",
-                                [3] = "8798292067859494",
-                                [4] = "8798292067301326",
-                                [5] = "8798292076443470",
-                                [6] = "8798292067184426",
-                                [7] = "8798292067209854",
-                                [8] = "8798292081773772",
-                                [9] = "8798292081990122",
-                                [10] = "8798292082164860",
-                                [11] = "8798292077852888",
-                            },
-                        },
-                        [305] = 
+                        [307] = 
                         {
                             ["complete"] = 
                             {
@@ -3799,7 +3717,7 @@ DungeonTracker =
                                 [12] = "8798292077852888",
                             },
                         },
-                        [307] = 
+                        [305] = 
                         {
                             ["complete"] = 
                             {
@@ -3820,47 +3738,129 @@ DungeonTracker =
                                 [11] = "8798292077852888",
                             },
                         },
+                        [304] = 
+                        {
+                            ["complete"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["incomplete"] = 
+                            {
+                                [1] = "8798292078118710",
+                                [2] = "8798292077956402",
+                                [3] = "8798292067859494",
+                                [4] = "8798292067301326",
+                                [5] = "8798292076443470",
+                                [6] = "8798292067184426",
+                                [7] = "8798292067209854",
+                                [8] = "8798292081773772",
+                                [9] = "8798292081990122",
+                                [10] = "8798292082164860",
+                                [11] = "8798292077852888",
+                            },
+                        },
+                        [303] = 
+                        {
+                            ["complete"] = 
+                            {
+                                [2] = "8798292067300970",
+                                [1] = "8798292078118710",
+                            },
+                            ["incomplete"] = 
+                            {
+                                [1] = "8798292077956402",
+                                [2] = "8798292067859494",
+                                [3] = "8798292067301326",
+                                [4] = "8798292076443470",
+                                [5] = "8798292067184426",
+                                [6] = "8798292067209854",
+                                [7] = "8798292081773772",
+                                [8] = "8798292081990122",
+                                [9] = "8798292082164860",
+                                [10] = "8798292077852888",
+                            },
+                        },
+                        [302] = 
+                        {
+                            ["complete"] = 
+                            {
+                                [1] = "8798292067300970",
+                            },
+                            ["incomplete"] = 
+                            {
+                                [1] = "8798292078118710",
+                                [2] = "8798292077956402",
+                                [3] = "8798292067859494",
+                                [4] = "8798292067301326",
+                                [5] = "8798292076443470",
+                                [6] = "8798292067184426",
+                                [7] = "8798292067209854",
+                                [8] = "8798292081773772",
+                                [9] = "8798292081990122",
+                                [10] = "8798292082164860",
+                                [11] = "8798292077852888",
+                            },
+                        },
+                        [301] = 
+                        {
+                            ["complete"] = 
+                            {
+                                [2] = "8798292067300970",
+                                [1] = "8798292078118710",
+                            },
+                            ["incomplete"] = 
+                            {
+                                [1] = "8798292077956402",
+                                [2] = "8798292067859494",
+                                [3] = "8798292067301326",
+                                [4] = "8798292076443470",
+                                [5] = "8798292067184426",
+                                [6] = "8798292067209854",
+                                [7] = "8798292081773772",
+                                [8] = "8798292081990122",
+                                [9] = "8798292082164860",
+                                [10] = "8798292077852888",
+                            },
+                        },
                     },
+                    ["showtT"] = true,
+                    ["cColorS"] = "00ff05",
+                    ["showGCComp"] = true,
+                    ["showDFComp"] = true,
                     ["showGFComp"] = true,
-                    ["cColorT"] = 
+                    ["showNComp"] = true,
+                    ["iColorT"] = 
                     {
                         [4] = 1,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 0.0200000000,
+                        [1] = 0.4800000000,
+                        [2] = 0.4800000000,
+                        [3] = 0.4800000000,
                     },
-                    ["iColorS"] = "7a7a7a",
+                    ["version"] = 1.2000000000,
                     ["sortAlpha"] = true,
-                    ["version"] = 1.2000000000,
-                    ["showLFGt"] = true,
-                    ["showNComp"] = true,
-                    ["showDFComp"] = true,
-                    ["showVComp"] = true,
-                    ["showhM"] = true,
-                    ["showDBComp"] = true,
                 },
             },
-            ["8798292081773772"] = 
+            ["8798292076443470"] = 
             {
-                ["$LastCharacterName"] = "Tarolog Agharghim",
+                ["$LastCharacterName"] = "Neria Rothalen",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292067301326"] = 
+            ["8798292077956402"] = 
             {
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["$LastCharacterName"] = "Sneaks-Behind",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,
                     ["version"] = 1.2000000000,
                 },
             },
-            ["8798292067859494"] = 
+            ["8798292077852888"] = 
             {
-                ["$LastCharacterName"] = "Faulcon Delacy",
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
                 ["CharacterSettings"] = 
                 {
                     ["trackChar"] = true,

@@ -1,9 +1,9 @@
 LibDebugLoggerSettings =
 {
     ["version"] = 1,
-    ["logTraces"] = false,
+    ["loadScreenStartTime"] = 1604914174879,
     ["minLogLevel"] = "I",
-    ["loadScreenStartTime"] = 1604913901424,
+    ["logTraces"] = false,
 }
 LibDebugLoggerLog =
 {
@@ -21912,5 +21912,545 @@ LibDebugLoggerLog =
         [4] = "I",
         [5] = "LostTreasure",
         [6] = "Invalid interaction. pinType 2, specializedItemType 101, interactionType 6, sceneName bank",
+    },
+    [2435] = 
+    {
+        [1] = 1604913959003,
+        [2] = "2020-11-09 10:25:59.003 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Initializing...\n@cbr600f\nTarod Ararthin\n2020-11-09 09:03:16.893 +0100\neso.live.6.2.5.2114918\nEU Megaserver\nPC - Steam\nkeyboard\neso+\nen\nEnglish\naddon count: 46/46\nallow outdated",
+    },
+    [2436] = 
+    {
+        [1] = 1604913963047,
+        [2] = "2020-11-09 10:26:03.047 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_FontStrings",
+    },
+    [2437] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_FontDefs",
+    },
+    [2438] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_IngameLocalization",
+    },
+    [2439] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_Libraries",
+    },
+    [2440] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_Common",
+    },
+    [2441] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_AppAndInGame",
+    },
+    [2442] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_PregameAndIngame",
+    },
+    [2443] = 
+    {
+        [1] = 1604913963048,
+        [2] = "2020-11-09 10:26:03.048 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_PublicAllIngames",
+    },
+    [2444] = 
+    {
+        [1] = 1604913963139,
+        [2] = "2020-11-09 10:26:03.139 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "UI module loaded: ZO_Ingame",
+    },
+    [2445] = 
+    {
+        [1] = 1604913963139,
+        [2] = "2020-11-09 10:26:03.139 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibDebugLogger, AddOnVersion: 196, directory: 'user:/AddOns/LibDebugLogger/'",
+    },
+    [2446] = 
+    {
+        [1] = 1604913963140,
+        [2] = "2020-11-09 10:26:03.140 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Initialization complete",
+    },
+    [2447] = 
+    {
+        [1] = 1604913963148,
+        [2] = "2020-11-09 10:26:03.148 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibAddonMenu-2.0, AddOnVersion: 31, directory: 'user:/AddOns/LibAddonMenu-2.0/'",
+    },
+    [2448] = 
+    {
+        [1] = 1604913963148,
+        [2] = "2020-11-09 10:26:03.148 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibMainMenu, AddOnVersion: 9, directory: 'user:/AddOns/LibMainMenu/'",
+    },
+    [2449] = 
+    {
+        [1] = 1604913963149,
+        [2] = "2020-11-09 10:26:03.149 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibCustomMenu, AddOnVersion: 694, directory: 'user:/AddOns/LibCustomMenu/'",
+    },
+    [2450] = 
+    {
+        [1] = 1604913963149,
+        [2] = "2020-11-09 10:26:03.149 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibMediaProvider-1.0, AddOnVersion: 16, directory: 'user:/AddOns/LibMediaProvider-1.0/'",
+    },
+    [2451] = 
+    {
+        [1] = 1604913963149,
+        [2] = "2020-11-09 10:26:03.149 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibAnnyoingUpdateNotificationInG, AddOnVersion: 7, directory: 'user:/AddOns/LibAnnyoingUpdateNotificationInGame/'",
+    },
+    [2452] = 
+    {
+        [1] = 1604913963149,
+        [2] = "2020-11-09 10:26:03.149 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibChatMessage, AddOnVersion: 100, directory: 'user:/AddOns/LibChatMessage/'",
+    },
+    [2453] = 
+    {
+        [1] = 1604913963153,
+        [2] = "2020-11-09 10:26:03.153 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: pChat, AddOnVersion: 10000100, directory: 'user:/AddOns/pChat/'",
+    },
+    [2454] = 
+    {
+        [1] = 1604913963207,
+        [2] = "2020-11-09 10:26:03.207 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibLazyCrafting, AddOnVersion: 3000, directory: 'user:/AddOns/LibLazyCrafting/'",
+    },
+    [2455] = 
+    {
+        [1] = 1604913963210,
+        [2] = "2020-11-09 10:26:03.210 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: AssistRapidRiding, AddOnVersion: 1, directory: 'user:/AddOns/AssistRapidRiding/'",
+    },
+    [2456] = 
+    {
+        [1] = 1604913963213,
+        [2] = "2020-11-09 10:26:03.213 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: libAddonKeybinds, AddOnVersion: 4, directory: 'user:/AddOns/VotansKeybinder/libs/libAddonKeybinds/'",
+    },
+    [2457] = 
+    {
+        [1] = 1604913963216,
+        [2] = "2020-11-09 10:26:03.216 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: VotansKeybinder, AddOnVersion: 0, directory: 'user:/AddOns/VotansKeybinder/'",
+    },
+    [2458] = 
+    {
+        [1] = 1604913963218,
+        [2] = "2020-11-09 10:26:03.218 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibAsync, AddOnVersion: 20201, directory: 'user:/AddOns/LibAsync/'",
+    },
+    [2459] = 
+    {
+        [1] = 1604913963218,
+        [2] = "2020-11-09 10:26:03.218 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LazyAlchemyLearner, AddOnVersion: 0, directory: 'user:/AddOns/LazyAlchemyLearner/'",
+    },
+    [2460] = 
+    {
+        [1] = 1604913963218,
+        [2] = "2020-11-09 10:26:03.218 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibAlchemyStation, AddOnVersion: 343, directory: 'user:/AddOns/LibAlchemyStation/'",
+    },
+    [2461] = 
+    {
+        [1] = 1604913963218,
+        [2] = "2020-11-09 10:26:03.218 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibMainMenu-2.0, AddOnVersion: 435, directory: 'user:/AddOns/LibMainMenu-2.0/'",
+    },
+    [2462] = 
+    {
+        [1] = 1604913963221,
+        [2] = "2020-11-09 10:26:03.221 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: PotionMaker, AddOnVersion: 0, directory: 'user:/AddOns/PotionMaker/'",
+    },
+    [2463] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: AlphaStyle, AddOnVersion: 0, directory: 'user:/AddOns/AlphaStyle/'",
+    },
+    [2464] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibMapPins-1.0, AddOnVersion: 10029, directory: 'user:/AddOns/LibMapPins-1.0/'",
+    },
+    [2465] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: CustomCompassPins, AddOnVersion: 31, directory: 'user:/AddOns/CustomCompassPins/'",
+    },
+    [2466] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibSavedVars, AddOnVersion: 60002, directory: 'user:/AddOns/LibSavedVars/'",
+    },
+    [2467] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibNotification, AddOnVersion: 9, directory: 'user:/AddOns/LibNotification/'",
+    },
+    [2468] = 
+    {
+        [1] = 1604913963241,
+        [2] = "2020-11-09 10:26:03.241 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LostTreasure, AddOnVersion: 14, directory: 'user:/AddOns/LostTreasure/'",
+    },
+    [2469] = 
+    {
+        [1] = 1604913963253,
+        [2] = "2020-11-09 10:26:03.253 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: GreymindQuickSlotBar, AddOnVersion: 0, directory: 'user:/AddOns/GreymindQuickSlotBar/'",
+    },
+    [2470] = 
+    {
+        [1] = 1604913963254,
+        [2] = "2020-11-09 10:26:03.254 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "UI",
+        [6] = "LOADING |cFFA500Tarod Ararthin|r Character-ID (NEW Settings)",
+    },
+    [2471] = 
+    {
+        [1] = 1604913963262,
+        [2] = "2020-11-09 10:26:03.262 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: InfoPanel, AddOnVersion: 0, directory: 'user:/AddOns/InfoPanel/'",
+    },
+    [2472] = 
+    {
+        [1] = 1604913963267,
+        [2] = "2020-11-09 10:26:03.267 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibResearch, AddOnVersion: 42, directory: 'user:/AddOns/LibResearch/'",
+    },
+    [2473] = 
+    {
+        [1] = 1604913963271,
+        [2] = "2020-11-09 10:26:03.271 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: TamrielTradeCentre, AddOnVersion: 0, directory: 'user:/AddOns/TamrielTradeCentre/'",
+    },
+    [2474] = 
+    {
+        [1] = 1604913963613,
+        [2] = "2020-11-09 10:26:03.613 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibMapPing, AddOnVersion: 1200, directory: 'user:/AddOns/LibMapPing/'",
+    },
+    [2475] = 
+    {
+        [1] = 1604913963613,
+        [2] = "2020-11-09 10:26:03.613 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibGPS, AddOnVersion: 37, directory: 'user:/AddOns/LibGPS/'",
+    },
+    [2476] = 
+    {
+        [1] = 1604913963613,
+        [2] = "2020-11-09 10:26:03.613 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LoreBooks, AddOnVersion: 0, directory: 'user:/AddOns/Lorebooks/'",
+    },
+    [2477] = 
+    {
+        [1] = 1604913963645,
+        [2] = "2020-11-09 10:26:03.645 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibPhinixFunctions, AddOnVersion: 13, directory: 'user:/AddOns/LibPhinixFunctions/'",
+    },
+    [2478] = 
+    {
+        [1] = 1604913963645,
+        [2] = "2020-11-09 10:26:03.645 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: DungeonTracker, AddOnVersion: 0, directory: 'user:/AddOns/DungeonTracker/'",
+    },
+    [2479] = 
+    {
+        [1] = 1604913963653,
+        [2] = "2020-11-09 10:26:03.653 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: SkyShards, AddOnVersion: 100024, directory: 'user:/AddOns/SkyShards/'",
+    },
+    [2480] = 
+    {
+        [1] = 1604913963665,
+        [2] = "2020-11-09 10:26:03.665 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LuiExtended, AddOnVersion: 622, directory: 'user:/AddOns/LuiExtended/'",
+    },
+    [2481] = 
+    {
+        [1] = 1604913964013,
+        [2] = "2020-11-09 10:26:04.013 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: DolgubonsLazyWritCreator, AddOnVersion: 0, directory: 'user:/AddOns/DolgubonsLazyWritCreator/'",
+    },
+    [2482] = 
+    {
+        [1] = 1604913964166,
+        [2] = "2020-11-09 10:26:04.166 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibSets, AddOnVersion: 203, directory: 'user:/AddOns/LibSets/'",
+    },
+    [2483] = 
+    {
+        [1] = 1604913964205,
+        [2] = "2020-11-09 10:26:04.205 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: Dustman, AddOnVersion: 0, directory: 'user:/AddOns/Dustman/'",
+    },
+    [2484] = 
+    {
+        [1] = 1604913964249,
+        [2] = "2020-11-09 10:26:04.249 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: Untaunted, AddOnVersion: 10003, directory: 'user:/AddOns/Untaunted/'",
+    },
+    [2485] = 
+    {
+        [1] = 1604913964269,
+        [2] = "2020-11-09 10:26:04.269 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: MiniMap, AddOnVersion: 0, directory: 'user:/AddOns/MiniMap/'",
+    },
+    [2486] = 
+    {
+        [1] = 1604913964297,
+        [2] = "2020-11-09 10:26:04.297 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: AlphaGear, AddOnVersion: 0, directory: 'user:/AddOns/AlphaGear/'",
+    },
+    [2487] = 
+    {
+        [1] = 1604913964565,
+        [2] = "2020-11-09 10:26:04.565 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: Roomba, AddOnVersion: 0, directory: 'user:/AddOns/Roomba/'",
+    },
+    [2488] = 
+    {
+        [1] = 1604913964570,
+        [2] = "2020-11-09 10:26:04.570 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: TarodGuildInfo, AddOnVersion: 0, directory: 'user:/AddOns/TarodGuildInfo/'",
+    },
+    [2489] = 
+    {
+        [1] = 1604913964571,
+        [2] = "2020-11-09 10:26:04.571 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibCraftText, AddOnVersion: 531, directory: 'user:/AddOns/LibCraftText/'",
+    },
+    [2490] = 
+    {
+        [1] = 1604913964575,
+        [2] = "2020-11-09 10:26:04.575 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: CraftingWritAssistant, AddOnVersion: 31, directory: 'user:/AddOns/CraftingWritAssistant/'",
+    },
+    [2491] = 
+    {
+        [1] = 1604913964588,
+        [2] = "2020-11-09 10:26:04.588 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: QuickEmotes, AddOnVersion: 0, directory: 'user:/AddOns/QuickEmotes/'",
+    },
+    [2492] = 
+    {
+        [1] = 1604913964599,
+        [2] = "2020-11-09 10:26:04.599 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "LibDebugLogger",
+        [6] = "Addon loaded: LibFoodDrinkBuff, AddOnVersion: 15, directory: 'user:/AddOns/LibFoodDrinkBuff/'",
+    },
+    [2493] = 
+    {
+        [1] = 1604913965055,
+        [2] = "2020-11-09 10:26:05.055 +0100",
+        [3] = 1,
+        [4] = "I",
+        [5] = "UI",
+        [6] = "|ceeeeeeMiniMap by |c006600Fyrakin |ceeeeee v3.35|r",
+    },
+    [2494] = 
+    {
+        [1] = 1604914055937,
+        [2] = "2020-11-09 10:27:35.937 +0100",
+        [3] = 2,
+        [4] = "W",
+        [5] = "UI",
+        [6] = "Your bank is full.",
     },
 }
