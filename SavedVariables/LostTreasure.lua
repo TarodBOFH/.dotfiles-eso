@@ -7,9 +7,6 @@ LostTreasure_Account =
             ["$AccountWide"] = 
             {
                 ["version"] = 1,
-                ["notifications"] = 
-                {
-                },
                 ["miniMap"] = 
                 {
                     ["anchor"] = 
@@ -23,30 +20,33 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
+                    ["size"] = 400,
                     ["deletionDelay"] = 4,
                     ["enabled"] = true,
-                    ["size"] = 400,
+                },
+                ["notifications"] = 
+                {
                 },
                 ["pinTypes"] = 
                 {
                     [2] = 
                     {
-                        ["pinLevel"] = 45,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["showOnCompass"] = true,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
                         ["markOption"] = 2,
+                        ["showOnMap"] = true,
+                        ["showOnCompass"] = true,
+                        ["pinLevel"] = 45,
+                        ["size"] = 32,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["deletionDelay"] = 10,
                     },
                     [1] = 
                     {
-                        ["pinLevel"] = 45,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["showOnCompass"] = true,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
                         ["markOption"] = 2,
+                        ["showOnMap"] = true,
+                        ["showOnCompass"] = true,
+                        ["pinLevel"] = 45,
+                        ["size"] = 32,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["deletionDelay"] = 10,
                     },
                 },
