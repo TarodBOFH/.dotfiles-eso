@@ -4,31 +4,9 @@ WritWorthyVars =
     {
         ["@cbr600f"] = 
         {
-            ["Sneaks-Behind"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
             ["$AccountWide"] = 
             {
                 ["enable_station_colors"] = true,
-                ["version"] = 1,
                 ["position"] = 
                 {
                     [4] = 686,
@@ -36,69 +14,91 @@ WritWorthyVars =
                     [2] = 136,
                     [3] = 1160,
                 },
-            },
-            ["Tharodriel Ararthin"] = 
-            {
                 ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarod Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
             },
             ["Faulcon Delacy"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
             ["Jimeneka Ararthin"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
             },
-            ["Lord Tarod of Aragon"] = 
+            ["Tarodio Ararthinus"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Cassus Andronicus"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Tarod Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
             ["Tarolog Agharghim"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Sneaks-Behind"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
         },
     },

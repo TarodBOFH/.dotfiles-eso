@@ -4,496 +4,496 @@ LBooks_SavedVariables =
     {
         ["@cbr600f"] = 
         {
-            ["Sneaks-Behind"] = 
+            ["Cassus Andronicus"] = 
             {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
+                ["postmailFirstInsert"] = 1602234417,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1583348720,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
+                ["pinTexture"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
                 },
+                ["pinGrayscale"] = true,
                 ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
                 ["postmailData"] = "",
             },
-            ["Jimenuki Ararthin"] = 
+            ["Faulcon Delacy"] = 
             {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
+                ["postmailFirstInsert"] = 1581763501,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581762292,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
-                ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["steps"] = 
-                {
-                },
-                ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
                 ["pinTexture"] = 
                 {
-                    ["size"] = 26,
                     ["level"] = 40,
                     ["type"] = 1,
-                },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581762679,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
-                ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["steps"] = 
-                {
-                },
-                ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
-                ["pinTexture"] = 
-                {
                     ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
                 },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1603657046,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
                 ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
                 ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
                 ["postmailData"] = "",
             },
             ["Neria Rothalen"] = 
             {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
+                ["postmailFirstInsert"] = 1581605147,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581605147,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
+                ["pinTexture"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
                 },
+                ["pinGrayscale"] = true,
                 ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
                 ["postmailData"] = "",
             },
             ["Luvas Catrol"] = 
             {
+                ["immersiveMode"] = 1,
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
-                ["shareData"] = true,
-                ["pinTextureEidetic"] = 1,
                 ["postmailFirstInsert"] = 1582392640,
-                ["unlockEidetic"] = false,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["useQuestBooks"] = false,
                 ["version"] = 2,
+                ["shareData"] = true,
+                ["unlockEidetic"] = false,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["booksCollected"] = 
                 {
                 },
-                ["filters"] = 
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
                 },
                 ["questTools"] = 
                 {
                 },
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1581763028,
                 ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
                 ["compassMaxDistance"] = 0.0400000000,
                 ["postmailData"] = "",
             },
             ["Tarodio Ararthinus"] = 
             {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
                 ["postmailFirstInsert"] = 1582465557,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
-                ["compassMaxDistance"] = 0.0400000000,
                 ["useQuestBooks"] = false,
                 ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["steps"] = 
-                {
-                },
-                ["immersiveMode"] = 1,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1602234417,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
+                ["pinTexture"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
                 },
+                ["pinGrayscale"] = true,
                 ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
                 ["postmailData"] = "",
             },
             ["Tarod Ararthin"] = 
             {
-                ["steps"] = 
-                {
-                },
                 ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581671463,
-                ["unlockEidetic"] = false,
                 ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
                 ["filters"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = true,
-                    ["LBooksCompassPin_unknown"] = true,
                     ["LBooksMapPin_eidetic"] = true,
+                    ["LBooksCompassPin_eidetic"] = true,
                     ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
                     ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
                 },
-                ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Faulcon Delacy"] = 
-            {
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
+                ["postmailFirstInsert"] = 1581671463,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581763501,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
-                ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["steps"] = 
-                {
-                },
-                ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
                 ["pinTexture"] = 
                 {
-                    ["size"] = 26,
                     ["level"] = 40,
                     ["type"] = 1,
-                },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1581763028,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
-                ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
-                ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
-                ["postmailData"] = "",
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
-                ["steps"] = 
-                {
-                },
-                ["immersiveMode"] = 1,
-                ["questTools"] = 
-                {
-                },
-                ["pinTexture"] = 
-                {
                     ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
                 },
-                ["booksCollected"] = 
-                {
-                },
-                ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1584692775,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
                 ["pinGrayscale"] = true,
-                ["shareData"] = true,
-                ["filters"] = 
-                {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
-                    ["LBooksMapPin_eidetic"] = false,
-                    ["LBooksMapPin_unknown"] = true,
-                    ["LBooksMapPin_eideticCollected"] = false,
-                },
                 ["compassMaxDistance"] = 0.0400000000,
-                ["useQuestBooks"] = false,
-                ["pinGrayscaleEidetic"] = true,
                 ["postmailData"] = "",
             },
             ["Tarolog Agharghim"] = 
             {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
                 ["steps"] = 
                 {
                 },
-                ["immersiveMode"] = 1,
+                ["postmailFirstInsert"] = 1600954584,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
                 ["questTools"] = 
                 {
                 },
-                ["pinTexture"] = 
-                {
-                    ["size"] = 26,
-                    ["level"] = 40,
-                    ["type"] = 1,
-                },
+                ["unlockEidetic"] = false,
                 ["booksCollected"] = 
                 {
                 },
                 ["pinTextureEidetic"] = 1,
-                ["postmailFirstInsert"] = 1600954584,
-                ["unlockEidetic"] = false,
-                ["version"] = 2,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
                 ["pinGrayscale"] = true,
-                ["shareData"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
                 ["filters"] = 
                 {
-                    ["LBooksMapPin_collected"] = false,
-                    ["LBooksCompassPin_eidetic"] = false,
-                    ["LBooksCompassPin_unknown"] = true,
                     ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
                     ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
                     ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
                 },
-                ["compassMaxDistance"] = 0.0400000000,
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1603657046,
                 ["useQuestBooks"] = false,
                 ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1581762679,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1584692775,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Sneaks-Behind"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1583348720,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
+                ["postmailData"] = "",
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["immersiveMode"] = 1,
+                ["version"] = 2,
+                ["filters"] = 
+                {
+                    ["LBooksMapPin_eidetic"] = false,
+                    ["LBooksCompassPin_eidetic"] = false,
+                    ["LBooksMapPin_unknown"] = true,
+                    ["LBooksCompassPin_unknown"] = true,
+                    ["LBooksMapPin_eideticCollected"] = false,
+                    ["LBooksMapPin_collected"] = false,
+                },
+                ["steps"] = 
+                {
+                },
+                ["postmailFirstInsert"] = 1581762292,
+                ["useQuestBooks"] = false,
+                ["pinGrayscaleEidetic"] = true,
+                ["shareData"] = true,
+                ["questTools"] = 
+                {
+                },
+                ["unlockEidetic"] = false,
+                ["booksCollected"] = 
+                {
+                },
+                ["pinTextureEidetic"] = 1,
+                ["pinTexture"] = 
+                {
+                    ["level"] = 40,
+                    ["type"] = 1,
+                    ["size"] = 26,
+                },
+                ["pinGrayscale"] = true,
+                ["compassMaxDistance"] = 0.0400000000,
                 ["postmailData"] = "",
             },
         },
