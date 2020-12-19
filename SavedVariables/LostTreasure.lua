@@ -11,31 +11,28 @@ LostTreasure_Account =
                 {
                     [2] = 
                     {
-                        ["markOption"] = 2,
                         ["showOnMap"] = true,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["pinLevel"] = 45,
                         ["deletionDelay"] = 10,
+                        ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
+                        ["pinLevel"] = 45,
                         ["size"] = 32,
                     },
                     [1] = 
                     {
-                        ["markOption"] = 2,
                         ["showOnMap"] = true,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["pinLevel"] = 45,
                         ["deletionDelay"] = 10,
+                        ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
+                        ["pinLevel"] = 45,
                         ["size"] = 32,
                     },
                 },
-                ["notifications"] = 
-                {
-                },
                 ["miniMap"] = 
                 {
-                    ["enabled"] = true,
+                    ["size"] = 400,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -47,8 +44,11 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
-                    ["size"] = 400,
                     ["deletionDelay"] = 4,
+                    ["enabled"] = true,
+                },
+                ["notifications"] = 
+                {
                 },
             },
         },

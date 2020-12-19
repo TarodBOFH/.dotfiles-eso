@@ -4,9 +4,9 @@ LibChatMessageSettings =
     {
         ["historyEnabled"] = false,
         ["historyMaxAge"] = 3600,
-        ["timePrefixOnRegularChat"] = true,
         ["tagPrefixMode"] = 1,
         ["timePrefixEnabled"] = false,
+        ["timePrefixOnRegularChat"] = true,
         ["version"] = 1,
         ["timePrefixFormat"] = "[%T]",
     },
