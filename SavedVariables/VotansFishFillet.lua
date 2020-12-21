@@ -6,13 +6,13 @@ VotanFishFillet_Data =
         {
             ["$AccountWide"] = 
             {
-                ["filletAllStacks"] = true,
-                ["version"] = 1,
                 ["showAllStacks"] = true,
+                ["version"] = 1,
+                ["filletAllStacks"] = true,
                 ["stats"] = 
                 {
-                    ["perfectRoe"] = 0,
                     ["fishes"] = 31,
+                    ["perfectRoe"] = 0,
                 },
             },
         },

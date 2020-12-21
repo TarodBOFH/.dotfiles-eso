@@ -4,23 +4,8 @@ WritWorthyVars =
     {
         ["@cbr600f"] = 
         {
-            ["Tarodio Ararthinus"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["position"] = 
                 {
                     [4] = 683,
@@ -28,78 +13,93 @@ WritWorthyVars =
                     [2] = 133,
                     [3] = 1219,
                 },
+                ["version"] = 1,
                 ["enable_station_colors"] = true,
                 ["filter_max_gold_per_voucher"] = 1000,
             },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Sneaks-Behind"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
             ["Cassus Andronicus"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-            },
-            ["Tarolog Agharghim"] = 
-            {
                 ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
             },
             ["Tarod Ararthin"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
                 ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
             },
             ["Tharodriel Ararthin"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Sneaks-Behind"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Faulcon Delacy"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Tarolog Agharghim"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
         },
     },

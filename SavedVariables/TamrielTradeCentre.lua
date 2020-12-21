@@ -8,314 +8,224 @@ TamrielTradeCentreVars =
             {
                 ["EUData"] = 
                 {
+                    ["IsFirstExecute"] = false,
                     ["Guilds"] = 
                     {
                         ["Akelarre"] = 
                         {
                             ["LastFullScan"] = 1606579072,
-                            ["LastUpdate"] = 1608401506,
+                            ["LastUpdate"] = 1608510811,
                             ["Entries"] = 
                             {
                             },
                         },
                         ["Hojablanca"] = 
                         {
-                            ["LastFullScan"] = 1607985589,
-                            ["LastUpdate"] = 1608401506,
+                            ["LastFullScan"] = 1608502356,
+                            ["LastUpdate"] = 1608510811,
                             ["Entries"] = 
                             {
                                 [0] = 
                                 {
-                                    ["Name"] = "Sealed Enchanting Writ",
-                                    ["TotalPrice"] = 3500,
+                                    ["ItemType"] = 1,
+                                    ["Name"] = "Swamp Raider's Bow",
                                     ["Amount"] = 1,
-                                    ["Level"] = 1,
-                                    ["QualityID"] = 3,
-                                    ["ID"] = 12387,
-                                    ["ItemLink"] = "|H0:item:119564:5:1:0:0:0:68343:225:4:0:0:0:0:0:0:0:0:0:0:0:132000|h|h",
-                                    ["ItemType"] = 60,
-                                    ["UID"] = "4618645115282599996",
-                                    ["MasterWritInfo"] = 
-                                    {
-                                        ["RequiredQualityID"] = 3,
-                                        ["RequiredItemID"] = 3047,
-                                        ["NumVoucher"] = 13,
-                                    },
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:98891:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
+                                    ["TotalPrice"] = 10000,
+                                    ["UID"] = "4618645115282586728",
+                                    ["ID"] = 11349,
+                                    ["QualityID"] = 2,
+                                    ["TraitID"] = 3,
                                 },
                                 [1] = 
                                 {
-                                    ["Name"] = "Battalion Defender Shield",
-                                    ["TraitID"] = 5,
-                                    ["TotalPrice"] = 1000,
+                                    ["ItemType"] = 1,
+                                    ["Name"] = "Swamp Raider's Battle Axe",
                                     ["Amount"] = 1,
                                     ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:99007:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
+                                    ["TotalPrice"] = 20000,
+                                    ["UID"] = "4618645115282587241",
+                                    ["ID"] = 11690,
                                     ["QualityID"] = 2,
-                                    ["ID"] = 18775,
-                                    ["ItemLink"] = "|H0:item:144983:362:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:10000:0|h|h",
-                                    ["ItemType"] = 1,
-                                    ["UID"] = "4618645115282626955",
+                                    ["TraitID"] = 7,
                                 },
                                 [2] = 
                                 {
-                                    ["Name"] = "Gloves of Hist Sap",
-                                    ["TraitID"] = 9,
-                                    ["TotalPrice"] = 350,
+                                    ["ItemType"] = 1,
+                                    ["Name"] = "Swamp Raider's Battle Axe",
                                     ["Amount"] = 1,
                                     ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:98967:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
+                                    ["TotalPrice"] = 19000,
+                                    ["UID"] = "4618645115282593660",
+                                    ["ID"] = 11690,
                                     ["QualityID"] = 2,
-                                    ["ID"] = 9924,
-                                    ["ItemLink"] = "|H0:item:98792:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:10000:0|h|h",
-                                    ["ItemType"] = 2,
-                                    ["Category2IDOverWrite"] = 2,
-                                    ["UID"] = "4618645115282635977",
+                                    ["TraitID"] = 6,
                                 },
                                 [3] = 
                                 {
-                                    ["Name"] = "Sash of Hist Sap",
-                                    ["TraitID"] = 3,
-                                    ["TotalPrice"] = 500,
+                                    ["ItemType"] = 60,
+                                    ["Name"] = "Sealed Enchanting Writ",
                                     ["Amount"] = 1,
-                                    ["Level"] = 210,
+                                    ["Level"] = 1,
+                                    ["ItemLink"] = "|H0:item:119564:5:1:0:0:0:68343:225:4:0:0:0:0:0:0:0:0:0:0:0:132000|h|h",
+                                    ["TotalPrice"] = 3500,
+                                    ["UID"] = "4618645115282599996",
+                                    ["ID"] = 12387,
                                     ["QualityID"] = 3,
-                                    ["ID"] = 10839,
-                                    ["ItemLink"] = "|H0:item:98713:363:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:10000:0|h|h",
-                                    ["ItemType"] = 2,
-                                    ["Category2IDOverWrite"] = 2,
-                                    ["UID"] = "4618645115282635976",
+                                    ["MasterWritInfo"] = 
+                                    {
+                                        ["NumVoucher"] = 13,
+                                        ["RequiredItemID"] = 3047,
+                                        ["RequiredQualityID"] = 3,
+                                    },
                                 },
                                 [4] = 
                                 {
-                                    ["Name"] = "Swamp Raider's Bow",
-                                    ["TraitID"] = 3,
-                                    ["TotalPrice"] = 10000,
+                                    ["ItemType"] = 1,
+                                    ["Name"] = "Battalion Defender Shield",
                                     ["Amount"] = 1,
                                     ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:144983:362:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:10000:0|h|h",
+                                    ["TotalPrice"] = 1000,
+                                    ["UID"] = "4618645115282626955",
+                                    ["ID"] = 18775,
                                     ["QualityID"] = 2,
-                                    ["ID"] = 11349,
-                                    ["ItemLink"] = "|H0:item:98891:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
-                                    ["ItemType"] = 1,
-                                    ["UID"] = "4618645115282586728",
+                                    ["TraitID"] = 5,
                                 },
                                 [5] = 
                                 {
-                                    ["Name"] = "Swamp Raider's Battle Axe",
-                                    ["TraitID"] = 7,
-                                    ["TotalPrice"] = 20000,
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Sash of Hist Sap",
+                                    ["Category2IDOverWrite"] = 2,
                                     ["Amount"] = 1,
                                     ["Level"] = 210,
-                                    ["QualityID"] = 2,
-                                    ["ID"] = 11690,
-                                    ["ItemLink"] = "|H0:item:99007:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
-                                    ["ItemType"] = 1,
-                                    ["UID"] = "4618645115282587241",
+                                    ["ItemLink"] = "|H0:item:98713:363:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:10000:0|h|h",
+                                    ["TotalPrice"] = 500,
+                                    ["UID"] = "4618645115282635976",
+                                    ["ID"] = 10839,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 3,
                                 },
                                 [6] = 
                                 {
-                                    ["Name"] = "Swamp Raider's Battle Axe",
-                                    ["TraitID"] = 6,
-                                    ["TotalPrice"] = 19000,
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Gloves of Hist Sap",
+                                    ["Category2IDOverWrite"] = 2,
                                     ["Amount"] = 1,
                                     ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:98792:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:10000:0|h|h",
+                                    ["TotalPrice"] = 350,
+                                    ["UID"] = "4618645115282635977",
+                                    ["ID"] = 9924,
                                     ["QualityID"] = 2,
-                                    ["ID"] = 11690,
-                                    ["ItemLink"] = "|H0:item:98967:362:50:0:0:0:0:0:0:0:0:0:0:0:0:6:0:0:0:300:0|h|h",
-                                    ["ItemType"] = 1,
-                                    ["UID"] = "4618645115282593660",
+                                    ["TraitID"] = 9,
+                                },
+                                [7] = 
+                                {
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Battalion Defender Ring",
+                                    ["Amount"] = 1,
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:144829:363:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:0:0|h|h",
+                                    ["TotalPrice"] = 1500,
+                                    ["UID"] = "4618645115282640128",
+                                    ["ID"] = 19180,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 18,
+                                },
+                                [8] = 
+                                {
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Battalion Defender Ring",
+                                    ["Amount"] = 1,
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:144829:363:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:0:0|h|h",
+                                    ["TotalPrice"] = 1500,
+                                    ["UID"] = "4618645115282640129",
+                                    ["ID"] = 19180,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 18,
+                                },
+                                [9] = 
+                                {
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Indomitable Fury Necklace",
+                                    ["Amount"] = 1,
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:143902:363:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:0:0|h|h",
+                                    ["TotalPrice"] = 1500,
+                                    ["UID"] = "4618645115282640125",
+                                    ["ID"] = 19120,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 17,
+                                },
+                                [10] = 
+                                {
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Soldier of Anguish Ring",
+                                    ["Amount"] = 1,
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:144465:363:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:0:0|h|h",
+                                    ["TotalPrice"] = 1500,
+                                    ["UID"] = "4618645115282640126",
+                                    ["ID"] = 19075,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 19,
+                                },
+                                [11] = 
+                                {
+                                    ["ItemType"] = 2,
+                                    ["Name"] = "Steadfast Hero Ring",
+                                    ["Amount"] = 1,
+                                    ["Level"] = 210,
+                                    ["ItemLink"] = "|H0:item:144647:363:50:0:0:0:0:0:0:0:0:0:0:0:0:23:0:0:0:0:0|h|h",
+                                    ["TotalPrice"] = 1500,
+                                    ["UID"] = "4618645115282640127",
+                                    ["ID"] = 19097,
+                                    ["QualityID"] = 3,
+                                    ["TraitID"] = 18,
                                 },
                             },
                         },
                     },
                     ["AutoRecordEntries"] = 
                     {
-                        ["Count"] = 7,
+                        ["Count"] = 0,
                         ["Guilds"] = 
                         {
-                            ["Nirn Traders"] = 
-                            {
-                                ["KioskLocationID"] = 86,
-                                ["LastUpdate"] = 1608396177,
-                                ["PlayerListings"] = 
-                                {
-                                    ["@leha58"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Recipe: Hissmir Fish-Eye Rye",
-                                            ["TotalPrice"] = 20000,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 4,
-                                            ["ID"] = 11844,
-                                            ["ItemType"] = 29,
-                                            ["ItemLink"] = "|H0:item:96968:6:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1609964410,
-                                            ["DiscoverTime"] = 1608396177,
-                                            ["UID"] = "4734494496518317266",
-                                        },
-                                    },
-                                },
-                            },
-                            ["Forsaken Souls"] = 
-                            {
-                                ["KioskLocationID"] = 86,
-                                ["LastUpdate"] = 1608396245,
-                                ["PlayerListings"] = 
-                                {
-                                    ["@satakomi"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Recipe: Hissmir Fish-Eye Rye",
-                                            ["TotalPrice"] = 10500,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 4,
-                                            ["ID"] = 11844,
-                                            ["ItemType"] = 29,
-                                            ["ItemLink"] = "|H0:item:96968:6:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610982780,
-                                            ["DiscoverTime"] = 1608396245,
-                                            ["UID"] = "4832127074615454598",
-                                        },
-                                    },
-                                },
-                            },
-                            ["Skywatch Club"] = 
-                            {
-                                ["KioskLocationID"] = 86,
-                                ["LastUpdate"] = 1608396217,
-                                ["PlayerListings"] = 
-                                {
-                                    ["@fezao13"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Recipe: Hissmir Fish-Eye Rye",
-                                            ["TotalPrice"] = 18961,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 4,
-                                            ["ID"] = 11844,
-                                            ["ItemType"] = 29,
-                                            ["ItemLink"] = "|H0:item:96968:6:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610891700,
-                                            ["DiscoverTime"] = 1608396169,
-                                            ["UID"] = "4797078947479558361",
-                                        },
-                                    },
-                                    ["@Annchen2609"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Crafting Motif 31: Skinchanger Chests",
-                                            ["TotalPrice"] = 8000,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 3,
-                                            ["ID"] = 11902,
-                                            ["ItemType"] = 8,
-                                            ["ItemLink"] = "|H0:item:73859:5:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610966260,
-                                            ["DiscoverTime"] = 1608396217,
-                                            ["UID"] = "4819259893762854501",
-                                        },
-                                    },
-                                },
-                            },
-                            ["Allmart"] = 
-                            {
-                                ["KioskLocationID"] = 86,
-                                ["LastUpdate"] = 1608396254,
-                                ["PlayerListings"] = 
-                                {
-                                    ["@Yokiruno"] = 
-                                    {
-                                        [2] = 
-                                        {
-                                            ["Name"] = "Recipe: Hissmir Fish-Eye Rye",
-                                            ["TotalPrice"] = 13000,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 4,
-                                            ["ID"] = 11844,
-                                            ["ItemType"] = 29,
-                                            ["ItemLink"] = "|H0:item:96968:6:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610978360,
-                                            ["DiscoverTime"] = 1608396254,
-                                            ["UID"] = "4761865618720977687",
-                                        },
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Recipe: Hissmir Fish-Eye Rye",
-                                            ["TotalPrice"] = 13000,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 4,
-                                            ["ID"] = 11844,
-                                            ["ItemType"] = 29,
-                                            ["ItemLink"] = "|H0:item:96968:6:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610974010,
-                                            ["DiscoverTime"] = 1608396254,
-                                            ["UID"] = "4761865618720977546",
-                                        },
-                                    },
-                                },
-                            },
-                            ["WAR SONG"] = 
-                            {
-                                ["KioskLocationID"] = 86,
-                                ["LastUpdate"] = 1608396212,
-                                ["PlayerListings"] = 
-                                {
-                                    ["@Argozavr"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["Name"] = "Crafting Motif 31: Skinchanger Chests",
-                                            ["TotalPrice"] = 24567,
-                                            ["Amount"] = 1,
-                                            ["Level"] = 1,
-                                            ["QualityID"] = 3,
-                                            ["ID"] = 11902,
-                                            ["ItemType"] = 8,
-                                            ["ItemLink"] = "|H0:item:73859:5:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                                            ["ExpireTime"] = 1610895640,
-                                            ["DiscoverTime"] = 1608396212,
-                                            ["UID"] = "4626000298316431629",
-                                        },
-                                    },
-                                },
-                            },
                         },
                     },
-                    ["IsFirstExecute"] = false,
                 },
-                ["version"] = 3,
+                ["ClientCulture"] = "en",
                 ["ActualVersion"] = 10,
+                ["version"] = 3,
                 ["Settings"] = 
                 {
-                    ["EnablePriceToChatAggregate"] = false,
-                    ["EnableSelfEntriesUpload"] = true,
-                    ["MaxAutoRecordStoreEntryCount"] = 20000,
+                    ["EnableToolTipLastUpdate"] = true,
                     ["EnableToolTipStat"] = true,
-                    ["EnableItemSoldNotification"] = true,
-                    ["EnableToolTipSuggested"] = true,
-                    ["EnableItemSearchOnlineBtn"] = true,
-                    ["EnableItemToolTipPricing"] = true,
-                    ["EnableAutoRecordStoreEntries"] = true,
                     ["EnablePriceToChatSuggested"] = true,
-                    ["EnablePriceToChatStat"] = true,
-                    ["EnableItemPriceToChatBtn"] = true,
-                    ["EnableToolTipAggregate"] = true,
+                    ["EnablePriceToChatAggregate"] = false,
+                    ["MaxAutoRecordStoreEntryCount"] = 20000,
+                    ["EnableAutoRecordStoreEntries"] = true,
+                    ["EnableSelfEntriesUpload"] = true,
                     ["EnablePriceToChatLastUpdate"] = false,
+                    ["EnableToolTipAggregate"] = true,
                     ["AdditionalPriceToChatLang"] = 
                     {
                     },
-                    ["EnableToolTipLastUpdate"] = true,
+                    ["EnableItemToolTipPricing"] = true,
+                    ["EnableToolTipSuggested"] = true,
+                    ["EnableItemPriceToChatBtn"] = true,
+                    ["EnableItemSoldNotification"] = true,
+                    ["EnablePriceToChatStat"] = true,
+                    ["EnableItemSearchOnlineBtn"] = true,
                 },
-                ["ClientCulture"] = "en",
                 ["NAData"] = 
                 {
+                    ["IsFirstExecute"] = true,
                     ["Guilds"] = 
                     {
                     },
@@ -326,7 +236,6 @@ TamrielTradeCentreVars =
                         {
                         },
                     },
-                    ["IsFirstExecute"] = true,
                 },
             },
         },
