@@ -4,10 +4,28 @@ AutoCategorySavedVars =
     {
         ["@cbr600f"] = 
         {
-            ["8798292076443470"] = 
+            ["8798292078118710"] = 
             {
                 ["EU Megaserver"] = 
                 {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
                     ["collapses"] = 
                     {
                         [1] = 
@@ -28,6 +46,12 @@ AutoCategorySavedVars =
                         [6] = 
                         {
                         },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
                     },
                     ["bags"] = 
                     {
@@ -68,232 +92,234 @@ AutoCategorySavedVars =
                             },
                         },
                     },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
                     ["rules"] = 
                     {
                         [1] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                         },
                         [2] = 
                         {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                         },
                         [3] = 
                         {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
                         },
                         [4] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
                         },
                         [5] = 
                         {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
                             ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
                         },
                         [6] = 
                         {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                         },
                         [7] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
                         },
                         [8] = 
                         {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
                         },
                         [9] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
                         },
                         [10] = 
                         {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
                             ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
                         },
                         [11] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
                         },
                         [12] = 
                         {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                         },
                         [13] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
                         },
                         [14] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
                         },
                         [15] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                         },
                         [16] = 
                         {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
                             ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
                         },
                         [17] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
                         },
                         [18] = 
                         {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
                             ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
                         },
                         [19] = 
                         {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                         },
                         [20] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                         },
                         [21] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
                             ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
                         },
                         [22] = 
                         {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                         },
                         [23] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
                         },
                         [24] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
                         },
                         [25] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
                         },
                         [26] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
                         },
                         [27] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                         },
                         [28] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
                         },
                         [29] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                         },
                         [30] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
                         },
                     },
+                },
+                ["$LastCharacterName"] = "Lord Tarod of Aragon",
+            },
+            ["8798292081773772"] = 
+            {
+                ["EU Megaserver"] = 
+                {
                     ["appearance"] = 
                     {
                         ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
                         ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
                         ["CATEGORY_FONT_COLOR"] = 
                         {
                             [4] = 1,
@@ -301,17 +327,3030 @@ AutoCategorySavedVars =
                             [2] = 1,
                             [3] = 1,
                         },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Tarolog Agharghim",
+            },
+            ["8798292076443470"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
                         ["CATEGORY_FONT_NAME"] = "Univers 67",
                         ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
                     },
                 },
                 ["$LastCharacterName"] = "Neria Rothalen",
+            },
+            ["8798292077852888"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
+            },
+            ["8798292082164860"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Tharodriel Ararthin",
+            },
+            ["8798292082900598"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Ebony Knuckles",
+            },
+            ["8798292081990122"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Cassus Andronicus",
+            },
+            ["8798292067859494"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Faulcon Delacy",
+            },
+            ["8798292083070846"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Ser Sancho",
             },
             ["$AccountWide"] = 
             {
                 ["EU Megaserver"] = 
                 {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Cascadia",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 16,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9568627477,
+                            [2] = 0.7058823705,
+                            [3] = 0,
+                        },
+                    },
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                            ["Set (Aspect of Mazzatun)"] = false,
+                            ["Provisioning"] = false,
+                            ["Researchable"] = true,
+                            ["Set (Prayer Shawl)"] = false,
+                            ["Set (Balorgh)"] = false,
+                            ["Set (Amber Plasm)"] = false,
+                            ["Set (Sunderflame)"] = false,
+                            ["Set (Leviathan)"] = true,
+                            ["Set (Knightmare)"] = false,
+                            ["Quickslots"] = false,
+                            ["Set (Healer's Habit)"] = false,
+                            ["Set (Pirate Skeleton)"] = false,
+                            ["Set (Akaviri Dragonguard)"] = false,
+                            ["Set (Hand of Mephala)"] = false,
+                            ["Set (Sanctuary)"] = false,
+                            ["Set (Brands of Imperium)"] = true,
+                            ["Set (Haven of Ursus)"] = false,
+                            ["Set (Bloodthorn's Touch)"] = false,
+                            ["Set (Strength of the Automaton)"] = false,
+                            ["Armor"] = false,
+                            ["Set (Vampire Lord)"] = true,
+                            ["AlphaGear (PvP T - Imperium + Durok)"] = true,
+                            ["Set (Netch's Touch)"] = true,
+                            ["Set (The Troll King)"] = false,
+                            ["Stolen"] = false,
+                            ["Set (Trinimac's Valor)"] = false,
+                            ["Set (Wilderqueen's Arch)"] = false,
+                            ["Set (Flame Blossom)"] = false,
+                            ["Set (Agility)"] = false,
+                            ["Set (Gossamer)"] = false,
+                            ["Glyphs & Gems"] = false,
+                            ["Ring"] = false,
+                            ["Set (Tormentor)"] = false,
+                            ["Set (Knight Slayer)"] = false,
+                            ["AlphaGear (PvP Healer)"] = false,
+                            ["Set (Gryphon's Ferocity)"] = false,
+                            ["Set (Senchal Defender)"] = false,
+                            ["Set (Frozen Watcher)"] = false,
+                            ["Set (Marauder's Haste)"] = false,
+                            ["Set (Symphony of Blades)"] = false,
+                            ["Set (Hircine's Veneer)"] = false,
+                            ["Set (Z'en's Redress)"] = false,
+                            ["Cyrodill"] = true,
+                            ["Set (Unleashed Terror)"] = false,
+                            ["Set (Way of Air)"] = false,
+                            ["Set (Knight-errant's Mail)"] = false,
+                            ["BoP Tradeable"] = false,
+                            ["Set (Draugr Hulk)"] = false,
+                            ["Set (Azureblight Reaper)"] = false,
+                            ["Set (Overwhelming Surge)"] = false,
+                            ["Set (Combat Physician)"] = false,
+                            ["Recipes & Motifs"] = false,
+                            ["Set (Dragonguard Elite)"] = false,
+                            ["Set (Necropotence)"] = false,
+                            ["Set (Dead-Water's Guile)"] = false,
+                            ["Set (Crusader)"] = false,
+                            ["Set (Hollowfang Thirst)"] = true,
+                            ["Set (Scathing Mage)"] = true,
+                            ["Low Level"] = false,
+                            ["Set (Undaunted Unweaver)"] = false,
+                            ["Set (Spider Cultist Cowl)"] = false,
+                            ["Set (Icy Conjuror)"] = true,
+                            ["BoE"] = false,
+                            ["Set (Shroud of the Lich)"] = false,
+                            ["Set (Elemental Succession)"] = false,
+                            ["Others"] = false,
+                            ["Set (Ysgramor's Birthright)"] = true,
+                            ["AlphaGear (PvE Healer)"] = true,
+                            ["AlphaGear (PvP T - Imperium + Crimson)"] = true,
+                            ["Learnable"] = false,
+                            ["Set (Iceheart)"] = false,
+                            ["Set (Tremorscale)"] = false,
+                            ["Furnishing"] = false,
+                            ["AlphaGear (PvE Tank)"] = true,
+                            ["Set (Way of Martial Knowledge)"] = false,
+                            ["Set (Wisdom of Vanus)"] = false,
+                            ["Set (Battlefield Acrobat)"] = false,
+                            ["Set (Stendarr's Embrace)"] = true,
+                            ["Set (Grace of Gloom)"] = false,
+                            ["Not Collected"] = false,
+                            ["Set (Scourge Harvester)"] = false,
+                            ["Set (Vanguard's Challenge)"] = false,
+                            ["Set (Nightflame)"] = false,
+                            ["Set (Sheer Venom)"] = true,
+                            ["Set (Salvation)"] = false,
+                            ["Set (Titanborn Strength)"] = false,
+                            ["Set (Ranger's Gait)"] = false,
+                            ["Set (Quick Serpent)"] = false,
+                            ["Set (Widowmaker)"] = false,
+                            ["Set (Jailer's Tenacity)"] = false,
+                            ["Set (Hide of the Werewolf)"] = false,
+                            ["Set (Light Speaker)"] = false,
+                            ["Set (Auroran's Thunder)"] = false,
+                            ["Set (Undaunted Infiltrator)"] = false,
+                            ["AlphaGear (Dungeon Tank - CC Adds)"] = true,
+                            ["Siege"] = true,
+                            ["Set (Venomous Smite)"] = false,
+                            ["Poison"] = true,
+                            ["AlphaGear (Magika DD)"] = true,
+                            ["Set (Dro'Zakar's Claws)"] = false,
+                            ["Set (Sentinel of Rkugamz)"] = false,
+                            ["Set (Scavenging Demise)"] = true,
+                            ["Set (Robes of Destruction Mastery)"] = false,
+                            ["Set (Infernal Guardian)"] = false,
+                            ["Set (Viper's Sting)"] = false,
+                            ["Set (Plague Slinger)"] = true,
+                            ["Maps & Surveys"] = false,
+                            ["Set (Mother's Sorrow)"] = true,
+                            ["Container"] = false,
+                            ["Set (Way of Fire)"] = false,
+                            ["Set (Robes of the Withered Hand)"] = false,
+                            ["Set (Chokethorn)"] = false,
+                            ["New"] = false,
+                            ["Set (Durok's Bane)"] = true,
+                            ["Necklace"] = false,
+                            ["Set (Treasure Hunter)"] = false,
+                            ["Set (Wizard's Riposte)"] = false,
+                            ["Set (Sword Dancer)"] = true,
+                            ["Set (Blooddrinker)"] = false,
+                            ["AlphaGear (PvP Magicka DD)"] = true,
+                            ["Set (Armor of the Trainee)"] = false,
+                            ["Set (Draugr's Heritage)"] = true,
+                            ["Set (Battalion Defender)"] = true,
+                            ["Set (Wyrd Tree's Blessing)"] = false,
+                            ["Selling"] = false,
+                            ["Set (Toothrow)"] = false,
+                            ["Set (Velidreth)"] = false,
+                            ["Set (Archer's Mind)"] = false,
+                            ["Set (Barkskin)"] = false,
+                            ["Set (Spell Power Cure)"] = true,
+                            ["Set (Storm Knight's Plate)"] = false,
+                            ["Set (Impregnable Armor)"] = false,
+                            ["Set (Poisonous Serpent)"] = false,
+                            ["Set (The Ice Furnace)"] = false,
+                            ["Set (Caluurion's Legacy)"] = true,
+                            ["Monster Sets"] = true,
+                            ["Set (Night Terror)"] = false,
+                            ["Set (Indomitable Fury)"] = false,
+                            ["Set (Talfyg's Treachery)"] = false,
+                            ["Set (Savage Werewolf)"] = false,
+                            ["Set (Bone Pirate's Tatters)"] = false,
+                            ["Set (Darkstride)"] = false,
+                            ["Set (Healing Mage)"] = false,
+                            ["Set (Nikulas' Heavy Armor)"] = false,
+                            ["Set (Swarm Mother)"] = false,
+                            ["Deconstruct"] = false,
+                            ["Set (Curse of Doylemish)"] = false,
+                            ["Set (Embershield)"] = false,
+                            ["Set (Spriggan's Thorns)"] = false,
+                            ["Weapon"] = false,
+                            ["Set (Coward's Gear)"] = false,
+                            ["Set (Leeching Plate)"] = false,
+                            ["Set (Magicka Furnace)"] = false,
+                            ["Set (Blood Moon)"] = false,
+                            ["Set (Seventh Legion Brute)"] = false,
+                            ["Consumables"] = false,
+                            ["Set (Crimson Twilight)"] = false,
+                            ["Set (Hunt Leader)"] = false,
+                            ["Set (Spelunker)"] = false,
+                            ["Set (Armor of the Seducer)"] = false,
+                            ["Set (Essence Thief)"] = false,
+                            ["Set (Ebon Armory)"] = false,
+                        },
+                        [2] = 
+                        {
+                            ["Set (Eternal Vigor)"] = false,
+                            ["Researchable"] = false,
+                            ["Set (Prayer Shawl)"] = false,
+                            ["Set (Hunt Leader)"] = false,
+                            ["Set (Amber Plasm)"] = false,
+                            ["Set (Sunderflame)"] = false,
+                            ["Set (Leviathan)"] = false,
+                            ["Set (Knightmare)"] = false,
+                            ["Quickslots"] = false,
+                            ["Set (Healer's Habit)"] = false,
+                            ["Set (Aegis Caller)"] = false,
+                            ["Set (Hand of Mephala)"] = false,
+                            ["Set (Sanctuary)"] = false,
+                            ["Set (Jorvuld's Guidance)"] = false,
+                            ["Set (Haven of Ursus)"] = false,
+                            ["Set (Bloodthorn's Touch)"] = false,
+                            ["Set (Strength of the Automaton)"] = false,
+                            ["Armor"] = false,
+                            ["Set (Draugr's Rest)"] = false,
+                            ["Set (Dragon's Defilement)"] = false,
+                            ["Set (Netch's Touch)"] = false,
+                            ["Set (Leeching Plate)"] = false,
+                            ["Set (Trinimac's Valor)"] = false,
+                            ["Set (Hiti's Hearth)"] = false,
+                            ["Set (Flame Blossom)"] = false,
+                            ["Consumables"] = false,
+                            ["Set (Gossamer)"] = false,
+                            ["Glyphs & Gems"] = false,
+                            ["Ring"] = false,
+                            ["Set (Hagraven's Garden)"] = false,
+                            ["Set (Hatchling's Shell)"] = false,
+                            ["Set (Tormentor)"] = false,
+                            ["Set (Medusa)"] = false,
+                            ["Set (Gryphon's Ferocity)"] = false,
+                            ["Set (Frozen Watcher)"] = false,
+                            ["Set (Marauder's Haste)"] = false,
+                            ["Set (Ironblood)"] = false,
+                            ["Set (Hircine's Veneer)"] = false,
+                            ["Set (Puncturing Remedy)"] = false,
+                            ["Set (Kraglen's Howl)"] = false,
+                            ["Cyrodill"] = false,
+                            ["Set (Endurance)"] = false,
+                            ["Set (Unleashed Terror)"] = false,
+                            ["Set (Mighty Glacier)"] = false,
+                            ["BoP Tradeable"] = false,
+                            ["Set (Draugr Hulk)"] = false,
+                            ["Set (Azureblight Reaper)"] = false,
+                            ["Set (Overwhelming Surge)"] = false,
+                            ["Set (Combat Physician)"] = false,
+                            ["Recipes & Motifs"] = false,
+                            ["Set (Swamp Raider)"] = false,
+                            ["Set (Necropotence)"] = false,
+                            ["Set (Poisonous Serpent)"] = false,
+                            ["Set (Renald's Resolve)"] = false,
+                            ["Set (Scathing Mage)"] = false,
+                            ["Low Level"] = false,
+                            ["Set (Undaunted Unweaver)"] = false,
+                            ["Set (Spider Cultist Cowl)"] = false,
+                            ["BoE"] = false,
+                            ["Set (Elemental Succession)"] = false,
+                            ["Set (Merciless Charge)"] = false,
+                            ["Set (Permafrost)"] = false,
+                            ["Others"] = false,
+                            ["Set (Ysgramor's Birthright)"] = false,
+                            ["Learnable"] = false,
+                            ["Set (Maw of the Infernal)"] = false,
+                            ["Set (Ilambris)"] = false,
+                            ["Furnishing"] = false,
+                            ["Set (Way of Martial Knowledge)"] = false,
+                            ["Set (Draugrkin's Grip)"] = false,
+                            ["Set (Wisdom of Vanus)"] = false,
+                            ["Set (Battlefield Acrobat)"] = false,
+                            ["Set (Grace of Gloom)"] = false,
+                            ["Not Collected"] = false,
+                            ["Set (Vanguard's Challenge)"] = false,
+                            ["Set (The Worm's Raiment)"] = false,
+                            ["Set (Sheer Venom)"] = false,
+                            ["Set (Salvation)"] = false,
+                            ["Set (Titanborn Strength)"] = false,
+                            ["Set (Ranger's Gait)"] = true,
+                            ["Set (Quick Serpent)"] = false,
+                            ["Set (Widowmaker)"] = false,
+                            ["Set (Jailer's Tenacity)"] = false,
+                            ["Set (Burning Spellweave)"] = true,
+                            ["Set (Light Speaker)"] = false,
+                            ["Set (Auroran's Thunder)"] = false,
+                            ["Set (Undaunted Infiltrator)"] = false,
+                            ["Set (Sergeant's Mail)"] = false,
+                            ["Set (Venomous Smite)"] = false,
+                            ["Poison"] = false,
+                            ["Set (Spinner's Garments)"] = false,
+                            ["Set (Ebon Armory)"] = false,
+                            ["Set (Dro'Zakar's Claws)"] = false,
+                            ["Set (Sentinel of Rkugamz)"] = false,
+                            ["Set (Scavenging Demise)"] = false,
+                            ["Set (Robes of Destruction Mastery)"] = false,
+                            ["Set (Heem-Jas' Retribution)"] = false,
+                            ["Set (Curse of Doylemish)"] = false,
+                            ["Set (Viper's Sting)"] = false,
+                            ["Set (Plague Slinger)"] = false,
+                            ["Maps & Surveys"] = false,
+                            ["Set (Way of Fire)"] = false,
+                            ["Set (Aspect of Mazzatun)"] = false,
+                            ["Set (Archer's Mind)"] = false,
+                            ["Set (Z'en's Redress)"] = false,
+                            ["Necklace"] = false,
+                            ["Set (Nerien'eth)"] = false,
+                            ["Set (Wilderqueen's Arch)"] = false,
+                            ["Set (Essence Thief)"] = false,
+                            ["Set (Way of Air)"] = false,
+                            ["Set (Treasure Hunter)"] = false,
+                            ["Set (Wizard's Riposte)"] = false,
+                            ["Set (Sword Dancer)"] = false,
+                            ["Set (Blooddrinker)"] = false,
+                            ["Selling"] = false,
+                            ["Set (Bone Pirate's Tatters)"] = false,
+                            ["Set (Impregnable Armor)"] = false,
+                            ["Set (Battalion Defender)"] = false,
+                            ["Set (Dreugh King Slayer)"] = false,
+                            ["Set (Steadfast Hero)"] = false,
+                            ["Set (Sword-Singer)"] = false,
+                            ["Set (Noble Duelist's Silks)"] = false,
+                            ["Set (Robes of the Hist)"] = false,
+                            ["Set (Toothrow)"] = false,
+                            ["Set (Footman's Fortune)"] = false,
+                            ["Set (Storm Knight's Plate)"] = false,
+                            ["Set (Robes of the Withered Hand)"] = false,
+                            ["Set (Spawn of Mephala)"] = false,
+                            ["Set (The Ice Furnace)"] = false,
+                            ["Set (Talfyg's Treachery)"] = false,
+                            ["Monster Sets"] = false,
+                            ["Set (Night Terror)"] = false,
+                            ["Set (Indomitable Fury)"] = false,
+                            ["Set (Savage Werewolf)"] = false,
+                            ["Set (Akaviri Dragonguard)"] = false,
+                            ["Set (Valkyn Skoria)"] = false,
+                            ["Set (Darkstride)"] = false,
+                            ["Set (Healing Mage)"] = false,
+                            ["Set (Nikulas' Heavy Armor)"] = false,
+                            ["Set (Hide of Morihaus)"] = false,
+                            ["Deconstruct"] = false,
+                            ["Set (Mighty Chudan)"] = false,
+                            ["Set (Embershield)"] = false,
+                            ["Set (Spriggan's Thorns)"] = false,
+                            ["Weapon"] = false,
+                            ["Set (Moon Hunter)"] = false,
+                            ["Set (Magicka Furnace)"] = false,
+                            ["Set (Crimson Twilight)"] = false,
+                            ["Set (Blood Moon)"] = false,
+                            ["Set (Seventh Legion Brute)"] = false,
+                            ["Set (Rattlecage)"] = false,
+                            ["Set (Hide of the Werewolf)"] = false,
+                            ["Set (War Maiden)"] = false,
+                            ["Set (Tooth of Lokkestiiz)"] = false,
+                            ["Set (New Moon Acolyte)"] = false,
+                            ["Set (Elemental Catalyst)"] = false,
+                            ["Set (Armor of Truth)"] = false,
+                        },
+                        [3] = 
+                        {
+                            ["Trait/Style Gems"] = false,
+                            ["Alchemy"] = false,
+                            ["Woodworking"] = false,
+                            ["Researchable"] = false,
+                            ["Furnishing"] = false,
+                            ["Set (Mother's Sorrow)"] = false,
+                            ["Container"] = false,
+                            ["Ring"] = false,
+                            ["Low Level"] = true,
+                            ["Consumables"] = false,
+                            ["Deconstruct"] = true,
+                            ["Blacksmithing"] = false,
+                            ["Recipes & Motifs"] = false,
+                            ["BoE"] = false,
+                            ["Not Collected"] = false,
+                            ["Necklace"] = false,
+                            ["Set (Curse Eater)"] = false,
+                            ["Set (Eternal Vigor)"] = false,
+                            ["Poison"] = true,
+                            ["Others"] = false,
+                            ["Provisioning"] = false,
+                            ["Glyphs & Gems"] = false,
+                            ["Quickslots"] = true,
+                            ["Enchanting"] = false,
+                            ["Cyrodill"] = true,
+                            ["Learnable"] = false,
+                            ["Clothing"] = false,
+                        },
+                        [4] = 
+                        {
+                            ["Blacksmithing"] = false,
+                            ["Alchemy"] = false,
+                            ["Provisioning"] = false,
+                            ["Others"] = false,
+                            ["New"] = false,
+                            ["Enchanting"] = false,
+                            ["Trait/Style Gems"] = false,
+                            ["Woodworking"] = false,
+                            ["Clothing"] = false,
+                        },
+                        [5] = 
+                        {
+                            ["Set (Aspect of Mazzatun)"] = false,
+                            ["Researchable"] = false,
+                            ["Set (Prayer Shawl)"] = false,
+                            ["Set (Hunt Leader)"] = true,
+                            ["Set (Amber Plasm)"] = false,
+                            ["Set (Sunderflame)"] = false,
+                            ["Set (Leviathan)"] = false,
+                            ["Set (Knightmare)"] = false,
+                            ["Selling"] = false,
+                            ["Set (Healer's Habit)"] = false,
+                            ["Set (Aegis Caller)"] = false,
+                            ["Set (Hand of Mephala)"] = false,
+                            ["Set (Sanctuary)"] = false,
+                            ["Set (Jorvuld's Guidance)"] = false,
+                            ["Set (Haven of Ursus)"] = false,
+                            ["Set (Bloodthorn's Touch)"] = false,
+                            ["Set (Strength of the Automaton)"] = false,
+                            ["Armor"] = false,
+                            ["Set (Draugr's Rest)"] = false,
+                            ["Set (Dragon's Defilement)"] = false,
+                            ["Set (Vampire Lord)"] = false,
+                            ["Set (Netch's Touch)"] = false,
+                            ["Set (Leeching Plate)"] = false,
+                            ["Set (Trinimac's Valor)"] = false,
+                            ["Set (Hiti's Hearth)"] = false,
+                            ["Set (Flame Blossom)"] = false,
+                            ["Set (Agility)"] = false,
+                            ["Set (Gossamer)"] = false,
+                            ["Ring"] = false,
+                            ["Set (Hagraven's Garden)"] = false,
+                            ["Set (Hatchling's Shell)"] = false,
+                            ["Set (Tormentor)"] = false,
+                            ["Set (Knight Slayer)"] = false,
+                            ["Set (Medusa)"] = false,
+                            ["Set (Gryphon's Ferocity)"] = false,
+                            ["Set (Senchal Defender)"] = false,
+                            ["Set (Frozen Watcher)"] = false,
+                            ["Set (Marauder's Haste)"] = false,
+                            ["Set (Ironblood)"] = false,
+                            ["Set (Hircine's Veneer)"] = false,
+                            ["Set (Steadfast Hero)"] = false,
+                            ["Set (Kraglen's Howl)"] = false,
+                            ["Set (Endurance)"] = false,
+                            ["Set (Unleashed Terror)"] = false,
+                            ["Set (Mighty Glacier)"] = false,
+                            ["BoP Tradeable"] = false,
+                            ["Set (Draugr Hulk)"] = false,
+                            ["Set (Azureblight Reaper)"] = false,
+                            ["Set (Overwhelming Surge)"] = false,
+                            ["Set (Combat Physician)"] = false,
+                            ["Set (Magicka Furnace)"] = false,
+                            ["Set (Swamp Raider)"] = true,
+                            ["Set (Dragonguard Elite)"] = false,
+                            ["Set (Necropotence)"] = false,
+                            ["Set (Dead-Water's Guile)"] = false,
+                            ["Set (Crusader)"] = false,
+                            ["Set (Renald's Resolve)"] = false,
+                            ["Set (Hollowfang Thirst)"] = false,
+                            ["Set (Scathing Mage)"] = false,
+                            ["Low Level"] = false,
+                            ["Set (Undaunted Unweaver)"] = false,
+                            ["Set (Spider Cultist Cowl)"] = false,
+                            ["BoE"] = false,
+                            ["Set (Shroud of the Lich)"] = false,
+                            ["Set (Elemental Succession)"] = false,
+                            ["Set (Permafrost)"] = false,
+                            ["Set (Robes of the Withered Hand)"] = false,
+                            ["Set (Ysgramor's Birthright)"] = false,
+                            ["Necklace"] = false,
+                            ["Set (Way of Martial Knowledge)"] = false,
+                            ["Set (Draugrkin's Grip)"] = false,
+                            ["Set (Wisdom of Vanus)"] = false,
+                            ["Set (Battlefield Acrobat)"] = false,
+                            ["Set (Stendarr's Embrace)"] = false,
+                            ["Set (Grace of Gloom)"] = false,
+                            ["Not Collected"] = false,
+                            ["Set (Vanguard's Challenge)"] = false,
+                            ["Set (The Worm's Raiment)"] = false,
+                            ["Set (Sheer Venom)"] = false,
+                            ["Set (Salvation)"] = false,
+                            ["Set (Titanborn Strength)"] = false,
+                            ["Set (Ranger's Gait)"] = false,
+                            ["Set (Quick Serpent)"] = false,
+                            ["Set (Widowmaker)"] = false,
+                            ["Set (Jailer's Tenacity)"] = false,
+                            ["Set (Burning Spellweave)"] = false,
+                            ["Set (Light Speaker)"] = false,
+                            ["Set (Auroran's Thunder)"] = false,
+                            ["Set (Impregnable Armor)"] = false,
+                            ["Set (Sergeant's Mail)"] = false,
+                            ["Set (Venomous Smite)"] = false,
+                            ["Set (Ebon Armory)"] = false,
+                            ["Set (Dro'Zakar's Claws)"] = false,
+                            ["Set (Scavenging Demise)"] = false,
+                            ["Set (Robes of Destruction Mastery)"] = false,
+                            ["Set (Heem-Jas' Retribution)"] = false,
+                            ["Set (Curse of Doylemish)"] = false,
+                            ["Set (Viper's Sting)"] = false,
+                            ["Set (Plague Slinger)"] = false,
+                            ["Set (Sword Dancer)"] = false,
+                            ["Set (Way of Fire)"] = false,
+                            ["Set (Z'en's Redress)"] = false,
+                            ["Equipping"] = false,
+                            ["New"] = false,
+                            ["Set (Durok's Bane)"] = false,
+                            ["Set (Wilderqueen's Arch)"] = false,
+                            ["Set (Undaunted Infiltrator)"] = false,
+                            ["Set (Treasure Hunter)"] = false,
+                            ["Set (Wizard's Riposte)"] = false,
+                            ["Set (Savage Werewolf)"] = false,
+                            ["Set (Blooddrinker)"] = false,
+                            ["Set (Crimson Twilight)"] = false,
+                            ["Set (Moon Hunter)"] = false,
+                            ["Set (Draugr's Heritage)"] = false,
+                            ["Set (Battalion Defender)"] = false,
+                            ["Set (Dreugh King Slayer)"] = false,
+                            ["Set (Sword-Singer)"] = false,
+                            ["Set (Toothrow)"] = true,
+                            ["Set (Poisonous Serpent)"] = false,
+                            ["Set (Archer's Mind)"] = false,
+                            ["Set (Hide of the Werewolf)"] = false,
+                            ["Set (Spell Power Cure)"] = false,
+                            ["Set (Storm Knight's Plate)"] = false,
+                            ["Set (Nikulas' Heavy Armor)"] = false,
+                            ["Set (Footman's Fortune)"] = false,
+                            ["Set (The Ice Furnace)"] = false,
+                            ["Set (Hide of Morihaus)"] = false,
+                            ["Monster Sets"] = false,
+                            ["Set (Night Terror)"] = false,
+                            ["Set (Indomitable Fury)"] = false,
+                            ["Set (Talfyg's Treachery)"] = false,
+                            ["Set (Akaviri Dragonguard)"] = false,
+                            ["Set (Bone Pirate's Tatters)"] = false,
+                            ["Set (Darkstride)"] = false,
+                            ["Set (Healing Mage)"] = false,
+                            ["Set (Barkskin)"] = false,
+                            ["Set (Brands of Imperium)"] = false,
+                            ["Deconstruct"] = false,
+                            ["Set (Way of Air)"] = false,
+                            ["Set (Embershield)"] = false,
+                            ["Set (Spriggan's Thorns)"] = false,
+                            ["Weapon"] = false,
+                            ["Set (Coward's Gear)"] = false,
+                            ["Set (Wyrd Tree's Blessing)"] = false,
+                            ["Set (Rattlecage)"] = false,
+                            ["Set (Blood Moon)"] = false,
+                            ["Set (Seventh Legion Brute)"] = false,
+                            ["Set (Noble Duelist's Silks)"] = false,
+                            ["Set (Essence Thief)"] = false,
+                            ["Set (War Maiden)"] = false,
+                            ["Set (Spelunker)"] = false,
+                            ["Set (Tooth of Lokkestiiz)"] = false,
+                            ["Set (Elemental Catalyst)"] = false,
+                            ["Set (Armor of Truth)"] = false,
+                        },
+                        [6] = 
+                        {
+                            ["Set (Aspect of Mazzatun)"] = true,
+                            ["Set (Curse of Doylemish)"] = false,
+                            ["Set (Mantle of Siroria)"] = false,
+                            ["Set (Domihaus)"] = false,
+                            ["Set (Ilambris)"] = false,
+                            ["Set (Prayer Shawl)"] = false,
+                            ["Set (Bani's Torment)"] = true,
+                            ["Set (Engine Guardian)"] = false,
+                            ["Set (Jorvuld's Guidance)"] = false,
+                            ["Set (Healer's Habit)"] = false,
+                            ["Set (Hollowfang Thirst)"] = false,
+                            ["Set (Scourge Harvester)"] = false,
+                            ["Set (Jolting Arms)"] = false,
+                            ["Set (Sanctuary)"] = false,
+                            ["Set (Battalion Defender)"] = false,
+                            ["Set (Brands of Imperium)"] = true,
+                            ["Set (Undaunted Bastion)"] = false,
+                            ["Set (Sellistrix)"] = false,
+                            ["Set (Defending Warrior)"] = false,
+                            ["Set (Nightflame)"] = false,
+                            ["Set (Sentinel of Rkugamz)"] = false,
+                            ["Set (Combat Physician)"] = false,
+                            ["Set (Haven of Ursus)"] = false,
+                            ["Set (Spawn of Mephala)"] = false,
+                            ["Set (Poisonous Serpent)"] = false,
+                            ["Set (Shadowrend)"] = false,
+                            ["Set (Light Speaker)"] = false,
+                            ["Set (Crimson Twilight)"] = true,
+                            ["Set (Stonekeeper)"] = false,
+                            ["Set (Balorgh)"] = false,
+                            ["Set (Eternal Warrior)"] = false,
+                            ["Set (Claw of Yolnahkriin)"] = false,
+                            ["Set (Leeching Plate)"] = false,
+                            ["Set (Arms of Relequen)"] = false,
+                            ["Set (Healing Mage)"] = false,
+                            ["Low Level"] = false,
+                            ["Set (Knight-errant's Mail)"] = false,
+                            ["Set (Slimecraw)"] = false,
+                            ["Set (Gossamer)"] = false,
+                            ["Set (Grothdarr)"] = false,
+                            ["Set (Earthgore)"] = false,
+                            ["Set (Lord Warden)"] = false,
+                            ["Set (The Troll King)"] = false,
+                            ["Set (Duneripper's Scales)"] = true,
+                            ["Set (Tormentor)"] = false,
+                            ["Set (Stormfist)"] = false,
+                            ["Set (Chokethorn)"] = false,
+                            ["Set (Vicious Serpent)"] = false,
+                            ["Set (Ebon Armory)"] = false,
+                            ["BoE"] = false,
+                            ["Set (Infallible Mage)"] = false,
+                            ["Set (Spell Power Cure)"] = false,
+                            ["Furnishing"] = false,
+                            ["Set (Aegis of Galenwe)"] = false,
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = true,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
                     ["bags"] = 
                     {
                         [1] = 
@@ -381,8 +3420,8 @@ AutoCategorySavedVars =
                                 [13] = 
                                 {
                                     ["name"] = "AlphaGear",
-                                    ["isHidden"] = false,
                                     ["priority"] = 51,
+                                    ["isHidden"] = false,
                                 },
                                 [14] = 
                                 {
@@ -1316,483 +4355,6 @@ AutoCategorySavedVars =
                                 },
                             },
                         },
-                    },
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                            ["Set (Strength of the Automaton)"] = true,
-                            ["Set (Essence Thief)"] = true,
-                            ["Set (Crimson Twilight)"] = false,
-                            ["Set (Amber Plasm)"] = false,
-                            ["Set (Unleashed Terror)"] = false,
-                            ["Stolen"] = false,
-                            ["BoE"] = false,
-                            ["Set (Curse of Doylemish)"] = false,
-                            ["Set (Netch's Touch)"] = true,
-                            ["Set (Sanctuary)"] = false,
-                            ["Set (Hide of the Werewolf)"] = false,
-                            ["Set (Leviathan)"] = true,
-                            ["Set (Healer's Habit)"] = false,
-                            ["Set (Leeching Plate)"] = false,
-                            ["Set (Quick Serpent)"] = false,
-                            ["Set (Caluurion's Legacy)"] = true,
-                            ["Set (Combat Physician)"] = false,
-                            ["Set (Prayer Shawl)"] = false,
-                            ["Deconstruct"] = false,
-                            ["Set (Bloodthorn's Touch)"] = true,
-                            ["Set (Sheer Venom)"] = true,
-                            ["Set (Icy Conjuror)"] = true,
-                            ["Set (Impregnable Armor)"] = false,
-                            ["Low Level"] = false,
-                            ["Set (Haven of Ursus)"] = false,
-                            ["Set (Viper's Sting)"] = true,
-                            ["AlphaGear (PvE Healer)"] = true,
-                            ["Set (Toothrow)"] = true,
-                            ["Selling"] = false,
-                            ["BoP Tradeable"] = false,
-                            ["Set (The Troll King)"] = false,
-                            ["Set (Overwhelming Surge)"] = false,
-                            ["Set (Tremorscale)"] = false,
-                            ["Set (Ebon Armory)"] = false,
-                            ["Set (Azureblight Reaper)"] = true,
-                            ["Weapon"] = false,
-                            ["Set (Undaunted Infiltrator)"] = true,
-                            ["Set (Robes of the Withered Hand)"] = false,
-                            ["Set (Akaviri Dragonguard)"] = false,
-                            ["Monster Sets"] = true,
-                            ["AlphaGear (PvP T - Imperium + Durok)"] = true,
-                            ["Set (Dro'Zakar's Claws)"] = true,
-                            ["Set (Elemental Succession)"] = false,
-                            ["Set (Marauder's Haste)"] = false,
-                            ["Container"] = false,
-                            ["AlphaGear (PvP T - Imperium + Crimson)"] = true,
-                            ["Set (Hunt Leader)"] = false,
-                            ["Set (Salvation)"] = true,
-                            ["Set (Hollowfang Thirst)"] = true,
-                            ["Set (Gossamer)"] = false,
-                            ["Set (Brands of Imperium)"] = true,
-                            ["Set (Agility)"] = false,
-                            ["Set (Pirate Skeleton)"] = false,
-                            ["Set (Durok's Bane)"] = true,
-                            ["Set (Sword Dancer)"] = true,
-                            ["Set (Ranger's Gait)"] = false,
-                            ["Set (Vampire Lord)"] = true,
-                            ["Set (Swarm Mother)"] = false,
-                            ["AlphaGear (PvE Tank)"] = true,
-                            ["Set (Savage Werewolf)"] = true,
-                            ["Recipes & Motifs"] = false,
-                            ["Set (Seventh Legion Brute)"] = false,
-                            ["Glyphs & Gems"] = false,
-                            ["Set (Ysgramor's Birthright)"] = true,
-                            ["Set (Plague Slinger)"] = true,
-                            ["Set (Mother's Sorrow)"] = true,
-                            ["Set (The Ice Furnace)"] = false,
-                            ["Not Collected"] = false,
-                            ["Siege"] = true,
-                            ["Quickslots"] = false,
-                            ["Set (Armor of the Seducer)"] = false,
-                            ["Set (Battlefield Acrobat)"] = false,
-                            ["Learnable"] = false,
-                            ["Set (Darkstride)"] = false,
-                            ["Set (Aspect of Mazzatun)"] = false,
-                            ["Set (Sentinel of Rkugamz)"] = false,
-                            ["Set (Venomous Smite)"] = true,
-                            ["Set (Archer's Mind)"] = false,
-                            ["Set (Wizard's Riposte)"] = false,
-                            ["Set (Talfyg's Treachery)"] = true,
-                            ["Set (Undaunted Unweaver)"] = false,
-                            ["Set (Spriggan's Thorns)"] = true,
-                            ["Provisioning"] = false,
-                            ["Set (Magicka Furnace)"] = false,
-                            ["Set (Hircine's Veneer)"] = false,
-                            ["Others"] = false,
-                            ["Set (Z'en's Redress)"] = true,
-                            ["Set (Trinimac's Valor)"] = false,
-                            ["Set (Necropotence)"] = false,
-                            ["Necklace"] = false,
-                            ["Set (Knight-errant's Mail)"] = false,
-                            ["Set (Wisdom of Vanus)"] = false,
-                            ["Set (Blooddrinker)"] = true,
-                            ["Maps & Surveys"] = false,
-                            ["Set (Frozen Watcher)"] = true,
-                            ["Set (Vanguard's Challenge)"] = false,
-                            ["Set (Balorgh)"] = false,
-                            ["Armor"] = false,
-                            ["Set (Draugr Hulk)"] = false,
-                            ["Ring"] = false,
-                            ["Set (Spell Power Cure)"] = true,
-                            ["Set (Stendarr's Embrace)"] = true,
-                            ["New"] = false,
-                            ["Poison"] = false,
-                            ["Set (Poisonous Serpent)"] = false,
-                            ["Set (Storm Knight's Plate)"] = false,
-                            ["Set (Scathing Mage)"] = true,
-                            ["Set (Spider Cultist Cowl)"] = false,
-                            ["Set (Light Speaker)"] = false,
-                            ["Set (Grace of Gloom)"] = false,
-                            ["Set (Robes of Destruction Mastery)"] = false,
-                            ["Researchable"] = false,
-                            ["Set (Flame Blossom)"] = false,
-                            ["Set (Titanborn Strength)"] = true,
-                            ["AlphaGear (Dungeon Tank - CC Adds)"] = true,
-                            ["Set (Treasure Hunter)"] = true,
-                            ["Set (Scavenging Demise)"] = true,
-                            ["AlphaGear (PvP Healer)"] = false,
-                            ["Furnishing"] = false,
-                            ["Set (Wilderqueen's Arch)"] = false,
-                            ["AlphaGear (PvP Magicka DD)"] = true,
-                            ["Cyrodill"] = true,
-                            ["Set (Battalion Defender)"] = true,
-                            ["AlphaGear (Magika DD)"] = true,
-                            ["Set (Gryphon's Ferocity)"] = false,
-                            ["Set (Blood Moon)"] = true,
-                            ["Consumables"] = false,
-                            ["Set (Night Terror)"] = false,
-                        },
-                        [2] = 
-                        {
-                            ["Set (Essence Thief)"] = false,
-                            ["Set (Unleashed Terror)"] = false,
-                            ["BoE"] = false,
-                            ["Set (Mighty Chudan)"] = false,
-                            ["Set (New Moon Acolyte)"] = false,
-                            ["Set (Noble Duelist's Silks)"] = false,
-                            ["Set (Healer's Habit)"] = true,
-                            ["Set (Leeching Plate)"] = false,
-                            ["Set (Hircine's Veneer)"] = false,
-                            ["Set (Prayer Shawl)"] = false,
-                            ["Set (Robes of Destruction Mastery)"] = false,
-                            ["Set (Quick Serpent)"] = false,
-                            ["Set (Widowmaker)"] = false,
-                            ["Set (Spriggan's Thorns)"] = false,
-                            ["Set (Scathing Mage)"] = false,
-                            ["Set (Endurance)"] = false,
-                            ["Set (Magicka Furnace)"] = false,
-                            ["Set (Jailer's Tenacity)"] = false,
-                            ["Set (Robes of the Withered Hand)"] = false,
-                            ["Set (Swamp Raider)"] = false,
-                            ["Set (Marauder's Haste)"] = false,
-                            ["Set (Jorvuld's Guidance)"] = false,
-                            ["Set (Sunderflame)"] = false,
-                            ["Set (Sanctuary)"] = false,
-                            ["Set (Sword-Singer)"] = false,
-                            ["Glyphs & Gems"] = false,
-                            ["Set (Plague Slinger)"] = false,
-                            ["Set (Hand of Mephala)"] = false,
-                            ["Quickslots"] = false,
-                            ["Set (Battlefield Acrobat)"] = false,
-                            ["Set (Draugr's Rest)"] = false,
-                            ["Set (Darkstride)"] = false,
-                            ["Set (Sentinel of Rkugamz)"] = false,
-                            ["Set (Archer's Mind)"] = false,
-                            ["Set (Wizard's Riposte)"] = false,
-                            ["Set (Valkyn Skoria)"] = false,
-                            ["Others"] = false,
-                            ["Set (Necropotence)"] = false,
-                            ["Set (Toothrow)"] = false,
-                            ["Set (Wisdom of Vanus)"] = false,
-                            ["Set (Curse of Doylemish)"] = false,
-                            ["Set (Renald's Resolve)"] = false,
-                            ["Set (Armor of Truth)"] = false,
-                            ["Set (Vanguard's Challenge)"] = false,
-                            ["Poison"] = false,
-                            ["Set (Poisonous Serpent)"] = false,
-                            ["Set (Storm Knight's Plate)"] = false,
-                            ["Set (Spider Cultist Cowl)"] = false,
-                            ["Researchable"] = false,
-                            ["Set (Merciless Charge)"] = false,
-                            ["Set (Wilderqueen's Arch)"] = false,
-                            ["Furnishing"] = false,
-                            ["Cyrodill"] = false,
-                            ["BoP Tradeable"] = false,
-                            ["Set (Night Terror)"] = false,
-                            ["Set (Amber Plasm)"] = false,
-                            ["Set (Permafrost)"] = false,
-                            ["Set (Leviathan)"] = false,
-                            ["Set (Hiti's Hearth)"] = false,
-                            ["Set (Combat Physician)"] = false,
-                            ["Set (Crimson Twilight)"] = false,
-                            ["Deconstruct"] = false,
-                            ["Set (Sheer Venom)"] = false,
-                            ["Set (Light Speaker)"] = false,
-                            ["Low Level"] = false,
-                            ["Set (Haven of Ursus)"] = false,
-                            ["Set (Treasure Hunter)"] = false,
-                            ["Set (Ebon Armory)"] = false,
-                            ["Set (Hatchling's Shell)"] = false,
-                            ["Monster Sets"] = false,
-                            ["Set (Hunt Leader)"] = false,
-                            ["Set (Gossamer)"] = false,
-                            ["Set (The Worm's Raiment)"] = false,
-                            ["Set (Sword Dancer)"] = false,
-                            ["Set (Ranger's Gait)"] = true,
-                            ["Set (Healing Mage)"] = false,
-                            ["Recipes & Motifs"] = false,
-                            ["Set (Heem-Jas' Retribution)"] = false,
-                            ["Set (Aspect of Mazzatun)"] = false,
-                            ["Not Collected"] = false,
-                            ["Set (Kraglen's Howl)"] = false,
-                            ["Set (Venomous Smite)"] = false,
-                            ["Set (Undaunted Unweaver)"] = false,
-                            ["Set (Puncturing Remedy)"] = false,
-                            ["Set (Akaviri Dragonguard)"] = false,
-                            ["Set (The Ice Furnace)"] = false,
-                            ["Set (Hide of the Werewolf)"] = false,
-                            ["Set (Blooddrinker)"] = false,
-                            ["Set (Robes of the Hist)"] = false,
-                            ["Set (Overwhelming Surge)"] = false,
-                            ["Set (Footman's Fortune)"] = false,
-                            ["Set (Dreugh King Slayer)"] = false,
-                            ["Set (Impregnable Armor)"] = false,
-                            ["Set (Nerien'eth)"] = false,
-                            ["Necklace"] = false,
-                            ["Set (Tooth of Lokkestiiz)"] = false,
-                            ["Selling"] = false,
-                            ["Set (Moon Hunter)"] = false,
-                            ["Maps & Surveys"] = false,
-                            ["Set (Frozen Watcher)"] = false,
-                            ["Set (Savage Werewolf)"] = false,
-                            ["Set (Elemental Succession)"] = true,
-                            ["Set (Flame Blossom)"] = true,
-                            ["Set (Draugr Hulk)"] = false,
-                            ["Ring"] = false,
-                            ["Set (Rattlecage)"] = false,
-                            ["Set (Hagraven's Garden)"] = false,
-                            ["Set (Seventh Legion Brute)"] = false,
-                            ["Set (Blood Moon)"] = false,
-                            ["Set (Maw of the Infernal)"] = false,
-                            ["Set (Talfyg's Treachery)"] = false,
-                            ["Set (Hide of Morihaus)"] = false,
-                            ["Set (Trinimac's Valor)"] = false,
-                            ["Set (Embershield)"] = false,
-                            ["Set (Grace of Gloom)"] = false,
-                            ["Set (Spawn of Mephala)"] = false,
-                            ["Weapon"] = false,
-                            ["Set (Medusa)"] = false,
-                            ["Set (Z'en's Redress)"] = false,
-                            ["Set (Ironblood)"] = false,
-                            ["Set (Viper's Sting)"] = false,
-                            ["Set (Scavenging Demise)"] = false,
-                            ["Set (Elemental Catalyst)"] = false,
-                            ["Set (War Maiden)"] = false,
-                            ["Set (Dragon's Defilement)"] = false,
-                            ["Set (Burning Spellweave)"] = true,
-                            ["Set (Ilambris)"] = false,
-                            ["Set (Battalion Defender)"] = false,
-                            ["Learnable"] = false,
-                            ["Set (Gryphon's Ferocity)"] = false,
-                            ["Set (Mighty Glacier)"] = false,
-                            ["Consumables"] = false,
-                            ["Armor"] = false,
-                        },
-                        [3] = 
-                        {
-                            ["Blacksmithing"] = false,
-                            ["Ring"] = false,
-                            ["Quickslots"] = false,
-                            ["BoE"] = false,
-                            ["Poison"] = false,
-                            ["Learnable"] = false,
-                            ["Clothing"] = false,
-                            ["Glyphs & Gems"] = false,
-                            ["Deconstruct"] = false,
-                            ["Set (Curse Eater)"] = false,
-                            ["Necklace"] = false,
-                            ["Others"] = false,
-                            ["Furnishing"] = false,
-                            ["Low Level"] = true,
-                            ["Recipes & Motifs"] = false,
-                            ["Cyrodill"] = true,
-                            ["Container"] = false,
-                            ["Woodworking"] = false,
-                            ["Trait/Style Gems"] = false,
-                            ["Provisioning"] = false,
-                            ["Consumables"] = false,
-                            ["Not Collected"] = false,
-                        },
-                        [4] = 
-                        {
-                            ["Blacksmithing"] = false,
-                            ["Alchemy"] = false,
-                            ["Woodworking"] = false,
-                            ["Others"] = false,
-                            ["New"] = false,
-                            ["Trait/Style Gems"] = false,
-                            ["Enchanting"] = false,
-                            ["Provisioning"] = false,
-                            ["Clothing"] = false,
-                        },
-                        [5] = 
-                        {
-                            ["Set (Essence Thief)"] = true,
-                            ["Set (Amber Plasm)"] = false,
-                            ["Set (Unleashed Terror)"] = false,
-                            ["BoE"] = false,
-                            ["Set (Permafrost)"] = false,
-                            ["Set (Hide of the Werewolf)"] = false,
-                            ["Set (Leviathan)"] = true,
-                            ["Set (Healer's Habit)"] = false,
-                            ["Set (Embershield)"] = false,
-                            ["Set (Hircine's Veneer)"] = true,
-                            ["Set (Combat Physician)"] = false,
-                            ["Set (Crimson Twilight)"] = true,
-                            ["Deconstruct"] = false,
-                            ["Set (Sheer Venom)"] = true,
-                            ["Set (Widowmaker)"] = true,
-                            ["Set (Light Speaker)"] = false,
-                            ["Low Level"] = false,
-                            ["Set (Endurance)"] = false,
-                            ["Set (Magicka Furnace)"] = false,
-                            ["Set (Blooddrinker)"] = true,
-                            ["Weapon"] = false,
-                            ["Set (Robes of the Withered Hand)"] = false,
-                            ["Set (Hatchling's Shell)"] = false,
-                            ["Monster Sets"] = false,
-                            ["Set (Swamp Raider)"] = true,
-                            ["Set (Marauder's Haste)"] = false,
-                            ["Set (Hunt Leader)"] = true,
-                            ["Set (Jorvuld's Guidance)"] = true,
-                            ["Set (Agility)"] = false,
-                            ["Set (The Worm's Raiment)"] = true,
-                            ["Set (Hide of Morihaus)"] = true,
-                            ["Set (War Maiden)"] = true,
-                            ["Set (Ranger's Gait)"] = false,
-                            ["Set (Healing Mage)"] = true,
-                            ["Set (Sword-Singer)"] = true,
-                            ["Set (Overwhelming Surge)"] = false,
-                            ["Set (Spider Cultist Cowl)"] = false,
-                            ["Set (Sword Dancer)"] = true,
-                            ["Set (Quick Serpent)"] = false,
-                            ["Set (Hiti's Hearth)"] = true,
-                            ["Set (Heem-Jas' Retribution)"] = true,
-                            ["Set (Plague Slinger)"] = true,
-                            ["Set (Medusa)"] = true,
-                            ["Set (The Ice Furnace)"] = false,
-                            ["Not Collected"] = false,
-                            ["Set (Elemental Catalyst)"] = false,
-                            ["Set (Footman's Fortune)"] = true,
-                            ["Set (Impregnable Armor)"] = false,
-                            ["Set (Kraglen's Howl)"] = true,
-                            ["Set (Draugr's Rest)"] = false,
-                            ["Set (Darkstride)"] = false,
-                            ["Set (Akaviri Dragonguard)"] = false,
-                            ["Set (Flame Blossom)"] = false,
-                            ["Set (Venomous Smite)"] = true,
-                            ["Set (Undaunted Unweaver)"] = true,
-                            ["Set (Wizard's Riposte)"] = false,
-                            ["Set (Talfyg's Treachery)"] = false,
-                            ["Selling"] = false,
-                            ["Set (Spriggan's Thorns)"] = true,
-                            ["Set (Battlefield Acrobat)"] = false,
-                            ["Set (Armor of Truth)"] = true,
-                            ["Set (Jailer's Tenacity)"] = true,
-                            ["Set (Savage Werewolf)"] = true,
-                            ["Set (Dreugh King Slayer)"] = true,
-                            ["Set (Noble Duelist's Silks)"] = false,
-                            ["Set (Necropotence)"] = false,
-                            ["Necklace"] = false,
-                            ["Set (Toothrow)"] = true,
-                            ["Set (Wisdom of Vanus)"] = false,
-                            ["Set (Viper's Sting)"] = true,
-                            ["Set (Blood Moon)"] = true,
-                            ["Set (Frozen Watcher)"] = true,
-                            ["Set (Ironblood)"] = true,
-                            ["Set (Elemental Succession)"] = false,
-                            ["Set (Renald's Resolve)"] = true,
-                            ["Set (Draugr Hulk)"] = false,
-                            ["Ring"] = false,
-                            ["Set (Rattlecage)"] = true,
-                            ["Set (Hagraven's Garden)"] = true,
-                            ["New"] = false,
-                            ["Set (Archer's Mind)"] = false,
-                            ["Set (Poisonous Serpent)"] = false,
-                            ["Set (Storm Knight's Plate)"] = false,
-                            ["Set (Tooth of Lokkestiiz)"] = true,
-                            ["Set (Trinimac's Valor)"] = false,
-                            ["Set (Sunderflame)"] = true,
-                            ["Set (Grace of Gloom)"] = false,
-                            ["Armor"] = false,
-                            ["Researchable"] = false,
-                            ["Set (Burning Spellweave)"] = true,
-                            ["Set (Wilderqueen's Arch)"] = false,
-                            ["Set (Scavenging Demise)"] = true,
-                            ["Set (Vanguard's Challenge)"] = false,
-                            ["Set (Dragon's Defilement)"] = true,
-                            ["Set (Robes of Destruction Mastery)"] = false,
-                            ["Set (Hand of Mephala)"] = false,
-                            ["Set (Z'en's Redress)"] = true,
-                            ["BoP Tradeable"] = false,
-                            ["Set (Scathing Mage)"] = true,
-                            ["Set (Battalion Defender)"] = false,
-                            ["Set (Haven of Ursus)"] = false,
-                            ["Set (Gryphon's Ferocity)"] = false,
-                            ["Set (Mighty Glacier)"] = true,
-                            ["Set (Seventh Legion Brute)"] = false,
-                            ["Set (Night Terror)"] = false,
-                        },
-                        [6] = 
-                        {
-                            ["Set (Claw of Yolnahkriin)"] = false,
-                            ["Set (Spawn of Mephala)"] = false,
-                            ["Set (Aspect of Mazzatun)"] = false,
-                            ["Set (Eternal Warrior)"] = false,
-                            ["BoE"] = false,
-                            ["Set (Arms of Relequen)"] = false,
-                            ["Set (Scourge Harvester)"] = false,
-                            ["Set (Balorgh)"] = false,
-                            ["Set (Leeching Plate)"] = false,
-                            ["Set (Earthgore)"] = false,
-                            ["Set (Combat Physician)"] = false,
-                            ["Set (Prayer Shawl)"] = false,
-                            ["Set (Sellistrix)"] = false,
-                            ["Set (Light Speaker)"] = false,
-                            ["Low Level"] = false,
-                            ["Set (Haven of Ursus)"] = false,
-                            ["Set (Hollowfang Thirst)"] = false,
-                            ["Set (Nightflame)"] = false,
-                            ["Set (Jolting Arms)"] = false,
-                            ["Set (Curse of Doylemish)"] = false,
-                            ["Set (Duneripper's Scales)"] = false,
-                            ["Set (Ebon Armory)"] = false,
-                            ["Set (Crimson Twilight)"] = false,
-                            ["Set (Engine Guardian)"] = false,
-                            ["Set (Lord Warden)"] = false,
-                            ["Set (Shadowrend)"] = false,
-                            ["Set (Aegis of Galenwe)"] = false,
-                            ["Set (Ilambris)"] = false,
-                            ["Set (Poisonous Serpent)"] = false,
-                            ["Set (Domihaus)"] = false,
-                            ["Set (Tormentor)"] = false,
-                            ["Set (Battalion Defender)"] = false,
-                            ["Set (Stonekeeper)"] = false,
-                            ["Set (Vicious Serpent)"] = false,
-                            ["Set (Chokethorn)"] = false,
-                            ["Set (Mantle of Siroria)"] = false,
-                            ["Set (The Troll King)"] = false,
-                            ["Set (Gossamer)"] = false,
-                            ["Set (Jorvuld's Guidance)"] = false,
-                            ["Set (Knight-errant's Mail)"] = false,
-                            ["Set (Brands of Imperium)"] = false,
-                            ["Set (Sentinel of Rkugamz)"] = false,
-                            ["Furnishing"] = false,
-                            ["Set (Spell Power Cure)"] = false,
-                            ["Set (Undaunted Bastion)"] = false,
-                            ["Set (Infallible Mage)"] = false,
-                            ["Set (Defending Warrior)"] = false,
-                            ["Set (Slimecraw)"] = false,
-                            ["Set (Grothdarr)"] = false,
-                            ["Set (Sanctuary)"] = false,
-                            ["Set (Bani's Torment)"] = false,
-                            ["Set (Stormfist)"] = false,
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = true,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
                     },
                     ["rules"] = 
                     {
@@ -1800,314 +4362,316 @@ AutoCategorySavedVars =
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
                         },
                         [2] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "AlphaGear",
-                            ["rule"] = "alphagear(\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\")",
                             ["description"] = "",
+                            ["rule"] = "alphagear(\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\")",
                         },
                         [3] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                         },
                         [4] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
                         },
                         [5] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                             ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                         },
                         [6] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
                             ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
                         },
                         [7] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
                         },
                         [8] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                             ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                         },
                         [9] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Container",
-                            ["rule"] = "type(\"container\") or itemname(\"Transmutation Geode\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"container\") or itemname(\"Transmutation Geode\")",
                         },
                         [10] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Cyrodill",
-                            ["rule"] = "type(\"siege\",\"ava_repair\") or sptype(\"recall_stone_keep\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"siege\",\"ava_repair\") or sptype(\"recall_stone_keep\")",
                         },
                         [11] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
                             ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
                         },
                         [12] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
                         },
                         [13] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
                             ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
                         },
                         [14] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
                         },
                         [15] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                         },
                         [16] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                         },
                         [17] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Learnable",
-                            ["rule"] = "islearnable() and (type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\"))",
                             ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "islearnable() and (type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\"))",
                         },
                         [18] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\") and (not keepresearch()\r or isset()) and not traitstring(\"intricate\")\n",
                             ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\") and (not keepresearch()\r or isset()) and not traitstring(\"intricate\")\n",
                         },
                         [19] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                             ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                         },
                         [20] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Monster Sets",
-                            ["rule"] = "ismonsterset()",
                             ["description"] = "",
+                            ["rule"] = "ismonsterset()",
                         },
                         [21] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
                             ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
                         },
                         [22] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "New",
-                            ["rule"] = "isnew()",
                             ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
                         },
                         [23] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Not Collected",
-                            ["rule"] = "isset() and isnotcollected()",
                             ["description"] = "",
+                            ["rule"] = "isset() and isnotcollected()",
                         },
                         [24] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
                         },
                         [25] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
                         },
                         [26] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
                             ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
                         },
                         [27] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                             ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                         },
                         [28] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Researchable",
-                            ["rule"] = "keepresearch() and not isset()\r",
                             ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch() and not isset()\r",
                         },
                         [29] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
                             ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
                         },
                         [30] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                             ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                         },
                         [31] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Set",
-                            ["rule"] = "autoset()",
                             ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
                         },
                         [32] = 
                         {
                             ["tag"] = "General Items",
                             ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
                             ["description"] = "",
+                            ["rule"] = "isstolen()",
                         },
                         [33] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                         },
                         [34] = 
                         {
-                            ["description"] = "Unknown Furnishing Recipes of all types",
-                            ["name"] = "Unknown Furnishing Recipes",
-                            ["tag"] = "UnknownTracker",
-                            ["rule"] = "isFurnishingUnknown()",
                             ["damaged"] = true,
+                            ["name"] = "Unknown Furnishing Recipes",
+                            ["description"] = "Unknown Furnishing Recipes of all types",
+                            ["rule"] = "isFurnishingUnknown()",
+                            ["tag"] = "UnknownTracker",
                         },
                         [35] = 
                         {
-                            ["description"] = "Unknown Motifs",
-                            ["name"] = "Unknown Motifs",
-                            ["rule"] = "isMotifUnknown()",
                             ["tag"] = "UnknownTracker",
+                            ["name"] = "Unknown Motifs",
+                            ["description"] = "Unknown Motifs",
+                            ["rule"] = "isMotifUnknown()",
                         },
                         [36] = 
                         {
-                            ["description"] = "Unknown Outfit Styles",
-                            ["name"] = "Unknown Outfit Styles",
-                            ["rule"] = "isStyleUnknown()",
                             ["tag"] = "UnknownTracker",
+                            ["name"] = "Unknown Outfit Styles",
+                            ["description"] = "Unknown Outfit Styles",
+                            ["rule"] = "isStyleUnknown()",
                         },
                         [37] = 
                         {
-                            ["description"] = "Unknown Food and Drink Recipes",
-                            ["name"] = "Unknown Recipes",
-                            ["rule"] = "isRecipeUnknown()",
                             ["tag"] = "UnknownTracker",
+                            ["name"] = "Unknown Recipes",
+                            ["description"] = "Unknown Food and Drink Recipes",
+                            ["rule"] = "isRecipeUnknown()",
                         },
                         [38] = 
                         {
-                            ["description"] = "All recipes, motifs, outfit styles, etc that are not known by the current toon",
-                            ["name"] = "Unknown to Me",
-                            ["tag"] = "UnknownTracker",
-                            ["rule"] = "isUnknown(\"me\")",
                             ["damaged"] = true,
+                            ["name"] = "Unknown to Me",
+                            ["description"] = "All recipes, motifs, outfit styles, etc that are not known by the current toon",
+                            ["rule"] = "isUnknown(\"me\")",
+                            ["tag"] = "UnknownTracker",
                         },
                         [39] = 
                         {
-                            ["description"] = "All recipes, motifs, outfit styles, etc that are not known by all toons",
-                            ["name"] = "Unknown to someone",
-                            ["rule"] = "isUnknown()",
                             ["tag"] = "UnknownTracker",
+                            ["name"] = "Unknown to someone",
+                            ["description"] = "All recipes, motifs, outfit styles, etc that are not known by all toons",
+                            ["rule"] = "isUnknown()",
                         },
                         [40] = 
                         {
                             ["tag"] = "Gears",
                             ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
                             ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
                         },
                         [41] = 
                         {
                             ["tag"] = "Materials",
                             ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
                             ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
                         },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 16,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9568627477,
-                            [2] = 0.7058823705,
-                            [3] = 0,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Cascadia",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
                     },
                 },
             },
-            ["8798292067209854"] = 
+            ["8798292067300970"] = 
             {
                 ["EU Megaserver"] = 
                 {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
                     ["collapses"] = 
                     {
                         [1] = 
@@ -2128,6 +4692,12 @@ AutoCategorySavedVars =
                         [6] = 
                         {
                         },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
                     },
                     ["bags"] = 
                     {
@@ -2168,232 +4738,234 @@ AutoCategorySavedVars =
                             },
                         },
                     },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
                     ["rules"] = 
                     {
                         [1] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                         },
                         [2] = 
                         {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                         },
                         [3] = 
                         {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
                         },
                         [4] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
                         },
                         [5] = 
                         {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
                             ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
                         },
                         [6] = 
                         {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                         },
                         [7] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
                         },
                         [8] = 
                         {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
                         },
                         [9] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
                         },
                         [10] = 
                         {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
                             ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
                         },
                         [11] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
                         },
                         [12] = 
                         {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                         },
                         [13] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
                         },
                         [14] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
                         },
                         [15] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                         },
                         [16] = 
                         {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
                             ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
                         },
                         [17] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
                         },
                         [18] = 
                         {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
                             ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
                         },
                         [19] = 
                         {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                         },
                         [20] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                         },
                         [21] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
                             ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
                         },
                         [22] = 
                         {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                         },
                         [23] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
                         },
                         [24] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
                         },
                         [25] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
                         },
                         [26] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
                         },
                         [27] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                         },
                         [28] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
                         },
                         [29] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                         },
                         [30] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
                         },
                     },
+                },
+                ["$LastCharacterName"] = "Tarod Ararthin",
+            },
+            ["8798292067301326"] = 
+            {
+                ["EU Megaserver"] = 
+                {
                     ["appearance"] = 
                     {
                         ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
                         ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
                         ["CATEGORY_FONT_COLOR"] = 
                         {
                             [4] = 1,
@@ -2401,9 +4973,895 @@ AutoCategorySavedVars =
                             [2] = 1,
                             [3] = 1,
                         },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+            },
+            ["8798292067184426"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
                         ["CATEGORY_FONT_NAME"] = "Univers 67",
                         ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
+                    },
+                },
+                ["$LastCharacterName"] = "Jimenuki Ararthin",
+            },
+            ["8798292067209854"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
+                    ["collapses"] = 
+                    {
+                        [1] = 
+                        {
+                        },
+                        [2] = 
+                        {
+                        },
+                        [3] = 
+                        {
+                        },
+                        [4] = 
+                        {
+                        },
+                        [5] = 
+                        {
+                        },
+                        [6] = 
+                        {
+                        },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
+                    },
+                    ["bags"] = 
+                    {
+                        [1] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["rules"] = 
+                            {
+                            },
+                        },
+                    },
+                    ["rules"] = 
+                    {
+                        [1] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
+                        },
+                        [2] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
+                        },
+                        [3] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
+                        },
+                        [4] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
+                        },
+                        [5] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
+                        },
+                        [6] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
+                        },
+                        [7] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
+                        },
+                        [8] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
+                        },
+                        [9] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
+                        },
+                        [10] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
+                        },
+                        [11] = 
+                        {
+                            ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
+                        },
+                        [12] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
+                        },
+                        [13] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
+                        },
+                        [14] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
+                        },
+                        [15] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
+                        },
+                        [16] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
+                        },
+                        [17] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
+                        },
+                        [18] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
+                        },
+                        [19] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
+                        },
+                        [20] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
+                        },
+                        [21] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
+                        },
+                        [22] = 
+                        {
+                            ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
+                        },
+                        [23] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
+                        },
+                        [24] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
+                        },
+                        [25] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
+                        },
+                        [26] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
+                        },
+                        [27] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
+                        },
+                        [28] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
+                        },
+                        [29] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
+                        },
+                        [30] = 
+                        {
+                            ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
+                        },
                     },
                 },
                 ["$LastCharacterName"] = "Tarodion Ararthin",
@@ -2412,6 +5870,24 @@ AutoCategorySavedVars =
             {
                 ["EU Megaserver"] = 
                 {
+                    ["appearance"] = 
+                    {
+                        ["CATEGORY_OTHER_TEXT"] = "Others",
+                        ["CATEGORY_FONT_NAME"] = "Univers 67",
+                        ["CATEGORY_HEADER_HEIGHT"] = 52,
+                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
+                        ["CATEGORY_FONT_SIZE"] = 18,
+                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
+                        ["CATEGORY_FONT_COLOR"] = 
+                        {
+                            [4] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                        },
+                    },
+                    ["accountWide"] = true,
+                    ["version"] = 1.1000000000,
                     ["collapses"] = 
                     {
                         [1] = 
@@ -2432,6 +5908,12 @@ AutoCategorySavedVars =
                         [6] = 
                         {
                         },
+                    },
+                    ["general"] = 
+                    {
+                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
+                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
+                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
                     },
                     ["bags"] = 
                     {
@@ -2472,2981 +5954,221 @@ AutoCategorySavedVars =
                             },
                         },
                     },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
                     ["rules"] = 
                     {
                         [1] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Armor",
+                            ["description"] = "",
+                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
                         },
                         [2] = 
                         {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoE",
+                            ["description"] = "BoE gears for selling",
+                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
                         },
                         [3] = 
                         {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
                             ["tag"] = "Gears",
+                            ["name"] = "BoP Tradeable",
+                            ["description"] = "Gears are tradeable within a limited time",
+                            ["rule"] = "isboptradeable()",
                         },
                         [4] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Deconstruct",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"intricate\")",
                         },
                         [5] = 
                         {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
                             ["tag"] = "Gears",
+                            ["name"] = "Equipping",
+                            ["description"] = "Currently equipping gears (Gamepad Only)",
+                            ["rule"] = "isequipping()",
                         },
                         [6] = 
                         {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Low Level",
+                            ["description"] = "Gears below cp 160",
+                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
                         },
                         [7] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Necklace",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"neck\")",
                         },
                         [8] = 
                         {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
                             ["tag"] = "Gears",
+                            ["name"] = "Researchable",
+                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
+                            ["rule"] = "keepresearch()",
                         },
                         [9] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Ring",
+                            ["description"] = "",
+                            ["rule"] = "equiptype(\"ring\")",
                         },
                         [10] = 
                         {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
                             ["tag"] = "Gears",
+                            ["name"] = "Set",
+                            ["description"] = "Auto categorize set gears",
+                            ["rule"] = "autoset()",
                         },
                         [11] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
                             ["tag"] = "Gears",
+                            ["name"] = "Weapon",
+                            ["description"] = "",
+                            ["rule"] = "type(\"weapon\")",
                         },
                         [12] = 
                         {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Consumables",
+                            ["description"] = "Food, Drink, Potion",
+                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
                         },
                         [13] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Container",
+                            ["description"] = "",
+                            ["rule"] = "type(\"container\")",
                         },
                         [14] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Furnishing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"furnishing\")",
                         },
                         [15] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Glyphs & Gems",
+                            ["description"] = "",
+                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
                         },
                         [16] = 
                         {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
                             ["tag"] = "General Items",
+                            ["name"] = "New",
+                            ["description"] = "Items that are received recently",
+                            ["rule"] = "isnew()",
                         },
                         [17] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Poison",
+                            ["description"] = "",
+                            ["rule"] = "type(\"poison\")",
                         },
                         [18] = 
                         {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
                             ["tag"] = "General Items",
+                            ["name"] = "Quickslots",
+                            ["description"] = "Equipped in quickslots",
+                            ["rule"] = "isinquickslot()",
                         },
                         [19] = 
                         {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Recipes & Motifs",
+                            ["description"] = "All recipes, motifs and recipe fragments.",
+                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
                         },
                         [20] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Selling",
+                            ["description"] = "",
+                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
                         },
                         [21] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
                             ["tag"] = "General Items",
+                            ["name"] = "Stolen",
+                            ["description"] = "",
+                            ["rule"] = "isstolen()",
                         },
                         [22] = 
                         {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                             ["tag"] = "General Items",
+                            ["name"] = "Maps & Surveys",
+                            ["description"] = "Treasure maps and survey reports",
+                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
                         },
                         [23] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Alchemy",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"alchemy\")",
                         },
                         [24] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Blacksmithing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"blacksmithing\")",
                         },
                         [25] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Clothing",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"clothing\")",
                         },
                         [26] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Enchanting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"enchanting\")",
                         },
                         [27] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Jewelry Crafting",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"jewelrycrafting\")",
                         },
                         [28] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Provisioning",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"provisioning\")",
                         },
                         [29] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Trait/Style Gems",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
                         },
                         [30] = 
                         {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
                             ["tag"] = "Materials",
+                            ["name"] = "Woodworking",
+                            ["description"] = "",
+                            ["rule"] = "filtertype(\"woodworking\")",
                         },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
                     },
                 },
                 ["$LastCharacterName"] = "Sneaks-Behind",
-            },
-            ["8798292078118710"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Lord Tarod of Aragon",
-            },
-            ["8798292081773772"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Tarolog Agharghim",
-            },
-            ["8798292077852888"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
-            },
-            ["8798292067184426"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Jimenuki Ararthin",
-            },
-            ["8798292082164860"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Tharodriel Ararthin",
-            },
-            ["8798292067300970"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Tarod Ararthin",
-            },
-            ["8798292067859494"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Faulcon Delacy",
-            },
-            ["8798292067301326"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
-            },
-            ["8798292081990122"] = 
-            {
-                ["EU Megaserver"] = 
-                {
-                    ["collapses"] = 
-                    {
-                        [1] = 
-                        {
-                        },
-                        [2] = 
-                        {
-                        },
-                        [3] = 
-                        {
-                        },
-                        [4] = 
-                        {
-                        },
-                        [5] = 
-                        {
-                        },
-                        [6] = 
-                        {
-                        },
-                    },
-                    ["bags"] = 
-                    {
-                        [1] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [2] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [3] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [4] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [5] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                        [6] = 
-                        {
-                            ["rules"] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 1.1000000000,
-                    ["accountWide"] = true,
-                    ["general"] = 
-                    {
-                        ["SAVE_CATEGORY_COLLAPSE_STATUS"] = false,
-                        ["SHOW_MESSAGE_WHEN_TOGGLE"] = false,
-                        ["SHOW_CATEGORY_ITEM_COUNT"] = true,
-                    },
-                    ["rules"] = 
-                    {
-                        [1] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Armor",
-                            ["rule"] = "type(\"armor\") and not equiptype(\"neck\",\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [2] = 
-                        {
-                            ["description"] = "BoE gears for selling",
-                            ["name"] = "BoE",
-                            ["rule"] = "boundtype(\"on_equip\") and not isbound() and not keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [3] = 
-                        {
-                            ["description"] = "Gears are tradeable within a limited time",
-                            ["name"] = "BoP Tradeable",
-                            ["rule"] = "isboptradeable()",
-                            ["tag"] = "Gears",
-                        },
-                        [4] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Deconstruct",
-                            ["rule"] = "traitstring(\"intricate\")",
-                            ["tag"] = "Gears",
-                        },
-                        [5] = 
-                        {
-                            ["description"] = "Currently equipping gears (Gamepad Only)",
-                            ["name"] = "Equipping",
-                            ["rule"] = "isequipping()",
-                            ["tag"] = "Gears",
-                        },
-                        [6] = 
-                        {
-                            ["description"] = "Gears below cp 160",
-                            ["name"] = "Low Level",
-                            ["rule"] = "level() > 1 and cp() < 160 and type(\"armor\", \"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [7] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Necklace",
-                            ["rule"] = "equiptype(\"neck\")",
-                            ["tag"] = "Gears",
-                        },
-                        [8] = 
-                        {
-                            ["description"] = "Gears that keep for research purpose, only keep the low quality, low level one.",
-                            ["name"] = "Researchable",
-                            ["rule"] = "keepresearch()",
-                            ["tag"] = "Gears",
-                        },
-                        [9] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Ring",
-                            ["rule"] = "equiptype(\"ring\")",
-                            ["tag"] = "Gears",
-                        },
-                        [10] = 
-                        {
-                            ["description"] = "Auto categorize set gears",
-                            ["name"] = "Set",
-                            ["rule"] = "autoset()",
-                            ["tag"] = "Gears",
-                        },
-                        [11] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Weapon",
-                            ["rule"] = "type(\"weapon\")",
-                            ["tag"] = "Gears",
-                        },
-                        [12] = 
-                        {
-                            ["description"] = "Food, Drink, Potion",
-                            ["name"] = "Consumables",
-                            ["rule"] = "type(\"food\", \"drink\", \"potion\")",
-                            ["tag"] = "General Items",
-                        },
-                        [13] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Container",
-                            ["rule"] = "type(\"container\")",
-                            ["tag"] = "General Items",
-                        },
-                        [14] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Furnishing",
-                            ["rule"] = "filtertype(\"furnishing\")",
-                            ["tag"] = "General Items",
-                        },
-                        [15] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Glyphs & Gems",
-                            ["rule"] = "type(\"soul_gem\", \"glyph_armor\", \"glyph_jewelry\", \"glyph_weapon\")",
-                            ["tag"] = "General Items",
-                        },
-                        [16] = 
-                        {
-                            ["description"] = "Items that are received recently",
-                            ["name"] = "New",
-                            ["rule"] = "isnew()",
-                            ["tag"] = "General Items",
-                        },
-                        [17] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Poison",
-                            ["rule"] = "type(\"poison\")",
-                            ["tag"] = "General Items",
-                        },
-                        [18] = 
-                        {
-                            ["description"] = "Equipped in quickslots",
-                            ["name"] = "Quickslots",
-                            ["rule"] = "isinquickslot()",
-                            ["tag"] = "General Items",
-                        },
-                        [19] = 
-                        {
-                            ["description"] = "All recipes, motifs and recipe fragments.",
-                            ["name"] = "Recipes & Motifs",
-                            ["rule"] = "type(\"recipe\",\"racial_style_motif\") or sptype(\"trophy_recipe_fragment\")",
-                            ["tag"] = "General Items",
-                        },
-                        [20] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Selling",
-                            ["rule"] = "traitstring(\"ornate\") or sptype(\"collectible_monster_trophy\") or type(\"trash\")",
-                            ["tag"] = "General Items",
-                        },
-                        [21] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Stolen",
-                            ["rule"] = "isstolen()",
-                            ["tag"] = "General Items",
-                        },
-                        [22] = 
-                        {
-                            ["description"] = "Treasure maps and survey reports",
-                            ["name"] = "Maps & Surveys",
-                            ["rule"] = "sptype(\"trophy_survey_report\", \"trophy_treasure_map\")",
-                            ["tag"] = "General Items",
-                        },
-                        [23] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Alchemy",
-                            ["rule"] = "filtertype(\"alchemy\")",
-                            ["tag"] = "Materials",
-                        },
-                        [24] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Blacksmithing",
-                            ["rule"] = "filtertype(\"blacksmithing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [25] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Clothing",
-                            ["rule"] = "filtertype(\"clothing\")",
-                            ["tag"] = "Materials",
-                        },
-                        [26] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Enchanting",
-                            ["rule"] = "filtertype(\"enchanting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [27] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Jewelry Crafting",
-                            ["rule"] = "filtertype(\"jewelrycrafting\")",
-                            ["tag"] = "Materials",
-                        },
-                        [28] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Provisioning",
-                            ["rule"] = "filtertype(\"provisioning\")",
-                            ["tag"] = "Materials",
-                        },
-                        [29] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Trait/Style Gems",
-                            ["rule"] = "filtertype(\"trait_items\", \"style_materials\")",
-                            ["tag"] = "Materials",
-                        },
-                        [30] = 
-                        {
-                            ["description"] = "",
-                            ["name"] = "Woodworking",
-                            ["rule"] = "filtertype(\"woodworking\")",
-                            ["tag"] = "Materials",
-                        },
-                    },
-                    ["appearance"] = 
-                    {
-                        ["CATEGORY_OTHER_TEXT"] = "Others",
-                        ["CATEGORY_FONT_SIZE"] = 18,
-                        ["CATEGORY_FONT_ALIGNMENT"] = 1,
-                        ["CATEGORY_FONT_COLOR"] = 
-                        {
-                            [4] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                        },
-                        ["CATEGORY_FONT_STYLE"] = "soft-shadow-thin",
-                        ["CATEGORY_FONT_NAME"] = "Univers 67",
-                        ["CATEGORY_HEADER_HEIGHT"] = 52,
-                    },
-                },
-                ["$LastCharacterName"] = "Cassus Andronicus",
             },
         },
     },

@@ -10,29 +10,28 @@ LostTreasure_Account =
                 {
                     [2] = 
                     {
-                        ["markOption"] = 2,
+                        ["size"] = 32,
+                        ["pinLevel"] = 45,
+                        ["showOnMap"] = true,
+                        ["deletionDelay"] = 10,
                         ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
-                        ["deletionDelay"] = 10,
-                        ["pinLevel"] = 45,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
+                        ["markOption"] = 2,
                     },
                     [1] = 
                     {
-                        ["markOption"] = 2,
+                        ["size"] = 32,
+                        ["pinLevel"] = 45,
+                        ["showOnMap"] = true,
+                        ["deletionDelay"] = 10,
                         ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
-                        ["deletionDelay"] = 10,
-                        ["pinLevel"] = 45,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
+                        ["markOption"] = 2,
                     },
                 },
-                ["version"] = 1,
                 ["miniMap"] = 
                 {
-                    ["deletionDelay"] = 4,
+                    ["enabled"] = true,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -44,12 +43,13 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
-                    ["enabled"] = true,
                     ["size"] = 400,
+                    ["deletionDelay"] = 4,
                 },
                 ["notifications"] = 
                 {
                 },
+                ["version"] = 1,
             },
         },
     },

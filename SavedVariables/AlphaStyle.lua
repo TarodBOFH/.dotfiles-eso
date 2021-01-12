@@ -17,26 +17,24 @@ AlphaStyle_Styles =
     {
         ["@cbr600f"] = 
         {
-            ["Tarolog Agharghim"] = 
+            ["Lord Tarod of Aragon"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
-            ["Cassus Andronicus"] = 
+            ["Tarodion Ararthin"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
             ["Tarod Ararthin"] = 
             {
-                ["LastId"] = 5,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                     [1] = 
@@ -58,14 +56,14 @@ AlphaStyle_Styles =
                         },
                         ["Name"] = "Covenant",
                         ["SortKey"] = "New Style 1",
+                        ["OutfitId"] = 4,
                         ["TitleId"] = 1,
+                        ["IgnoreTitle"] = false,
                         ["Costume"] = 
                         {
-                            ["id"] = "4618645115282536684",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            ["id"] = "4618645115282536684",
                         },
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 4,
                     },
                     [2] = 
                     {
@@ -86,14 +84,14 @@ AlphaStyle_Styles =
                         },
                         ["Name"] = "No Style",
                         ["SortKey"] = "New Style 2",
+                        ["OutfitId"] = -1,
                         ["TitleId"] = 25,
+                        ["IgnoreTitle"] = false,
                         ["Costume"] = 
                         {
-                            ["id"] = "4618645115282536684",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            ["id"] = "4618645115282536684",
                         },
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = -1,
                     },
                     [3] = 
                     {
@@ -114,14 +112,14 @@ AlphaStyle_Styles =
                         },
                         ["Name"] = "PvP Dark Hojablanca",
                         ["SortKey"] = "New Style 3",
+                        ["OutfitId"] = 3,
                         ["TitleId"] = 38,
+                        ["IgnoreTitle"] = false,
                         ["Costume"] = 
                         {
-                            ["id"] = "4618645115282536684",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            ["id"] = "4618645115282536684",
                         },
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 3,
                     },
                     [4] = 
                     {
@@ -142,14 +140,14 @@ AlphaStyle_Styles =
                         },
                         ["Name"] = "PvP Dark",
                         ["SortKey"] = "New Style 4",
+                        ["OutfitId"] = 3,
                         ["TitleId"] = 38,
+                        ["IgnoreTitle"] = false,
                         ["Costume"] = 
                         {
-                            ["id"] = 0,
                             ["link"] = 0,
+                            ["id"] = 0,
                         },
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 3,
                     },
                     [5] = 
                     {
@@ -170,88 +168,106 @@ AlphaStyle_Styles =
                         },
                         ["Name"] = "PvE Akelarre",
                         ["SortKey"] = "New Style 5",
+                        ["OutfitId"] = 1,
                         ["TitleId"] = 42,
+                        ["IgnoreTitle"] = false,
                         ["Costume"] = 
                         {
-                            ["id"] = "4618645115282406501",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:15995|h|h",
+                            ["id"] = "4618645115282406501",
                         },
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 1,
                     },
                 },
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["LastId"] = 0,
+                ["LastId"] = 5,
                 ["version"] = "1",
+            },
+            ["Cassus Andronicus"] = 
+            {
                 ["Styles"] = 
                 {
                 },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
                 ["LastId"] = 0,
                 ["version"] = "1",
+            },
+            ["Ser Sancho"] = 
+            {
                 ["Styles"] = 
                 {
                 },
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
                 ["LastId"] = 0,
                 ["version"] = "1",
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["LastId"] = 0,
-                ["version"] = "1",
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["LastId"] = 0,
-                ["version"] = "1",
-                ["Styles"] = 
-                {
-                },
             },
             ["Tarodio Ararthinus"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
             ["Neria Rothalen"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["LastId"] = 0,
+                ["version"] = "1",
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
             ["Faulcon Delacy"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["LastId"] = 0,
+                ["version"] = "1",
+            },
+            ["Ebony Knuckles"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
             ["Sneaks-Behind"] = 
             {
-                ["LastId"] = 0,
-                ["version"] = "1",
                 ["Styles"] = 
                 {
                 },
+                ["LastId"] = 0,
+                ["version"] = "1",
+            },
+            ["Tarolog Agharghim"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["LastId"] = 0,
+                ["version"] = "1",
             },
         },
     },
