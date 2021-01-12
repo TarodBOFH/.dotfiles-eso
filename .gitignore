@@ -7,6 +7,9 @@ Errors
 Logs
 Screenshots
 
+# Not tracked data
+SavedVariables/CombatMetricsFightData.lua
+
 # Shader Cache
 ShaderCache.cooked
 
