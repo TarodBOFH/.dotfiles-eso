@@ -6,32 +6,35 @@ LostTreasure_Account =
         {
             ["$AccountWide"] = 
             {
+                ["version"] = 1,
                 ["pinTypes"] = 
                 {
                     [2] = 
                     {
-                        ["size"] = 32,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["pinLevel"] = 45,
                         ["showOnMap"] = true,
                         ["deletionDelay"] = 10,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
                         ["markOption"] = 2,
+                        ["size"] = 32,
                     },
                     [1] = 
                     {
-                        ["size"] = 32,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["pinLevel"] = 45,
                         ["showOnMap"] = true,
                         ["deletionDelay"] = 10,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
                         ["showOnCompass"] = true,
                         ["markOption"] = 2,
+                        ["size"] = 32,
                     },
                 },
                 ["miniMap"] = 
                 {
                     ["enabled"] = true,
+                    ["size"] = 400,
+                    ["deletionDelay"] = 4,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -43,13 +46,10 @@ LostTreasure_Account =
                             [6] = 0,
                         },
                     },
-                    ["size"] = 400,
-                    ["deletionDelay"] = 4,
                 },
                 ["notifications"] = 
                 {
                 },
-                ["version"] = 1,
             },
         },
     },

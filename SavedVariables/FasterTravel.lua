@@ -4,39 +4,78 @@ FasterTravel_SavedVariables =
     {
         ["@cbr600f"] = 
         {
-            ["Lord Tarod of Aragon"] = 
+            ["Ebony Knuckles"] = 
             {
                 [""] = 
                 {
-                    ["locationDirection"] = 0,
                     ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
                     ["recent"] = 
                     {
+                        [1] = 
+                        {
+                            ["nodeIndex"] = 284,
+                        },
+                        [2] = 
+                        {
+                            ["nodeIndex"] = 56,
+                        },
+                        [3] = 
+                        {
+                            ["nodeIndex"] = 355,
+                        },
                     },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
                 },
             },
-            ["Tarodion Ararthin"] = 
+            ["Tarolog Agharghim"] = 
             {
                 [""] = 
                 {
-                    ["locationDirection"] = 0,
                     ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
                     ["recent"] = 
                     {
                     },
-                    ["locationOrder"] = 0,
+                },
+            },
+            ["Cassus Andronicus"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
                     ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
                 },
             },
             ["Tarod Ararthin"] = 
             {
                 [""] = 
                 {
-                    ["locationDirection"] = 0,
                     ["version"] = "10",
                     ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
                     ["recent"] = 
                     {
                         [1] = 
@@ -100,222 +139,60 @@ FasterTravel_SavedVariables =
                             ["nodeIndex"] = 90,
                         },
                     },
-                    ["locationOrder"] = 0,
-                },
-            },
-            ["Cassus Andronicus"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Ser Sancho"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Neria Rothalen"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Tarolog Agharghim"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Ebony Knuckles"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                        [1] = 
-                        {
-                            ["nodeIndex"] = 284,
-                        },
-                        [2] = 
-                        {
-                            ["nodeIndex"] = 56,
-                        },
-                        [3] = 
-                        {
-                            ["nodeIndex"] = 355,
-                        },
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
-                },
-            },
-            ["Sneaks-Behind"] = 
-            {
-                [""] = 
-                {
-                    ["locationDirection"] = 0,
-                    ["version"] = "10",
-                    ["recent"] = 
-                    {
-                        [2] = 
-                        {
-                            ["nodeIndex"] = 89,
-                        },
-                        [1] = 
-                        {
-                            ["nodeIndex"] = 355,
-                        },
-                    },
-                    ["locationOrder"] = 0,
-                    ["ws_order"] = 1,
                 },
             },
             ["$AccountWide"] = 
             {
                 [""] = 
                 {
+                    ["version"] = "10",
+                    ["listlen"] = 5,
+                    ["WfDpatchEnabled"] = false,
                     ["aliases"] = 
                     {
-                        ["ma"] = "Malabal Tor",
-                        ["gs"] = "Greenshade",
-                        ["rm"] = "Reaper's March",
-                        ["em"] = "Eastmarch",
-                        ["hb"] = "Hew's Bane",
-                        ["tr"] = "The Rift",
-                        ["cr"] = "Craglorn",
-                        ["ar"] = "Artaeum",
-                        ["cwc"] = "Clockwork City",
-                        ["co"] = "Coldharbour",
-                        ["ea"] = "Eastmarch",
-                        ["au"] = "Auridon",
-                        ["gra"] = "Grahtwood",
-                        ["cc"] = "Clockwork City",
-                        ["sh"] = "Stormhaven",
-                        ["ws"] = "Western Skyrim",
-                        ["su"] = "Summerset",
-                        ["he"] = "Hew's Bane",
-                        ["mm"] = "Murkmire",
-                        ["riv"] = "Rivenspire",
-                        ["rs"] = "Rivenspire",
-                        ["sm"] = "Stros M'Kai",
-                        ["bk"] = "Bangkorai",
-                        ["se"] = "Southern Elsweyr",
-                        ["de"] = "Deshaan",
-                        ["gl"] = "Glenumbra",
-                        ["sf"] = "Stonefalls",
-                        ["re"] = "Reaper's March",
-                        ["al"] = "Alik'r Desert",
-                        ["mu"] = "Murkmire",
-                        ["ch"] = "Coldharbour",
-                        ["ss"] = "Summerset",
-                        ["go"] = "Gold Coast",
-                        ["mt"] = "Malabal Tor",
-                        ["bf"] = "The Brass Fortress",
-                        ["gc"] = "Gold Coast",
-                        ["gw"] = "Grahtwood",
                         ["rif"] = "The Rift",
-                        ["cl"] = "Clockwork City",
+                        ["gs"] = "Greenshade",
+                        ["su"] = "Summerset",
+                        ["re"] = "Reaper's March",
                         ["br"] = "The Brass Fortress",
+                        ["ss"] = "Summerset",
+                        ["ar"] = "Artaeum",
+                        ["ws"] = "Western Skyrim",
+                        ["hb"] = "Hew's Bane",
+                        ["mu"] = "Murkmire",
+                        ["au"] = "Auridon",
+                        ["co"] = "Coldharbour",
+                        ["ma"] = "Malabal Tor",
+                        ["cr"] = "Craglorn",
+                        ["gl"] = "Glenumbra",
+                        ["gra"] = "Grahtwood",
+                        ["bf"] = "The Brass Fortress",
+                        ["se"] = "Southern Elsweyr",
+                        ["ch"] = "Coldharbour",
+                        ["cwc"] = "Clockwork City",
+                        ["rs"] = "Rivenspire",
+                        ["go"] = "Gold Coast",
+                        ["al"] = "Alik'r Desert",
+                        ["sh"] = "Stormhaven",
+                        ["bk"] = "Bangkorai",
+                        ["cc"] = "Clockwork City",
+                        ["rm"] = "Reaper's March",
+                        ["gw"] = "Grahtwood",
+                        ["ea"] = "Eastmarch",
+                        ["he"] = "Hew's Bane",
+                        ["em"] = "Eastmarch",
+                        ["sf"] = "Stonefalls",
+                        ["cl"] = "Clockwork City",
+                        ["tr"] = "The Rift",
+                        ["de"] = "Deshaan",
+                        ["sm"] = "Stros M'Kai",
+                        ["mm"] = "Murkmire",
+                        ["gc"] = "Gold Coast",
+                        ["riv"] = "Rivenspire",
+                        ["mt"] = "Malabal Tor",
                         ["ne"] = "Northern Elsweyr",
                     },
-                    ["version"] = "10",
-                    ["WfDpatchEnabled"] = false,
+                    ["verbosity"] = 1,
                     ["favourites"] = 
                     {
                         [1] = 
@@ -339,8 +216,157 @@ FasterTravel_SavedVariables =
                             ["nodeIndex"] = 337,
                         },
                     },
-                    ["listlen"] = 5,
-                    ["verbosity"] = 1,
+                },
+            },
+            ["Faulcon Delacy"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Iwillbedeleted"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Sneaks-Behind"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                        [2] = 
+                        {
+                            ["nodeIndex"] = 89,
+                        },
+                        [1] = 
+                        {
+                            ["nodeIndex"] = 355,
+                        },
+                    },
+                },
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Neria Rothalen"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Terminus Prime"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Ser Sancho"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["ws_order"] = 1,
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["recent"] = 
+                    {
+                    },
                 },
             },
         },

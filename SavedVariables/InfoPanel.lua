@@ -6,57 +6,57 @@ InfoPanel_Settings =
         {
             ["$AccountWide"] = 
             {
-                ["AutoRepair"] = true,
-                ["BankSpace"] = 2,
-                ["Settings"] = true,
+                ["Achievements"] = 3,
+                ["DungeonChests"] = true,
                 ["Stable"] = true,
-                ["Vouchers"] = true,
-                ["FishingAchivement"] = false,
-                ["Gold"] = true,
-                ["BossTimer"] = false,
-                [44879] = true,
-                ["AutoRepairStore"] = true,
-                ["BagSpace"] = 2,
-                ["Achievement_up"] = true,
-                ["TimeFormat"] = 2,
-                ["AP"] = true,
-                [30357] = true,
-                ["APgain"] = true,
-                ["Timer"] = true,
-                ["Telvar"] = true,
-                ["Background"] = 10,
-                ["Fence"] = true,
+                ["AutoRecharge"] = true,
+                ["Apparel"] = true,
                 ["Smithing"] = true,
-                ["ZO_CompassFrame"] = 70,
-                ["InfoPanel"] = true,
+                ["Transmutation"] = true,
+                ["TrialInfo"] = true,
+                ["UndauntedKeys"] = true,
+                [44879] = true,
+                ["APgain"] = true,
+                [30357] = true,
+                ["BagSpace"] = 2,
+                ["AutoRepairKit"] = true,
+                ["AutoRepairStore"] = true,
+                ["ReelAlert"] = true,
+                ["Telvar"] = true,
+                ["ExpPS"] = 3,
                 ["Hirelings"] = false,
                 ["TamrielTime"] = true,
                 ["version"] = 1,
-                ["LatestMail"] = 0,
-                ["AutoRepairKit"] = true,
-                ["RealTime"] = true,
-                ["AutoRecharge"] = true,
-                ["Update"] = 5,
-                ["ExpPS"] = 3,
-                ["ChatOutput"] = true,
-                ["Weapons"] = true,
-                ["EventTickets"] = true,
+                ["BossTimer"] = true,
                 ["TelvarGain"] = true,
-                [33265] = true,
+                ["Timer"] = true,
                 ["Scale"] = 1,
-                ["Experience"] = true,
-                ["DungeonChests"] = true,
-                ["Memory"] = true,
-                ["Apparel"] = true,
-                [33271] = true,
-                ["Skyshards"] = false,
-                ["UndauntedKeys"] = true,
-                ["Transmutation"] = true,
-                ["DungeonInfo"] = true,
-                ["ReelAlert"] = true,
+                ["Background"] = 10,
                 ["ExPgain"] = true,
-                ["Achievements"] = 3,
-                ["TrialInfo"] = true,
+                ["AutoRepair"] = true,
+                ["TimeFormat"] = 2,
+                ["LatestMail"] = 0,
+                ["BankSpace"] = 2,
+                ["Memory"] = true,
+                ["FishingAchivement"] = false,
+                ["AP"] = true,
+                ["Weapons"] = true,
+                ["Skyshards"] = false,
+                [33265] = true,
+                ["Update"] = 5,
+                ["Achievement_up"] = true,
+                ["ZO_CompassFrame"] = 70,
+                ["Settings"] = true,
+                ["Gold"] = true,
+                [33271] = true,
+                ["EventTickets"] = true,
+                ["RealTime"] = true,
+                ["Vouchers"] = true,
+                ["ChatOutput"] = true,
+                ["InfoPanel"] = true,
+                ["DungeonInfo"] = true,
+                ["Experience"] = true,
+                ["Fence"] = true,
             },
         },
     },
@@ -67,89 +67,101 @@ InfoPanel_Character =
     {
         ["@cbr600f"] = 
         {
-            ["Lord Tarod of Aragon"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Tarod Ararthin"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Ser Sancho"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
             ["Tharodriel Ararthin"] = 
             {
+                ["version"] = 1,
                 ["FishingAchivement"] = false,
                 ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Ebony Knuckles"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
-            },
-            ["Sneaks-Behind"] = 
-            {
-                ["FishingAchivement"] = false,
-                ["Experience"] = false,
-                ["version"] = 1,
             },
             ["Tarolog Agharghim"] = 
             {
+                ["version"] = 1,
                 ["FishingAchivement"] = false,
                 ["Experience"] = false,
+            },
+            ["Tarodion Ararthin"] = 
+            {
                 ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Sneaks-Behind"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Ebony Knuckles"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Cassus Andronicus"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Tarod Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Faulcon Delacy"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Terminus Prime"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Iwillbedeleted"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
+            },
+            ["Ser Sancho"] = 
+            {
+                ["version"] = 1,
+                ["FishingAchivement"] = false,
+                ["Experience"] = false,
             },
         },
     },
