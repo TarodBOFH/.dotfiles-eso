@@ -9,6 +9,8 @@ Screenshots
 
 # Not tracked data
 SavedVariables/CombatMetricsFightData.lua
+Addons/TamrielTradeCentre/ItemLookUpTable_EN.lua
+Addons/TamrielTradeCentre/PriceTable.lua
 
 # Shader Cache
 ShaderCache.cooked
