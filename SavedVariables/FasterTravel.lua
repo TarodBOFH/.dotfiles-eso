@@ -4,14 +4,87 @@ FasterTravel_SavedVariables =
     {
         ["@cbr600f"] = 
         {
+            ["Sneaks-Behind"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                        [2] = 
+                        {
+                            ["nodeIndex"] = 89,
+                        },
+                        [1] = 
+                        {
+                            ["nodeIndex"] = 355,
+                        },
+                    },
+                },
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Terminus Prime"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Faulcon Delacy"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
             ["Ebony Knuckles"] = 
             {
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
                     ["recent"] = 
                     {
                         [1] = 
@@ -29,40 +102,14 @@ FasterTravel_SavedVariables =
                     },
                 },
             },
-            ["Tarolog Agharghim"] = 
+            ["Jimenuki Ararthin"] = 
             {
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Cassus Andronicus"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
                     ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
                     ["recent"] = 
                     {
                     },
@@ -73,9 +120,9 @@ FasterTravel_SavedVariables =
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
                     ["recent"] = 
                     {
                         [1] = 
@@ -141,58 +188,70 @@ FasterTravel_SavedVariables =
                     },
                 },
             },
+            ["Tharodriel Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
             ["$AccountWide"] = 
             {
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["listlen"] = 5,
-                    ["WfDpatchEnabled"] = false,
+                    ["verbosity"] = 1,
                     ["aliases"] = 
                     {
-                        ["rif"] = "The Rift",
+                        ["ne"] = "Northern Elsweyr",
+                        ["cwc"] = "Clockwork City",
                         ["gs"] = "Greenshade",
-                        ["su"] = "Summerset",
-                        ["re"] = "Reaper's March",
-                        ["br"] = "The Brass Fortress",
-                        ["ss"] = "Summerset",
-                        ["ar"] = "Artaeum",
-                        ["ws"] = "Western Skyrim",
-                        ["hb"] = "Hew's Bane",
-                        ["mu"] = "Murkmire",
-                        ["au"] = "Auridon",
-                        ["co"] = "Coldharbour",
-                        ["ma"] = "Malabal Tor",
                         ["cr"] = "Craglorn",
-                        ["gl"] = "Glenumbra",
+                        ["br"] = "The Brass Fortress",
+                        ["sm"] = "Stros M'Kai",
+                        ["ma"] = "Malabal Tor",
+                        ["rm"] = "Reaper's March",
+                        ["mt"] = "Malabal Tor",
+                        ["ea"] = "Eastmarch",
+                        ["em"] = "Eastmarch",
+                        ["tr"] = "The Rift",
+                        ["cc"] = "Clockwork City",
+                        ["riv"] = "Rivenspire",
+                        ["ar"] = "Artaeum",
+                        ["co"] = "Coldharbour",
+                        ["rs"] = "Rivenspire",
+                        ["sh"] = "Stormhaven",
+                        ["gw"] = "Grahtwood",
                         ["gra"] = "Grahtwood",
-                        ["bf"] = "The Brass Fortress",
+                        ["cl"] = "Clockwork City",
+                        ["ws"] = "Western Skyrim",
+                        ["rif"] = "The Rift",
+                        ["au"] = "Auridon",
+                        ["mu"] = "Murkmire",
+                        ["he"] = "Hew's Bane",
+                        ["gl"] = "Glenumbra",
+                        ["ss"] = "Summerset",
+                        ["re"] = "Reaper's March",
                         ["se"] = "Southern Elsweyr",
                         ["ch"] = "Coldharbour",
-                        ["cwc"] = "Clockwork City",
-                        ["rs"] = "Rivenspire",
-                        ["go"] = "Gold Coast",
-                        ["al"] = "Alik'r Desert",
-                        ["sh"] = "Stormhaven",
-                        ["bk"] = "Bangkorai",
-                        ["cc"] = "Clockwork City",
-                        ["rm"] = "Reaper's March",
-                        ["gw"] = "Grahtwood",
-                        ["ea"] = "Eastmarch",
-                        ["he"] = "Hew's Bane",
-                        ["em"] = "Eastmarch",
                         ["sf"] = "Stonefalls",
-                        ["cl"] = "Clockwork City",
-                        ["tr"] = "The Rift",
+                        ["go"] = "Gold Coast",
+                        ["hb"] = "Hew's Bane",
+                        ["bk"] = "Bangkorai",
+                        ["bf"] = "The Brass Fortress",
                         ["de"] = "Deshaan",
-                        ["sm"] = "Stros M'Kai",
+                        ["su"] = "Summerset",
                         ["mm"] = "Murkmire",
                         ["gc"] = "Gold Coast",
-                        ["riv"] = "Rivenspire",
-                        ["mt"] = "Malabal Tor",
-                        ["ne"] = "Northern Elsweyr",
+                        ["al"] = "Alik'r Desert",
                     },
-                    ["verbosity"] = 1,
+                    ["listlen"] = 5,
                     ["favourites"] = 
                     {
                         [1] = 
@@ -216,66 +275,7 @@ FasterTravel_SavedVariables =
                             ["nodeIndex"] = 337,
                         },
                     },
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Iwillbedeleted"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Sneaks-Behind"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                        [2] = 
-                        {
-                            ["nodeIndex"] = 89,
-                        },
-                        [1] = 
-                        {
-                            ["nodeIndex"] = 355,
-                        },
-                    },
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
+                    ["WfDpatchEnabled"] = false,
                 },
             },
             ["Neria Rothalen"] = 
@@ -283,48 +283,9 @@ FasterTravel_SavedVariables =
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
                     ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
-                    ["recent"] = 
-                    {
-                    },
-                },
-            },
-            ["Terminus Prime"] = 
-            {
-                [""] = 
-                {
-                    ["version"] = "10",
-                    ["ws_order"] = 1,
-                    ["locationOrder"] = 0,
-                    ["locationDirection"] = 0,
                     ["recent"] = 
                     {
                     },
@@ -335,22 +296,35 @@ FasterTravel_SavedVariables =
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
                     ["recent"] = 
                     {
                     },
                 },
             },
-            ["Tarodion Ararthin"] = 
+            ["Tarolog Agharghim"] = 
             {
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
                     ["recent"] = 
                     {
                     },
@@ -361,9 +335,35 @@ FasterTravel_SavedVariables =
                 [""] = 
                 {
                     ["version"] = "10",
-                    ["ws_order"] = 1,
                     ["locationOrder"] = 0,
                     ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Iwillbedeleted"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
+                    ["recent"] = 
+                    {
+                    },
+                },
+            },
+            ["Cassus Andronicus"] = 
+            {
+                [""] = 
+                {
+                    ["version"] = "10",
+                    ["locationOrder"] = 0,
+                    ["locationDirection"] = 0,
+                    ["ws_order"] = 1,
                     ["recent"] = 
                     {
                     },

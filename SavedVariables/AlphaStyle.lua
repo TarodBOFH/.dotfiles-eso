@@ -17,7 +17,7 @@ AlphaStyle_Styles =
     {
         ["@cbr600f"] = 
         {
-            ["Tharodriel Ararthin"] = 
+            ["Sneaks-Behind"] = 
             {
                 ["version"] = "1",
                 ["LastId"] = 0,
@@ -25,7 +25,15 @@ AlphaStyle_Styles =
                 {
                 },
             },
-            ["Tarolog Agharghim"] = 
+            ["Faulcon Delacy"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Tarodio Ararthinus"] = 
             {
                 ["version"] = "1",
                 ["LastId"] = 0,
@@ -41,31 +49,7 @@ AlphaStyle_Styles =
                 {
                 },
             },
-            ["Sneaks-Behind"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Ebony Knuckles"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Cassus Andronicus"] = 
+            ["Terminus Prime"] = 
             {
                 ["version"] = "1",
                 ["LastId"] = 0,
@@ -81,7 +65,55 @@ AlphaStyle_Styles =
                 {
                 },
             },
-            ["Tarodio Ararthinus"] = 
+            ["Tharodriel Ararthin"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Ebony Knuckles"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Tarolog Agharghim"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Ser Sancho"] = 
+            {
+                ["version"] = "1",
+                ["LastId"] = 0,
+                ["Styles"] = 
+                {
+                },
+            },
+            ["Jimenuki Ararthin"] = 
             {
                 ["version"] = "1",
                 ["LastId"] = 0,
@@ -112,16 +144,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "Covenant",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 4,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                             ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["SortKey"] = "New Style 1",
                         ["TitleId"] = 1,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "Covenant",
+                        ["OutfitId"] = 4,
+                        ["SortKey"] = "New Style 1",
                     },
                     [2] = 
                     {
@@ -140,16 +172,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "No Style",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = -1,
                         ["Costume"] = 
                         {
-                            ["link"] = 0,
                             ["id"] = 0,
+                            ["link"] = 0,
                         },
-                        ["SortKey"] = "New Style 2",
                         ["TitleId"] = 34,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "No Style",
+                        ["OutfitId"] = -1,
+                        ["SortKey"] = "New Style 2",
                     },
                     [3] = 
                     {
@@ -168,16 +200,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "PvP Dark Hojablanca",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 3,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                             ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["SortKey"] = "New Style 3",
                         ["TitleId"] = 15,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "PvP Dark Hojablanca",
+                        ["OutfitId"] = 3,
+                        ["SortKey"] = "New Style 3",
                     },
                     [4] = 
                     {
@@ -196,16 +228,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "PvP Dark",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 3,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                             ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["SortKey"] = "New Style 4",
                         ["TitleId"] = 15,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "PvP Dark",
+                        ["OutfitId"] = 3,
+                        ["SortKey"] = "New Style 4",
                     },
                     [5] = 
                     {
@@ -224,16 +256,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "PvE Akelarre",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 1,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:15995|h|h",
                             ["id"] = "4618645115282406501",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:15995|h|h",
                         },
-                        ["SortKey"] = "New Style 5",
                         ["TitleId"] = 20,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "PvE Akelarre",
+                        ["OutfitId"] = 1,
+                        ["SortKey"] = "New Style 5",
                     },
                     [6] = 
                     {
@@ -252,16 +284,16 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Name"] = "Covenant Armor",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 4,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                             ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["SortKey"] = "New Style 6",
                         ["TitleId"] = 10,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "Covenant Armor",
+                        ["OutfitId"] = 4,
+                        ["SortKey"] = "New Style 6",
                     },
                     [7] = 
                     {
@@ -280,49 +312,17 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 1451,
                         },
-                        ["Name"] = "Gayish",
-                        ["IgnoreTitle"] = false,
-                        ["OutfitId"] = 4,
                         ["Costume"] = 
                         {
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                             ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["SortKey"] = "New Style 7",
                         ["TitleId"] = 10,
+                        ["IgnoreTitle"] = false,
+                        ["Name"] = "Gayish",
+                        ["OutfitId"] = 4,
+                        ["SortKey"] = "New Style 7",
                     },
-                },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Terminus Prime"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
                 },
             },
             ["Iwillbedeleted"] = 
@@ -333,7 +333,7 @@ AlphaStyle_Styles =
                 {
                 },
             },
-            ["Ser Sancho"] = 
+            ["Cassus Andronicus"] = 
             {
                 ["version"] = "1",
                 ["LastId"] = 0,
