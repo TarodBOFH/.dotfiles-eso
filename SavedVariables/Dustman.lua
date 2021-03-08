@@ -4,6902 +4,574 @@ Dustman_SavedVariables =
     {
         ["@cbr600f"] = 
         {
-            ["8798292083449656"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Iwillbedeleted",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [10] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [62] = false,
-                    [12] = false,
-                    [29] = false,
-                    [30] = false,
-                    [44] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292082900598"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Ebony Knuckles",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [58] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [62] = false,
-                    [44] = false,
-                    [29] = false,
-                    [30] = false,
-                    [12] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292077956402"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Sneaks-Behind",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [12] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [30] = false,
-                    [44] = false,
-                    [29] = false,
-                    [62] = false,
-                    [10] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292081773772"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Tarolog Agharghim",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [44] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [30] = false,
-                    [12] = false,
-                    [29] = false,
-                    [62] = false,
-                    [58] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292081990122"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Cassus Andronicus",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [12] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [30] = false,
-                    [44] = false,
-                    [29] = false,
-                    [62] = false,
-                    [10] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292082164860"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Tharodriel Ararthin",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [10] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [62] = false,
-                    [12] = false,
-                    [29] = false,
-                    [30] = false,
-                    [44] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292067301326"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [58] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [62] = false,
-                    [44] = false,
-                    [29] = false,
-                    [30] = false,
-                    [12] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292067184426"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Jimenuki Ararthin",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [58] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [62] = false,
-                    [44] = false,
-                    [29] = false,
-                    [30] = false,
-                    [12] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292077852888"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [44] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [30] = false,
-                    [12] = false,
-                    [29] = false,
-                    [62] = false,
-                    [58] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292067209854"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Tarodion Ararthin",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [44] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [30] = false,
-                    [12] = false,
-                    [29] = false,
-                    [62] = false,
-                    [58] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
             ["8798292076443470"] = 
             {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
                 ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [12] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [30] = false,
+                    [44] = false,
+                    [29] = false,
+                    [62] = false,
+                    [10] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
                 ["$LastCharacterName"] = "Neria Rothalen",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [12] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [30] = false,
-                    [44] = false,
-                    [29] = false,
-                    [62] = false,
-                    [10] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
                 ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292067300970"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Tarod Ararthin",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
                 ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [12] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [30] = false,
-                    [44] = false,
-                    [29] = false,
-                    [62] = false,
-                    [10] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
                 ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
-            },
-            ["8798292083070846"] = 
-            {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Ser Sancho",
-                ["fullStackBankPoisons"] = false,
-                ["notifications"] = 
-                {
-                    ["found"] = false,
-                    ["allItems"] = true,
-                    ["sellDialog"] = true,
-                    ["verbose"] = false,
-                    ["sell"] = true,
-                    ["total"] = true,
-                },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
                 ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [58] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [62] = false,
-                    [44] = false,
-                    [29] = false,
-                    [30] = false,
-                    [12] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
-                ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
-                ["enchanting"] = 
-                {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
-                    ["potencyRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45812",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45814",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45822",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45809",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "45825",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45826",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "68340",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45810",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45821",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "64508",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45806",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45857",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45855",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45828",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45830",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45816",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45818",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45819",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45807",
-                        },
-                        [20] = 
-                        {
-                            [2] = false,
-                            [1] = "45827",
-                        },
-                        [21] = 
-                        {
-                            [2] = false,
-                            [1] = "45823",
-                        },
-                        [22] = 
-                        {
-                            [2] = false,
-                            [1] = "45508",
-                        },
-                        [23] = 
-                        {
-                            [2] = false,
-                            [1] = "45811",
-                        },
-                        [24] = 
-                        {
-                            [2] = false,
-                            [1] = "45856",
-                        },
-                        [25] = 
-                        {
-                            [2] = false,
-                            [1] = "45829",
-                        },
-                        [26] = 
-                        {
-                            [2] = false,
-                            [1] = "64509",
-                        },
-                        [27] = 
-                        {
-                            [2] = false,
-                            [1] = "45824",
-                        },
-                        [28] = 
-                        {
-                            [2] = false,
-                            [1] = "45815",
-                        },
-                        [29] = 
-                        {
-                            [2] = false,
-                            [1] = "68341",
-                        },
-                        [30] = 
-                        {
-                            [2] = false,
-                            [1] = "45813",
-                        },
-                        [31] = 
-                        {
-                            [2] = false,
-                            [1] = "45820",
-                        },
-                    },
-                    ["aspectQuality"] = 1,
-                    ["essenceRunes"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = false,
-                            [1] = "45839",
-                        },
-                        [2] = 
-                        {
-                            [2] = false,
-                            [1] = "45833",
-                        },
-                        [3] = 
-                        {
-                            [2] = false,
-                            [1] = "45836",
-                        },
-                        [4] = 
-                        {
-                            [2] = false,
-                            [1] = "45842",
-                        },
-                        [5] = 
-                        {
-                            [2] = false,
-                            [1] = "68342",
-                        },
-                        [6] = 
-                        {
-                            [2] = false,
-                            [1] = "45841",
-                        },
-                        [7] = 
-                        {
-                            [2] = false,
-                            [1] = "166045",
-                        },
-                        [8] = 
-                        {
-                            [2] = false,
-                            [1] = "45849",
-                        },
-                        [9] = 
-                        {
-                            [2] = false,
-                            [1] = "45837",
-                        },
-                        [10] = 
-                        {
-                            [2] = false,
-                            [1] = "45848",
-                        },
-                        [11] = 
-                        {
-                            [2] = false,
-                            [1] = "45832",
-                        },
-                        [12] = 
-                        {
-                            [2] = false,
-                            [1] = "45835",
-                        },
-                        [13] = 
-                        {
-                            [2] = false,
-                            [1] = "45840",
-                        },
-                        [14] = 
-                        {
-                            [2] = false,
-                            [1] = "45831",
-                        },
-                        [15] = 
-                        {
-                            [2] = false,
-                            [1] = "45834",
-                        },
-                        [16] = 
-                        {
-                            [2] = false,
-                            [1] = "45843",
-                        },
-                        [17] = 
-                        {
-                            [2] = false,
-                            [1] = "45846",
-                        },
-                        [18] = 
-                        {
-                            [2] = false,
-                            [1] = "45838",
-                        },
-                        [19] = 
-                        {
-                            [2] = false,
-                            [1] = "45847",
-                        },
-                    },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
-                },
-                ["furnishing"] = 
-                {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
-                },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
                 ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
-                ["destroyExcludeStackable"] = false,
-                ["crafting"] = 
-                {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
-                    ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
-                    ["lowLevelClothingRawMaterials"] = false,
-                    ["lowLevelJewelryMaterials"] = false,
-                },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
-                ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
-                ["itemTraits"] = 
-                {
-                    [32] = false,
-                    [1] = false,
-                    [2] = false,
-                    [3] = false,
-                    [4] = false,
-                    [5] = false,
-                    [6] = false,
-                    [7] = false,
-                    [8] = false,
-                    [11] = false,
-                    [12] = false,
-                    [13] = false,
-                    [14] = false,
-                    [15] = false,
-                    [16] = false,
-                    [17] = false,
-                    [18] = false,
-                    [21] = false,
-                    [22] = false,
-                    [23] = false,
-                    [33] = false,
-                    [28] = false,
-                    [29] = false,
-                    [30] = false,
-                    [31] = false,
-                },
-                ["fullStackBagPoisonsSolvants"] = false,
             },
             ["8798292078118710"] = 
             {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Lord Tarod of Aragon",
-                ["fullStackBankPoisons"] = false,
+                ["fullStackBagPoisons"] = false,
                 ["notifications"] = 
                 {
-                    ["found"] = false,
-                    ["allItems"] = true,
                     ["sellDialog"] = true,
-                    ["verbose"] = false,
+                    ["allItems"] = true,
+                    ["found"] = false,
                     ["sell"] = true,
+                    ["verbose"] = false,
                     ["total"] = true,
                 },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [10] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [62] = false,
-                    [12] = false,
-                    [29] = false,
-                    [30] = false,
-                    [44] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
                 ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
                 ["enchanting"] = 
                 {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
+                    ["essenceFullStack"] = false,
                     ["potencyRunes"] = 
                     {
                         [1] = 
@@ -7058,7 +730,10 @@ Dustman_SavedVariables =
                             [1] = "45820",
                         },
                     },
-                    ["aspectQuality"] = 1,
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
                     ["essenceRunes"] = 
                     {
                         [1] = 
@@ -7157,89 +832,89 @@ Dustman_SavedVariables =
                             [1] = "45847",
                         },
                     },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
                 },
-                ["furnishing"] = 
+                ["equipment"] = 
                 {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
                 },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
                 ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
                 ["crafting"] = 
                 {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
                     ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
                     ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
                     ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
                 },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
                 ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
+                ["lure"] = false,
+                ["lowStolen"] = 1,
                 ["itemTraits"] = 
                 {
                     [32] = false,
@@ -7268,157 +943,1192 @@ Dustman_SavedVariables =
                     [30] = false,
                     [31] = false,
                 },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
                 ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [10] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [62] = false,
+                    [12] = false,
+                    [29] = false,
+                    [30] = false,
+                    [44] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Lord Tarod of Aragon",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292082164860"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [10] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [62] = false,
+                    [12] = false,
+                    [29] = false,
+                    [30] = false,
+                    [44] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Tharodriel Ararthin",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292083449656"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [10] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [62] = false,
+                    [12] = false,
+                    [29] = false,
+                    [30] = false,
+                    [44] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Iwillbedeleted",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
             },
             ["8798292083499544"] = 
             {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Terminus Prime",
-                ["fullStackBankPoisons"] = false,
+                ["fullStackBagPoisons"] = false,
                 ["notifications"] = 
                 {
-                    ["found"] = false,
-                    ["allItems"] = true,
                     ["sellDialog"] = true,
-                    ["verbose"] = false,
+                    ["allItems"] = true,
+                    ["found"] = false,
                     ["sell"] = true,
+                    ["verbose"] = false,
                     ["total"] = true,
                 },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [10] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [62] = false,
-                    [12] = false,
-                    [29] = false,
-                    [30] = false,
-                    [44] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
                 ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
                 ["enchanting"] = 
                 {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
+                    ["essenceFullStack"] = false,
                     ["potencyRunes"] = 
                     {
                         [1] = 
@@ -7577,7 +2287,10 @@ Dustman_SavedVariables =
                             [1] = "45820",
                         },
                     },
-                    ["aspectQuality"] = 1,
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
                     ["essenceRunes"] = 
                     {
                         [1] = 
@@ -7676,89 +2389,89 @@ Dustman_SavedVariables =
                             [1] = "45847",
                         },
                     },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
                 },
-                ["furnishing"] = 
+                ["equipment"] = 
                 {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
                 },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
                 ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
                 ["crafting"] = 
                 {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
                     ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
                     ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
                     ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
                 },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
                 ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
+                ["lure"] = false,
+                ["lowStolen"] = 1,
                 ["itemTraits"] = 
                 {
                     [32] = false,
@@ -7787,157 +2500,1192 @@ Dustman_SavedVariables =
                     [30] = false,
                     [31] = false,
                 },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
                 ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [10] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [62] = false,
+                    [12] = false,
+                    [29] = false,
+                    [30] = false,
+                    [44] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Terminus Prime",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292081990122"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [12] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [30] = false,
+                    [44] = false,
+                    [29] = false,
+                    [62] = false,
+                    [10] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Cassus Andronicus",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292077956402"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [12] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [30] = false,
+                    [44] = false,
+                    [29] = false,
+                    [62] = false,
+                    [10] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
             },
             ["8798292067859494"] = 
             {
-                ["lureFullStackBank"] = false,
-                ["$LastCharacterName"] = "Faulcon Delacy",
-                ["fullStackBankPoisons"] = false,
+                ["fullStackBagPoisons"] = false,
                 ["notifications"] = 
                 {
-                    ["found"] = false,
-                    ["allItems"] = true,
                     ["sellDialog"] = true,
-                    ["verbose"] = false,
+                    ["allItems"] = true,
+                    ["found"] = false,
                     ["sell"] = true,
+                    ["verbose"] = false,
                     ["total"] = true,
                 },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = false,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = false,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = false,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = true,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 2,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = false,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = false,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = false,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = false,
-                ["useMemoryFirst"] = false,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [44] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [10] = false,
-                    [30] = false,
-                    [12] = false,
-                    [29] = false,
-                    [62] = false,
-                    [58] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = false,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
                 ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = false,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = false,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = false,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = false,
-                ["museumPiecesDestroy"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
                 ["enchanting"] = 
                 {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
+                    ["essenceFullStack"] = false,
                     ["potencyRunes"] = 
                     {
                         [1] = 
@@ -8096,7 +3844,10 @@ Dustman_SavedVariables =
                             [1] = "45820",
                         },
                     },
-                    ["aspectQuality"] = 1,
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
                     ["essenceRunes"] = 
                     {
                         [1] = 
@@ -8195,89 +3946,89 @@ Dustman_SavedVariables =
                             [1] = "45847",
                         },
                     },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
                 },
-                ["furnishing"] = 
+                ["equipment"] = 
                 {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
                 },
-                ["stolen"] = false,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = false,
-                ["emptyGems"] = false,
-                ["treasureMaps"] = false,
-                ["destroy"] = false,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["housingRecipes"] = false,
-                ["stolenRecipeQuality"] = 1,
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
                 ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
                 ["crafting"] = 
                 {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
                     ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
                     ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
                     ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
                 },
-                ["destroyStolenValue"] = 0,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["stolenQuality"] = 1,
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = true,
-                ["worldname"] = "EU Megaserver",
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
                 ["destroyNonLaundered"] = false,
-                ["keepPotionsLevel"] = 1,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
+                ["lure"] = false,
+                ["lowStolen"] = 1,
                 ["itemTraits"] = 
                 {
                     [32] = false,
@@ -8306,7 +4057,4256 @@ Dustman_SavedVariables =
                     [30] = false,
                     [31] = false,
                 },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
                 ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [44] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [30] = false,
+                    [12] = false,
+                    [29] = false,
+                    [62] = false,
+                    [58] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Faulcon Delacy",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292067300970"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [12] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [30] = false,
+                    [44] = false,
+                    [29] = false,
+                    [62] = false,
+                    [10] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292067209854"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [44] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [30] = false,
+                    [12] = false,
+                    [29] = false,
+                    [62] = false,
+                    [58] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292077852888"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [44] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [30] = false,
+                    [12] = false,
+                    [29] = false,
+                    [62] = false,
+                    [58] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292083070846"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [58] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [62] = false,
+                    [44] = false,
+                    [29] = false,
+                    [30] = false,
+                    [12] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Ser Sancho",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292067184426"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [58] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [62] = false,
+                    [44] = false,
+                    [29] = false,
+                    [30] = false,
+                    [12] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Jimenuki Ararthin",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292081773772"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [44] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [30] = false,
+                    [12] = false,
+                    [29] = false,
+                    [62] = false,
+                    [58] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Tarolog Agharghim",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292082900598"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [58] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [62] = false,
+                    [44] = false,
+                    [29] = false,
+                    [30] = false,
+                    [12] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Ebony Knuckles",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
+            },
+            ["8798292067301326"] = 
+            {
+                ["fullStackBagPoisons"] = false,
+                ["notifications"] = 
+                {
+                    ["sellDialog"] = true,
+                    ["allItems"] = true,
+                    ["found"] = false,
+                    ["sell"] = true,
+                    ["verbose"] = false,
+                    ["total"] = true,
+                },
+                ["junkTraitSets"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = false,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = false,
+                ["enchanting"] = 
+                {
+                    ["essenceFullStack"] = false,
+                    ["potencyRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45812",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45814",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45822",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45809",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "45825",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45826",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "68340",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45810",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45821",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "64508",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45806",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45857",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45855",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45828",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45830",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45816",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45818",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45819",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45807",
+                        },
+                        [20] = 
+                        {
+                            [2] = false,
+                            [1] = "45827",
+                        },
+                        [21] = 
+                        {
+                            [2] = false,
+                            [1] = "45823",
+                        },
+                        [22] = 
+                        {
+                            [2] = false,
+                            [1] = "45508",
+                        },
+                        [23] = 
+                        {
+                            [2] = false,
+                            [1] = "45811",
+                        },
+                        [24] = 
+                        {
+                            [2] = false,
+                            [1] = "45856",
+                        },
+                        [25] = 
+                        {
+                            [2] = false,
+                            [1] = "45829",
+                        },
+                        [26] = 
+                        {
+                            [2] = false,
+                            [1] = "64509",
+                        },
+                        [27] = 
+                        {
+                            [2] = false,
+                            [1] = "45824",
+                        },
+                        [28] = 
+                        {
+                            [2] = false,
+                            [1] = "45815",
+                        },
+                        [29] = 
+                        {
+                            [2] = false,
+                            [1] = "68341",
+                        },
+                        [30] = 
+                        {
+                            [2] = false,
+                            [1] = "45813",
+                        },
+                        [31] = 
+                        {
+                            [2] = false,
+                            [1] = "45820",
+                        },
+                    },
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
+                    ["essenceRunes"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = false,
+                            [1] = "45839",
+                        },
+                        [2] = 
+                        {
+                            [2] = false,
+                            [1] = "45833",
+                        },
+                        [3] = 
+                        {
+                            [2] = false,
+                            [1] = "45836",
+                        },
+                        [4] = 
+                        {
+                            [2] = false,
+                            [1] = "45842",
+                        },
+                        [5] = 
+                        {
+                            [2] = false,
+                            [1] = "68342",
+                        },
+                        [6] = 
+                        {
+                            [2] = false,
+                            [1] = "45841",
+                        },
+                        [7] = 
+                        {
+                            [2] = false,
+                            [1] = "166045",
+                        },
+                        [8] = 
+                        {
+                            [2] = false,
+                            [1] = "45849",
+                        },
+                        [9] = 
+                        {
+                            [2] = false,
+                            [1] = "45837",
+                        },
+                        [10] = 
+                        {
+                            [2] = false,
+                            [1] = "45848",
+                        },
+                        [11] = 
+                        {
+                            [2] = false,
+                            [1] = "45832",
+                        },
+                        [12] = 
+                        {
+                            [2] = false,
+                            [1] = "45835",
+                        },
+                        [13] = 
+                        {
+                            [2] = false,
+                            [1] = "45840",
+                        },
+                        [14] = 
+                        {
+                            [2] = false,
+                            [1] = "45831",
+                        },
+                        [15] = 
+                        {
+                            [2] = false,
+                            [1] = "45834",
+                        },
+                        [16] = 
+                        {
+                            [2] = false,
+                            [1] = "45843",
+                        },
+                        [17] = 
+                        {
+                            [2] = false,
+                            [1] = "45846",
+                        },
+                        [18] = 
+                        {
+                            [2] = false,
+                            [1] = "45838",
+                        },
+                        [19] = 
+                        {
+                            [2] = false,
+                            [1] = "45847",
+                        },
+                    },
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
+                },
+                ["equipment"] = 
+                {
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = false,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = false,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = false,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = false,
+                        ["ornateQuality"] = 2,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = false,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                },
+                ["poisonsSolvants"] = false,
+                ["memory"] = false,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
+                ["crafting"] = 
+                {
+                    ["lowLevelBlacksmithingMaterials"] = false,
+                    ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
+                    ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
+                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
+                ["itemTraits"] = 
+                {
+                    [32] = false,
+                    [1] = false,
+                    [2] = false,
+                    [3] = false,
+                    [4] = false,
+                    [5] = false,
+                    [6] = false,
+                    [7] = false,
+                    [8] = false,
+                    [11] = false,
+                    [12] = false,
+                    [13] = false,
+                    [14] = false,
+                    [15] = false,
+                    [16] = false,
+                    [17] = false,
+                    [18] = false,
+                    [21] = false,
+                    [22] = false,
+                    [23] = false,
+                    [33] = false,
+                    [28] = false,
+                    [29] = false,
+                    [30] = false,
+                    [31] = false,
+                },
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
+                ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = false,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["traitFullStack"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["stolenQuality"] = 1,
+                ["destroyValue"] = 0,
+                ["bot"] = 1,
+                ["destroyKeybind"] = false,
+                ["keepPotionsLevel"] = 1,
+                ["treasures"] = false,
+                ["fullStackBankPotions"] = false,
+                ["useMemoryFirst"] = false,
+                ["trophy"] = false,
+                ["launder"] = false,
+                ["stolen"] = false,
+                ["destroyStolenValue"] = 0,
+                ["fullStackBagPotions"] = false,
+                ["potions"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [58] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [10] = false,
+                    [62] = false,
+                    [44] = false,
+                    [29] = false,
+                    [30] = false,
+                    [12] = false,
+                },
+                ["junkKeybind"] = false,
+                ["excludeStolenClothes"] = true,
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
             },
         },
     },
@@ -8319,153 +8319,53 @@ Dustman_GlobalSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["lureFullStackBank"] = false,
-                ["destroyNonLaundered"] = false,
-                ["fullStackBankPoisons"] = false,
+                ["fullStackBagPoisons"] = false,
                 ["notifications"] = 
                 {
-                    ["found"] = true,
-                    ["allItems"] = true,
                     ["sellDialog"] = true,
-                    ["verbose"] = true,
+                    ["allItems"] = true,
+                    ["found"] = true,
                     ["sell"] = true,
+                    ["verbose"] = true,
                     ["total"] = true,
                 },
-                ["styleFullStack"] = false,
-                ["keepPoisonsLevel"] = 1,
-                ["glyphsQuality"] = 1,
-                ["fullStackBagPotions"] = true,
-                ["museumPieces"] = false,
-                ["dailyLoginPotions"] = false,
-                ["equipment"] = 
-                {
-                    ["wa"] = 
-                    {
-                        ["keepBG"] = true,
-                        ["enabled"] = true,
-                        ["keepNirnhoned"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["disguises"] = true,
-                        ["whiteZeroValue"] = true,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepSetItems"] = true,
-                        ["keepResearchable"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepIntricate"] = true,
-                        ["notraitQuality"] = 1,
-                        ["ornateQuality"] = 1,
-                        ["keepMonsterSets"] = true,
-                        ["keepArenaWeapons"] = true,
-                        ["keepOverland"] = true,
-                        ["equipmentQuality"] = 1,
-                        ["notrait"] = true,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["disguisesDestroy"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                    ["j"] = 
-                    {
-                        ["equipmentQuality"] = 1,
-                        ["enabled"] = true,
-                        ["keepSpecial"] = true,
-                        ["ornate"] = true,
-                        ["keepIC"] = true,
-                        ["keepIntricate"] = true,
-                        ["whiteZeroValue"] = true,
-                        ["keepCyro"] = true,
-                        ["keepIntricateIfNotMaxed"] = false,
-                        ["keepLevel"] = 1,
-                        ["keepResearchable"] = true,
-                        ["keepBG"] = true,
-                        ["notraitQuality"] = 1,
-                        ["keepDRandIC"] = true,
-                        ["keepOverland"] = true,
-                        ["ornateQuality"] = 2,
-                        ["notrait"] = false,
-                        ["keepDungeon"] = true,
-                        ["keepTrial"] = true,
-                        ["keepSetItems"] = true,
-                        ["keepCrafted"] = true,
-                        ["keepLevelOrnate"] = false,
-                    },
-                },
-                ["keepLevelGlyphs"] = 1,
-                ["destroyQuality"] = 1,
-                ["styleMaterial"] = 
-                {
-                    ["33254"] = false,
-                    ["33252"] = false,
-                    ["33251"] = false,
-                    ["46151"] = false,
-                    ["33194"] = false,
-                    ["33253"] = false,
-                    ["46149"] = false,
-                    ["33257"] = false,
-                    ["33255"] = false,
-                    ["46152"] = false,
-                    ["33256"] = false,
-                    ["33258"] = false,
-                    ["33150"] = false,
-                    ["46150"] = false,
-                },
-                ["destroyKeybind"] = false,
-                ["foodQuality"] = 1,
-                ["fullStackBankPoisonsSolvants"] = false,
-                ["dailyLoginDrink"] = false,
-                ["destroyStolenQuality"] = 1,
-                ["version"] = 2,
-                ["treasures"] = true,
-                ["useMemoryFirst"] = true,
-                ["excludeLaunder"] = 
-                {
-                    [48] = false,
-                    [33] = false,
-                    [19] = false,
-                    [4] = false,
-                    [12] = false,
-                    [7] = false,
-                    [56] = false,
-                    [9] = false,
-                    [58] = false,
-                    [30] = false,
-                    [44] = false,
-                    [29] = false,
-                    [62] = false,
-                    [10] = false,
-                },
-                ["traitFullStack"] = false,
-                ["trophies"] = true,
-                ["fullStackBagPoisons"] = false,
-                ["lure"] = false,
                 ["junkTraitSets"] = false,
-                ["dailyLoginRepairKits"] = false,
-                ["memory"] = true,
-                ["housingRecipesQuality"] = 1,
-                ["glyphs"] = false,
-                ["lowStolen"] = 1,
-                ["treasureMapsDestroy"] = false,
-                ["potions"] = true,
-                ["poisonsSolvants"] = false,
-                ["useGlobalSettings"] = true,
-                ["lureFullStack"] = false,
-                ["dailyLoginPoisons"] = false,
-                ["bot"] = 1,
-                ["fullStackBankPotions"] = false,
-                ["launder"] = true,
-                ["junkKeybind"] = false,
-                ["poisons"] = false,
-                ["trophy"] = true,
-                ["museumPiecesDestroy"] = false,
+                ["traitMaterial"] = 
+                {
+                    ["135155"] = false,
+                    ["4486"] = false,
+                    ["139412"] = false,
+                    ["4456"] = false,
+                    ["23203"] = false,
+                    ["813"] = false,
+                    ["139410"] = false,
+                    ["23219"] = false,
+                    ["23173"] = false,
+                    ["135156"] = false,
+                    ["23165"] = false,
+                    ["23171"] = false,
+                    ["4442"] = false,
+                    ["23149"] = false,
+                    ["135157"] = false,
+                    ["139413"] = false,
+                    ["30219"] = false,
+                    ["139414"] = false,
+                    ["30221"] = false,
+                    ["23204"] = false,
+                    ["810"] = false,
+                    ["23221"] = false,
+                    ["139411"] = false,
+                    ["139409"] = false,
+                    ["16291"] = false,
+                },
+                ["trophies"] = true,
+                ["dailyLoginDrink"] = false,
+                ["emptyGems"] = false,
+                ["treasureMaps"] = false,
+                ["destroy"] = true,
                 ["enchanting"] = 
                 {
-                    ["enchantingAspect"] = false,
-                    ["enchantingEssence"] = false,
-                    ["potencyFullStack"] = false,
+                    ["essenceFullStack"] = false,
                     ["potencyRunes"] = 
                     {
                         [1] = 
@@ -8624,7 +8524,10 @@ Dustman_GlobalSavedVariables =
                             [1] = "45820",
                         },
                     },
-                    ["aspectQuality"] = 1,
+                    ["enchantingPotency"] = false,
+                    ["potencyFullStack"] = false,
+                    ["enchantingAspect"] = false,
+                    ["aspectFullStack"] = false,
                     ["essenceRunes"] = 
                     {
                         [1] = 
@@ -8723,87 +8626,89 @@ Dustman_GlobalSavedVariables =
                             [1] = "45847",
                         },
                     },
-                    ["aspectFullStack"] = false,
-                    ["enchantingPotency"] = false,
-                    ["essenceFullStack"] = false,
+                    ["aspectQuality"] = 1,
+                    ["enchantingEssence"] = false,
                 },
-                ["furnishing"] = 
+                ["equipment"] = 
                 {
-                    ["alchResin"] = false,
-                    ["heartwood"] = false,
-                    ["mundRune"] = false,
-                    ["bast"] = false,
-                    ["regulus"] = false,
-                    ["ochre"] = false,
-                    ["cleanPelt"] = false,
-                    ["decWax"] = false,
+                    ["j"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["notraitQuality"] = 1,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = true,
+                        ["keepResearchable"] = true,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["notrait"] = false,
+                        ["keepCyro"] = true,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepSpecial"] = true,
+                        ["ornateQuality"] = 2,
+                        ["keepTrial"] = true,
+                        ["keepDRandIC"] = true,
+                        ["enabled"] = true,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
+                    ["wa"] = 
+                    {
+                        ["keepLevel"] = 1,
+                        ["keepArenaWeapons"] = true,
+                        ["keepMonsterSets"] = true,
+                        ["disguises"] = true,
+                        ["keepOverland"] = true,
+                        ["whiteZeroValue"] = true,
+                        ["keepResearchable"] = false,
+                        ["keepCrafted"] = true,
+                        ["ornate"] = true,
+                        ["keepIntricateIfNotMaxed"] = false,
+                        ["keepSetItems"] = true,
+                        ["keepIC"] = true,
+                        ["keepNirnhoned"] = true,
+                        ["notrait"] = true,
+                        ["keepCyro"] = true,
+                        ["disguisesDestroy"] = true,
+                        ["ornateQuality"] = 1,
+                        ["equipmentQuality"] = 1,
+                        ["keepLevelOrnate"] = false,
+                        ["keepTrial"] = true,
+                        ["keepSpecial"] = true,
+                        ["enabled"] = true,
+                        ["notraitQuality"] = 1,
+                        ["keepIntricate"] = true,
+                        ["keepBG"] = true,
+                        ["keepDungeon"] = true,
+                    },
                 },
-                ["stolen"] = true,
-                ["dailyLoginFood"] = false,
-                ["foodAll"] = true,
-                ["emptyGems"] = false,
-                ["stolenQuality"] = 1,
-                ["automaticScan"] = true,
-                ["destroyValue"] = 0,
-                ["destroy"] = true,
-                ["stolenRecipeQuality"] = 1,
-                ["housingRecipes"] = false,
+                ["poisonsSolvants"] = false,
+                ["memory"] = true,
+                ["dailyLoginPotions"] = false,
+                ["destroyExcludeStackable"] = false,
+                ["keepPoisonsLevel"] = 1,
                 ["crafting"] = 
                 {
-                    ["lowLevelWoodworkingMaterials"] = false,
-                    ["lowLevelWoodworkingRawMaterials"] = false,
                     ["lowLevelBlacksmithingMaterials"] = false,
-                    ["lowLevelBlacksmithingRawMaterials"] = false,
-                    ["lowLevelClothingMaterials"] = false,
-                    ["lowLevelJewelryRawMaterials"] = false,
                     ["lowLevelClothingRawMaterials"] = false,
+                    ["lowLevelBlacksmithingRawMaterials"] = false,
                     ["lowLevelJewelryMaterials"] = false,
+                    ["lowLevelJewelryRawMaterials"] = false,
+                    ["lowLevelWoodworkingRawMaterials"] = false,
+                    ["lowLevelClothingMaterials"] = false,
+                    ["lowLevelWoodworkingMaterials"] = false,
                 },
-                ["destroyStolenValue"] = 0,
-                ["destroyExcludeStackable"] = false,
-                ["provisioning"] = 
-                {
-                    ["unusable"] = false,
-                    ["recipe"] = false,
-                    ["recipeQuality"] = 2,
-                    ["drink"] = true,
-                    ["dish"] = true,
-                    ["all"] = false,
-                    ["fullStack"] = false,
-                    ["excludeRareAdditives"] = true,
-                },
-                ["dailyLoginSoulGems"] = false,
-                ["excludeStolenClothes"] = false,
-                ["treasureMaps"] = false,
-                ["keepPotionsLevel"] = 10150,
-                ["traitMaterial"] = 
-                {
-                    ["23219"] = false,
-                    ["23171"] = false,
-                    ["23204"] = false,
-                    ["4442"] = false,
-                    ["135156"] = false,
-                    ["810"] = false,
-                    ["4486"] = false,
-                    ["139410"] = false,
-                    ["135157"] = false,
-                    ["139413"] = false,
-                    ["23165"] = false,
-                    ["23149"] = false,
-                    ["139409"] = false,
-                    ["23173"] = false,
-                    ["23203"] = false,
-                    ["30221"] = false,
-                    ["30219"] = false,
-                    ["135155"] = false,
-                    ["139411"] = false,
-                    ["4456"] = false,
-                    ["16291"] = false,
-                    ["23221"] = false,
-                    ["139414"] = false,
-                    ["813"] = false,
-                    ["139412"] = false,
-                },
+                ["keepLevelGlyphs"] = 1,
+                ["foodQuality"] = 1,
+                ["poisons"] = false,
+                ["museumPiecesDestroy"] = false,
+                ["destroyNonLaundered"] = false,
+                ["lure"] = false,
+                ["lowStolen"] = 1,
                 ["itemTraits"] = 
                 {
                     [32] = false,
@@ -8832,8 +8737,103 @@ Dustman_GlobalSavedVariables =
                     [30] = false,
                     [31] = false,
                 },
-                ["fullStackBagPoisonsSolvants"] = false,
+                ["stolenRecipeQuality"] = 1,
+                ["destroyQuality"] = 1,
                 ["worldname"] = "EU Megaserver",
+                ["useGlobalSettings"] = true,
+                ["provisioning"] = 
+                {
+                    ["fullStack"] = false,
+                    ["all"] = false,
+                    ["unusable"] = false,
+                    ["recipeQuality"] = 2,
+                    ["dish"] = true,
+                    ["recipe"] = false,
+                    ["drink"] = true,
+                    ["excludeRareAdditives"] = true,
+                },
+                ["treasureMapsDestroy"] = false,
+                ["fullStackBankPoisons"] = false,
+                ["furnishing"] = 
+                {
+                    ["mundRune"] = false,
+                    ["cleanPelt"] = false,
+                    ["decWax"] = false,
+                    ["regulus"] = false,
+                    ["alchResin"] = false,
+                    ["ochre"] = false,
+                    ["bast"] = false,
+                    ["heartwood"] = false,
+                },
+                ["dailyLoginFood"] = false,
+                ["glyphs"] = false,
+                ["lureFullStackBank"] = false,
+                ["fullStackBagPoisonsSolvants"] = false,
+                ["destroyStolenQuality"] = 1,
+                ["version"] = 2,
+                ["styleFullStack"] = false,
+                ["foodAll"] = true,
+                ["dailyLoginPoisons"] = false,
+                ["housingRecipesQuality"] = 1,
+                ["lureFullStack"] = false,
+                ["dailyLoginRepairKits"] = false,
+                ["fullStackBankPoisonsSolvants"] = false,
+                ["traitFullStack"] = false,
+                ["destroyValue"] = 0,
+                ["fullStackBankPotions"] = false,
+                ["bot"] = 1,
+                ["keepPotionsLevel"] = 10150,
+                ["destroyKeybind"] = false,
+                ["treasures"] = true,
+                ["useMemoryFirst"] = true,
+                ["trophy"] = true,
+                ["stolenQuality"] = 1,
+                ["launder"] = true,
+                ["destroyStolenValue"] = 0,
+                ["stolen"] = true,
+                ["fullStackBagPotions"] = true,
+                ["potions"] = true,
+                ["junkKeybind"] = false,
+                ["excludeLaunder"] = 
+                {
+                    [48] = false,
+                    [33] = false,
+                    [19] = false,
+                    [4] = false,
+                    [12] = false,
+                    [7] = false,
+                    [56] = false,
+                    [9] = false,
+                    [58] = false,
+                    [30] = false,
+                    [44] = false,
+                    [29] = false,
+                    [62] = false,
+                    [10] = false,
+                },
+                ["styleMaterial"] = 
+                {
+                    ["33150"] = false,
+                    ["33253"] = false,
+                    ["33256"] = false,
+                    ["33251"] = false,
+                    ["46149"] = false,
+                    ["33258"] = false,
+                    ["46152"] = false,
+                    ["33257"] = false,
+                    ["46151"] = false,
+                    ["33254"] = false,
+                    ["33194"] = false,
+                    ["33255"] = false,
+                    ["33252"] = false,
+                    ["46150"] = false,
+                },
+                ["excludeStolenClothes"] = false,
+                ["housingRecipes"] = false,
+                ["glyphsQuality"] = 1,
+                ["dailyLoginSoulGems"] = false,
+                ["museumPieces"] = false,
+                ["automaticScan"] = true,
             },
         },
     },
@@ -8844,85 +8844,85 @@ Dustman_Junk_SavedVariables =
     {
         ["@cbr600f"] = 
         {
-            ["8798292083449656"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Iwillbedeleted",
-            },
-            ["8798292082900598"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Ebony Knuckles",
-            },
-            ["8798292077956402"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Sneaks-Behind",
-            },
-            ["8798292081773772"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Tarolog Agharghim",
-            },
-            ["8798292081990122"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Cassus Andronicus",
-            },
-            ["8798292082164860"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Tharodriel Ararthin",
-            },
-            ["8798292067301326"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Jimeneka Ararthin",
-            },
-            ["8798292067184426"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Jimenuki Ararthin",
-            },
-            ["8798292077852888"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
-            },
-            ["8798292067209854"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Tarodion Ararthin",
-            },
             ["8798292076443470"] = 
             {
-                ["version"] = 2,
                 ["$LastCharacterName"] = "Neria Rothalen",
-            },
-            ["8798292067300970"] = 
-            {
                 ["version"] = 2,
-                ["$LastCharacterName"] = "Tarod Ararthin",
-            },
-            ["8798292083070846"] = 
-            {
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Ser Sancho",
             },
             ["8798292078118710"] = 
             {
-                ["version"] = 2,
                 ["$LastCharacterName"] = "Lord Tarod of Aragon",
+                ["version"] = 2,
+            },
+            ["8798292082164860"] = 
+            {
+                ["$LastCharacterName"] = "Tharodriel Ararthin",
+                ["version"] = 2,
+            },
+            ["8798292083449656"] = 
+            {
+                ["$LastCharacterName"] = "Iwillbedeleted",
+                ["version"] = 2,
             },
             ["8798292083499544"] = 
             {
-                ["version"] = 2,
                 ["$LastCharacterName"] = "Terminus Prime",
+                ["version"] = 2,
+            },
+            ["8798292081990122"] = 
+            {
+                ["$LastCharacterName"] = "Cassus Andronicus",
+                ["version"] = 2,
+            },
+            ["8798292077956402"] = 
+            {
+                ["$LastCharacterName"] = "Sneaks-Behind",
+                ["version"] = 2,
             },
             ["8798292067859494"] = 
             {
-                ["version"] = 2,
                 ["$LastCharacterName"] = "Faulcon Delacy",
+                ["version"] = 2,
+            },
+            ["8798292067300970"] = 
+            {
+                ["$LastCharacterName"] = "Tarod Ararthin",
+                ["version"] = 2,
+            },
+            ["8798292067209854"] = 
+            {
+                ["$LastCharacterName"] = "Tarodion Ararthin",
+                ["version"] = 2,
+            },
+            ["8798292077852888"] = 
+            {
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
+                ["version"] = 2,
+            },
+            ["8798292083070846"] = 
+            {
+                ["$LastCharacterName"] = "Ser Sancho",
+                ["version"] = 2,
+            },
+            ["8798292067184426"] = 
+            {
+                ["$LastCharacterName"] = "Jimenuki Ararthin",
+                ["version"] = 2,
+            },
+            ["8798292081773772"] = 
+            {
+                ["$LastCharacterName"] = "Tarolog Agharghim",
+                ["version"] = 2,
+            },
+            ["8798292082900598"] = 
+            {
+                ["$LastCharacterName"] = "Ebony Knuckles",
+                ["version"] = 2,
+            },
+            ["8798292067301326"] = 
+            {
+                ["$LastCharacterName"] = "Jimeneka Ararthin",
+                ["version"] = 2,
             },
         },
     },
@@ -8935,11 +8935,11 @@ Dustman_Junk_GlobalSavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["44875_2_10"] = true,
                 ["version"] = 2,
-                ["44874_2_1"] = true,
                 ["33825_2_6"] = true,
                 ["33526_2_6"] = false,
-                ["44875_2_10"] = true,
+                ["44874_2_1"] = true,
             },
         },
     },

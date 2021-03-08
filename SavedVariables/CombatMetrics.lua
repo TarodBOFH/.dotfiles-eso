@@ -8,12 +8,81 @@ CombatMetrics_Save =
             {
                 ["Settings"] = 
                 {
+                    ["autoselectchatchannel"] = true,
+                    ["autoscreenshotmintime"] = 30,
+                    ["fighthistory"] = 25,
+                    ["offincyrodil"] = false,
+                    ["NotificationAllowed"] = true,
+                    ["keepbossfights"] = false,
+                    ["chunksize"] = 1480,
+                    ["unitresistance"] = 18200,
                     ["maxSVsize"] = 10,
+                    ["version"] = 5,
+                    ["currentNotificationVersion"] = 1,
+                    ["lightmode"] = false,
+                    ["chatLog"] = 
+                    {
+                        ["damageOut"] = true,
+                        ["healingOut"] = false,
+                        ["name"] = "CMX Combat Log",
+                        ["healingIn"] = false,
+                        ["damageIn"] = false,
+                        ["enabled"] = false,
+                    },
+                    ["crusherValue"] = 2108,
+                    ["ForceNotification"] = false,
+                    ["NotificationRead"] = 0,
+                    ["lightmodeincyrodil"] = true,
+                    ["CombatMetrics_Report"] = 
+                    {
+                        ["x"] = 1241,
+                        ["y"] = 719,
+                    },
+                    ["recordgrpinlarge"] = true,
+                    ["liveReport"] = 
+                    {
+                        ["bgalpha"] = 50,
+                        ["time"] = true,
+                        ["alignmentleft"] = true,
+                        ["healIn"] = true,
+                        ["locked"] = false,
+                        ["healOutAbsolute"] = true,
+                        ["enabled"] = true,
+                        ["damageOut"] = true,
+                        ["healOut"] = true,
+                        ["scale"] = 1,
+                        ["damageOutSingle"] = false,
+                        ["damageIn"] = true,
+                        ["layout"] = "Compact",
+                    },
+                    ["SVsize"] = 0.0000381470,
                     ["FightReport"] = 
                     {
+                        ["maxValue"] = 
+                        {
+                            ["damageIn"] = true,
+                            ["damageOut"] = true,
+                            ["healingOut"] = true,
+                            ["healingIn"] = true,
+                        },
                         ["FavouriteBuffs"] = 
                         {
                         },
+                        ["rightpanel"] = "buffs",
+                        ["showWereWolf"] = false,
+                        ["ShowGroupBuffsInPlots"] = true,
+                        ["scale"] = 1,
+                        ["SmoothWindow"] = 5,
+                        ["mainpanel"] = "FightStats",
+                        ["hitCritLayout"] = 
+                        {
+                            ["damageIn"] = 1,
+                            ["damageOut"] = 1,
+                            ["healingOut"] = 1,
+                            ["healingIn"] = 1,
+                        },
+                        ["fightstatspanel"] = 0,
+                        ["Cursor"] = true,
                         ["PlotColors"] = 
                         {
                             [1] = 
@@ -66,25 +135,15 @@ CombatMetrics_Save =
                                 [3] = 0.9000000000,
                             },
                         },
-                        ["ShowGroupBuffsInPlots"] = true,
+                        ["category"] = "damageOut",
+                        ["useDisplayNames"] = false,
+                        ["showPets"] = true,
                         ["averageLayout"] = 
                         {
                             ["damageIn"] = 1,
+                            ["damageOut"] = 1,
                             ["healingOut"] = 1,
                             ["healingIn"] = 1,
-                            ["damageOut"] = 1,
-                        },
-                        ["showPets"] = true,
-                        ["useDisplayNames"] = false,
-                        ["SmoothWindow"] = 5,
-                        ["Cursor"] = true,
-                        ["rightpanel"] = "buffs",
-                        ["hitCritLayout"] = 
-                        {
-                            ["damageIn"] = 1,
-                            ["healingOut"] = 1,
-                            ["healingIn"] = 1,
-                            ["damageOut"] = 1,
                         },
                         ["CLSelection"] = 
                         {
@@ -100,87 +159,103 @@ CombatMetrics_Save =
                             [14] = false,
                             [15] = false,
                         },
-                        ["mainpanel"] = "FightStats",
-                        ["maxValue"] = 
-                        {
-                            ["damageIn"] = true,
-                            ["healingOut"] = true,
-                            ["healingIn"] = true,
-                            ["damageOut"] = true,
-                        },
-                        ["scale"] = 1,
-                        ["category"] = "damageOut",
-                        ["fightstatspanel"] = -2,
                     },
+                    ["showstacks"] = true,
                     ["recordgrp"] = true,
-                    ["autoselectchatchannel"] = true,
-                    ["unitresistance"] = 18200,
-                    ["chatLog"] = 
-                    {
-                        ["name"] = "CMX Combat Log",
-                        ["enabled"] = false,
-                        ["healingOut"] = false,
-                        ["damageIn"] = false,
-                        ["healingIn"] = false,
-                        ["damageOut"] = true,
-                    },
-                    ["NotificationAllowed"] = true,
                     ["CombatMetrics_LiveReport"] = 
                     {
                         ["x"] = 2185,
                         ["y"] = 1427,
                     },
-                    ["keepbossfights"] = false,
-                    ["chunksize"] = 1480,
-                    ["fighthistory"] = 25,
-                    ["ForceNotification"] = false,
                     ["autoscreenshot"] = false,
-                    ["CombatMetrics_Report"] = 
-                    {
-                        ["x"] = 1241,
-                        ["y"] = 719,
-                    },
-                    ["version"] = 5,
-                    ["recordgrpinlarge"] = true,
-                    ["SVsize"] = 0.0000381470,
-                    ["offincyrodil"] = false,
-                    ["showstacks"] = true,
-                    ["autoscreenshotmintime"] = 30,
-                    ["lightmodeincyrodil"] = true,
-                    ["liveReport"] = 
-                    {
-                        ["locked"] = false,
-                        ["layout"] = "Compact",
-                        ["damageOut"] = true,
-                        ["enabled"] = true,
-                        ["time"] = true,
-                        ["alignmentleft"] = true,
-                        ["damageIn"] = true,
-                        ["healOut"] = true,
-                        ["damageOutSingle"] = false,
-                        ["healIn"] = true,
-                        ["scale"] = 1,
-                        ["bgalpha"] = 50,
-                        ["healOutAbsolute"] = true,
-                    },
-                    ["lightmode"] = false,
-                    ["NotificationRead"] = 0,
-                    ["accountwide"] = true,
-                    ["currentNotificationVersion"] = 1,
-                    ["crusherValue"] = 2108,
                     ["showDebugIds"] = false,
+                    ["accountwide"] = true,
                 },
             },
             ["8798292067184426"] = 
             {
                 ["Settings"] = 
                 {
+                    ["autoselectchatchannel"] = true,
+                    ["autoscreenshotmintime"] = 30,
+                    ["fighthistory"] = 25,
+                    ["offincyrodil"] = false,
+                    ["NotificationAllowed"] = true,
+                    ["keepbossfights"] = true,
+                    ["chunksize"] = 1000,
+                    ["unitresistance"] = 18200,
                     ["maxSVsize"] = 10,
+                    ["version"] = 5,
+                    ["currentNotificationVersion"] = 0,
+                    ["lightmode"] = false,
+                    ["chatLog"] = 
+                    {
+                        ["damageOut"] = true,
+                        ["healingOut"] = false,
+                        ["name"] = "CMX Combat Log",
+                        ["healingIn"] = false,
+                        ["damageIn"] = false,
+                        ["enabled"] = false,
+                    },
+                    ["crusherValue"] = 2108,
+                    ["ForceNotification"] = false,
+                    ["NotificationRead"] = 0,
+                    ["lightmodeincyrodil"] = true,
+                    ["CombatMetrics_Report"] = 
+                    {
+                        ["x"] = 1280,
+                        ["y"] = 645,
+                    },
+                    ["recordgrpinlarge"] = true,
+                    ["liveReport"] = 
+                    {
+                        ["bgalpha"] = 95,
+                        ["time"] = true,
+                        ["alignmentleft"] = false,
+                        ["healIn"] = true,
+                        ["locked"] = false,
+                        ["healOutAbsolute"] = false,
+                        ["enabled"] = true,
+                        ["damageOut"] = true,
+                        ["healOut"] = true,
+                        ["scale"] = 1.6000000000,
+                        ["damageOutSingle"] = false,
+                        ["damageIn"] = true,
+                        ["layout"] = "Compact",
+                    },
+                    ["SVsize"] = 0.0000381470,
                     ["FightReport"] = 
                     {
+                        ["mainpanel"] = "FightStats",
+                        ["showPets"] = true,
+                        ["hitCritLayout"] = 
+                        {
+                            ["damageIn"] = 1,
+                            ["damageOut"] = 1,
+                            ["healingOut"] = 1,
+                            ["healingIn"] = 1,
+                        },
+                        ["maxValue"] = 
+                        {
+                            ["damageIn"] = true,
+                            ["damageOut"] = true,
+                            ["healingOut"] = true,
+                            ["healingIn"] = true,
+                        },
                         ["FavouriteBuffs"] = 
                         {
                         },
+                        ["rightpanel"] = "buffs",
+                        ["fightstatspanel"] = 0,
+                        ["averageLayout"] = 
+                        {
+                            ["damageIn"] = 1,
+                            ["damageOut"] = 1,
+                            ["healingOut"] = 1,
+                            ["healingIn"] = 1,
+                        },
+                        ["ShowGroupBuffsInPlots"] = true,
+                        ["useDisplayNames"] = true,
                         ["PlotColors"] = 
                         {
                             [1] = 
@@ -233,26 +308,8 @@ CombatMetrics_Save =
                                 [3] = 0.9000000000,
                             },
                         },
-                        ["ShowGroupBuffsInPlots"] = true,
-                        ["averageLayout"] = 
-                        {
-                            ["damageIn"] = 1,
-                            ["healingOut"] = 1,
-                            ["healingIn"] = 1,
-                            ["damageOut"] = 1,
-                        },
-                        ["showPets"] = true,
-                        ["useDisplayNames"] = true,
-                        ["SmoothWindow"] = 5,
-                        ["Cursor"] = true,
-                        ["rightpanel"] = "buffs",
-                        ["hitCritLayout"] = 
-                        {
-                            ["damageIn"] = 1,
-                            ["healingOut"] = 1,
-                            ["healingIn"] = 1,
-                            ["damageOut"] = 1,
-                        },
+                        ["category"] = "damageOut",
+                        ["scale"] = 1.6000000000,
                         ["CLSelection"] = 
                         {
                             [16] = false,
@@ -267,75 +324,19 @@ CombatMetrics_Save =
                             [14] = false,
                             [15] = false,
                         },
-                        ["mainpanel"] = "FightStats",
-                        ["maxValue"] = 
-                        {
-                            ["damageIn"] = true,
-                            ["healingOut"] = true,
-                            ["healingIn"] = true,
-                            ["damageOut"] = true,
-                        },
-                        ["scale"] = 1.6000000000,
-                        ["category"] = "damageOut",
-                        ["fightstatspanel"] = 0,
+                        ["SmoothWindow"] = 5,
+                        ["Cursor"] = true,
                     },
+                    ["showstacks"] = true,
                     ["recordgrp"] = true,
-                    ["autoselectchatchannel"] = true,
-                    ["unitresistance"] = 18200,
-                    ["chatLog"] = 
-                    {
-                        ["name"] = "CMX Combat Log",
-                        ["enabled"] = false,
-                        ["healingOut"] = false,
-                        ["damageIn"] = false,
-                        ["healingIn"] = false,
-                        ["damageOut"] = true,
-                    },
-                    ["NotificationAllowed"] = true,
                     ["CombatMetrics_LiveReport"] = 
                     {
                         ["x"] = 700,
                         ["y"] = 500,
                     },
-                    ["keepbossfights"] = true,
-                    ["chunksize"] = 1000,
-                    ["fighthistory"] = 25,
-                    ["ForceNotification"] = false,
                     ["autoscreenshot"] = false,
-                    ["CombatMetrics_Report"] = 
-                    {
-                        ["x"] = 1280,
-                        ["y"] = 645,
-                    },
-                    ["version"] = 5,
-                    ["recordgrpinlarge"] = true,
-                    ["SVsize"] = 0.0000381470,
-                    ["offincyrodil"] = false,
-                    ["showstacks"] = true,
-                    ["autoscreenshotmintime"] = 30,
-                    ["lightmodeincyrodil"] = true,
-                    ["liveReport"] = 
-                    {
-                        ["locked"] = false,
-                        ["layout"] = "Compact",
-                        ["damageOut"] = true,
-                        ["enabled"] = true,
-                        ["time"] = true,
-                        ["alignmentleft"] = false,
-                        ["damageIn"] = true,
-                        ["healOut"] = true,
-                        ["damageOutSingle"] = false,
-                        ["healIn"] = true,
-                        ["scale"] = 1.6000000000,
-                        ["bgalpha"] = 95,
-                        ["healOutAbsolute"] = false,
-                    },
-                    ["lightmode"] = false,
-                    ["NotificationRead"] = 0,
-                    ["accountwide"] = false,
-                    ["currentNotificationVersion"] = 0,
-                    ["crusherValue"] = 2108,
                     ["showDebugIds"] = false,
+                    ["accountwide"] = false,
                 },
                 ["$LastCharacterName"] = "Jimenuki Ararthin",
             },
