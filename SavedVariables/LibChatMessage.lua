@@ -2,13 +2,13 @@ LibChatMessageSettings =
 {
     ["EU Megaserver@cbr600f"] = 
     {
-        ["timePrefixFormat"] = "[%T]",
-        ["version"] = 1,
-        ["timePrefixOnRegularChat"] = true,
-        ["timePrefixEnabled"] = false,
         ["tagPrefixMode"] = 1,
+        ["timePrefixFormat"] = "[%T]",
         ["historyMaxAge"] = 3600,
+        ["timePrefixEnabled"] = false,
+        ["version"] = 1,
         ["historyEnabled"] = false,
+        ["timePrefixOnRegularChat"] = true,
     },
 }
 LibChatMessageHistory =
