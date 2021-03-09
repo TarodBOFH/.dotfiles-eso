@@ -8,18 +8,18 @@ GroupFDBuffs =
             {
                 ["AccountSettings"] = 
                 {
+                    ["gYO"] = 0,
                     ["rXO"] = 0,
                     ["gXO"] = 0,
                     ["rYO"] = 0,
+                    ["showGroup"] = true,
                     ["groupMode"] = 3,
                     ["raidSize"] = 16,
-                    ["groupSize"] = 16,
-                    ["gYO"] = 0,
-                    ["showJunk"] = true,
-                    ["showNone"] = true,
                     ["raidMode"] = 3,
-                    ["showGroup"] = true,
+                    ["groupSize"] = 16,
+                    ["showNone"] = true,
                     ["version"] = 1,
+                    ["showJunk"] = true,
                     ["showRaid"] = true,
                     ["showActive"] = true,
                 },

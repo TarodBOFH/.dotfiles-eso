@@ -6,7 +6,6 @@ LostTreasure_Account =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["miniMap"] = 
                 {
                     ["anchor"] = 
@@ -21,34 +20,44 @@ LostTreasure_Account =
                         },
                     },
                     ["size"] = 400,
-                    ["deletionDelay"] = 4,
                     ["enabled"] = true,
+                    ["deletionDelay"] = 4,
                 },
                 ["pinTypes"] = 
                 {
                     [2] = 
                     {
-                        ["showOnCompass"] = true,
-                        ["deletionDelay"] = 10,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["showOnMap"] = true,
-                        ["size"] = 32,
                         ["pinLevel"] = 45,
+                        ["showOnCompass"] = true,
+                        ["size"] = 32,
+                        ["showOnMap"] = true,
                         ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["deletionDelay"] = 10,
                     },
                     [1] = 
                     {
-                        ["showOnCompass"] = true,
-                        ["deletionDelay"] = 10,
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["showOnMap"] = true,
-                        ["size"] = 32,
                         ["pinLevel"] = 45,
+                        ["showOnCompass"] = true,
+                        ["size"] = 32,
+                        ["showOnMap"] = true,
                         ["markOption"] = 2,
+                        ["texture"] = "LostTreasure/Icons/x_red.dds",
+                        ["deletionDelay"] = 10,
                     },
                 },
                 ["notifications"] = 
                 {
+                },
+                ["version"] = 1,
+                ["mining"] = 
+                {
+                    ["APITimeStamp"] = 1615285783,
+                    ["data"] = 
+                    {
+                    },
+                    ["AddOnVersion"] = 16,
+                    ["APIVersion"] = 100034,
                 },
             },
         },

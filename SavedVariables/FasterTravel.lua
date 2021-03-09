@@ -20,39 +20,43 @@ FasterTravel_Data =
                     {
                         [1] = 
                         {
-                            ["nodeIndex"] = 62,
+                            ["nodeIndex"] = 355,
                         },
                         [2] = 
                         {
-                            ["nodeIndex"] = 355,
+                            ["nodeIndex"] = 66,
                         },
                         [3] = 
                         {
-                            ["nodeIndex"] = 56,
+                            ["nodeIndex"] = 157,
                         },
                         [4] = 
                         {
-                            ["nodeIndex"] = 28,
+                            ["nodeIndex"] = 51,
                         },
                         [5] = 
                         {
-                            ["nodeIndex"] = 20,
+                            ["nodeIndex"] = 337,
                         },
                         [6] = 
                         {
-                            ["nodeIndex"] = 328,
+                            ["nodeIndex"] = 339,
                         },
                         [7] = 
                         {
-                            ["nodeIndex"] = 284,
+                            ["nodeIndex"] = 18,
                         },
                         [8] = 
                         {
-                            ["nodeIndex"] = 338,
+                            ["nodeIndex"] = 169,
                         },
                         [9] = 
                         {
-                            ["nodeIndex"] = 337,
+                            ["nodeIndex"] = 383,
+                        },
+                        [10] = 
+                        {
+                            ["nodeIndex"] = 62,
                         },
                     },
                     ["jumpHereBehaviour"] = 0,

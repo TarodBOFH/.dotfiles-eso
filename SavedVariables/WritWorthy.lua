@@ -4,39 +4,120 @@ WritWorthyVars =
     {
         ["@cbr600f"] = 
         {
+            ["Faulcon Delacy"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
             ["Neria Rothalen"] = 
             {
+                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-                ["version"] = 1,
             },
-            ["Terminus Prime"] = 
+            ["Tarodio Ararthinus"] = 
             {
+                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-                ["version"] = 1,
             },
-            ["Sneaks-Behind"] = 
+            ["Ser Sancho"] = 
             {
+                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+            },
+            ["Tarolog Agharghim"] = 
+            {
                 ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Ebony Knuckles"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
             },
             ["Tarodion Ararthin"] = 
             {
+                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+            },
+            ["Terminus Prime"] = 
+            {
                 ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Tarod Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Iwillbedeleted"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Cassus Andronicus"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Sneaks-Behind"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
             },
             ["$AccountWide"] = 
             {
-                ["filter_max_gold_per_voucher"] = 1500,
-                ["enable_station_colors"] = true,
-                ["version"] = 1,
                 ["position"] = 
                 {
                     [4] = 683,
@@ -44,90 +125,9 @@ WritWorthyVars =
                     [2] = 133,
                     [3] = 1219,
                 },
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
+                ["filter_max_gold_per_voucher"] = 1500,
                 ["version"] = 1,
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Iwillbedeleted"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Tarolog Agharghim"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Ebony Knuckles"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Ser Sancho"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Tarod Ararthin"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["writ_unique_id"] = 
-                {
-                },
-                ["version"] = 1,
+                ["enable_station_colors"] = true,
             },
         },
     },
