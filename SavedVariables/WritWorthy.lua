@@ -11,6 +11,26 @@ WritWorthyVars =
                 {
                 },
             },
+            ["Tarolog Agharghim"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["$AccountWide"] = 
+            {
+                ["position"] = 
+                {
+                    [4] = 662,
+                    [1] = 457,
+                    [2] = 112,
+                    [3] = 1582,
+                },
+                ["filter_max_gold_per_voucher"] = 1510,
+                ["enable_station_colors"] = true,
+                ["version"] = 1,
+            },
             ["Tarodion Ararthin"] = 
             {
                 ["version"] = 1,
@@ -18,21 +38,7 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Terminus Prime"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarodio Ararthinus"] = 
+            ["Cassus Andronicus"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
@@ -46,38 +52,25 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Jimenuki Ararthin"] = 
+            ["Jimeneka Ararthin"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
             },
-            ["Tarod Ararthin"] = 
+            ["Tarodio Ararthinus"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
             },
-            ["Tharodriel Ararthin"] = 
+            ["Ser Sancho"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
-                },
-            },
-            ["$AccountWide"] = 
-            {
-                ["version"] = 1,
-                ["enable_station_colors"] = true,
-                ["filter_max_gold_per_voucher"] = 1500,
-                ["position"] = 
-                {
-                    [4] = 683,
-                    [1] = 94,
-                    [2] = 133,
-                    [3] = 1219,
                 },
             },
             ["Neria Rothalen"] = 
@@ -94,27 +87,6 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Tarolog Agharghim"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Ser Sancho"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
             ["Iwillbedeleted"] = 
             {
                 ["version"] = 1,
@@ -122,7 +94,35 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Cassus Andronicus"] = 
+            ["Tharodriel Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Terminus Prime"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Faulcon Delacy"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Tarod Ararthin"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 

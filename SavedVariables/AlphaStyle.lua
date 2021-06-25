@@ -7,6 +7,10 @@ AlphaStyle_Settings =
             ["$AccountWide"] = 
             {
                 ["version"] = "1",
+                ["EU Megaserver"] = 
+                {
+                    ["version"] = "1",
+                },
             },
         },
     },
@@ -19,116 +23,36 @@ AlphaStyle_Styles =
         {
             ["Sneaks-Behind"] = 
             {
+                ["Styles"] = 
+                {
+                },
                 ["version"] = "1",
                 ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 1,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Terminus Prime"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Lord Tarod of Aragon"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Ebony Knuckles"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
             },
             ["Tarolog Agharghim"] = 
             {
-                ["version"] = "1",
-                ["LastId"] = 0,
                 ["Styles"] = 
                 {
                 },
-            },
-            ["Jimeneka Ararthin"] = 
-            {
                 ["version"] = "1",
                 ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Ser Sancho"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["version"] = "1",
-                ["LastId"] = 0,
-                ["Styles"] = 
-                {
-                },
             },
             ["Tarod Ararthin"] = 
             {
-                ["version"] = "1",
-                ["LastId"] = 7,
                 ["Styles"] = 
                 {
                     [1] = 
                     {
+                        ["SortKey"] = "New Style 1",
+                        ["TitleId"] = 1,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 4,
+                        ["Name"] = "Covenant",
+                        ["Costume"] = 
+                        {
+                            ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                        },
                         ["Collectibles"] = 
                         {
                             [17] = 0,
@@ -144,47 +68,47 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Costume"] = 
-                        {
-                            ["id"] = "4618645115282536684",
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
-                        },
-                        ["TitleId"] = 1,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "Covenant",
-                        ["OutfitId"] = 4,
-                        ["SortKey"] = "New Style 1",
                     },
                     [2] = 
                     {
-                        ["Collectibles"] = 
-                        {
-                            [17] = 0,
-                            [2] = 55,
-                            [3] = 0,
-                            [4] = 0,
-                            [18] = 0,
-                            [9] = 379,
-                            [10] = 0,
-                            [11] = 0,
-                            [12] = 0,
-                            [13] = 0,
-                            [14] = 0,
-                            [15] = 0,
-                        },
+                        ["SortKey"] = "New Style 2",
+                        ["TitleId"] = 34,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = -1,
+                        ["Name"] = "No Style",
                         ["Costume"] = 
                         {
                             ["id"] = 0,
                             ["link"] = 0,
                         },
-                        ["TitleId"] = 34,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "No Style",
-                        ["OutfitId"] = -1,
-                        ["SortKey"] = "New Style 2",
+                        ["Collectibles"] = 
+                        {
+                            [17] = 0,
+                            [2] = 55,
+                            [3] = 0,
+                            [4] = 0,
+                            [18] = 0,
+                            [9] = 379,
+                            [10] = 0,
+                            [11] = 0,
+                            [12] = 0,
+                            [13] = 0,
+                            [14] = 0,
+                            [15] = 0,
+                        },
                     },
                     [3] = 
                     {
+                        ["SortKey"] = "New Style 3",
+                        ["TitleId"] = 15,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 3,
+                        ["Name"] = "PvP Dark Hojablanca",
+                        ["Costume"] = 
+                        {
+                            ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                        },
                         ["Collectibles"] = 
                         {
                             [17] = 0,
@@ -200,47 +124,19 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
-                        ["Costume"] = 
-                        {
-                            ["id"] = "4618645115282536684",
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
-                        },
-                        ["TitleId"] = 15,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "PvP Dark Hojablanca",
-                        ["OutfitId"] = 3,
-                        ["SortKey"] = "New Style 3",
                     },
                     [4] = 
                     {
-                        ["Collectibles"] = 
-                        {
-                            [17] = 0,
-                            [2] = 55,
-                            [3] = 0,
-                            [4] = 0,
-                            [18] = 0,
-                            [9] = 379,
-                            [10] = 0,
-                            [11] = 0,
-                            [12] = 0,
-                            [13] = 0,
-                            [14] = 0,
-                            [15] = 0,
-                        },
+                        ["SortKey"] = "New Style 4",
+                        ["TitleId"] = 15,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 3,
+                        ["Name"] = "PvP Dark",
                         ["Costume"] = 
                         {
                             ["id"] = "4618645115282536684",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["TitleId"] = 15,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "PvP Dark",
-                        ["OutfitId"] = 3,
-                        ["SortKey"] = "New Style 4",
-                    },
-                    [5] = 
-                    {
                         ["Collectibles"] = 
                         {
                             [17] = 0,
@@ -256,19 +152,47 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
+                    },
+                    [5] = 
+                    {
+                        ["SortKey"] = "New Style 5",
+                        ["TitleId"] = 20,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 1,
+                        ["Name"] = "PvE Akelarre",
                         ["Costume"] = 
                         {
                             ["id"] = "4618645115282406501",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:15995|h|h",
                         },
-                        ["TitleId"] = 20,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "PvE Akelarre",
-                        ["OutfitId"] = 1,
-                        ["SortKey"] = "New Style 5",
+                        ["Collectibles"] = 
+                        {
+                            [17] = 0,
+                            [2] = 55,
+                            [3] = 0,
+                            [4] = 0,
+                            [18] = 0,
+                            [9] = 379,
+                            [10] = 0,
+                            [11] = 0,
+                            [12] = 0,
+                            [13] = 0,
+                            [14] = 0,
+                            [15] = 0,
+                        },
                     },
                     [6] = 
                     {
+                        ["SortKey"] = "New Style 6",
+                        ["TitleId"] = 10,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 4,
+                        ["Name"] = "Covenant Armor",
+                        ["Costume"] = 
+                        {
+                            ["id"] = "4618645115282536684",
+                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                        },
                         ["Collectibles"] = 
                         {
                             [17] = 0,
@@ -284,19 +208,19 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 0,
                         },
+                    },
+                    [7] = 
+                    {
+                        ["SortKey"] = "New Style 7",
+                        ["TitleId"] = 10,
+                        ["IgnoreTitle"] = false,
+                        ["OutfitId"] = 4,
+                        ["Name"] = "Gayish",
                         ["Costume"] = 
                         {
                             ["id"] = "4618645115282536684",
                             ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
                         },
-                        ["TitleId"] = 10,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "Covenant Armor",
-                        ["OutfitId"] = 4,
-                        ["SortKey"] = "New Style 6",
-                    },
-                    [7] = 
-                    {
                         ["Collectibles"] = 
                         {
                             [17] = 0,
@@ -312,34 +236,334 @@ AlphaStyle_Styles =
                             [14] = 0,
                             [15] = 1451,
                         },
-                        ["Costume"] = 
-                        {
-                            ["id"] = "4618645115282536684",
-                            ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
-                        },
-                        ["TitleId"] = 10,
-                        ["IgnoreTitle"] = false,
-                        ["Name"] = "Gayish",
-                        ["OutfitId"] = 4,
-                        ["SortKey"] = "New Style 7",
                     },
                 },
-            },
-            ["Iwillbedeleted"] = 
-            {
                 ["version"] = "1",
-                ["LastId"] = 0,
+                ["LastId"] = 7,
+            },
+            ["Tarodion Ararthin"] = 
+            {
                 ["Styles"] = 
                 {
                 },
+                ["version"] = "1",
+                ["LastId"] = 1,
             },
             ["Cassus Andronicus"] = 
             {
-                ["version"] = "1",
-                ["LastId"] = 0,
                 ["Styles"] = 
                 {
                 },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["8798292083499544"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["Styles"] = 
+                    {
+                    },
+                    ["version"] = "1",
+                    ["LastId"] = 0,
+                },
+                ["$LastCharacterName"] = "Terminus Prime",
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Tarodio Ararthinus"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Ser Sancho"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Lord Tarod of Aragon"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Iwillbedeleted"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Tharodriel Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Ebony Knuckles"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Terminus Prime"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["Faulcon Delacy"] = 
+            {
+                ["Styles"] = 
+                {
+                },
+                ["version"] = "1",
+                ["LastId"] = 0,
+            },
+            ["8798292067300970"] = 
+            {
+                ["EU Megaserver"] = 
+                {
+                    ["Styles"] = 
+                    {
+                        [1] = 
+                        {
+                            ["SortKey"] = "New Style 1",
+                            ["TitleId"] = 1,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 4,
+                            ["Name"] = "Covenant",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282536684",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 365,
+                                [3] = 0,
+                                [4] = 249,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 413,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [2] = 
+                        {
+                            ["SortKey"] = "New Style 2",
+                            ["TitleId"] = 34,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = -1,
+                            ["Name"] = "No Style",
+                            ["Costume"] = 
+                            {
+                                ["id"] = 0,
+                                ["link"] = 0,
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 55,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 0,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [3] = 
+                        {
+                            ["SortKey"] = "New Style 3",
+                            ["TitleId"] = 15,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 3,
+                            ["Name"] = "PvP Dark Hojablanca",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282536684",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 55,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 0,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [4] = 
+                        {
+                            ["SortKey"] = "New Style 4",
+                            ["TitleId"] = 15,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 3,
+                            ["Name"] = "PvP Dark",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282536684",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 55,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 0,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [5] = 
+                        {
+                            ["SortKey"] = "New Style 5",
+                            ["TitleId"] = 20,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 1,
+                            ["Name"] = "PvE Akelarre",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282406501",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:15995|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 55,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 0,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [6] = 
+                        {
+                            ["SortKey"] = "New Style 6",
+                            ["TitleId"] = 10,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 4,
+                            ["Name"] = "Covenant Armor",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282536684",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 365,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 379,
+                                [10] = 0,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 0,
+                            },
+                        },
+                        [7] = 
+                        {
+                            ["SortKey"] = "New Style 7",
+                            ["TitleId"] = 10,
+                            ["IgnoreTitle"] = false,
+                            ["OutfitId"] = 4,
+                            ["Name"] = "Gayish",
+                            ["Costume"] = 
+                            {
+                                ["id"] = "4618645115282536684",
+                                ["link"] = "|H0:item:55262:4:1:0:0:0:0:0:0:0:0:0:0:0:1:0:1:1:0:0:619824|h|h",
+                            },
+                            ["Collectibles"] = 
+                            {
+                                [17] = 0,
+                                [2] = 365,
+                                [3] = 0,
+                                [4] = 0,
+                                [18] = 0,
+                                [9] = 603,
+                                [10] = 5002,
+                                [11] = 0,
+                                [12] = 0,
+                                [13] = 0,
+                                [14] = 0,
+                                [15] = 1451,
+                            },
+                        },
+                    },
+                    ["version"] = "1",
+                    ["LastId"] = 0,
+                },
+                ["$LastCharacterName"] = "Tarod Ararthin",
             },
         },
     },

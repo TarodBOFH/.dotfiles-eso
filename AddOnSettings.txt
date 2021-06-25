@@ -1,5 +1,5 @@
-#Version 100033
-#LoadOutOfDateAddOns 1
+#Version 100035
+#AcknowledgedOutOfDateAddonsVersion 100035
 #Default
 libCommonInventoryFilters 0
 LibFilters-3.0 0
