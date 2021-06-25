@@ -4,28 +4,7 @@ WritWorthyVars =
     {
         ["@cbr600f"] = 
         {
-            ["Faulcon Delacy"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Tarodio Ararthinus"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Ser Sancho"] = 
+            ["Sneaks-Behind"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
@@ -33,6 +12,33 @@ WritWorthyVars =
                 },
             },
             ["Tarolog Agharghim"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["$AccountWide"] = 
+            {
+                ["position"] = 
+                {
+                    [4] = 662,
+                    [1] = 457,
+                    [2] = 112,
+                    [3] = 1582,
+                },
+                ["filter_max_gold_per_voucher"] = 1510,
+                ["enable_station_colors"] = true,
+                ["version"] = 1,
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Cassus Andronicus"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
@@ -53,21 +59,28 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Tarodion Ararthin"] = 
+            ["Tarodio Ararthinus"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
             },
-            ["Terminus Prime"] = 
+            ["Ser Sancho"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
             },
-            ["Tarod Ararthin"] = 
+            ["Neria Rothalen"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["Lord Tarod of Aragon"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
@@ -88,6 +101,13 @@ WritWorthyVars =
                 {
                 },
             },
+            ["Terminus Prime"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
             ["Jimenuki Ararthin"] = 
             {
                 ["version"] = 1,
@@ -95,39 +115,19 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Lord Tarod of Aragon"] = 
+            ["Faulcon Delacy"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
             },
-            ["Cassus Andronicus"] = 
+            ["Tarod Ararthin"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-            },
-            ["Sneaks-Behind"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["$AccountWide"] = 
-            {
-                ["position"] = 
-                {
-                    [4] = 683,
-                    [1] = 94,
-                    [2] = 133,
-                    [3] = 1219,
-                },
-                ["filter_max_gold_per_voucher"] = 1500,
-                ["version"] = 1,
-                ["enable_station_colors"] = true,
             },
         },
     },
