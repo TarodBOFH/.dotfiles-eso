@@ -4,6 +4,10 @@ FasterTravel_Data =
     {
         ["@cbr600f"] = 
         {
+            ["8798292077852888"] = 
+            {
+                ["$LastCharacterName"] = "Tarodio Ararthinus",
+            },
             ["8798292067300970"] = 
             {
                 ["$LastCharacterName"] = "Tarod Ararthin",
@@ -13,6 +17,49 @@ FasterTravel_Data =
                 ["Account"] = 
                 {
                     ["recentsPosition"] = 2,
+                    ["recent"] = 
+                    {
+                        [1] = 
+                        {
+                            ["nodeIndex"] = 355,
+                        },
+                        [2] = 
+                        {
+                            ["nodeIndex"] = 62,
+                        },
+                        [3] = 
+                        {
+                            ["nodeIndex"] = 7,
+                        },
+                        [4] = 
+                        {
+                            ["nodeIndex"] = 467,
+                        },
+                        [5] = 
+                        {
+                            ["nodeIndex"] = 464,
+                        },
+                        [6] = 
+                        {
+                            ["nodeIndex"] = 463,
+                        },
+                        [7] = 
+                        {
+                            ["nodeIndex"] = 20,
+                        },
+                        [8] = 
+                        {
+                            ["nodeIndex"] = 56,
+                        },
+                        [9] = 
+                        {
+                            ["nodeIndex"] = 141,
+                        },
+                        [10] = 
+                        {
+                            ["nodeIndex"] = 244,
+                        },
+                    },
                     ["favourites"] = 
                     {
                         [4] = 
@@ -32,57 +79,10 @@ FasterTravel_Data =
                             ["nodeIndex"] = 284,
                         },
                     },
-                    ["recent"] = 
-                    {
-                        [1] = 
-                        {
-                            ["nodeIndex"] = 62,
-                        },
-                        [2] = 
-                        {
-                            ["nodeIndex"] = 355,
-                        },
-                        [3] = 
-                        {
-                            ["nodeIndex"] = 23,
-                        },
-                        [4] = 
-                        {
-                            ["nodeIndex"] = 56,
-                        },
-                        [5] = 
-                        {
-                            ["nodeIndex"] = 71,
-                        },
-                        [6] = 
-                        {
-                            ["nodeIndex"] = 18,
-                        },
-                        [7] = 
-                        {
-                            ["nodeIndex"] = 20,
-                        },
-                        [8] = 
-                        {
-                            ["nodeIndex"] = 142,
-                        },
-                        [9] = 
-                        {
-                            ["nodeIndex"] = 177,
-                        },
-                        [10] = 
-                        {
-                            ["nodeIndex"] = 123,
-                        },
-                    },
                     ["jumpHereBehaviour"] = 0,
-                    ["ws_order"] = 2,
                     ["version"] = 1,
+                    ["ws_order"] = 2,
                 },
-            },
-            ["8798292077852888"] = 
-            {
-                ["$LastCharacterName"] = "Tarodio Ararthinus",
             },
         },
     },

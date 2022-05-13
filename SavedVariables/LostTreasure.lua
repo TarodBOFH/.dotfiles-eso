@@ -8,39 +8,35 @@ LostTreasure_Account =
             {
                 ["pinTypes"] = 
                 {
-                    [2] = 
+                    ["treasure"] = 
                     {
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["markOption"] = 2,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
-                        ["deletionDelay"] = 10,
                         ["showOnCompass"] = true,
+                        ["showOnMap"] = true,
+                        ["size"] = 32,
+                        ["markOption"] = "inventory",
+                        ["deletionDelay"] = 10,
+                        ["texture"] = "LibTreasure/Icons/x_red.dds",
                         ["pinLevel"] = 45,
                     },
-                    [1] = 
+                    ["survey"] = 
                     {
-                        ["texture"] = "LostTreasure/Icons/x_red.dds",
-                        ["markOption"] = 2,
-                        ["size"] = 32,
-                        ["showOnMap"] = true,
-                        ["deletionDelay"] = 10,
                         ["showOnCompass"] = true,
+                        ["showOnMap"] = true,
+                        ["size"] = 32,
+                        ["markOption"] = "inventory",
+                        ["deletionDelay"] = 10,
+                        ["texture"] = "LibTreasure/Icons/hammerstrike.dds",
                         ["pinLevel"] = 45,
                     },
                 },
-                ["version"] = 1,
-                ["mining"] = 
+                ["misc"] = 
                 {
-                    ["APITimeStamp"] = 1624639885,
-                    ["APIVersion"] = 100035,
-                    ["AddOnVersion"] = 17,
-                    ["data"] = 
-                    {
-                    },
+                    ["hasNewIconPath"] = true,
                 },
                 ["miniMap"] = 
                 {
+                    ["enabled"] = true,
+                    ["deletionDelay"] = 4,
                     ["anchor"] = 
                     {
                         ["data"] = 
@@ -53,11 +49,18 @@ LostTreasure_Account =
                         },
                     },
                     ["size"] = 400,
-                    ["deletionDelay"] = 4,
-                    ["enabled"] = true,
                 },
+                ["version"] = 20,
                 ["notifications"] = 
                 {
+                },
+                ["mining"] = 
+                {
+                    ["data"] = 
+                    {
+                    },
+                    ["APITimeStamp"] = 1652468850,
+                    ["APIVersion"] = 101033,
                 },
             },
         },

@@ -4,112 +4,43 @@ APMeterSettings =
     {
         ["@cbr600f"] = 
         {
-            ["Jimeneka Ararthin"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
             ["Tarodio Ararthinus"] = 
             {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
+                ["globalMinimalLimit"] = 0,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
+                    ["total"] = 0,
                 },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -117,121 +48,60 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
-                ["meter"] = 
+                ["enableFrame"] = false,
+                ["settings"] = 
                 {
-                    ["y"] = 0,
-                    ["x"] = 0,
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
                 },
-                ["globalMinimalLimit"] = 0,
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
                 ["isGO"] = false,
             },
             ["Sneaks-Behind"] = 
             {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
+                ["globalMinimalLimit"] = 0,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
+                    ["total"] = 0,
                 },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
                 ["meter"] = 
                 {
                     ["y"] = 0,
                     ["x"] = 0,
                 },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Tharodriel Ararthin"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
                 ["savedSession"] = 
                 {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
                     ["repairs"] = 0,
-                    ["deaths"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
                     ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
                     ["total"] = 0,
-                    ["target"] = 0,
                 },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -239,60 +109,548 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Iwillbedeleted"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
                 ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Ser Sancho"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Faulcon Delacy"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Neria Rothalen"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Cassus Andronicus"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Terminus Prime"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Jimeneka Ararthin"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Tarolog Agharghim"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Tarodion Ararthin"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
                 ["meter"] = 
                 {
                     ["y"] = 0,
                     ["x"] = 2304,
                 },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Neria Rothalen"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
                 ["savedSession"] = 
                 {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
                     ["repairs"] = 0,
-                    ["deaths"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
                     ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
                     ["total"] = 0,
-                    ["target"] = 0,
                 },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -300,60 +658,60 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
-                ["meter"] = 
+                ["enableFrame"] = false,
+                ["settings"] = 
                 {
-                    ["y"] = 0,
-                    ["x"] = 0,
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
                 },
-                ["globalMinimalLimit"] = 0,
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
                 ["isGO"] = false,
             },
             ["Lord Tarod of Aragon"] = 
             {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
+                ["globalMinimalLimit"] = 0,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
+                    ["total"] = 0,
                 },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -361,185 +719,63 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Jimenuki Ararthin"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
+                ["enableFrame"] = false,
                 ["settings"] = 
                 {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
                     ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
                     ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
                 },
                 ["savedSessionActive"] = false,
                 ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
                 ["isGO"] = false,
             },
             ["Tarod Ararthin"] = 
             {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 200,
-                ["savedSession"] = 
-                {
-                    ["matches"] = 0,
-                    ["startTime"] = 709239,
-                    ["timeElapsed"] = 0,
-                    ["APStreak"] = 0,
-                    ["medals"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["alliance"] = 3,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
+                ["globalMinimalLimit"] = 200,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
+                    ["total"] = 0,
                 },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
                 ["meter"] = 
                 {
                     ["y"] = 0,
                     ["x"] = 2250,
                 },
-                ["globalMinimalLimit"] = 200,
-                ["isGO"] = false,
-            },
-            ["Tarolog Agharghim"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
                 ["savedSession"] = 
                 {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
+                    ["matches"] = 0,
                     ["repairs"] = 0,
-                    ["deaths"] = 0,
+                    ["medals"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
                     ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
                     ["total"] = 0,
-                    ["target"] = 0,
+                    ["alliance"] = 3,
+                    ["startTime"] = 709239,
+                    ["defence"] = 0,
                 },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 200,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -547,182 +783,60 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
-                ["meter"] = 
+                ["enableFrame"] = false,
+                ["settings"] = 
                 {
-                    ["y"] = 0,
-                    ["x"] = 0,
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
                 },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Tharodriel Ararthin"] = 
+            {
                 ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Iwillbedeleted"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Tarodion Ararthin"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
                     ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
                 },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
                 ["meter"] = 
                 {
                     ["y"] = 0,
                     ["x"] = 2304,
                 },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Faulcon Delacy"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
                 ["savedSession"] = 
                 {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
                     ["repairs"] = 0,
-                    ["deaths"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
                     ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
                     ["total"] = 0,
-                    ["target"] = 0,
                 },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -730,243 +844,60 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Terminus Prime"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
+                ["enableFrame"] = false,
                 ["settings"] = 
                 {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
                     ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
                     ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
                 },
                 ["savedSessionActive"] = false,
                 ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Cassus Andronicus"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
-                ["isGO"] = false,
-            },
-            ["Ser Sancho"] = 
-            {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
-                ["goal"] = 
-                {
-                    ["active"] = false,
-                    ["total"] = 0,
-                    ["target"] = 0,
-                },
-                ["frameColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 57,
-                    [2] = 238,
-                    [3] = 49,
-                },
-                ["showTimestamp"] = true,
-                ["meter"] = 
-                {
-                    ["y"] = 0,
-                    ["x"] = 0,
-                },
-                ["globalMinimalLimit"] = 0,
                 ["isGO"] = false,
             },
             ["Ebony Knuckles"] = 
             {
-                ["alerts"] = 
-                {
-                    ["morale"] = true,
-                    ["buff"] = true,
-                    ["bridge"] = true,
-                    ["roeFarm"] = false,
-                },
-                ["settings"] = 
-                {
-                    ["medal"] = true,
-                    ["match"] = true,
-                    ["apstreak"] = true,
-                    ["resurrections"] = true,
-                    ["capture"] = true,
-                    ["defence"] = true,
-                    ["combat"] = true,
-                    ["repairs"] = true,
-                    ["quests"] = true,
-                },
-                ["combatMinimalLimit"] = 0,
-                ["savedSession"] = 
-                {
-                    ["startTime"] = 0,
-                    ["APStreak"] = 0,
-                    ["resurrections"] = 0,
-                    ["capture"] = 0,
-                    ["timeElapsed"] = 0,
-                    ["total"] = 0,
-                    ["defence"] = 0,
-                    ["combat"] = 0,
-                    ["repairs"] = 0,
-                    ["deaths"] = 0,
-                    ["quests"] = 0,
-                },
-                ["savedSessionActive"] = false,
-                ["version"] = 3,
-                ["enableFrame"] = false,
+                ["globalMinimalLimit"] = 0,
                 ["goal"] = 
                 {
                     ["active"] = false,
-                    ["total"] = 0,
                     ["target"] = 0,
+                    ["total"] = 0,
                 },
+                ["meter"] = 
+                {
+                    ["y"] = 0,
+                    ["x"] = 0,
+                },
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
                 ["frameColor"] = 
                 {
                     [4] = 1,
@@ -974,13 +905,82 @@ APMeterSettings =
                     [2] = 238,
                     [3] = 49,
                 },
-                ["showTimestamp"] = true,
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
+                ["isGO"] = false,
+            },
+            ["Jimenuki Ararthin"] = 
+            {
+                ["globalMinimalLimit"] = 0,
+                ["goal"] = 
+                {
+                    ["active"] = false,
+                    ["target"] = 0,
+                    ["total"] = 0,
+                },
                 ["meter"] = 
                 {
                     ["y"] = 0,
                     ["x"] = 0,
                 },
-                ["globalMinimalLimit"] = 0,
+                ["savedSession"] = 
+                {
+                    ["repairs"] = 0,
+                    ["defence"] = 0,
+                    ["timeElapsed"] = 0,
+                    ["combat"] = 0,
+                    ["quests"] = 0,
+                    ["capture"] = 0,
+                    ["deaths"] = 0,
+                    ["resurrections"] = 0,
+                    ["APStreak"] = 0,
+                    ["startTime"] = 0,
+                    ["total"] = 0,
+                },
+                ["alerts"] = 
+                {
+                    ["bridge"] = true,
+                    ["roeFarm"] = false,
+                    ["morale"] = true,
+                    ["buff"] = true,
+                },
+                ["showTimestamp"] = true,
+                ["combatMinimalLimit"] = 0,
+                ["frameColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 57,
+                    [2] = 238,
+                    [3] = 49,
+                },
+                ["enableFrame"] = false,
+                ["settings"] = 
+                {
+                    ["repairs"] = true,
+                    ["medal"] = true,
+                    ["defence"] = true,
+                    ["match"] = true,
+                    ["combat"] = true,
+                    ["quests"] = true,
+                    ["capture"] = true,
+                    ["resurrections"] = true,
+                    ["apstreak"] = true,
+                },
+                ["savedSessionActive"] = false,
+                ["version"] = 3,
                 ["isGO"] = false,
             },
         },
